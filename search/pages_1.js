@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mainwp_20docs_0',['mainwp-docs',['../md_README.html',1,'']]]
+  ['deprecated_20list_0',['Deprecated List',['../deprecated.html',1,'']]]
 ];
