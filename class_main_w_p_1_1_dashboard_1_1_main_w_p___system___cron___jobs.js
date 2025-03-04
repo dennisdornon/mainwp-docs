@@ -1,0 +1,28 @@
+var class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs =
+[
+    [ "__construct", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#ae324d3acddcf7147d90c4274677267aa", null ],
+    [ "check_conds_to_run_auto_update", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a28f128b0f9ab6cff56d7d4488afc90d9", null ],
+    [ "cron_active", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a989bf971f2f32ccacb7597c0e4bac08a", null ],
+    [ "cron_backups", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a96a7adb4ae43b13fe97d027c80cf35b9", null ],
+    [ "cron_backups_continue", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a1a1acb09d0ee49da5c95d592381fa536", null ],
+    [ "cron_check_websites_health", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#aa853c9dc5a490e042f9f42748ba9bc07", null ],
+    [ "cron_deactivated_licenses_alert", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a70fa0a3573613d08db0cba58d84bf43b", null ],
+    [ "cron_perform_general_process", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#ad2a96309da0d4a0e10f5750cf4e8b3eb", null ],
+    [ "cron_ping_childs", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#ab6cdef03709f8a3527d608c236c363dd", null ],
+    [ "cron_reconnect", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a6c21eed1ff8be28f813c852755888cf8", null ],
+    [ "cron_updates_check", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a614f9dba15bd1833c5bec12ed47ccfdc", null ],
+    [ "get_cron_schedules", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a85885f11808fc8f57865ae5898a8e852", null ],
+    [ "init_cron", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#afa360251b52e7e9240eb396188fdfabe", null ],
+    [ "init_cron_jobs", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a09b30cfc20294281b43f1bbd70690cc6", null ],
+    [ "init_environment", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a40b6088c7cb51f0c1bc4f5899191968b", null ],
+    [ "init_mainwp_cron", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a7034b985343ed2a284d4e9de4dbde2d2", null ],
+    [ "is_log_time", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#aa561ae189c1678f5ef18e73125148755", null ],
+    [ "is_process_callable", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a02ff40bee2639bf320c0652c84ad28c9", null ],
+    [ "perform_sequence_process", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a7af90c5651c56b3f3b67ea271f8e63e1", null ],
+    [ "refresh_saved_fields", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a8db5c8e7710babbeb6f7271c32b36fa3", null ],
+    [ "start_notification_daily_digest", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a279acfa15094824905bee625f16840ae", null ],
+    [ "start_notification_http_check", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#aab5845173e5698e0ee083263495f8879", null ],
+    [ "start_notification_sites_health", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#af05d6210d933ca91e09d8f4fa0c766c5", null ],
+    [ "update_auto_sync_time", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#a130802154de8c94fc12602a0f9c194bd", null ],
+    [ "$last_auto_logging", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___cron___jobs.html#aae18fafb2cddcb68fa5d5e333726fe78", null ]
+];

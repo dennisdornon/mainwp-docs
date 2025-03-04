@@ -1,0 +1,13 @@
+var namespace_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups =
+[
+    [ "Api_Backups_3rd_Party", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups__3rd___party.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups__3rd___party" ],
+    [ "Api_Backups_Admin", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___admin.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___admin" ],
+    [ "Api_Backups_Handler", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___handler.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___handler" ],
+    [ "Api_Backups_Helper", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___helper.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___helper" ],
+    [ "Api_Backups_Hooks", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___hooks.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___hooks" ],
+    [ "Api_Backups_Manager", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___manager.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___manager" ],
+    [ "Api_Backups_Overview", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___overview.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___overview" ],
+    [ "Api_Backups_Settings", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___settings.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___settings" ],
+    [ "Api_Backups_Utility", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___utility.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_api___backups___utility" ],
+    [ "MainWP_Module_Api_Backups", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_main_w_p___module___api___backups.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_api_backups_1_1_main_w_p___module___api___backups" ]
+];

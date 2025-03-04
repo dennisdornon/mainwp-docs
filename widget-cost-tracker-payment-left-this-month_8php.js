@@ -1,0 +1,4 @@
+var widget_cost_tracker_payment_left_this_month_8php =
+[
+    [ "MainWP\\Dashboard\\Module\\CostTracker\\Cost_Tracker_Payment_Left_This_Month", "class_main_w_p_1_1_dashboard_1_1_module_1_1_cost_tracker_1_1_cost___tracker___payment___left___this___month.html", "class_main_w_p_1_1_dashboard_1_1_module_1_1_cost_tracker_1_1_cost___tracker___payment___left___this___month" ]
+];

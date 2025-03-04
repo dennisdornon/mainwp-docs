@@ -1,0 +1,26 @@
+var class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler =
+[
+    [ "__construct", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#af0a5108fd6cd5b184d43f8de7f785666", null ],
+    [ "activate_extension", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#ab2fec669acdafb3f9f867927f409959c", null ],
+    [ "activate_redirect", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#ab6846e0a216abc307263aebfae25bea5", null ],
+    [ "admin_init", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a1d256ce9d550ffe5995ad049a9b55ec8", null ],
+    [ "apply_filters", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#ade4d12980e3e1b14b48a915dd15eb78d", null ],
+    [ "check_update_custom", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a8279d51e4609bfb0bc0114d15f1f67ad", null ],
+    [ "deactivate_extension", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#aaa63d17085f5fb828a71b3e5a54925bb", null ],
+    [ "filter_fetch_url_authed", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a0a6dd1542f93de1d3647e43e2b89a717", null ],
+    [ "filter_fetch_urls_authed", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a72455d3f3baaee2cfed6707d98abff47", null ],
+    [ "handle_clients_screen_settings", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a305dd535280c3a5286a7cc1617ec8c3e", null ],
+    [ "handle_insights_events_screen_settings", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#afdcb7bd5e0929ef19f725f26fbca73a8", null ],
+    [ "handle_mainwp_tools_settings", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a6b97b7e7624383a1636a59bb40a55594", null ],
+    [ "handle_manage_sites_screen_settings", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#af50d55b78316e2a9032c3ca695df9e4a", null ],
+    [ "handle_monitoring_sites_screen_settings", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#ab6d6b5768cc020d4596b6c049cbf157d", null ],
+    [ "handle_settings_post", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a2688f03db4e14102312873783ea7fa51", null ],
+    [ "handle_updates_screen_settings", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#ad7e78df88d662a28da9a8bb65e8e6a8a", null ],
+    [ "hook_fetch_url_verify_action", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#ac902f2cccff4f4da3629f8ef0855bade", null ],
+    [ "include_pluggable", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a762c679572321bee38f1f27ae946997e", null ],
+    [ "plugins_api_extension_info", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a04640856c7ef8c64b277805e27724e8a", null ],
+    [ "plugins_api_wp_plugins_api_result", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a63612be567cdccc6ffe612252f736a6b", null ],
+    [ "pre_check_update_custom", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a3507ff7bb38e5f1f7c5790952f274e14", null ],
+    [ "readfile_chunked", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#aa0c9830a3a5fe8390edadc0f71c430cb", null ],
+    [ "upload_file", "class_main_w_p_1_1_dashboard_1_1_main_w_p___system___handler.html#a1e1741d1948104c74e93cd3efc7f3f09", null ]
+];
