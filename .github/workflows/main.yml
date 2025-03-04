@@ -1,4 +1,4 @@
-name: Doxygen GitHub Pages Deploy
+name: Deploy Existing Documentation
 
 on:
   push:
@@ -11,12 +11,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v2
-      
-      - name: Install Doxygen
-        run: sudo apt-get install doxygen -y
-        
-      - name: Generate Doxygen Documentation
-        run: doxygen
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
