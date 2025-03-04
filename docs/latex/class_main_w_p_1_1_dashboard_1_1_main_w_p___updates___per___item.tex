@@ -1,0 +1,159 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a627085a23398caec21502d94449016a2}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_af7c5c77d900bdd326b08828bd7636cfe}{render\+\_\+plugins\+\_\+updates}} ( \$websites, \$total\+\_\+plugin\+\_\+upgrades, \$user\+Extension, \$all\+Plugins, \$plugins\+Info, \$trusted\+Plugins)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a0f256808952b0f5a39fb3896acef45f6}{render\+\_\+themes\+\_\+updates}} ( \$websites, \$total\+\_\+theme\+\_\+upgrades, \$user\+Extension, \$all\+Themes, \$themes\+Info, \$trusted\+Themes)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a1a0d99a1e5b54dfad4affff57e48bbd0}{render\+\_\+trans\+\_\+update}} ( \$websites, \$total\+\_\+translation\+\_\+upgrades, \$user\+Extension, \$all\+Translations, \$translations\+Info)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a10d03c8fd23b777aec4b464b32011651}{render\+\_\+abandoned\+\_\+plugins}} ( \$websites, \$all\+Plugins\+Outdate, \$decoded\+Dismissed\+Plugins)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a480fdd4e1ee1e167ff754614e8534376}{render\+\_\+abandoned\+\_\+themes}} ( \$websites, \$all\+Themes\+Outdate, \$decoded\+Dismissed\+Themes)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a627085a23398caec21502d94449016a2}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a627085a23398caec21502d94449016a2} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+object class name. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a10d03c8fd23b777aec4b464b32011651}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}!render\_abandoned\_plugins@{render\_abandoned\_plugins}}
+\index{render\_abandoned\_plugins@{render\_abandoned\_plugins}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection{\texorpdfstring{render\_abandoned\_plugins()}{render\_abandoned\_plugins()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a10d03c8fd23b777aec4b464b32011651} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item\+::render\+\_\+abandoned\+\_\+plugins (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$all\+Plugins\+Outdate}{, }\item[{}]{\$decoded\+Dismissed\+Plugins}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+abandoned\+\_\+plugins()
+
+Render abandoned plugins
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$websites} & the websites. \\
+\hline
+array & {\em \$all\+Plugins\+Outdate} & All abandoned plugins. \\
+\hline
+array & {\em \$decoded\+Dismissed\+Plugins} & all dismissed abandoned plugins.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Error message.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+sorting\+\_\+icons() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+show\+\_\+all\+\_\+updates\+\_\+button() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+ignore\+\_\+updates() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::render\+\_\+site\+\_\+link\+\_\+dashboard() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a480fdd4e1ee1e167ff754614e8534376}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}!render\_abandoned\_themes@{render\_abandoned\_themes}}
+\index{render\_abandoned\_themes@{render\_abandoned\_themes}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection{\texorpdfstring{render\_abandoned\_themes()}{render\_abandoned\_themes()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a480fdd4e1ee1e167ff754614e8534376} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item\+::render\+\_\+abandoned\+\_\+themes (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$all\+Themes\+Outdate}{, }\item[{}]{\$decoded\+Dismissed\+Themes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+abandoned\+\_\+themes()
+
+Render abandoned themes
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$websites} & the websites. \\
+\hline
+array & {\em \$all\+Themes\+Outdate} & all abandoned themes. \\
+\hline
+array & {\em \$decoded\+Dismissed\+Themes} & all dismissed abandoned themes.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+sorting\+\_\+icons() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+show\+\_\+all\+\_\+updates\+\_\+button() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+ignore\+\_\+updates() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::render\+\_\+site\+\_\+link\+\_\+dashboard() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_af7c5c77d900bdd326b08828bd7636cfe}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}!render\_plugins\_updates@{render\_plugins\_updates}}
+\index{render\_plugins\_updates@{render\_plugins\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection{\texorpdfstring{render\_plugins\_updates()}{render\_plugins\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_af7c5c77d900bdd326b08828bd7636cfe} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item\+::render\+\_\+plugins\+\_\+updates (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$total\+\_\+plugin\+\_\+upgrades}{, }\item[{}]{\$user\+Extension}{, }\item[{}]{\$all\+Plugins}{, }\item[{}]{\$plugins\+Info}{, }\item[{}]{\$trusted\+Plugins}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+plugins\+\_\+updates()
+
+Render Plugin updates
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$websites} & the websites. \\
+\hline
+int & {\em \$total\+\_\+plugin\+\_\+upgrades} & total plugin updates. \\
+\hline
+mixed & {\em \$user\+Extension} & user extension. \\
+\hline
+array & {\em \$all\+Plugins} & all plugins. \\
+\hline
+array & {\em \$plugins\+Info} & pugins information. \\
+\hline
+array & {\em \$trusted\+Plugins} & trusted plugins.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+sorting\+\_\+icons() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+show\+\_\+all\+\_\+updates\+\_\+button() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+ignore\+\_\+updates() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+update\+\_\+plugins() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::set\+\_\+continue\+\_\+update\+\_\+html\+\_\+selector() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::render\+\_\+site\+\_\+link\+\_\+dashboard() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::get\+\_\+continue\+\_\+update\+\_\+selector() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a0f256808952b0f5a39fb3896acef45f6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}!render\_themes\_updates@{render\_themes\_updates}}
+\index{render\_themes\_updates@{render\_themes\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection{\texorpdfstring{render\_themes\_updates()}{render\_themes\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a0f256808952b0f5a39fb3896acef45f6} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item\+::render\+\_\+themes\+\_\+updates (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$total\+\_\+theme\+\_\+upgrades}{, }\item[{}]{\$user\+Extension}{, }\item[{}]{\$all\+Themes}{, }\item[{}]{\$themes\+Info}{, }\item[{}]{\$trusted\+Themes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+themes\+\_\+updates()
+
+Render theme updates
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$websites} & the websites. \\
+\hline
+int & {\em \$total\+\_\+theme\+\_\+upgrades} & total theme updates. \\
+\hline
+mixed & {\em \$user\+Extension} & user extension. \\
+\hline
+array & {\em \$all\+Themes} & all themes. \\
+\hline
+array & {\em \$themes\+Info} & themes information. \\
+\hline
+array & {\em \$trusted\+Themes} & trusted themes.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+sorting\+\_\+icons() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+show\+\_\+all\+\_\+updates\+\_\+button() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+update\+\_\+themes() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::set\+\_\+continue\+\_\+update\+\_\+html\+\_\+selector() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+ignore\+\_\+updates() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::render\+\_\+site\+\_\+link\+\_\+dashboard() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::get\+\_\+continue\+\_\+update\+\_\+selector() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a1a0d99a1e5b54dfad4affff57e48bbd0}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}!render\_trans\_update@{render\_trans\_update}}
+\index{render\_trans\_update@{render\_trans\_update}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Per\_Item}}
+\doxysubsubsection{\texorpdfstring{render\_trans\_update()}{render\_trans\_update()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___per___item_a1a0d99a1e5b54dfad4affff57e48bbd0} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Per\+\_\+\+Item\+::render\+\_\+trans\+\_\+update (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$total\+\_\+translation\+\_\+upgrades}{, }\item[{}]{\$user\+Extension}{, }\item[{}]{\$all\+Translations}{, }\item[{}]{\$translations\+Info}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+trans\+\_\+update()
+
+Render translations updates
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$websites} & the websites. \\
+\hline
+int & {\em \$total\+\_\+translation\+\_\+upgrades} & total translation updates. \\
+\hline
+mixed & {\em \$user\+Extension} & user extension. \\
+\hline
+array & {\em \$all\+Translations} & all translations. \\
+\hline
+array & {\em \$translations\+Info} & translations information.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+sorting\+\_\+icons() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+show\+\_\+all\+\_\+updates\+\_\+button() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::user\+\_\+can\+\_\+update\+\_\+trans() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::set\+\_\+continue\+\_\+update\+\_\+html\+\_\+selector() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::get\+\_\+continue\+\_\+update\+\_\+selector() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+::render\+\_\+site\+\_\+link\+\_\+dashboard() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pages/\mbox{\hyperlink{page-mainwp-updates-per-item_8php}{page-\/mainwp-\/updates-\/per-\/item.\+php}}\end{DoxyCompactItemize}

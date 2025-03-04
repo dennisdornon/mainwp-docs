@@ -1,0 +1,150 @@
+\doxysection{phpseclib3\textbackslash{}Math\textbackslash{}Binary\+Field Class Reference}
+\hypertarget{classphpseclib3_1_1_math_1_1_binary_field}{}\label{classphpseclib3_1_1_math_1_1_binary_field}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+Inheritance diagram for phpseclib3\textbackslash{}Math\textbackslash{}Binary\+Field\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classphpseclib3_1_1_math_1_1_binary_field}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_a884eb6f082253aac45ee5c1126732587}{\+\_\+\+\_\+construct}} (... \$indices)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_a498043d4970fc3042ec6c70678b02977}{new\+Integer}} (\$num)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_ad3bb27e17559fd98d93029022cda1d35}{random\+Integer}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_acc1ce037c8fa124ac25c6dc34ff517a5}{get\+Length\+In\+Bytes}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_a014940e9d7b694c239114310c7a7e9f7}{get\+Length}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_a8734e1cc1687fd484bbfaa959477930e}{base2\+To\+Base256}} (\$x, \$size=null)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_ab1b9cd648aaba3b67c87602394461886}{base256\+To\+Base2}} (\$x)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_a121c1d731b2635ffb523690eac2b0b47}{\$instance\+ID}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Binary Finite Fields
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_a884eb6f082253aac45ee5c1126732587}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_a884eb6f082253aac45ee5c1126732587} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{...}{}\end{DoxyParamCaption})}
+
+Default constructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_ab1b9cd648aaba3b67c87602394461886}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!base256ToBase2@{base256ToBase2}}
+\index{base256ToBase2@{base256ToBase2}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{base256ToBase2()}{base256ToBase2()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_ab1b9cd648aaba3b67c87602394461886} 
+static phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::base256\+To\+Base2 (\begin{DoxyParamCaption}\item[{}]{\$x}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a base-\/256 string to a base-\/2 string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_a8734e1cc1687fd484bbfaa959477930e}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!base2ToBase256@{base2ToBase256}}
+\index{base2ToBase256@{base2ToBase256}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{base2ToBase256()}{base2ToBase256()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_a8734e1cc1687fd484bbfaa959477930e} 
+static phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::base2\+To\+Base256 (\begin{DoxyParamCaption}\item[{}]{\$x}{, }\item[{}]{\$size}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a base-\/2 string to a base-\/256 string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$x} & \\
+\hline
+int | null & {\em \$size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_a014940e9d7b694c239114310c7a7e9f7}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!getLength@{getLength}}
+\index{getLength@{getLength}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{getLength()}{getLength()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_a014940e9d7b694c239114310c7a7e9f7} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::get\+Length (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the length of the modulo in bits
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_acc1ce037c8fa124ac25c6dc34ff517a5}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!getLengthInBytes@{getLengthInBytes}}
+\index{getLengthInBytes@{getLengthInBytes}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{getLengthInBytes()}{getLengthInBytes()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_acc1ce037c8fa124ac25c6dc34ff517a5} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::get\+Length\+In\+Bytes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the length of the modulo in bytes
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_a498043d4970fc3042ec6c70678b02977}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!newInteger@{newInteger}}
+\index{newInteger@{newInteger}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{newInteger()}{newInteger()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_a498043d4970fc3042ec6c70678b02977} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::new\+Integer (\begin{DoxyParamCaption}\item[{}]{\$num}{}\end{DoxyParamCaption})}
+
+Returns an instance of a dynamically generated Prime\+Field\+Integer class
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$num} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Integer 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_ad3bb27e17559fd98d93029022cda1d35}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!randomInteger@{randomInteger}}
+\index{randomInteger@{randomInteger}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{randomInteger()}{randomInteger()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_ad3bb27e17559fd98d93029022cda1d35} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::random\+Integer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns an integer on the finite field between one and the prime modulo
+
+\begin{DoxyReturn}{Returns}
+Integer 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_math_1_1_binary_field_a121c1d731b2635ffb523690eac2b0b47}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}!\$instanceID@{\$instanceID}}
+\index{\$instanceID@{\$instanceID}!phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection{\texorpdfstring{\$instanceID}{\$instanceID}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_binary_field_a121c1d731b2635ffb523690eac2b0b47} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Binary\+Field\+::\$instance\+ID\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Math/\mbox{\hyperlink{_binary_field_8php}{Binary\+Field.\+php}}\end{DoxyCompactItemize}

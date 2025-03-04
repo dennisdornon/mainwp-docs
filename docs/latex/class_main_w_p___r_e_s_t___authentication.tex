@@ -1,0 +1,349 @@
+\doxysection{Main\+WP\+\_\+\+REST\+\_\+\+Authentication Class Reference}
+\hypertarget{class_main_w_p___r_e_s_t___authentication}{}\label{class_main_w_p___r_e_s_t___authentication}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a226ee116d3d1b7e9eb73c6653d0fadf8}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a53691909e06037edd868b194d8f14424}{authenticate}} ( \$user\+\_\+id)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a4a426cc16c5fa6ec648880e86d7273a2}{authentication\+\_\+fallback}} ( \$error)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a866f23edbd0468d255b2dbd35c7f1b64}{check\+\_\+authentication\+\_\+error}} ( \$error)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a079678921929ff1c472bb6079bf20688}{parse\+\_\+header}} ( \$header)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_afa5e7088d7491ed5fc331f04695d0fcd}{parse\+\_\+auth\+\_\+header}} ( \$header)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_ac717799d294aae43f1b61673afc03280}{get\+\_\+authorization\+\_\+header}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_ac9fc5d3cb0a9e195048380c90560e3a8}{get\+\_\+oauth\+\_\+parameters}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a854a3b84418f4f3e3f33d955454b434f}{send\+\_\+unauthorized\+\_\+headers}} ( \$response)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a41cbb28a329f144426bfb1fe57b31d23}{check\+\_\+user\+\_\+permissions}} ( \$result, \$server, \$request)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a3e5d7363da84ac588deef55e9ed9fe89}{get\+\_\+rest\+\_\+valid\+\_\+user}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a954bd257e5a664efc619d17f70b00a74}{is\+\_\+valid\+\_\+permissions}} ( \$request)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_abb37135162b8dec3e072e34cb9a12a2e}{get\+\_\+instance}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a80221375d80c88d040e42199d8eb34cb}{init}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a5066f8475d0a4a391cb104f4919cfdff}{\$instance}} = null
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_aaafbff83c7288f098a932f914b556672}{is\+\_\+request\+\_\+to\+\_\+rest\+\_\+api}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a7a77a0b0a5fecc2de98821099d3a4067}{set\+\_\+error}} ( \$error)
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a0b094ecc66c318aef9cac00c18e62d0f}{get\+\_\+error}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a8f1014d53946fc4235ba12a3f061e9ea}{\$error}} = null
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_affbe7d3023ec09d5e3f68cf6abfb09c5}{\$user}} = null
+\item 
+\mbox{\hyperlink{class_main_w_p___r_e_s_t___authentication_a6fb7023d46883868e1327f4535b55168}{\$auth\+\_\+method}} = \textquotesingle{}\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+REST API authentication class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a226ee116d3d1b7e9eb73c6653d0fadf8}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a226ee116d3d1b7e9eb73c6653d0fadf8} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Initialize authentication actions. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a53691909e06037edd868b194d8f14424}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{authenticate()}{authenticate()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a53691909e06037edd868b194d8f14424} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::authenticate (\begin{DoxyParamCaption}\item[{}]{\$user\+\_\+id}{}\end{DoxyParamCaption})}
+
+Authenticate user.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int | false & {\em \$user\+\_\+id} & User ID if one has been determined, false otherwise. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a4a426cc16c5fa6ec648880e86d7273a2}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!authentication\_fallback@{authentication\_fallback}}
+\index{authentication\_fallback@{authentication\_fallback}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{authentication\_fallback()}{authentication\_fallback()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a4a426cc16c5fa6ec648880e86d7273a2} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::authentication\+\_\+fallback (\begin{DoxyParamCaption}\item[{}]{\$error}{}\end{DoxyParamCaption})}
+
+Authenticate the user if authentication wasn\textquotesingle{}t performed during the determine\+\_\+current\+\_\+user action.
+
+Necessary in cases where wp\+\_\+get\+\_\+current\+\_\+user() is called before the plugin is loaded.
+
+\begin{DoxySeeAlso}{See also}
+\href{https://github.com/woocommerce/woocommerce/issues/26847}{\texttt{ https\+://github.\+com/woocommerce/woocommerce/issues/26847}}
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+WP\+\_\+\+Error | null | bool & {\em \$error} & Error data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+WP\+\_\+\+Error\texorpdfstring{$\vert$}{|}null\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a866f23edbd0468d255b2dbd35c7f1b64}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!check\_authentication\_error@{check\_authentication\_error}}
+\index{check\_authentication\_error@{check\_authentication\_error}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{check\_authentication\_error()}{check\_authentication\_error()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a866f23edbd0468d255b2dbd35c7f1b64} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::check\+\_\+authentication\+\_\+error (\begin{DoxyParamCaption}\item[{}]{\$error}{}\end{DoxyParamCaption})}
+
+Check for authentication error.
+
+
+\begin{DoxyParams}[1]{Parameters}
+WP\+\_\+\+Error | null | bool & {\em \$error} & Error data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+WP\+\_\+\+Error\texorpdfstring{$\vert$}{|}null\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a41cbb28a329f144426bfb1fe57b31d23}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!check\_user\_permissions@{check\_user\_permissions}}
+\index{check\_user\_permissions@{check\_user\_permissions}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{check\_user\_permissions()}{check\_user\_permissions()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a41cbb28a329f144426bfb1fe57b31d23} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::check\+\_\+user\+\_\+permissions (\begin{DoxyParamCaption}\item[{}]{\$result}{, }\item[{}]{\$server}{, }\item[{}]{\$request}{}\end{DoxyParamCaption})}
+
+Check for user permissions and register last access.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$result} & Response to replace the requested version with. \\
+\hline
+WP\+\_\+\+REST\+\_\+\+Server & {\em \$server} & Server instance. \\
+\hline
+WP\+\_\+\+REST\+\_\+\+Request & {\em \$request} & Request used to generate the response. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_ac717799d294aae43f1b61673afc03280}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!get\_authorization\_header@{get\_authorization\_header}}
+\index{get\_authorization\_header@{get\_authorization\_header}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{get\_authorization\_header()}{get\_authorization\_header()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_ac717799d294aae43f1b61673afc03280} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::get\+\_\+authorization\+\_\+header (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get the authorization header.
+
+On certain systems and configurations, the Authorization header will be stripped out by the server or PHP. Typically this is then used to generate {\ttfamily PHP\+\_\+\+AUTH\+\_\+\+USER}/{\ttfamily PHP\+\_\+\+AUTH\+\_\+\+PASS} but not passed on. We use {\ttfamily getallheaders} here to try and grab it out instead.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+string Authorization header if set. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a0b094ecc66c318aef9cac00c18e62d0f}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!get\_error@{get\_error}}
+\index{get\_error@{get\_error}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{get\_error()}{get\_error()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a0b094ecc66c318aef9cac00c18e62d0f} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::get\+\_\+error (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Get authentication error.
+
+\begin{DoxyReturn}{Returns}
+WP\+\_\+\+Error\texorpdfstring{$\vert$}{|}null. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_abb37135162b8dec3e072e34cb9a12a2e}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!get\_instance@{get\_instance}}
+\index{get\_instance@{get\_instance}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{get\_instance()}{get\_instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_abb37135162b8dec3e072e34cb9a12a2e} 
+static Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::get\+\_\+instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get Instance
+
+Creates public static instance.
+
+\begin{DoxyReturn}{Returns}
+class instance. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_ac9fc5d3cb0a9e195048380c90560e3a8}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!get\_oauth\_parameters@{get\_oauth\_parameters}}
+\index{get\_oauth\_parameters@{get\_oauth\_parameters}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{get\_oauth\_parameters()}{get\_oauth\_parameters()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_ac9fc5d3cb0a9e195048380c90560e3a8} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::get\+\_\+oauth\+\_\+parameters (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get o\+Auth parameters from \$\+\_\+\+GET, \$\+\_\+\+POST or request header.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a3e5d7363da84ac588deef55e9ed9fe89}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!get\_rest\_valid\_user@{get\_rest\_valid\_user}}
+\index{get\_rest\_valid\_user@{get\_rest\_valid\_user}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{get\_rest\_valid\_user()}{get\_rest\_valid\_user()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a3e5d7363da84ac588deef55e9ed9fe89} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::get\+\_\+rest\+\_\+valid\+\_\+user (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Method \doxylink{class_main_w_p___r_e_s_t___authentication_a3e5d7363da84ac588deef55e9ed9fe89}{get\+\_\+rest\+\_\+valid\+\_\+user()}.
+
+\begin{DoxyReturn}{Returns}
+mixed\texorpdfstring{$\vert$}{|}object User api key object. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a80221375d80c88d040e42199d8eb34cb}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!init@{init}}
+\index{init@{init}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a80221375d80c88d040e42199d8eb34cb} 
+static Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Init method.
+
+\begin{DoxyReturn}{Returns}
+class instance. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_aaafbff83c7288f098a932f914b556672}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!is\_request\_to\_rest\_api@{is\_request\_to\_rest\_api}}
+\index{is\_request\_to\_rest\_api@{is\_request\_to\_rest\_api}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{is\_request\_to\_rest\_api()}{is\_request\_to\_rest\_api()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_aaafbff83c7288f098a932f914b556672} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::is\+\_\+request\+\_\+to\+\_\+rest\+\_\+api (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Check if is request to our REST API.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a954bd257e5a664efc619d17f70b00a74}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!is\_valid\_permissions@{is\_valid\_permissions}}
+\index{is\_valid\_permissions@{is\_valid\_permissions}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{is\_valid\_permissions()}{is\_valid\_permissions()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a954bd257e5a664efc619d17f70b00a74} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::is\+\_\+valid\+\_\+permissions (\begin{DoxyParamCaption}\item[{}]{\$request}{}\end{DoxyParamCaption})}
+
+Valid REST permissions.
+
+
+\begin{DoxyParams}[1]{Parameters}
+WP\+\_\+\+REST\+\_\+\+Request & {\em \$request} & Request used to generate the response.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed user rest data. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_afa5e7088d7491ed5fc331f04695d0fcd}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!parse\_auth\_header@{parse\_auth\_header}}
+\index{parse\_auth\_header@{parse\_auth\_header}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{parse\_auth\_header()}{parse\_auth\_header()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_afa5e7088d7491ed5fc331f04695d0fcd} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::parse\+\_\+auth\+\_\+header (\begin{DoxyParamCaption}\item[{}]{\$header}{}\end{DoxyParamCaption})}
+
+Parse the Authorization header into parameters.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$header} & Authorization header value (not including "{}\+Authorization\+: "{} prefix).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array Map of parameter values. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a079678921929ff1c472bb6079bf20688}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!parse\_header@{parse\_header}}
+\index{parse\_header@{parse\_header}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{parse\_header()}{parse\_header()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a079678921929ff1c472bb6079bf20688} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::parse\+\_\+header (\begin{DoxyParamCaption}\item[{}]{\$header}{}\end{DoxyParamCaption})}
+
+Parse the Authorization header into parameters.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$header} & Authorization header value (not including "{}\+Authorization\+: "{} prefix).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array Map of parameter values. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a854a3b84418f4f3e3f33d955454b434f}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!send\_unauthorized\_headers@{send\_unauthorized\_headers}}
+\index{send\_unauthorized\_headers@{send\_unauthorized\_headers}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{send\_unauthorized\_headers()}{send\_unauthorized\_headers()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a854a3b84418f4f3e3f33d955454b434f} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::send\+\_\+unauthorized\+\_\+headers (\begin{DoxyParamCaption}\item[{}]{\$response}{}\end{DoxyParamCaption})}
+
+If the consumer\+\_\+key and consumer\+\_\+secret \$\+\_\+\+GET parameters are NOT provided and the Basic auth headers are either not present or the consumer secret does not match the consumer key provided, then return the correct Basic headers and an error message.
+
+
+\begin{DoxyParams}[1]{Parameters}
+WP\+\_\+\+REST\+\_\+\+Response & {\em \$response} & Current response being served. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+WP\+\_\+\+REST\+\_\+\+Response 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a7a77a0b0a5fecc2de98821099d3a4067}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!set\_error@{set\_error}}
+\index{set\_error@{set\_error}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{set\_error()}{set\_error()}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a7a77a0b0a5fecc2de98821099d3a4067} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::set\+\_\+error (\begin{DoxyParamCaption}\item[{}]{\$error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Set authentication error.
+
+
+\begin{DoxyParams}[1]{Parameters}
+WP\+\_\+\+Error & {\em \$error} & Authentication error data. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a6fb7023d46883868e1327f4535b55168}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!\$auth\_method@{\$auth\_method}}
+\index{\$auth\_method@{\$auth\_method}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{\$auth\_method}{\$auth\_method}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a6fb7023d46883868e1327f4535b55168} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::\$auth\+\_\+method = \textquotesingle{}\textquotesingle{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a8f1014d53946fc4235ba12a3f061e9ea}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!\$error@{\$error}}
+\index{\$error@{\$error}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{\$error}{\$error}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a8f1014d53946fc4235ba12a3f061e9ea} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::\$error = null\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_a5066f8475d0a4a391cb104f4919cfdff}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!\$instance@{\$instance}}
+\index{\$instance@{\$instance}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{\$instance}{\$instance}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_a5066f8475d0a4a391cb104f4919cfdff} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::\$instance = null\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_main_w_p___r_e_s_t___authentication_affbe7d3023ec09d5e3f68cf6abfb09c5}\index{MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}!\$user@{\$user}}
+\index{\$user@{\$user}!MainWP\_REST\_Authentication@{MainWP\_REST\_Authentication}}
+\doxysubsubsection{\texorpdfstring{\$user}{\$user}}
+{\footnotesize\ttfamily \label{class_main_w_p___r_e_s_t___authentication_affbe7d3023ec09d5e3f68cf6abfb09c5} 
+Main\+WP\+\_\+\+REST\+\_\+\+Authentication\+::\$user = null\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+includes/rest-\/api/\mbox{\hyperlink{class-mainwp-rest-authentication_8php}{class-\/mainwp-\/rest-\/authentication.\+php}}\end{DoxyCompactItemize}

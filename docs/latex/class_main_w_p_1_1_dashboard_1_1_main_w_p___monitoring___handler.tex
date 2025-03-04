@@ -1,0 +1,149 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a7f2eeccbb1bcc4e0b82b875e2d02b16f}{handle\+\_\+settings\+\_\+post}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_ac721e96124d4ce2abcf545280be09347}{handle\+\_\+check\+\_\+website}} ( \$website)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a1f46ed9173e7a1ff44187d6352cbbb8c}{get\+\_\+http\+\_\+noticed\+\_\+status\+\_\+value}} ( \$website, \$new\+\_\+code)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a88bf4585a8dd7dd34c3680fd4de97529}{get\+\_\+health\+\_\+noticed\+\_\+status\+\_\+value}} ( \$website, \$new\+\_\+health)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a4adcdb262cb2b6fc2206202451099cf5}{get\+\_\+site\+\_\+checking\+\_\+status}} ( \$http\+\_\+code)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_ac859214948c7383f3942d04789128a6e}{notice\+\_\+sites\+\_\+uptime\+\_\+monitoring}} ( \$websites, \$admin\+\_\+email, \$email\+\_\+settings, \$plain\+\_\+text, \$to\+\_\+admin=false)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a0b1341477632bf54331b3f3d6f5ed409}{notice\+\_\+site\+\_\+health\+\_\+threshold}} ( \$email\+\_\+settings, \$websites, \$email, \$plain\+\_\+text, \$general=true, \$to\+\_\+admin=false)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a88bf4585a8dd7dd34c3680fd4de97529}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!get\_health\_noticed\_status\_value@{get\_health\_noticed\_status\_value}}
+\index{get\_health\_noticed\_status\_value@{get\_health\_noticed\_status\_value}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_health\_noticed\_status\_value()}{get\_health\_noticed\_status\_value()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a88bf4585a8dd7dd34c3680fd4de97529} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::get\+\_\+health\+\_\+noticed\+\_\+status\+\_\+value (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$new\+\_\+health}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get new site health value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the website info. \\
+\hline
+object & {\em \$new\+\_\+health} & New site health value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int \$noticed\+\_\+value new site health status. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a1f46ed9173e7a1ff44187d6352cbbb8c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!get\_http\_noticed\_status\_value@{get\_http\_noticed\_status\_value}}
+\index{get\_http\_noticed\_status\_value@{get\_http\_noticed\_status\_value}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_http\_noticed\_status\_value()}{get\_http\_noticed\_status\_value()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a1f46ed9173e7a1ff44187d6352cbbb8c} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::get\+\_\+http\+\_\+noticed\+\_\+status\+\_\+value (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$new\+\_\+code}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a new HTTP status notice.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the website info. \\
+\hline
+int & {\em \$new\+\_\+code} & The new HTTP code value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int \$noticed\+\_\+value New HTTP status. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a4adcdb262cb2b6fc2206202451099cf5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!get\_site\_checking\_status@{get\_site\_checking\_status}}
+\index{get\_site\_checking\_status@{get\_site\_checking\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_site\_checking\_status()}{get\_site\_checking\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a4adcdb262cb2b6fc2206202451099cf5} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::get\+\_\+site\+\_\+checking\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$http\+\_\+code}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determin if site is up or down based on HTTP code.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$http\+\_\+code} & HTTP code. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_ac721e96124d4ce2abcf545280be09347}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!handle\_check\_website@{handle\_check\_website}}
+\index{handle\_check\_website@{handle\_check\_website}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{handle\_check\_website()}{handle\_check\_website()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_ac721e96124d4ce2abcf545280be09347} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::handle\+\_\+check\+\_\+website (\begin{DoxyParamCaption}\item[{}]{\$website}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check a website HTTP header status.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the website info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed Check result.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::check\+\_\+website\+\_\+status() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::check\+\_\+ignored\+\_\+http\+\_\+code() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+values() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a7f2eeccbb1bcc4e0b82b875e2d02b16f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!handle\_settings\_post@{handle\_settings\_post}}
+\index{handle\_settings\_post@{handle\_settings\_post}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{handle\_settings\_post()}{handle\_settings\_post()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a7f2eeccbb1bcc4e0b82b875e2d02b16f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::handle\+\_\+settings\+\_\+post (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Manage the settings post.
+
+@uses Main\+WP\+\_\+\+Utility\+::update\+\_\+option()
+
+\begin{DoxyReturn}{Returns}
+bool True on success, false on failure.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::is\+\_\+admin() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::update\+\_\+option() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a0b1341477632bf54331b3f3d6f5ed409}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!notice\_site\_health\_threshold@{notice\_site\_health\_threshold}}
+\index{notice\_site\_health\_threshold@{notice\_site\_health\_threshold}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{notice\_site\_health\_threshold()}{notice\_site\_health\_threshold()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_a0b1341477632bf54331b3f3d6f5ed409} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::notice\+\_\+site\+\_\+health\+\_\+threshold (\begin{DoxyParamCaption}\item[{}]{\$email\+\_\+settings}{, }\item[{}]{\$websites}{, }\item[{}]{\$email}{, }\item[{}]{\$plain\+\_\+text}{, }\item[{}]{\$general}{ = {\ttfamily true}, }\item[{}]{\$to\+\_\+admin}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Site health monitoring.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$email\+\_\+settings} & Email settings. \\
+\hline
+array & {\em \$websites} & Array containing the websites. \\
+\hline
+string & {\em \$email} & Notification email. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Determines if the plain text format should be used. \\
+\hline
+bool & {\em \$general} & Determines if it\textquotesingle{}s a general notification. \\
+\hline
+bool & {\em \$to\+\_\+admin} & Send to admin or not.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+notification\+\_\+email() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+sync\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+websites\+\_\+health\+\_\+status\+\_\+notification() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Template\+::get\+\_\+template\+\_\+html() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_ac859214948c7383f3942d04789128a6e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}!notice\_sites\_uptime\_monitoring@{notice\_sites\_uptime\_monitoring}}
+\index{notice\_sites\_uptime\_monitoring@{notice\_sites\_uptime\_monitoring}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Monitoring\_Handler}}
+\doxysubsubsection{\texorpdfstring{notice\_sites\_uptime\_monitoring()}{notice\_sites\_uptime\_monitoring()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___monitoring___handler_ac859214948c7383f3942d04789128a6e} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::notice\+\_\+sites\+\_\+uptime\+\_\+monitoring (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$admin\+\_\+email}{, }\item[{}]{\$email\+\_\+settings}{, }\item[{}]{\$plain\+\_\+text}{, }\item[{}]{\$to\+\_\+admin}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Basic site uptime monitoring.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$websites} & Array containing the websites. \\
+\hline
+string & {\em \$admin\+\_\+email} & Notification email. \\
+\hline
+string & {\em \$email\+\_\+settings} & Email settings. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Determines if the plain text format should be used. \\
+\hline
+bool & {\em \$to\+\_\+admin} & Send to admin or not.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+websites\+\_\+uptime\+\_\+monitoring() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Template\+::get\+\_\+template\+\_\+html() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-monitoring-handler_8php}{class-\/mainwp-\/monitoring-\/handler.\+php}}\end{DoxyCompactItemize}

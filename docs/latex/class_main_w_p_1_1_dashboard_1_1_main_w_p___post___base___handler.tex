@@ -1,0 +1,159 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+Inheritance diagram for Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.634561cm]{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aca8a565d1940457d9836e33afc6366e9}{secure\+\_\+request}} ( \$action=\textquotesingle{}\textquotesingle{}, \$query\+\_\+arg=\textquotesingle{}security\textquotesingle{})
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_af223c495b3ae59859044acee80f9e750}{check\+\_\+security}} ( \$action=-\/ 1, \$query\+\_\+arg=\textquotesingle{}security\textquotesingle{}, \$out\+\_\+die=true)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aa551519028b01f65ea3475925ef39a8b}{add\+\_\+action}} ( \$action, \$callback, \$priority=10, \$accepted=2)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a0bde249793fca7505796464b3ace0cc6}{add\+\_\+action\+\_\+nonce}} ( \$action)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_ae7f43b07fcc7c6cc0ff56a9d9e5e40cb}{create\+\_\+security\+\_\+nonces}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a8c8b9d2b16b76fd44ff13fe23a39b936}{init}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a35693fbe205f3ab2019dc0859ed48186}{\$security\+\_\+nonces}}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aed716555406910d6554073a7a4aeed13}{\$security\+\_\+names}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aa551519028b01f65ea3475925ef39a8b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!add\_action@{add\_action}}
+\index{add\_action@{add\_action}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{add\_action()}{add\_action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aa551519028b01f65ea3475925ef39a8b} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::add\+\_\+action (\begin{DoxyParamCaption}\item[{}]{\$action}{, }\item[{}]{\$callback}{, }\item[{}]{\$priority}{ = {\ttfamily 10}, }\item[{}]{\$accepted}{ = {\ttfamily 2}}\end{DoxyParamCaption})}
+
+Method add\+\_\+action()
+
+Add ajax action.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$action} & Action to perform. \\
+\hline
+mixed & {\em \$callback} & Callback to perform. \\
+\hline
+int & {\em \$priority} & priority aciton. \\
+\hline
+int & {\em \$accepted} & number args. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a0bde249793fca7505796464b3ace0cc6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!add\_action\_nonce@{add\_action\_nonce}}
+\index{add\_action\_nonce@{add\_action\_nonce}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{add\_action\_nonce()}{add\_action\_nonce()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a0bde249793fca7505796464b3ace0cc6} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::add\+\_\+action\+\_\+nonce (\begin{DoxyParamCaption}\item[{}]{\$action}{}\end{DoxyParamCaption})}
+
+Method add\+\_\+action\+\_\+nonce()
+
+Add security nonce.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$action} & Action to perform. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_af223c495b3ae59859044acee80f9e750}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!check\_security@{check\_security}}
+\index{check\_security@{check\_security}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{check\_security()}{check\_security()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_af223c495b3ae59859044acee80f9e750} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::check\+\_\+security (\begin{DoxyParamCaption}\item[{}]{\$action}{ = {\ttfamily -\/~1}, }\item[{}]{\$query\+\_\+arg}{ = {\ttfamily \textquotesingle{}security\textquotesingle{}}, }\item[{}]{\$out\+\_\+die}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Method check\+\_\+security()
+
+Check security request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$action} & Action to perform. \\
+\hline
+string & {\em \$query\+\_\+arg} & Query argument. \\
+\hline
+bool & {\em \$out\+\_\+die} & return or exit.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true or false 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_ae7f43b07fcc7c6cc0ff56a9d9e5e40cb}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!create\_security\_nonces@{create\_security\_nonces}}
+\index{create\_security\_nonces@{create\_security\_nonces}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{create\_security\_nonces()}{create\_security\_nonces()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_ae7f43b07fcc7c6cc0ff56a9d9e5e40cb} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::create\+\_\+security\+\_\+nonces (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Create the security nonces.
+
+\begin{DoxyReturn}{Returns}
+self \$security\+\_\+nonces. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a8c8b9d2b16b76fd44ff13fe23a39b936}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!init@{init}}
+\index{init@{init}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a8c8b9d2b16b76fd44ff13fe23a39b936} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Method init()
+
+Force Extending class to define this method.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___backup___handler_a9862f0b263c086f6a34d3bb7d6c7e3d8}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Backup\+\_\+\+Handler}}, \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___extension___handler_abcb41e66fd6682009071cc2441d47939}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Extension\+\_\+\+Handler}}, \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___handler_a1f04c5661c9e7b44fdf5c3a8e8d20668}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Handler}}, \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___plugin___theme___handler_a4548aac904b8607c742f5f39db56eb1c}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Plugin\+\_\+\+Theme\+\_\+\+Handler}}, and \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___site___handler_a779262f7cf0202d116707a5144ed7654}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Site\+\_\+\+Handler}}.
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aca8a565d1940457d9836e33afc6366e9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!secure\_request@{secure\_request}}
+\index{secure\_request@{secure\_request}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{secure\_request()}{secure\_request()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aca8a565d1940457d9836e33afc6366e9} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::secure\+\_\+request (\begin{DoxyParamCaption}\item[{}]{\$action}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}, }\item[{}]{\$query\+\_\+arg}{ = {\ttfamily \textquotesingle{}security\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Method secure\+\_\+request()
+
+Add security check to request parameter
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$action} & Action to perform. \\
+\hline
+string & {\em \$query\+\_\+arg} & Query argument.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::is\+\_\+admin() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::update\+\_\+option() 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aed716555406910d6554073a7a4aeed13}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!\$security\_names@{\$security\_names}}
+\index{\$security\_names@{\$security\_names}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{\$security\_names}{\$security\_names}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_aed716555406910d6554073a7a4aeed13} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::\$security\+\_\+names\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a35693fbe205f3ab2019dc0859ed48186}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}!\$security\_nonces@{\$security\_nonces}}
+\index{\$security\_nonces@{\$security\_nonces}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Post\_Base\_Handler}}
+\doxysubsubsection{\texorpdfstring{\$security\_nonces}{\$security\_nonces}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___post___base___handler_a35693fbe205f3ab2019dc0859ed48186} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Base\+\_\+\+Handler\+::\$security\+\_\+nonces\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-post-base-handler_8php}{class-\/mainwp-\/post-\/base-\/handler.\+php}}\end{DoxyCompactItemize}

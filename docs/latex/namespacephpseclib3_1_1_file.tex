@@ -1,0 +1,31 @@
+\doxysection{phpseclib3\textbackslash{}File Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_file}{}\label{namespacephpseclib3_1_1_file}\index{phpseclib3\textbackslash{}File@{phpseclib3\textbackslash{}File}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacephpseclib3_1_1_file_1_1_a_s_n1}{ASN1}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_n_s_i}{ANSI}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1}{ASN1}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP ANSI Decoder
+
+PHP version 5
+
+If you call read() in \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2 you may get {\ttfamily \doxylink{}{ANSI escape codes}} back. They\textquotesingle{}d look like chr(0x1\+B) . \textquotesingle{}\mbox{[}00m\textquotesingle{} or whatever (0x1B = ESC). They tell a {\ttfamily \doxylink{}{terminal emulator}} how to format the characters, what color to display them in, etc. \textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+ANSI is a {\ttfamily \doxylink{}{VT100}} terminal emulator.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2012 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License \doxylink{}{Pure-\/\+PHP ASN.\+1 Parser PHP version 5 ASN.\+1 provides the semantics for data encoded using various schemes. The most commonly utilized scheme is DER or the "{}\+Distinguished Encoding Rules"{}. PEM\textquotesingle{}s are base64 encoded DER blobs.  decodes and encodes DER formatted messages and places them in a semantic context. Uses the 1988 ASN.\+1 syntax.  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2012 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Pure-\/\+PHP X.\+509 Parser PHP version 5 Encode and decode X.\+509 certificates. The extensions are from  \href{http://tools.ietf.org/html/rfc5280}{\texttt{ http\+://tools.\+ietf.\+org/html/rfc5280}} RFC5280\} and  \href{http://web.archive.org/web/19961027104704/http://www3.netscape.com/eng/security/cert-exts.html}{\texttt{ http\+://web.\+archive.\+org/web/19961027104704/http\+://www3.\+netscape.\+com/eng/security/cert-\/exts.\+html}} Netscape Certificate Extensions\}. Note that loading an X.\+509 certificate and resaving it may invalidate the signature. The reason being that the signature is based on a portion of the certificate that contains optional parameters with default values. ie. if the parameter isn\textquotesingle{}t there the default value is used. Problem is, if the parameter is there and it just so happens to have the default value there are two ways that that parameter can be encoded. It can be encoded explicitly or left out all together. This would effect the signature value and thus may invalidate the the certificate all together unless the certificate is re-\/signed.  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2012 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} }
+\end{DoxyCopyright}

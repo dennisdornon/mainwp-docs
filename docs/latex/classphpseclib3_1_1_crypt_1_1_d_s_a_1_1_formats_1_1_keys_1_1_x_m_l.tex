@@ -1,0 +1,67 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l}{}\label{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l_a591187e89a914e49fb301894c7182ace}{load}} (\$key, \$password=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l_a17400c45ccd869850b53d9dd251a98e3}{save\+Public\+Key}} (Big\+Integer \$p, Big\+Integer \$q, Big\+Integer \$g, Big\+Integer \$y)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+XML Formatted DSA Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l_a591187e89a914e49fb301894c7182ace}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l_a591187e89a914e49fb301894c7182ace} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Break a public or private key down into its constituent components
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l_a17400c45ccd869850b53d9dd251a98e3}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!savePublicKey@{savePublicKey}}
+\index{savePublicKey@{savePublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{savePublicKey()}{savePublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l_a17400c45ccd869850b53d9dd251a98e3} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::save\+Public\+Key (\begin{DoxyParamCaption}\item[{Big\+Integer}]{\$p}{, }\item[{Big\+Integer}]{\$q}{, }\item[{Big\+Integer}]{\$g}{, }\item[{Big\+Integer}]{\$y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a public key to the appropriate format
+
+See \href{https://www.w3.org/TR/xmldsig-core/\#sec-DSAKeyValue}{\texttt{ https\+://www.\+w3.\+org/\+TR/xmldsig-\/core/\#sec-\/\+DSAKey\+Value}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$p} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$q} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$g} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+DSA/\+Formats/\+Keys/\mbox{\hyperlink{_d_s_a_2_formats_2_keys_2_x_m_l_8php}{XML.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,96 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l}{}\label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a67e32def5d217b8a3ed7e195e5b1bd39}{load}} (\$key, \$password=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a124924fda1c6bdb0e42abb13147a241d}{set\+Namespace}} (\$namespace)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a6ee2b3cd6e55a149cef54bb74dfd7f66}{enable\+RFC4050\+Syntax}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a97acf5fca34a7b7f8b67ac3531be93de}{disable\+RFC4050\+Syntax}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_aa94b2c9368fac66a33b58c6177e4f612}{save\+Public\+Key}} (Base\+Curve \$curve, array \$public\+Key, array \$options=\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+XML Formatted EC Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a97acf5fca34a7b7f8b67ac3531be93de}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!disableRFC4050Syntax@{disableRFC4050Syntax}}
+\index{disableRFC4050Syntax@{disableRFC4050Syntax}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{disableRFC4050Syntax()}{disableRFC4050Syntax()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a97acf5fca34a7b7f8b67ac3531be93de} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::disable\+RFC4050\+Syntax (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Uses the XML syntax specified in \href{https://www.w3.org/TR/xmldsig-core/\#sec-ECParameters}{\texttt{ https\+://www.\+w3.\+org/\+TR/xmldsig-\/core/\#sec-\/\+ECParameters}} \Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a6ee2b3cd6e55a149cef54bb74dfd7f66}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!enableRFC4050Syntax@{enableRFC4050Syntax}}
+\index{enableRFC4050Syntax@{enableRFC4050Syntax}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{enableRFC4050Syntax()}{enableRFC4050Syntax()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a6ee2b3cd6e55a149cef54bb74dfd7f66} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::enable\+RFC4050\+Syntax (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Uses the XML syntax specified in \href{https://tools.ietf.org/html/rfc4050}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4050}} \Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a67e32def5d217b8a3ed7e195e5b1bd39}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a67e32def5d217b8a3ed7e195e5b1bd39} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Break a public or private key down into its constituent components
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_aa94b2c9368fac66a33b58c6177e4f612}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!savePublicKey@{savePublicKey}}
+\index{savePublicKey@{savePublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{savePublicKey()}{savePublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_aa94b2c9368fac66a33b58c6177e4f612} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::save\+Public\+Key (\begin{DoxyParamCaption}\item[{Base\+Curve}]{\$curve}{, }\item[{array}]{\$public\+Key}{, }\item[{array}]{\$options}{ = {\ttfamily \mbox{[}\mbox{]}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a public key to the appropriate format
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Base\+Curves\textbackslash{}\+Base & {\em \$curve} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Common\textbackslash{}\+Finite\+Field\textbackslash{}\+Integer\mbox{[}$\,$\mbox{]} & {\em \$public\+Key} & \\
+\hline
+array & {\em \$options} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a124924fda1c6bdb0e42abb13147a241d}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}!setNamespace@{setNamespace}}
+\index{setNamespace@{setNamespace}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}XML}}
+\doxysubsubsection{\texorpdfstring{setNamespace()}{setNamespace()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l_a124924fda1c6bdb0e42abb13147a241d} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+XML\+::set\+Namespace (\begin{DoxyParamCaption}\item[{}]{\$namespace}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the namespace. dsig11 is the most common one.
+
+Set to null to unset. Used only for creating public keys.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$namespace} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+EC/\+Formats/\+Keys/\mbox{\hyperlink{_e_c_2_formats_2_keys_2_x_m_l_8php}{XML.\+php}}\end{DoxyCompactItemize}

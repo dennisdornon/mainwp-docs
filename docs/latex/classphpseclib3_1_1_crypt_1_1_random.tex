@@ -1,0 +1,46 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Random Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_random}{}\label{classphpseclib3_1_1_crypt_1_1_random}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Random@{phpseclib3\textbackslash{}Crypt\textbackslash{}Random}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_random_a3ad415fd46f5179e67d7429df9e7c798}{string}} (\$length)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP Random Number Generator
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_random_a3ad415fd46f5179e67d7429df9e7c798}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Random@{phpseclib3\textbackslash{}Crypt\textbackslash{}Random}!string@{string}}
+\index{string@{string}!phpseclib3\textbackslash{}Crypt\textbackslash{}Random@{phpseclib3\textbackslash{}Crypt\textbackslash{}Random}}
+\doxysubsubsection{\texorpdfstring{string()}{string()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_random_a3ad415fd46f5179e67d7429df9e7c798} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Random\+::string (\begin{DoxyParamCaption}\item[{}]{\$length}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Generate a random string.
+
+Although microoptimizations are generally discouraged as they impair readability this function is ripe with microoptimizations because this function has the potential of being called a huge number of times. eg. for RSA key generation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$length} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception if a symmetric cipher is needed but not loaded \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\mbox{\hyperlink{phpseclib_2phpseclib_2phpseclib_2_crypt_2_random_8php}{Random.\+php}}\end{DoxyCompactItemize}

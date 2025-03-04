@@ -1,0 +1,147 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+Filter\+\_\+\+Input Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input}{}\label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a96d480c218e6a33cd1e9ff986d30336e}{super}} ( \$type, \$variable\+\_\+name, \$\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a884561339c679e0616edcdc8b07c1594}{filter}}=null, \$options=array())
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a884561339c679e0616edcdc8b07c1594}{filter}} ( \$var\+\_\+value, \$filter=null, \$options=array())
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a69e11f7f173d6512ea7431576df0c988}{is\+\_\+regex}} ( \$var\+\_\+value)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a2c619e7deaa03f842f345579795a74b6}{is\+\_\+ip\+\_\+address}} ( \$var\+\_\+value)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_afb6d8a871e171640e22990e4df20829d}{\$filter\+\_\+callbacks}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class -\/ Log\+\_\+\+Filter\+\_\+\+Input 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a884561339c679e0616edcdc8b07c1594}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}!filter@{filter}}
+\index{filter@{filter}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}}
+\doxysubsubsection{\texorpdfstring{filter()}{filter()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a884561339c679e0616edcdc8b07c1594} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Filter\+\_\+\+Input\+::filter (\begin{DoxyParamCaption}\item[{}]{\$var\+\_\+value}{, }\item[{}]{\$filter}{ = {\ttfamily null}, }\item[{}]{\$options}{ = {\ttfamily array()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sanitize or validate input.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$var\+\_\+value} & Raw input. \\
+\hline
+int & {\em \$filter} & Filter callback. \\
+\hline
+array & {\em \$options} & Filter callback parameters. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Unsupported filter provided. \begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+"{}filter\+\_\+var / filter\+\_\+input"{} treats validation/sanitization filters the same they both return output and change the var value, this shouldn\textquotesingle{}t be the case here. We\textquotesingle{}ll do a boolean check on validation function, and let sanitizers change the value\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a2c619e7deaa03f842f345579795a74b6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}!is\_ip\_address@{is\_ip\_address}}
+\index{is\_ip\_address@{is\_ip\_address}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}}
+\doxysubsubsection{\texorpdfstring{is\_ip\_address()}{is\_ip\_address()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a2c619e7deaa03f842f345579795a74b6} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Filter\+\_\+\+Input\+::is\+\_\+ip\+\_\+address (\begin{DoxyParamCaption}\item[{}]{\$var\+\_\+value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns whether the variable is an IP address or not?
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$var\+\_\+value} & Raw input. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a69e11f7f173d6512ea7431576df0c988}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}!is\_regex@{is\_regex}}
+\index{is\_regex@{is\_regex}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}}
+\doxysubsubsection{\texorpdfstring{is\_regex()}{is\_regex()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a69e11f7f173d6512ea7431576df0c988} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Filter\+\_\+\+Input\+::is\+\_\+regex (\begin{DoxyParamCaption}\item[{}]{\$var\+\_\+value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns whether the variable is a Regular Expression or not?
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$var\+\_\+value} & Raw input. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a96d480c218e6a33cd1e9ff986d30336e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}!super@{super}}
+\index{super@{super}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}}
+\doxysubsubsection{\texorpdfstring{super()}{super()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_a96d480c218e6a33cd1e9ff986d30336e} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Filter\+\_\+\+Input\+::super (\begin{DoxyParamCaption}\item[{}]{\$type}{, }\item[{}]{\$variable\+\_\+name}{, }\item[{}]{\$filter}{ = {\ttfamily null}, }\item[{}]{\$options}{ = {\ttfamily array()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns input variable
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$type} & Input type. \\
+\hline
+string & {\em \$variable\+\_\+name} & Variable key. \\
+\hline
+int & {\em \$filter} & Filter callback. \\
+\hline
+array & {\em \$options} & Filter callback parameters. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Invalid input type provided. \begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_afb6d8a871e171640e22990e4df20829d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}!\$filter\_callbacks@{\$filter\_callbacks}}
+\index{\$filter\_callbacks@{\$filter\_callbacks}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Filter\_Input}}
+\doxysubsubsection{\texorpdfstring{\$filter\_callbacks}{\$filter\_callbacks}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___filter___input_afb6d8a871e171640e22990e4df20829d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Filter\+\_\+\+Input\+::\$filter\+\_\+callbacks\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ array(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_DEFAULT\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{keyword}{null},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_BOOLEAN\ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'is\_bool'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_EMAIL\ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'is\_email'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_FLOAT\ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'is\_float'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_INT\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'is\_int'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_IP\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ array(\ \_\_CLASS\_\_,\ \textcolor{stringliteral}{'is\_ip\_address'}\ ),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_REGEXP\ \ \ \ \ \ \ \ \ \ \ \ =>\ array(\ \_\_CLASS\_\_,\ \textcolor{stringliteral}{'is\_regex'}\ ),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_VALIDATE\_URL\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'wp\_http\_validate\_url'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_EMAIL\ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'sanitize\_email'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_ENCODED\ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'esc\_url\_raw'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_NUMBER\_FLOAT\ \ \ \ \ \ =>\ \textcolor{stringliteral}{'floatval'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_NUMBER\_INT\ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'intval'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_SPECIAL\_CHARS\ \ \ \ \ =>\ \textcolor{stringliteral}{'htmlspecialchars'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_STRING\_COMPATIBLE\ =>\ \textcolor{stringliteral}{'sanitize\_text\_field'},\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_SANITIZE\_URL\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'esc\_url\_raw'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ FILTER\_UNSAFE\_RAW\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{keyword}{null},}
+\DoxyCodeLine{\ \ \ \ )}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/logs/classes/\mbox{\hyperlink{class-log-filter-input_8php}{class-\/log-\/filter-\/input.\+php}}\end{DoxyCompactItemize}

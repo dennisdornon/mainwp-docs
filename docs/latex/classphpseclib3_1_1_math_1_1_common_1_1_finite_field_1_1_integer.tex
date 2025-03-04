@@ -1,0 +1,57 @@
+\doxysection{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}Finite\+Field\textbackslash{}Integer Class Reference}
+\hypertarget{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer}{}\label{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer}\index{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer@{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer}}
+Inheritance diagram for phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}Finite\+Field\textbackslash{}Integer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer_aaaed522b7000546ebcc6d0b06ae853bd}{json\+Serialize}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer_aded2f8df4b87803ebf7093ead2c9136d}{to\+Hex}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Finite Field Integer
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer_aaaed522b7000546ebcc6d0b06ae853bd}\index{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer@{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer}!jsonSerialize@{jsonSerialize}}
+\index{jsonSerialize@{jsonSerialize}!phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer@{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer}}
+\doxysubsubsection{\texorpdfstring{jsonSerialize()}{jsonSerialize()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer_aaaed522b7000546ebcc6d0b06ae853bd} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Common\textbackslash{}\+Finite\+Field\textbackslash{}\+Integer\+::json\+Serialize (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+JSON Serialize
+
+Will be called, automatically, when json\+\_\+encode() is called on a Big\+Integer object.
+
+PHP Serialize isn\textquotesingle{}t supported because unserializing would require the factory be serialized as well and that just sounds like too much
+
+\begin{DoxyReturn}{Returns}
+array\{hex\+: string\} 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer_aded2f8df4b87803ebf7093ead2c9136d}\index{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer@{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer}!toHex@{toHex}}
+\index{toHex@{toHex}!phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer@{phpseclib3\textbackslash{}Math\textbackslash{}Common\textbackslash{}FiniteField\textbackslash{}Integer}}
+\doxysubsubsection{\texorpdfstring{toHex()}{toHex()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_math_1_1_common_1_1_finite_field_1_1_integer_aded2f8df4b87803ebf7093ead2c9136d} 
+phpseclib3\textbackslash{}\+Math\textbackslash{}\+Common\textbackslash{}\+Finite\+Field\textbackslash{}\+Integer\+::to\+Hex (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Converts an Integer to a hex string (eg. base-\/16).
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Math/\+Common/\+Finite\+Field/\mbox{\hyperlink{_common_2_finite_field_2_integer_8php}{Integer.\+php}}\end{DoxyCompactItemize}

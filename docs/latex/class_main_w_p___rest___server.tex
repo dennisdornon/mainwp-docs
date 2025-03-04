@@ -1,0 +1,126 @@
+\doxysection{Main\+WP\+\_\+\+Rest\+\_\+\+Server Class Reference}
+\hypertarget{class_main_w_p___rest___server}{}\label{class_main_w_p___rest___server}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___rest___server_a55d3a39b02aa43c76ff571c945ef460f}{init}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___rest___server_abdb11fe141178793032d669a707786c7}{register\+\_\+rest\+\_\+routes}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___rest___server_ae72139cb3ab177a2520726e7274871ac}{get\+\_\+rest\+\_\+controller}} ( \$nspace, \$name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p___rest___server_adfda6280d0cf2c6aadeaaf48757d8eb6}{instance}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p___rest___server_aac7316a26bdb5a3c139313bd722323f5}{get\+\_\+path}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___rest___server_af9403d1bdc636470f163cf10f51b1998}{get\+\_\+rest\+\_\+namespaces}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___rest___server_a30e01ff406720e144ea4e2319c9fc1d6}{get\+\_\+v2\+\_\+controllers}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___rest___server_afe9d1c96e0c2b556494ebbbe9e332ced}{\$controllers}} = array()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class responsible for loading the REST API and all REST API namespaces. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p___rest___server_aac7316a26bdb5a3c139313bd722323f5}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!get\_path@{get\_path}}
+\index{get\_path@{get\_path}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{get\_path()}{get\_path()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_aac7316a26bdb5a3c139313bd722323f5} 
+static Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::get\+\_\+path (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the path to the package.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___rest___server_ae72139cb3ab177a2520726e7274871ac}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!get\_rest\_controller@{get\_rest\_controller}}
+\index{get\_rest\_controller@{get\_rest\_controller}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{get\_rest\_controller()}{get\_rest\_controller()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_ae72139cb3ab177a2520726e7274871ac} 
+Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::get\+\_\+rest\+\_\+controller (\begin{DoxyParamCaption}\item[{}]{\$nspace}{, }\item[{}]{\$name}{}\end{DoxyParamCaption})}
+
+Get registered routes controller.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$nspace} & namespace. \\
+\hline
+string & {\em \$name} & name.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed result. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___rest___server_af9403d1bdc636470f163cf10f51b1998}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!get\_rest\_namespaces@{get\_rest\_namespaces}}
+\index{get\_rest\_namespaces@{get\_rest\_namespaces}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{get\_rest\_namespaces()}{get\_rest\_namespaces()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_af9403d1bdc636470f163cf10f51b1998} 
+Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::get\+\_\+rest\+\_\+namespaces (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Get API namespaces -\/ new namespaces should be registered here.
+
+\begin{DoxyReturn}{Returns}
+array List of Namespaces and Main controller classes. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___rest___server_a30e01ff406720e144ea4e2319c9fc1d6}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!get\_v2\_controllers@{get\_v2\_controllers}}
+\index{get\_v2\_controllers@{get\_v2\_controllers}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{get\_v2\_controllers()}{get\_v2\_controllers()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_a30e01ff406720e144ea4e2319c9fc1d6} 
+Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::get\+\_\+v2\+\_\+controllers (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+List of controllers in the wc/v2 namespace.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___rest___server_a55d3a39b02aa43c76ff571c945ef460f}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!init@{init}}
+\index{init@{init}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_a55d3a39b02aa43c76ff571c945ef460f} 
+Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Hook into Word\+Press ready to init the REST API as needed. \Hypertarget{class_main_w_p___rest___server_adfda6280d0cf2c6aadeaaf48757d8eb6}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!instance@{instance}}
+\index{instance@{instance}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_adfda6280d0cf2c6aadeaaf48757d8eb6} 
+static Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method \doxylink{class_main_w_p___rest___server_adfda6280d0cf2c6aadeaaf48757d8eb6}{instance()}
+
+Create public static instance.
+
+\begin{DoxyReturn}{Returns}
+static\+::\$instance 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___rest___server_abdb11fe141178793032d669a707786c7}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!register\_rest\_routes@{register\_rest\_routes}}
+\index{register\_rest\_routes@{register\_rest\_routes}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{register\_rest\_routes()}{register\_rest\_routes()}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_abdb11fe141178793032d669a707786c7} 
+Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::register\+\_\+rest\+\_\+routes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Register REST API routes. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p___rest___server_afe9d1c96e0c2b556494ebbbe9e332ced}\index{MainWP\_Rest\_Server@{MainWP\_Rest\_Server}!\$controllers@{\$controllers}}
+\index{\$controllers@{\$controllers}!MainWP\_Rest\_Server@{MainWP\_Rest\_Server}}
+\doxysubsubsection{\texorpdfstring{\$controllers}{\$controllers}}
+{\footnotesize\ttfamily \label{class_main_w_p___rest___server_afe9d1c96e0c2b556494ebbbe9e332ced} 
+Main\+WP\+\_\+\+Rest\+\_\+\+Server\+::\$controllers = array()\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+includes/rest-\/api/\mbox{\hyperlink{class-mainwp-rest-server_8php}{class-\/mainwp-\/rest-\/server.\+php}}\end{DoxyCompactItemize}

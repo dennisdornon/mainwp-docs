@@ -1,0 +1,216 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_acac037754ae6d76a3fefa01d664f065f}{\+\_\+\+\_\+construct}} ( \$view\+\_\+per, \$type=\textquotesingle{}plugin\textquotesingle{}, \$others=array())
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a8e8064175b9aef76c55277c85fc332c7}{get\+\_\+columns}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ac2f569f42be90a9783577837aaa6a206}{get\+\_\+sortable\+\_\+columns}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_adde38c6351a4047192f5892158d02dd9}{get\+\_\+collapsing\+\_\+columns}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ab18e35aa9ccce75036881f67be702472}{print\+\_\+column\+\_\+headers}} ( \$top=true)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ab8f5c39c651a34e44195f20c2903e6c7}{column\+\_\+trusted}} ( \$value)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a5af46c03a02ced493e8cfd049bba3834}{column\+\_\+status}} ( \$value)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a70d1ebdf561ca87637526822e251127d}{column\+\_\+default}} ( \$value, \$column\+\_\+name, \$others=array())
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a53553726176d035832227ca06538bf34}{render\+\_\+columns}} ( \$columns, \$website, \$others=array())
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a60c8268aee16b739f009f530efade434}{\$type}} = \textquotesingle{}plugin\textquotesingle{}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a2ee178f452b96039c1da8e1f38ca92a8}{\$show\+\_\+select}} = false
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a2521bc702c970a8a4500b2c6efc8875d}{\$view\+\_\+per}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_af1545d3c2841656753708ef04b3c98ec}{get\+\_\+column\+\_\+info}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a7334a1696eca7c0d7bfc1e671276e0b3}{\$columns\+\_\+info}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_acac037754ae6d76a3fefa01d664f065f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_acac037754ae6d76a3fefa01d664f065f} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$view\+\_\+per}{, }\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}plugin\textquotesingle{}}, }\item[{}]{\$others}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper constructor.
+
+Run each time the class is called.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$view\+\_\+per} & View per value. \\
+\hline
+string & {\em \$type} & Type of plugin or theme, option, default\+: \textquotesingle{}plugin\textquotesingle{}. \\
+\hline
+array & {\em \$others} & others parameters. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a70d1ebdf561ca87637526822e251127d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!column\_default@{column\_default}}
+\index{column\_default@{column\_default}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{column\_default()}{column\_default()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a70d1ebdf561ca87637526822e251127d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::column\+\_\+default (\begin{DoxyParamCaption}\item[{}]{\$value}{, }\item[{}]{\$column\+\_\+name}{, }\item[{}]{\$others}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Default column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & Value of column. \\
+\hline
+mixed & {\em \$column\+\_\+name} & Name of column. \\
+\hline
+array & {\em \$others} & others data. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a5af46c03a02ced493e8cfd049bba3834}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!column\_status@{column\_status}}
+\index{column\_status@{column\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{column\_status()}{column\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a5af46c03a02ced493e8cfd049bba3834} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::column\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$value}{}\end{DoxyParamCaption})}
+
+Status column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & Value of column. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ab8f5c39c651a34e44195f20c2903e6c7}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!column\_trusted@{column\_trusted}}
+\index{column\_trusted@{column\_trusted}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{column\_trusted()}{column\_trusted()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ab8f5c39c651a34e44195f20c2903e6c7} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::column\+\_\+trusted (\begin{DoxyParamCaption}\item[{}]{\$value}{}\end{DoxyParamCaption})}
+
+Trusted column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & Value of column. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_adde38c6351a4047192f5892158d02dd9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!get\_collapsing\_columns@{get\_collapsing\_columns}}
+\index{get\_collapsing\_columns@{get\_collapsing\_columns}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{get\_collapsing\_columns()}{get\_collapsing\_columns()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_adde38c6351a4047192f5892158d02dd9} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::get\+\_\+collapsing\+\_\+columns (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get collapsing columns.
+
+\begin{DoxyReturn}{Returns}
+array \$collapsing\+\_\+columns Array of collapsing columns. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_af1545d3c2841656753708ef04b3c98ec}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!get\_column\_info@{get\_column\_info}}
+\index{get\_column\_info@{get\_column\_info}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{get\_column\_info()}{get\_column\_info()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_af1545d3c2841656753708ef04b3c98ec} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::get\+\_\+column\+\_\+info (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Get column info. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a8e8064175b9aef76c55277c85fc332c7}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!get\_columns@{get\_columns}}
+\index{get\_columns@{get\_columns}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{get\_columns()}{get\_columns()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a8e8064175b9aef76c55277c85fc332c7} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::get\+\_\+columns (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Method get\+\_\+columns()
+
+Combine all columns.
+
+\begin{DoxyReturn}{Returns}
+array \$columns Array of column names. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ac2f569f42be90a9783577837aaa6a206}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!get\_sortable\_columns@{get\_sortable\_columns}}
+\index{get\_sortable\_columns@{get\_sortable\_columns}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{get\_sortable\_columns()}{get\_sortable\_columns()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ac2f569f42be90a9783577837aaa6a206} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::get\+\_\+sortable\+\_\+columns (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get sortable columns.
+
+\begin{DoxyReturn}{Returns}
+array \$sortable\+\_\+columns Array of sortable column names. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ab18e35aa9ccce75036881f67be702472}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!print\_column\_headers@{print\_column\_headers}}
+\index{print\_column\_headers@{print\_column\_headers}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{print\_column\_headers()}{print\_column\_headers()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_ab18e35aa9ccce75036881f67be702472} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::print\+\_\+column\+\_\+headers (\begin{DoxyParamCaption}\item[{}]{\$top}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Echo the column headers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$top} & true\texorpdfstring{$\vert$}{|}false. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a53553726176d035832227ca06538bf34}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!render\_columns@{render\_columns}}
+\index{render\_columns@{render\_columns}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{render\_columns()}{render\_columns()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a53553726176d035832227ca06538bf34} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::render\+\_\+columns (\begin{DoxyParamCaption}\item[{}]{\$columns}{, }\item[{}]{\$website}{, }\item[{}]{\$others}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Echo columns.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$columns} & Array of columns. \\
+\hline
+object & {\em \$website} & The website. \\
+\hline
+object & {\em \$others} & others data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array Row columns. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a7334a1696eca7c0d7bfc1e671276e0b3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!\$columns\_info@{\$columns\_info}}
+\index{\$columns\_info@{\$columns\_info}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{\$columns\_info}{\$columns\_info}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a7334a1696eca7c0d7bfc1e671276e0b3} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::\$columns\+\_\+info\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a2ee178f452b96039c1da8e1f38ca92a8}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!\$show\_select@{\$show\_select}}
+\index{\$show\_select@{\$show\_select}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{\$show\_select}{\$show\_select}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a2ee178f452b96039c1da8e1f38ca92a8} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::\$show\+\_\+select = false}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a60c8268aee16b739f009f530efade434}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!\$type@{\$type}}
+\index{\$type@{\$type}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{\$type}{\$type}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a60c8268aee16b739f009f530efade434} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::\$type = \textquotesingle{}plugin\textquotesingle{}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a2521bc702c970a8a4500b2c6efc8875d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}!\$view\_per@{\$view\_per}}
+\index{\$view\_per@{\$view\_per}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Updates\_Table\_Helper}}
+\doxysubsubsection{\texorpdfstring{\$view\_per}{\$view\_per}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___updates___table___helper_a2521bc702c970a8a4500b2c6efc8875d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Updates\+\_\+\+Table\+\_\+\+Helper\+::\$view\+\_\+per}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-updates-table-helper_8php}{class-\/mainwp-\/updates-\/table-\/helper.\+php}}\end{DoxyCompactItemize}

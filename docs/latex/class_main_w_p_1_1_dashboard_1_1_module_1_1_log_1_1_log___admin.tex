@@ -1,0 +1,189 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+Admin Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin}{}\label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a5d78725004a6666e5ed40a5b5938bf82}{\+\_\+\+\_\+construct}} ( \$manager)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_af5e2bdfa9cd6f3f63528c6cf6b01a928}{init}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a99362faa9d06d2a9782398c3233565ff}{admin\+\_\+init}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a8da97e942882cd8f23651fe43e7f0313}{admin\+\_\+enqueue\+\_\+scripts}} ( \$hook)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_aee0ada262f71bff6e0fefe1d6059bb45}{ajax\+\_\+delete\+\_\+records}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_ad9138c5c03e7edb84eb52eb0c2dbe8fd}{ajax\+\_\+compact\+\_\+records}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a694ea2e7e601c231b12352e0b4e33147}{hook\+\_\+purge\+\_\+scheduled\+\_\+action}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a30917d5d2f4d6a6eb4c8875494789d19}{get\+\_\+db\+\_\+size}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a6e4d7ac20d5a559b4f72365dd00a1c02}{get\+\_\+all\+\_\+users}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a5a8cdb8aa78cb57b808f204c27e0cf14}{mainwp\+\_\+help\+\_\+content}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a1ac47a386cd3f09a0da5c734397acae7}{\$manager}}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a390fc2bcdbeda03cda01458e27815f23}{\$screen\+\_\+id}} = array()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a96421ed7d7dbad904bba84554d5a299f}{\$list\+\_\+table}} = null
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_ae044a77a58dd6b8761cf048ca2eea95b}{\$admin\+\_\+parent\+\_\+page}} = \textquotesingle{}admin.\+php\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class -\/ Log\+\_\+\+Admin 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a5d78725004a6666e5ed40a5b5938bf82}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a5d78725004a6666e5ed40a5b5938bf82} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$manager}{}\end{DoxyParamCaption})}
+
+Class constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Log\+\_\+\+Manager & {\em \$manager} & Instance of manager object. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a8da97e942882cd8f23651fe43e7f0313}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!admin\_enqueue\_scripts@{admin\_enqueue\_scripts}}
+\index{admin\_enqueue\_scripts@{admin\_enqueue\_scripts}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{admin\_enqueue\_scripts()}{admin\_enqueue\_scripts()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a8da97e942882cd8f23651fe43e7f0313} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::admin\+\_\+enqueue\+\_\+scripts (\begin{DoxyParamCaption}\item[{}]{\$hook}{}\end{DoxyParamCaption})}
+
+Enqueue scripts/styles for admin screen
+
+@action admin\+\_\+enqueue\+\_\+scripts
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$hook} & Current hook.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a99362faa9d06d2a9782398c3233565ff}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!admin\_init@{admin\_init}}
+\index{admin\_init@{admin\_init}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{admin\_init()}{admin\_init()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a99362faa9d06d2a9782398c3233565ff} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::admin\+\_\+init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Handle admin\+\_\+init action. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_ad9138c5c03e7edb84eb52eb0c2dbe8fd}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!ajax\_compact\_records@{ajax\_compact\_records}}
+\index{ajax\_compact\_records@{ajax\_compact\_records}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{ajax\_compact\_records()}{ajax\_compact\_records()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_ad9138c5c03e7edb84eb52eb0c2dbe8fd} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::ajax\+\_\+compact\+\_\+records (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Handle ajax compact logs records. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_aee0ada262f71bff6e0fefe1d6059bb45}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!ajax\_delete\_records@{ajax\_delete\_records}}
+\index{ajax\_delete\_records@{ajax\_delete\_records}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{ajax\_delete\_records()}{ajax\_delete\_records()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_aee0ada262f71bff6e0fefe1d6059bb45} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::ajax\+\_\+delete\+\_\+records (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Handle ajax delete logs records. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a6e4d7ac20d5a559b4f72365dd00a1c02}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!get\_all\_users@{get\_all\_users}}
+\index{get\_all\_users@{get\_all\_users}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{get\_all\_users()}{get\_all\_users()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a6e4d7ac20d5a559b4f72365dd00a1c02} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::get\+\_\+all\+\_\+users (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get WP users.
+
+\begin{DoxyReturn}{Returns}
+array Array of users. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a30917d5d2f4d6a6eb4c8875494789d19}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!get\_db\_size@{get\_db\_size}}
+\index{get\_db\_size@{get\_db\_size}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{get\_db\_size()}{get\_db\_size()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a30917d5d2f4d6a6eb4c8875494789d19} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::get\+\_\+db\+\_\+size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get db size.
+
+\begin{DoxyReturn}{Returns}
+string Return current db size. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a694ea2e7e601c231b12352e0b4e33147}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!hook\_purge\_scheduled\_action@{hook\_purge\_scheduled\_action}}
+\index{hook\_purge\_scheduled\_action@{hook\_purge\_scheduled\_action}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{hook\_purge\_scheduled\_action()}{hook\_purge\_scheduled\_action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a694ea2e7e601c231b12352e0b4e33147} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::hook\+\_\+purge\+\_\+scheduled\+\_\+action (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Schedules a purge of records.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_af5e2bdfa9cd6f3f63528c6cf6b01a928}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!init@{init}}
+\index{init@{init}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_af5e2bdfa9cd6f3f63528c6cf6b01a928} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Initiate Hooks
+
+Initiates hooks for the Dashboard insights module. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a5a8cdb8aa78cb57b808f204c27e0cf14}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!mainwp\_help\_content@{mainwp\_help\_content}}
+\index{mainwp\_help\_content@{mainwp\_help\_content}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{mainwp\_help\_content()}{mainwp\_help\_content()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a5a8cdb8aa78cb57b808f204c27e0cf14} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::mainwp\+\_\+help\+\_\+content (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method mainwp\+\_\+help\+\_\+content()
+
+Creates the \doxylink{namespace_main_w_p}{Main\+WP} Help Documentation List for the help component in the sidebar. Action\+: mainwp\+\_\+module\+\_\+dashboard\+\_\+insights\+\_\+help\+\_\+item
+
+Fires at the bottom of the help articles list in the Help sidebar on the Insights page.
+
+Suggested HTML markup\+:
+
+\href{Your custom URL}{\texttt{ Your custom text}}
+
+\begin{DoxySince}{Since}
+5.\+2
+\end{DoxySince}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_ae044a77a58dd6b8761cf048ca2eea95b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!\$admin\_parent\_page@{\$admin\_parent\_page}}
+\index{\$admin\_parent\_page@{\$admin\_parent\_page}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{\$admin\_parent\_page}{\$admin\_parent\_page}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_ae044a77a58dd6b8761cf048ca2eea95b} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::\$admin\+\_\+parent\+\_\+page = \textquotesingle{}admin.\+php\textquotesingle{}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a96421ed7d7dbad904bba84554d5a299f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!\$list\_table@{\$list\_table}}
+\index{\$list\_table@{\$list\_table}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{\$list\_table}{\$list\_table}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a96421ed7d7dbad904bba84554d5a299f} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::\$list\+\_\+table = null}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a1ac47a386cd3f09a0da5c734397acae7}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!\$manager@{\$manager}}
+\index{\$manager@{\$manager}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{\$manager}{\$manager}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a1ac47a386cd3f09a0da5c734397acae7} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::\$manager}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a390fc2bcdbeda03cda01458e27815f23}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}!\$screen\_id@{\$screen\_id}}
+\index{\$screen\_id@{\$screen\_id}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Admin}}
+\doxysubsubsection{\texorpdfstring{\$screen\_id}{\$screen\_id}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___admin_a390fc2bcdbeda03cda01458e27815f23} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Admin\+::\$screen\+\_\+id = array()}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/logs/classes/\mbox{\hyperlink{class-log-admin_8php}{class-\/log-\/admin.\+php}}\end{DoxyCompactItemize}

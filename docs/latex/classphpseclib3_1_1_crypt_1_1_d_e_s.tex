@@ -1,0 +1,766 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}DES Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s}{}\label{classphpseclib3_1_1_crypt_1_1_d_e_s}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+Inheritance diagram for phpseclib3\textbackslash{}Crypt\textbackslash{}DES\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classphpseclib3_1_1_crypt_1_1_d_e_s}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_adcfec434dad3cc099d8e14114d9e4b2c}{\+\_\+\+\_\+construct}} (\$mode)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_acf83aeb9f86729d1a8e1aaaf30ac5c44}{set\+Key}} (\$key)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af5b99c4821a10fd60b9b69f8b5c72d4c}{set\+IV}} (\$iv)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a004e5123ef2b1b4140fdc2da08f6b588}{enable\+Poly1305}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad0f3a4b02afc4cbb74972743b207b7b8}{set\+Poly1305\+Key}} (\$key=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3615479e63a5d8303764ce9b9044464d}{set\+Nonce}} (\$nonce)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac55c4d329fc7c9350fd880553b7f93e7}{set\+AAD}} (\$aad)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac91070e7a12b5bd0ace6275ca0f3b85f}{uses\+IV}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a7931ece5ae611d06a928c048f2ab8316}{uses\+Nonce}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa55dc615d829005ca80b15315c532bdd}{get\+Key\+Length}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa53b84456a917299a2f15e3d1b1bc59c}{get\+Block\+Length}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a661ea0d18fa92ef44f9367ae34e6fd26}{get\+Block\+Length\+In\+Bytes}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ae69cce6ccd2caba74d395db144547291}{set\+Key\+Length}} (\$length)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad6fe15d4dc13b6bf4e2ea7b168fd41e0}{set\+Password}} (\$password, \$method=\textquotesingle{}pbkdf2\textquotesingle{},... \$func\+\_\+args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a1a63ea0ec8e6f6a2973f829c4e6731f6}{encrypt}} (\$plaintext)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa1bc3b8f13403093e6caa2f593fb0f76}{decrypt}} (\$ciphertext)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3b82b2b1f095e689e41aab650601ff44}{get\+Tag}} (\$length=16)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a52a4b3e6209b2f0f3ce5968d4b2f2a11}{set\+Tag}} (\$tag)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_abc3da16a45133f68951acbe813b9fa60}{enable\+Padding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4264fc7c489f71d4f531252403d7fb8c}{disable\+Padding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac4673473f834f488aadd33a073d316ca}{enable\+Continuous\+Buffer}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac2815d798be5dfd5d5010bd975c118e5}{disable\+Continuous\+Buffer}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a2f54fb49eb5a79792438d013c686e91f}{is\+Valid\+Engine}} (\$engine)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a1fee83e507dea5a1b004bd4ab5cbfe3c}{set\+Preferred\+Engine}} (\$engine)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ab50dae588fd3e6fa948acbd7dc45aefe}{get\+Engine}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac2399d3619459aaf4e44629d3d9cc097}{get\+Mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a10f554a7386e36a0a55a329f6428578e}{continuous\+Buffer\+Enabled}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a03aaa3ccc19883acc84fce3c43ecb325}{ENCRYPT}} = 0
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a248fdc4672aad24fad0ba78108b25deb}{DECRYPT}} = 1
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a7bd0eb484495ea34eb50beff43527f72}{MODE\+\_\+\+CTR}} = -\/1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a11da6b783c45ee1dfd884eec716dd9eb}{MODE\+\_\+\+ECB}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac42da5df003f985f35019cda9d6c3c61}{MODE\+\_\+\+CBC}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad312468142590df4824f5d7652b41b7e}{MODE\+\_\+\+CFB}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a02dc211e9ea5808aed2cdea49277da81}{MODE\+\_\+\+CFB8}} = 7
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a0d9a6ae5c68d1c90dee34fa140863134}{MODE\+\_\+\+OFB8}} = 8
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_afa9cc607301aeef7bf30c6dba58496e0}{MODE\+\_\+\+OFB}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4bffae3cc937d18cb316661897c11c61}{MODE\+\_\+\+GCM}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a75bb17baca2858f8442f0d5cb89eb133}{MODE\+\_\+\+STREAM}} = 6
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aebedbafd9d819621e5b4bb0b71984951}{MODE\+\_\+\+MAP}}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9c9db27357745ccde37ffc7310284a17}{ENGINE\+\_\+\+INTERNAL}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a2cfad95d016604a5dd244b38fcbe9321}{ENGINE\+\_\+\+EVAL}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aad95baf6373be7dfb005d9b35ce4fab5}{ENGINE\+\_\+\+MCRYPT}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ab8f96cd764de863162febdf7f7082961}{ENGINE\+\_\+\+OPENSSL}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a24f7c4db38f8428c29c98152532a3d68}{ENGINE\+\_\+\+LIBSODIUM}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ae192833c9d53965ea922e31fb3d5b7c1}{ENGINE\+\_\+\+OPENSSL\+\_\+\+GCM}} = 6
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a144efb42d0d02b0307a6e95ead881d10}{ENGINE\+\_\+\+MAP}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_acb896aded665e3556af43bd174ab2611}{is\+Valid\+Engine\+Helper}} (\$engine)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a114cbb3242df427e425bf63f34106b07}{encrypt\+Block}} (\$in)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_ad50e2e572c9d58359db101be3cc8ee88}{decrypt\+Block}} (\$in)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_ade56d1f99894970e0e5d9bbe96c45c46}{setup\+Key}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a70be5a0f9bd3c08089e20c9a82e1572d}{setup\+Inline\+Crypt}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa2bbf6080744742d55eaa665c6326137}{get\+IV}} (\$iv)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a8061b80d290a3277eeb1a207ce15c30e}{openssl\+\_\+translate\+\_\+mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a33b6c533ad8a0e3dbd57d9423c2dc5e2}{set\+Engine}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3301ccd0d3f51339ed9d46fb5ec0fb99}{setup}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a00bb0eb8e7f8039fabba7f3e303c3fcf}{pad}} (\$text)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a281d1a60b327a8aa93fbd73329102be6}{unpad}} (\$text)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af59a179559323cdfcfda5314e22b5bf6}{create\+Inline\+Crypt\+Function}} (\$cipher\+\_\+code)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ab880d93c54e7688b7ef0600acb9c50d3}{poly1305}} (\$text)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a1aa9cc83b50db6910ed7a02e16ef3712}{\$block\+\_\+size}} = 8
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a7d6d02133aa378b60588dc8f3904311c}{\$key\+\_\+length}} = 8
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_ac0b6acba399aa2783c4844a81d8a76f9}{\$cipher\+\_\+name\+\_\+mcrypt}} = \textquotesingle{}des\textquotesingle{}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a7079af160399d60b44336f51c950c45c}{\$openssl\+\_\+mode\+\_\+names}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_aece5f8c869d256499cb294f87e7ab7c6}{\$cfb\+\_\+init\+\_\+len}} = 500
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_aa751e2bbe5c43f85d5a7021d7a3f533a}{\$des\+\_\+rounds}} = 1
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_aa73ff52939d59766b0714694e50c0ed7}{\$key\+\_\+length\+\_\+max}} = 8
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac6160c014693760b32e769cf1491c426}{\$mode}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a08c2396ed5dd7c5e348d727785abaa5c}{\$block\+\_\+size}} = 16
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a5d0f0a86309064642b6d919ac354b3a9}{\$key}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a49f4d53df385a1bff94639e22daedf4b}{\$h\+Key}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad23657de2c1f9cca9da6ba36d1a24f50}{\$iv}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a12322f9b4299f54ac0935d9d963da3dd}{\$encrypt\+IV}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ace655010a78bc37d8a494e0eaf79086a}{\$decrypt\+IV}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_acabdeaf01a923f02bde00918f2ff3245}{\$continuous\+Buffer}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a0d8c5146facb76ca2b73b3c0ce2bd22d}{\$enbuffer}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a38c23c7ef01ef62147d7cf960eae1d59}{\$debuffer}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9b0d1005dd8d805f79da012e10e1cfdd}{\$cfb\+\_\+init\+\_\+len}} = 600
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3995760209100f483706302d244c29f3}{\$changed}} = true
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a792b26fc3fd0ee343cd507ac963870cc}{\$non\+IVChanged}} = true
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4eb0b7f96f246ff9d771908f5f1d15e0}{\$engine}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af62c1c9b64c572507ac886676e823773}{\$cipher\+\_\+name\+\_\+mcrypt}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af3c4d2a3bc6012f4800a390c16f83c4a}{\$cipher\+\_\+name\+\_\+openssl}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aba46441ce95c1801ecfbaef8d83bba0a}{\$cipher\+\_\+name\+\_\+openssl\+\_\+ecb}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a8b502c5b62b6460e51b5d541c2752651}{\$inline\+\_\+crypt}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3a70f65c9c6fce10acb8272728479e12}{\$explicit\+\_\+key\+\_\+length}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_abc72343043a18aac0678920e1de5e58d}{\$aad}} = \textquotesingle{}\textquotesingle{}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a7141e60f8924730f1d1c02cda90a48c6}{\$newtag}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_adf3301823fec1d811f138df25cea6c75}{\$oldtag}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3c94f4db2f1ab290b42f0095990f0ca7}{\$poly1305\+Key}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a08a5f8c44b46ac1969239ad858b84c6d}{\$use\+Poly1305}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af345f34530bf10586e0c1370b037cf44}{\$nonce}} = false
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_ae8844906e099f9534ade913d5db3ecde}{\$shuffle}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_aef6e8c8a605eb9229884bfb4b2096baf}{\$ipmap}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_adfc7c832aeaf2349f95bc244c50d905a}{\$invipmap}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_af03685b3742cb7c103f7fbf1edc1ae96}{\$sbox1}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a40354d555bc1122fd3536c9fe4301164}{\$sbox2}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_af168d1c46b1d71a433a32307685f730e}{\$sbox3}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a56aec8f8f0a98c62c110fc5b423bc94d}{\$sbox4}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a041427fd202aa04b8b49f0f401603fa0}{\$sbox5}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_ab334eae92edd5c85952484090f54f4b3}{\$sbox6}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_a734504f651630f21814a765858dcfc0e}{\$sbox7}}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_e_s_ab40ce6dab236217fae5a948b8a1e9cb0}{\$sbox8}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9aa7fc99d516024873ecada28f685647}{\$use\+\_\+reg\+\_\+intval}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Protected Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a375c4cec2c45daad3b2daf9eb36940c4}{initialize\+\_\+static\+\_\+variables}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa7af0219afb67b6e1b1c38fc575e5c45}{safe\+\_\+intval}} (\$x)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a1df670b5f3e5f951f1813d6f8f5be3a8}{safe\+\_\+intval\+\_\+inline}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_adf274eafdc7dede0b67050dbeb10e9b1}{null\+Pad128}} (\$str)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP implementation of DES.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_adcfec434dad3cc099d8e14114d9e4b2c}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_adcfec434dad3cc099d8e14114d9e4b2c} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$mode}{}\end{DoxyParamCaption})}
+
+Default Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$mode} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Bad\+Mode\+Exception} & if an invalid / unsupported mode is provided \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4eef93135ed110075016020301843db7}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_triple_d_e_s_a66ec1b4962861ba73651b6cda8316c34}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Triple\+DES}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_ad50e2e572c9d58359db101be3cc8ee88}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!decryptBlock@{decryptBlock}}
+\index{decryptBlock@{decryptBlock}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{decryptBlock()}{decryptBlock()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_ad50e2e572c9d58359db101be3cc8ee88} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::decrypt\+Block (\begin{DoxyParamCaption}\item[{}]{\$in}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Decrypts a block
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::decrypt\+Block() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::decrypt() 
+
+self\+::decrypt() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$in} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9f711fcf764b4365c1d74fb9ca74255e}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a114cbb3242df427e425bf63f34106b07}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!encryptBlock@{encryptBlock}}
+\index{encryptBlock@{encryptBlock}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{encryptBlock()}{encryptBlock()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a114cbb3242df427e425bf63f34106b07} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::encrypt\+Block (\begin{DoxyParamCaption}\item[{}]{\$in}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Encrypts a block
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::encrypt\+Block() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::encrypt() 
+
+self\+::encrypt() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$in} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a65476a90edcb9235a4ae2878fe5ee2ea}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_acb896aded665e3556af43bd174ab2611}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!isValidEngineHelper@{isValidEngineHelper}}
+\index{isValidEngineHelper@{isValidEngineHelper}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{isValidEngineHelper()}{isValidEngineHelper()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_acb896aded665e3556af43bd174ab2611} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::is\+Valid\+Engine\+Helper (\begin{DoxyParamCaption}\item[{}]{\$engine}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Test for engine validity
+
+This is mainly just a wrapper to set things up for \textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::is\+Valid\+Engine()
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::is\+Valid\+Engine() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$engine} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a5ccb6aa48376c9b609faaec8db9232fa}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_triple_d_e_s_a650b4a0f17b955dabb694806089bacb9}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Triple\+DES}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_acf83aeb9f86729d1a8e1aaaf30ac5c44}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!setKey@{setKey}}
+\index{setKey@{setKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{setKey()}{setKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_acf83aeb9f86729d1a8e1aaaf30ac5c44} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::set\+Key (\begin{DoxyParamCaption}\item[{}]{\$key}{}\end{DoxyParamCaption})}
+
+Sets the key.
+
+Keys must be 64-\/bits long or 8 bytes long.
+
+DES also requires that every eighth bit be a parity bit, however, we\textquotesingle{}ll ignore that.
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::set\+Key() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a81e05d5aaacad1b1907893af39b42f33}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_triple_d_e_s_ac7b372e35e0c9a41145ce773512a5081}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Triple\+DES}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a70be5a0f9bd3c08089e20c9a82e1572d}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!setupInlineCrypt@{setupInlineCrypt}}
+\index{setupInlineCrypt@{setupInlineCrypt}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{setupInlineCrypt()}{setupInlineCrypt()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a70be5a0f9bd3c08089e20c9a82e1572d} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::setup\+Inline\+Crypt (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Setup the performance-\/optimized function for de/encrypt()
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::setup\+Inline\+Crypt() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_ade56d1f99894970e0e5d9bbe96c45c46}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!setupKey@{setupKey}}
+\index{setupKey@{setupKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{setupKey()}{setupKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_ade56d1f99894970e0e5d9bbe96c45c46} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::setup\+Key (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates the key schedule
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::setup\+Key() 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_afb89a51938635226b54d8008ed8b4ead}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_triple_d_e_s_af4e84a6723068158e271e6db46be189d}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Triple\+DES}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a1aa9cc83b50db6910ed7a02e16ef3712}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$block\_size@{\$block\_size}}
+\index{\$block\_size@{\$block\_size}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$block\_size}{\$block\_size}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a1aa9cc83b50db6910ed7a02e16ef3712} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$block\+\_\+size = 8\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_aece5f8c869d256499cb294f87e7ab7c6}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$cfb\_init\_len@{\$cfb\_init\_len}}
+\index{\$cfb\_init\_len@{\$cfb\_init\_len}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$cfb\_init\_len}{\$cfb\_init\_len}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_aece5f8c869d256499cb294f87e7ab7c6} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$cfb\+\_\+init\+\_\+len = 500\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_ac0b6acba399aa2783c4844a81d8a76f9}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$cipher\_name\_mcrypt@{\$cipher\_name\_mcrypt}}
+\index{\$cipher\_name\_mcrypt@{\$cipher\_name\_mcrypt}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$cipher\_name\_mcrypt}{\$cipher\_name\_mcrypt}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_ac0b6acba399aa2783c4844a81d8a76f9} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$cipher\+\_\+name\+\_\+mcrypt = \textquotesingle{}des\textquotesingle{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_aa751e2bbe5c43f85d5a7021d7a3f533a}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$des\_rounds@{\$des\_rounds}}
+\index{\$des\_rounds@{\$des\_rounds}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$des\_rounds}{\$des\_rounds}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_aa751e2bbe5c43f85d5a7021d7a3f533a} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$des\+\_\+rounds = 1\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_adfc7c832aeaf2349f95bc244c50d905a}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$invipmap@{\$invipmap}}
+\index{\$invipmap@{\$invipmap}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$invipmap}{\$invipmap}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_adfc7c832aeaf2349f95bc244c50d905a} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$invipmap\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_aef6e8c8a605eb9229884bfb4b2096baf}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$ipmap@{\$ipmap}}
+\index{\$ipmap@{\$ipmap}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$ipmap}{\$ipmap}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_aef6e8c8a605eb9229884bfb4b2096baf} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$ipmap\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a7d6d02133aa378b60588dc8f3904311c}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$key\_length@{\$key\_length}}
+\index{\$key\_length@{\$key\_length}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$key\_length}{\$key\_length}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a7d6d02133aa378b60588dc8f3904311c} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$key\+\_\+length = 8\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_aa73ff52939d59766b0714694e50c0ed7}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$key\_length\_max@{\$key\_length\_max}}
+\index{\$key\_length\_max@{\$key\_length\_max}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$key\_length\_max}{\$key\_length\_max}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_aa73ff52939d59766b0714694e50c0ed7} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$key\+\_\+length\+\_\+max = 8\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a7079af160399d60b44336f51c950c45c}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$openssl\_mode\_names@{\$openssl\_mode\_names}}
+\index{\$openssl\_mode\_names@{\$openssl\_mode\_names}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$openssl\_mode\_names}{\$openssl\_mode\_names}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a7079af160399d60b44336f51c950c45c} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$openssl\+\_\+mode\+\_\+names\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::MODE\_ECB\ =>\ \textcolor{stringliteral}{'des-\/ecb'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::MODE\_CBC\ =>\ \textcolor{stringliteral}{'des-\/cbc'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::MODE\_CFB\ =>\ \textcolor{stringliteral}{'des-\/cfb'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::MODE\_OFB\ =>\ \textcolor{stringliteral}{'des-\/ofb'}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_af03685b3742cb7c103f7fbf1edc1ae96}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox1@{\$sbox1}}
+\index{\$sbox1@{\$sbox1}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox1}{\$sbox1}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_af03685b3742cb7c103f7fbf1edc1ae96} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00808200,\ 0x00000000,\ 0x00008000,\ 0x00808202,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00808002,\ 0x00008202,\ 0x00000002,\ 0x00008000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000200,\ 0x00808200,\ 0x00808202,\ 0x00000200,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00800202,\ 0x00808002,\ 0x00800000,\ 0x00000002,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000202,\ 0x00800200,\ 0x00800200,\ 0x00008200,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00008200,\ 0x00808000,\ 0x00808000,\ 0x00800202,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00008002,\ 0x00800002,\ 0x00800002,\ 0x00008002,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x00000202,\ 0x00008202,\ 0x00800000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00008000,\ 0x00808202,\ 0x00000002,\ 0x00808000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00808200,\ 0x00800000,\ 0x00800000,\ 0x00000200,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00808002,\ 0x00008000,\ 0x00008200,\ 0x00800002,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000200,\ 0x00000002,\ 0x00800202,\ 0x00008202,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00808202,\ 0x00008002,\ 0x00808000,\ 0x00800202,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00800002,\ 0x00000202,\ 0x00008202,\ 0x00808200,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000202,\ 0x00800200,\ 0x00800200,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00008002,\ 0x00008200,\ 0x00000000,\ 0x00808002}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a40354d555bc1122fd3536c9fe4301164}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox2@{\$sbox2}}
+\index{\$sbox2@{\$sbox2}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox2}{\$sbox2}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a40354d555bc1122fd3536c9fe4301164} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox2\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40084010,\ 0x40004000,\ 0x00004000,\ 0x00084010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00080000,\ 0x00000010,\ 0x40080010,\ 0x40004010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40000010,\ 0x40084010,\ 0x40084000,\ 0x40000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40004000,\ 0x00080000,\ 0x00000010,\ 0x40080010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00084000,\ 0x00080010,\ 0x40004010,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40000000,\ 0x00004000,\ 0x00084010,\ 0x40080000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00080010,\ 0x40000010,\ 0x00000000,\ 0x00084000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00004010,\ 0x40084000,\ 0x40080000,\ 0x00004010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x00084010,\ 0x40080010,\ 0x00080000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40004010,\ 0x40080000,\ 0x40084000,\ 0x00004000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40080000,\ 0x40004000,\ 0x00000010,\ 0x40084010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00084010,\ 0x00000010,\ 0x00004000,\ 0x40000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00004010,\ 0x40084000,\ 0x00080000,\ 0x40000010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00080010,\ 0x40004010,\ 0x40000010,\ 0x00080010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00084000,\ 0x00000000,\ 0x40004000,\ 0x00004010,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x40000000,\ 0x40080010,\ 0x40084010,\ 0x00084000}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_af168d1c46b1d71a433a32307685f730e}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox3@{\$sbox3}}
+\index{\$sbox3@{\$sbox3}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox3}{\$sbox3}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_af168d1c46b1d71a433a32307685f730e} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox3\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000104,\ 0x04010100,\ 0x00000000,\ 0x04010004,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04000100,\ 0x00000000,\ 0x00010104,\ 0x04000100,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00010004,\ 0x04000004,\ 0x04000004,\ 0x00010000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04010104,\ 0x00010004,\ 0x04010000,\ 0x00000104,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04000000,\ 0x00000004,\ 0x04010100,\ 0x00000100,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00010100,\ 0x04010000,\ 0x04010004,\ 0x00010104,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04000104,\ 0x00010100,\ 0x00010000,\ 0x04000104,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000004,\ 0x04010104,\ 0x00000100,\ 0x04000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04010100,\ 0x04000000,\ 0x00010004,\ 0x00000104,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00010000,\ 0x04010100,\ 0x04000100,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000100,\ 0x00010004,\ 0x04010104,\ 0x04000100,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04000004,\ 0x00000100,\ 0x00000000,\ 0x04010004,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04000104,\ 0x00010000,\ 0x04000000,\ 0x04010104,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000004,\ 0x00010104,\ 0x00010100,\ 0x04000004,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x04010000,\ 0x04000104,\ 0x00000104,\ 0x04010000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00010104,\ 0x00000004,\ 0x04010004,\ 0x00010100}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a56aec8f8f0a98c62c110fc5b423bc94d}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox4@{\$sbox4}}
+\index{\$sbox4@{\$sbox4}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox4}{\$sbox4}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a56aec8f8f0a98c62c110fc5b423bc94d} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox4\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80401000,\ 0x80001040,\ 0x80001040,\ 0x00000040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00401040,\ 0x80400040,\ 0x80400000,\ 0x80001000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x00401000,\ 0x00401000,\ 0x80401040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80000040,\ 0x00000000,\ 0x00400040,\ 0x80400000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80000000,\ 0x00001000,\ 0x00400000,\ 0x80401000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000040,\ 0x00400000,\ 0x80001000,\ 0x00001040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80400040,\ 0x80000000,\ 0x00001040,\ 0x00400040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00001000,\ 0x00401040,\ 0x80401040,\ 0x80000040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00400040,\ 0x80400000,\ 0x00401000,\ 0x80401040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80000040,\ 0x00000000,\ 0x00000000,\ 0x00401000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00001040,\ 0x00400040,\ 0x80400040,\ 0x80000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80401000,\ 0x80001040,\ 0x80001040,\ 0x00000040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80401040,\ 0x80000040,\ 0x80000000,\ 0x00001000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80400000,\ 0x80001000,\ 0x00401040,\ 0x80400040,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x80001000,\ 0x00001040,\ 0x00400000,\ 0x80401000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000040,\ 0x00400000,\ 0x00001000,\ 0x00401040}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a041427fd202aa04b8b49f0f401603fa0}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox5@{\$sbox5}}
+\index{\$sbox5@{\$sbox5}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox5}{\$sbox5}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a041427fd202aa04b8b49f0f401603fa0} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox5\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000080,\ 0x01040080,\ 0x01040000,\ 0x21000080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00040000,\ 0x00000080,\ 0x20000000,\ 0x01040000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x20040080,\ 0x00040000,\ 0x01000080,\ 0x20040080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x21000080,\ 0x21040000,\ 0x00040080,\ 0x20000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x01000000,\ 0x20040000,\ 0x20040000,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x20000080,\ 0x21040080,\ 0x21040080,\ 0x01000080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x21040000,\ 0x20000080,\ 0x00000000,\ 0x21000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x01040080,\ 0x01000000,\ 0x21000000,\ 0x00040080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00040000,\ 0x21000080,\ 0x00000080,\ 0x01000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x20000000,\ 0x01040000,\ 0x21000080,\ 0x20040080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x01000080,\ 0x20000000,\ 0x21040000,\ 0x01040080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x20040080,\ 0x00000080,\ 0x01000000,\ 0x21040000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x21040080,\ 0x00040080,\ 0x21000000,\ 0x21040080,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x01040000,\ 0x00000000,\ 0x20040000,\ 0x21000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00040080,\ 0x01000080,\ 0x20000080,\ 0x00040000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x20040000,\ 0x01040080,\ 0x20000080}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_ab334eae92edd5c85952484090f54f4b3}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox6@{\$sbox6}}
+\index{\$sbox6@{\$sbox6}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox6}{\$sbox6}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_ab334eae92edd5c85952484090f54f4b3} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox6\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10000008,\ 0x10200000,\ 0x00002000,\ 0x10202008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10200000,\ 0x00000008,\ 0x10202008,\ 0x00200000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10002000,\ 0x00202008,\ 0x00200000,\ 0x10000008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00200008,\ 0x10002000,\ 0x10000000,\ 0x00002008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x00200008,\ 0x10002008,\ 0x00002000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00202000,\ 0x10002008,\ 0x00000008,\ 0x10200008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10200008,\ 0x00000000,\ 0x00202008,\ 0x10202000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00002008,\ 0x00202000,\ 0x10202000,\ 0x10000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10002000,\ 0x00000008,\ 0x10200008,\ 0x00202000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10202008,\ 0x00200000,\ 0x00002008,\ 0x10000008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00200000,\ 0x10002000,\ 0x10000000,\ 0x00002008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10000008,\ 0x10202008,\ 0x00202000,\ 0x10200000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00202008,\ 0x10202000,\ 0x00000000,\ 0x10200008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000008,\ 0x00002000,\ 0x10200000,\ 0x00202008,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00002000,\ 0x00200008,\ 0x10002008,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x10202000,\ 0x10000000,\ 0x00200008,\ 0x10002008}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a734504f651630f21814a765858dcfc0e}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox7@{\$sbox7}}
+\index{\$sbox7@{\$sbox7}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox7}{\$sbox7}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a734504f651630f21814a765858dcfc0e} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox7\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00100000,\ 0x02100001,\ 0x02000401,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000400,\ 0x02000401,\ 0x00100401,\ 0x02100400,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02100401,\ 0x00100000,\ 0x00000000,\ 0x02000001,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000001,\ 0x02000000,\ 0x02100001,\ 0x00000401,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02000400,\ 0x00100401,\ 0x00100001,\ 0x02000400,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02000001,\ 0x02100000,\ 0x02100400,\ 0x00100001,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02100000,\ 0x00000400,\ 0x00000401,\ 0x02100401,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00100400,\ 0x00000001,\ 0x02000000,\ 0x00100400,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02000000,\ 0x00100400,\ 0x00100000,\ 0x02000401,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02000401,\ 0x02100001,\ 0x02100001,\ 0x00000001,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00100001,\ 0x02000000,\ 0x02000400,\ 0x00100000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02100400,\ 0x00000401,\ 0x00100401,\ 0x02100400,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000401,\ 0x02000001,\ 0x02100401,\ 0x02100000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00100400,\ 0x00000000,\ 0x00000001,\ 0x02100401,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x00100401,\ 0x02100000,\ 0x00000400,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x02000001,\ 0x02000400,\ 0x00000400,\ 0x00100001}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_ab40ce6dab236217fae5a948b8a1e9cb0}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$sbox8@{\$sbox8}}
+\index{\$sbox8@{\$sbox8}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$sbox8}{\$sbox8}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_ab40ce6dab236217fae5a948b8a1e9cb0} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$sbox8\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08000820,\ 0x00000800,\ 0x00020000,\ 0x08020820,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08000000,\ 0x08000820,\ 0x00000020,\ 0x08000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00020020,\ 0x08020000,\ 0x08020820,\ 0x00020800,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08020800,\ 0x00020820,\ 0x00000800,\ 0x00000020,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08020000,\ 0x08000020,\ 0x08000800,\ 0x00000820,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00020800,\ 0x00020020,\ 0x08020020,\ 0x08020800,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000820,\ 0x00000000,\ 0x00000000,\ 0x08020020,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08000020,\ 0x08000800,\ 0x00020820,\ 0x00020000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00020820,\ 0x00020000,\ 0x08020800,\ 0x00000800,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000020,\ 0x08020020,\ 0x00000800,\ 0x00020820,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08000800,\ 0x00000020,\ 0x08000020,\ 0x08020000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08020020,\ 0x08000000,\ 0x00020000,\ 0x08000820,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000000,\ 0x08020820,\ 0x00020020,\ 0x08000020,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08020000,\ 0x08000800,\ 0x08000820,\ 0x00000000,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x08020820,\ 0x00020800,\ 0x00020800,\ 0x00000820,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ 0x00000820,\ 0x00020020,\ 0x08000000,\ 0x08020800}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_ae8844906e099f9534ade913d5db3ecde}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!\$shuffle@{\$shuffle}}
+\index{\$shuffle@{\$shuffle}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{\$shuffle}{\$shuffle}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_ae8844906e099f9534ade913d5db3ecde} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\$shuffle\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a248fdc4672aad24fad0ba78108b25deb}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!DECRYPT@{DECRYPT}}
+\index{DECRYPT@{DECRYPT}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{DECRYPT}{DECRYPT}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a248fdc4672aad24fad0ba78108b25deb} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\+DECRYPT = 1}
+
+Contains \$keys\mbox{[}self\+::\+DECRYPT\mbox{]}
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::setup\+Key() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::process\+Block() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_d_e_s_a03aaa3ccc19883acc84fce3c43ecb325}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}!ENCRYPT@{ENCRYPT}}
+\index{ENCRYPT@{ENCRYPT}!phpseclib3\textbackslash{}Crypt\textbackslash{}DES@{phpseclib3\textbackslash{}Crypt\textbackslash{}DES}}
+\doxysubsubsection{\texorpdfstring{ENCRYPT}{ENCRYPT}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_d_e_s_a03aaa3ccc19883acc84fce3c43ecb325} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::\+ENCRYPT = 0}
+
+Contains \$keys\mbox{[}self\+::\+ENCRYPT\mbox{]}
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::setup\+Key() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+DES\+::process\+Block() 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\mbox{\hyperlink{_d_e_s_8php}{DES.\+php}}\end{DoxyCompactItemize}

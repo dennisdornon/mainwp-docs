@@ -1,0 +1,123 @@
+\doxysection{includes/core-\/functions.php File Reference}
+\hypertarget{core-functions_8php}{}\label{core-functions_8php}\index{includes/core-\/functions.php@{includes/core-\/functions.php}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_main_w_p}{Main\+WP}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{core-functions_8php_a977466f8a36818d6de99518ec6c1c0d8}{mainwp\+\_\+api\+\_\+hash}} ( \$data)
+\item 
+\mbox{\hyperlink{core-functions_8php_a8e9249fbaa72fd3eff5acbf5ee4ac3ae}{mainwp\+\_\+rest\+\_\+prepare\+\_\+date\+\_\+response}} ( \$date, \$utc=true)
+\item 
+\mbox{\hyperlink{core-functions_8php_a39197ef936988ba3729e3dd379745f65}{mainwp\+\_\+string\+\_\+to\+\_\+bool}} ( \$str)
+\item 
+\mbox{\hyperlink{core-functions_8php_a769e531c5dd5c70603f971917b2d9d55}{mainwp\+\_\+rest\+\_\+urlencode\+\_\+rfc3986}} ( \$value)
+\item 
+\mbox{\hyperlink{core-functions_8php_a59d8bc9baaaaf9767808ee94a116a036}{mainwp\+\_\+search\+\_\+in\+\_\+array}} ( \$data, \$search\+\_\+str, \$params=array())
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{core-functions_8php_a977466f8a36818d6de99518ec6c1c0d8}\index{core-\/functions.php@{core-\/functions.php}!mainwp\_api\_hash@{mainwp\_api\_hash}}
+\index{mainwp\_api\_hash@{mainwp\_api\_hash}!core-\/functions.php@{core-\/functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_api\_hash()}{mainwp\_api\_hash()}}
+{\footnotesize\ttfamily \label{core-functions_8php_a977466f8a36818d6de99518ec6c1c0d8} 
+mainwp\+\_\+api\+\_\+hash (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})}
+
+API -\/ Hash.
+
+\begin{DoxySince}{Since}
+5.\+2 
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & Message to be hashed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{core-functions_8php_a8e9249fbaa72fd3eff5acbf5ee4ac3ae}\index{core-\/functions.php@{core-\/functions.php}!mainwp\_rest\_prepare\_date\_response@{mainwp\_rest\_prepare\_date\_response}}
+\index{mainwp\_rest\_prepare\_date\_response@{mainwp\_rest\_prepare\_date\_response}!core-\/functions.php@{core-\/functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_rest\_prepare\_date\_response()}{mainwp\_rest\_prepare\_date\_response()}}
+{\footnotesize\ttfamily \label{core-functions_8php_a8e9249fbaa72fd3eff5acbf5ee4ac3ae} 
+mainwp\+\_\+rest\+\_\+prepare\+\_\+date\+\_\+response (\begin{DoxyParamCaption}\item[{}]{\$date}{, }\item[{}]{\$utc}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Parses and formats a date for ISO8601/\+RFC3339.
+
+Required WP 4.\+4 or later. See \href{https://developer.wordpress.org/reference/functions/mysql_to_rfc3339/}{\texttt{ https\+://developer.\+wordpress.\+org/reference/functions/mysql\+\_\+to\+\_\+rfc3339/}}
+
+\begin{DoxySince}{Since}
+5.\+2 
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string | null | Date\+Time & {\em \$date} & Date. \\
+\hline
+bool & {\em \$utc} & Send false to get local/offset time. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}null ISO8601/\+RFC3339 formatted datetime. 
+\end{DoxyReturn}
+\Hypertarget{core-functions_8php_a769e531c5dd5c70603f971917b2d9d55}\index{core-\/functions.php@{core-\/functions.php}!mainwp\_rest\_urlencode\_rfc3986@{mainwp\_rest\_urlencode\_rfc3986}}
+\index{mainwp\_rest\_urlencode\_rfc3986@{mainwp\_rest\_urlencode\_rfc3986}!core-\/functions.php@{core-\/functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_rest\_urlencode\_rfc3986()}{mainwp\_rest\_urlencode\_rfc3986()}}
+{\footnotesize\ttfamily \label{core-functions_8php_a769e531c5dd5c70603f971917b2d9d55} 
+mainwp\+\_\+rest\+\_\+urlencode\+\_\+rfc3986 (\begin{DoxyParamCaption}\item[{}]{\$value}{}\end{DoxyParamCaption})}
+
+Encodes a value according to RFC 3986. Supports multidimensional arrays.
+
+\begin{DoxySince}{Since}
+2.\+6.\+0 
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$value} & The value to encode. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}array Encoded values. 
+\end{DoxyReturn}
+\Hypertarget{core-functions_8php_a59d8bc9baaaaf9767808ee94a116a036}\index{core-\/functions.php@{core-\/functions.php}!mainwp\_search\_in\_array@{mainwp\_search\_in\_array}}
+\index{mainwp\_search\_in\_array@{mainwp\_search\_in\_array}!core-\/functions.php@{core-\/functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_search\_in\_array()}{mainwp\_search\_in\_array()}}
+{\footnotesize\ttfamily \label{core-functions_8php_a59d8bc9baaaaf9767808ee94a116a036} 
+mainwp\+\_\+search\+\_\+in\+\_\+array (\begin{DoxyParamCaption}\item[{}]{\$data}{, }\item[{}]{\$search\+\_\+str}{, }\item[{}]{\$params}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Method \doxylink{core-functions_8php_a59d8bc9baaaaf9767808ee94a116a036}{mainwp\+\_\+search\+\_\+in\+\_\+array()}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & The data. \\
+\hline
+string & {\em \$search\+\_\+str} & search string. \\
+\hline
+array & {\em \$params} & params.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array Search result. 
+\end{DoxyReturn}
+\Hypertarget{core-functions_8php_a39197ef936988ba3729e3dd379745f65}\index{core-\/functions.php@{core-\/functions.php}!mainwp\_string\_to\_bool@{mainwp\_string\_to\_bool}}
+\index{mainwp\_string\_to\_bool@{mainwp\_string\_to\_bool}!core-\/functions.php@{core-\/functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_string\_to\_bool()}{mainwp\_string\_to\_bool()}}
+{\footnotesize\ttfamily \label{core-functions_8php_a39197ef936988ba3729e3dd379745f65} 
+mainwp\+\_\+string\+\_\+to\+\_\+bool (\begin{DoxyParamCaption}\item[{}]{\$str}{}\end{DoxyParamCaption})}
+
+Converts a string (e.\+g. \textquotesingle{}yes\textquotesingle{} or \textquotesingle{}no\textquotesingle{}) to a bool.
+
+\begin{DoxySince}{Since}
+5.\+2 
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string | bool & {\em \$str} & String to convert. If a bool is passed it will be returned as-\/is. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}

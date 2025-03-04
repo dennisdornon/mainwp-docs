@@ -1,0 +1,142 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Site\+\_\+\+Info Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_a25346efd4200ee005824c0c373927767}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_adfcc71fd16894cfcd1e40a421b1e711d}{render}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_ad21dcc136e7e93dd3917e08f20336336}{render\+\_\+site\+\_\+info}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_a33d25f97235824557ec950fe01668114}{render\+\_\+info}} ( \$website, \$website\+\_\+info, \$child\+\_\+site\+\_\+info)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Site\+\_\+\+Info
+
+Grab Child Site info and build widget. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_a25346efd4200ee005824c0c373927767}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_a25346efd4200ee005824c0c373927767} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Site\+\_\+\+Info\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} Class name. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_adfcc71fd16894cfcd1e40a421b1e711d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}!render@{render}}
+\index{render@{render}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_adfcc71fd16894cfcd1e40a421b1e711d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Site\+\_\+\+Info\+::render (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render()
+
+\begin{DoxyReturn}{Returns}
+mixed render\+\_\+site\+\_\+info() 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_a33d25f97235824557ec950fe01668114}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}!render\_info@{render\_info}}
+\index{render\_info@{render\_info}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}}
+\doxysubsubsection{\texorpdfstring{render\_info()}{render\_info()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_a33d25f97235824557ec950fe01668114} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Site\+\_\+\+Info\+::render\+\_\+info (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$website\+\_\+info}{, }\item[{}]{\$child\+\_\+site\+\_\+info}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render Sites Info.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$website\+\_\+info} & Website data. \\
+\hline
+array & {\em \$child\+\_\+site\+\_\+info} & Website info to display. \\
+\hline
+\end{DoxyParams}
+Filter\+: mainwp\+\_\+site\+\_\+info\+\_\+widget\+\_\+title
+
+Filters the Site info widget title text.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Actoin\+: mainwp\+\_\+site\+\_\+info\+\_\+widget\+\_\+top
+
+Fires at the top of the Site Info widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+0
+\end{DoxySince}
+Action\+: mainwp\+\_\+site\+\_\+info\+\_\+table\+\_\+top
+
+Fires at the top of the Site Info table in Site Info widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+0
+\end{DoxySince}
+Action\+: mainwp\+\_\+site\+\_\+info\+\_\+table\+\_\+bottom
+
+Fires at the bottom of the Site Info table in Site Info widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+0
+\end{DoxySince}
+Action\+: mainwp\+\_\+site\+\_\+info\+\_\+widget\+\_\+bottom
+
+Fires at the bottom of the Site Info widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+0
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_ad21dcc136e7e93dd3917e08f20336336}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}!render\_site\_info@{render\_site\_info}}
+\index{render\_site\_info@{render\_site\_info}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Site\_Info}}
+\doxysubsubsection{\texorpdfstring{render\_site\_info()}{render\_site\_info()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___site___info_ad21dcc136e7e93dd3917e08f20336336} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Site\+\_\+\+Info\+::render\+\_\+site\+\_\+info (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+site\+\_\+info()
+
+Grab Child Site Info and render.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+current\+\_\+wpid() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::ctype\+\_\+digit() Filter\+: mainwp\+\_\+child\+\_\+site\+\_\+info\+\_\+widget\+\_\+content
+
+Filters the Child Info array for the Site Info widget.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+widgets/\mbox{\hyperlink{widget-mainwp-site-info_8php}{widget-\/mainwp-\/site-\/info.\+php}}\end{DoxyCompactItemize}

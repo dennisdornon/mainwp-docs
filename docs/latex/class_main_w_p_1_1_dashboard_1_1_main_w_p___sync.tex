@@ -1,0 +1,233 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Sync Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_af686a9b8933f639764ee38e217f9ee69}{sync\+\_\+website}} ( \$website, \$clear\+\_\+session=true)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a86c99ced54ab65c4fbd63a3b95dcf88d}{sync\+\_\+site}} (\&\$p\+Website=null, \$p\+Force\+Fetch=false, \$p\+Allow\+Disconnect=true, \$clear\+\_\+session=true)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a76726b68d1c5f314a82d37c5d86dab5f}{sync\+\_\+information\+\_\+array}} (\&\$p\+Website, \&\$information, \$sync\+\_\+errors=\textquotesingle{}\textquotesingle{}, \$check\+\_\+result=false, \$error=false, \$p\+Allow\+Disconnect=true)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a63c17d04d098fe7c19a1d3f22af9a261}{sync\+\_\+init\+\_\+empty\+\_\+values}} ( \$p\+Website)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a503ced2cd60e3825701e6d0918d0a789}{get\+\_\+wp\+\_\+icon}} ( \$site\+Id=null)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a3c3bf4724d1a3b700f976e16273b6fdf}{\$clone\+\_\+websites}} = null
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a09c0d35f0c6156eb4359f79184899d33}{\$clone\+\_\+enabled}} = null
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_ad4ea500f002dda4edbf2384a5128e140}{\$disallowed\+\_\+clone\+\_\+sites}} = null
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a503ced2cd60e3825701e6d0918d0a789}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!get\_wp\_icon@{get\_wp\_icon}}
+\index{get\_wp\_icon@{get\_wp\_icon}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{get\_wp\_icon()}{get\_wp\_icon()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a503ced2cd60e3825701e6d0918d0a789} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::get\+\_\+wp\+\_\+icon (\begin{DoxyParamCaption}\item[{}]{\$site\+Id}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+wp\+\_\+icon()
+
+Get site\textquotesingle{}s icon.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$site\+Id} & site\textquotesingle{}s id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array result error or success 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Error message.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::get\+\_\+file\+\_\+content() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::update\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+wp\+\_\+file\+\_\+system() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+mainwp\+\_\+dir() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::ctype\+\_\+digit() Word\+Press files system object.
+
+@global object\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a76726b68d1c5f314a82d37c5d86dab5f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!sync\_information\_array@{sync\_information\_array}}
+\index{sync\_information\_array@{sync\_information\_array}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{sync\_information\_array()}{sync\_information\_array()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a76726b68d1c5f314a82d37c5d86dab5f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::sync\+\_\+information\+\_\+array (\begin{DoxyParamCaption}\item[{\&}]{\$p\+Website}{, }\item[{\&}]{\$information}{, }\item[{}]{\$sync\+\_\+errors}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}, }\item[{}]{\$check\+\_\+result}{ = {\ttfamily false}, }\item[{}]{\$error}{ = {\ttfamily false}, }\item[{}]{\$p\+Allow\+Disconnect}{ = {\ttfamily true}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method sync\+\_\+information\+\_\+array()
+
+Grab all Child Site Information.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$p\+Website} & The website object. \\
+\hline
+array & {\em \$information} & Array contaning information returned from child site. \\
+\hline
+string & {\em \$sync\+\_\+errors} & Check for Sync Errors. \\
+\hline
+int & {\em \$check\+\_\+result} & Check if offline. \\
+\hline
+bool & {\em \$error} & True\texorpdfstring{$\vert$}{|}\+False. \\
+\hline
+bool & {\em \$p\+Allow\+Disconnect} & True\texorpdfstring{$\vert$}{|}\+False.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true\texorpdfstring{$\vert$}{|}false True on success, false on failure.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+sync\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::warning\+\_\+for\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::get\+\_\+health\+\_\+noticed\+\_\+status\+\_\+value() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::ctype\+\_\+digit() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+site\+\_\+health() Filter\+: mainwp\+\_\+before\+\_\+save\+\_\+sync\+\_\+result
+
+Filters data returned from child site before saving to the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$p\+Website} & Object containing child site data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+3.\+4
+\end{DoxySince}
+This filter is documented in ../pages/page-\/mainwp-\/security-\/issues.php
+
+Action\+: mainwp\+\_\+site\+\_\+synced
+
+Fires upon successful site synchronization.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$p\+Website} & Object containing child site info. \\
+\hline
+array & {\em \$information} & Array containing information returned from child site.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+3.\+4
+\end{DoxySince}
+Action\+: mainwp\+\_\+site\+\_\+sync
+
+Fires upon successful site synchronization.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$p\+Website} & Object containing child site info. \\
+\hline
+array & {\em \$information} & Array containing information returned from child site. \\
+\hline
+bool & {\em \$act\+\_\+success} & action success or failed. \\
+\hline
+string & {\em \$\+\_\+error} & Sync error message if existed. \\
+\hline
+array & {\em \$post\+\_\+data} & Addition post data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+3.\+4
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a63c17d04d098fe7c19a1d3f22af9a261}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!sync\_init\_empty\_values@{sync\_init\_empty\_values}}
+\index{sync\_init\_empty\_values@{sync\_init\_empty\_values}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{sync\_init\_empty\_values()}{sync\_init\_empty\_values()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a63c17d04d098fe7c19a1d3f22af9a261} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::sync\+\_\+init\+\_\+empty\+\_\+values (\begin{DoxyParamCaption}\item[{}]{\$p\+Website}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method init empty sync values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$p\+Website} & Object containing child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a86c99ced54ab65c4fbd63a3b95dcf88d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!sync\_site@{sync\_site}}
+\index{sync\_site@{sync\_site}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{sync\_site()}{sync\_site()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a86c99ced54ab65c4fbd63a3b95dcf88d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::sync\+\_\+site (\begin{DoxyParamCaption}\item[{\&}]{\$p\+Website}{ = {\ttfamily null}, }\item[{}]{\$p\+Force\+Fetch}{ = {\ttfamily false}, }\item[{}]{\$p\+Allow\+Disconnect}{ = {\ttfamily true}, }\item[{}]{\$clear\+\_\+session}{ = {\ttfamily true}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method sync\+\_\+site()
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Website} & Null\texorpdfstring{$\vert$}{|}userid. \\
+\hline
+bool & {\em \$p\+Force\+Fetch} & Check if a fourced Sync. \\
+\hline
+bool & {\em \$p\+Allow\+Disconnect} & Check if allowed to disconect. \\
+\hline
+bool & {\em \$clear\+\_\+session} & to run the ending session or not.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool sync\+\_\+information\+\_\+array
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+extension\+\_\+by\+\_\+user\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::query() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+option() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::free\+\_\+result() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+primary\+\_\+backup() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::end\+\_\+session() Filter\+: mainwp\+\_\+clone\+\_\+enabled
+
+Filters whether the Clone feature is enabled or disabled.
+
+\begin{DoxySince}{Since}
+Unknown
+\end{DoxySince}
+Filter\+: mainwp\+\_\+sync\+\_\+others\+\_\+data
+
+Filters additional data in the sync request. Allows extensions or 3rd party plugins to hook data to the sync request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$p\+Website} & Object contaning child site data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+Unknown
+\end{DoxySince}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed()\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_af686a9b8933f639764ee38e217f9ee69}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!sync\_website@{sync\_website}}
+\index{sync\_website@{sync\_website}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{sync\_website()}{sync\_website()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_af686a9b8933f639764ee38e217f9ee69} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::sync\+\_\+website (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$clear\+\_\+session}{ = {\ttfamily true}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method sync\+\_\+website()
+
+Sync Child Site.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & object. \\
+\hline
+bool & {\em \$clear\+\_\+session} & to run the ending session or not.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool sync result. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a09c0d35f0c6156eb4359f79184899d33}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!\$clone\_enabled@{\$clone\_enabled}}
+\index{\$clone\_enabled@{\$clone\_enabled}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{\$clone\_enabled}{\$clone\_enabled}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a09c0d35f0c6156eb4359f79184899d33} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::\$clone\+\_\+enabled = null\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a3c3bf4724d1a3b700f976e16273b6fdf}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!\$clone\_websites@{\$clone\_websites}}
+\index{\$clone\_websites@{\$clone\_websites}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{\$clone\_websites}{\$clone\_websites}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_a3c3bf4724d1a3b700f976e16273b6fdf} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::\$clone\+\_\+websites = null\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_ad4ea500f002dda4edbf2384a5128e140}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}!\$disallowed\_clone\_sites@{\$disallowed\_clone\_sites}}
+\index{\$disallowed\_clone\_sites@{\$disallowed\_clone\_sites}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Sync}}
+\doxysubsubsection{\texorpdfstring{\$disallowed\_clone\_sites}{\$disallowed\_clone\_sites}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___sync_ad4ea500f002dda4edbf2384a5128e140} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::\$disallowed\+\_\+clone\+\_\+sites = null\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-sync_8php}{class-\/mainwp-\/sync.\+php}}\end{DoxyCompactItemize}

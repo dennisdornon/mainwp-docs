@@ -1,0 +1,195 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Premium\+\_\+\+Update Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a1190e0fa5518f4dd84ef00dd986a4c84}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ad4821eaee1d08d3e4be73f5ac0399bc9}{check\+\_\+premium\+\_\+updates}} ( \$updates, \$type)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a1cc5df53ee5ad40dc4a649ad3830db09}{maybe\+\_\+request\+\_\+premium\+\_\+updates}} ( \$website, \$what, \$params)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a79686665e482df81be294590181db6aa}{check\+\_\+request\+\_\+update\+\_\+premium}} ( \$list\+\_\+items, \$type)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ac898b4991f59a05d8a3820db7716ea2f}{redirect\+\_\+request\+\_\+site}} ( \$website, \$where\+\_\+url)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ab62324564496aedb9b2f5ce70c0874b4}{request\+\_\+premiums\+\_\+update}} ( \$website, \$type, \$list\+\_\+items)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a822729e9eb6d45c566d3b708e0a51343}{try\+\_\+to\+\_\+detect\+\_\+premiums\+\_\+update}} ( \$website, \$type)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ad4821eaee1d08d3e4be73f5ac0399bc9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!check\_premium\_updates@{check\_premium\_updates}}
+\index{check\_premium\_updates@{check\_premium\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{check\_premium\_updates()}{check\_premium\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ad4821eaee1d08d3e4be73f5ac0399bc9} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::check\+\_\+premium\+\_\+updates (\begin{DoxyParamCaption}\item[{}]{\$updates}{, }\item[{}]{\$type}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method check\+\_\+premium\+\_\+updates()
+
+Check for Premium Plugin updates.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$updates} & Array of updates. \\
+\hline
+mixed & {\em \$type} & Type of update.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true\texorpdfstring{$\vert$}{|}false. 
+\end{DoxyReturn}
+Filter\+: mainwp\+\_\+detect\+\_\+premiums\+\_\+updates
+
+Use mainwp\+\_\+detect\+\_\+premium\+\_\+plugins\+\_\+update instead.
+
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000006}{Deprecated}}]\end{DoxyRefDesc}
+
+
+Filter\+: mainwp\+\_\+detect\+\_\+premium\+\_\+plugins\+\_\+update
+
+Filters supported premium plugins to fix compatiblity issues with detecting premium plugin updates.
+
+\begin{DoxySince}{Since}
+Unknown
+\end{DoxySince}
+Filter\+: mainwp\+\_\+detect\+\_\+premium\+\_\+themes\+\_\+update
+
+Filters supported premium themes to fix compatiblity issues with detecting premium theme updates.
+
+\begin{DoxySince}{Since}
+Unknown
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a79686665e482df81be294590181db6aa}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!check\_request\_update\_premium@{check\_request\_update\_premium}}
+\index{check\_request\_update\_premium@{check\_request\_update\_premium}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{check\_request\_update\_premium()}{check\_request\_update\_premium()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a79686665e482df81be294590181db6aa} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::check\+\_\+request\+\_\+update\+\_\+premium (\begin{DoxyParamCaption}\item[{}]{\$list\+\_\+items}{, }\item[{}]{\$type}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method check\+\_\+request\+\_\+update\+\_\+premium()
+
+Check if any updates are on the premiums list.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$list\+\_\+items} & List of updates. \\
+\hline
+string & {\em \$type} & Type of update. plugin\texorpdfstring{$\vert$}{|}theme.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true\texorpdfstring{$\vert$}{|}false. 
+\end{DoxyReturn}
+Filter\+: mainwp\+\_\+request\+\_\+update\+\_\+premium\+\_\+plugins
+
+Filters supported premium plugins to fix compatibility problmes with updating premium plugins.
+
+\begin{DoxySince}{Since}
+Unknown
+\end{DoxySince}
+Filter\+: mainwp\+\_\+request\+\_\+update\+\_\+premium\+\_\+themes
+
+Filters supported premium themes to fix compatibility problmes with updating premium themes.
+
+\begin{DoxySince}{Since}
+Unknown
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a1190e0fa5518f4dd84ef00dd986a4c84}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a1190e0fa5518f4dd84ef00dd986a4c84} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a1cc5df53ee5ad40dc4a649ad3830db09}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!maybe\_request\_premium\_updates@{maybe\_request\_premium\_updates}}
+\index{maybe\_request\_premium\_updates@{maybe\_request\_premium\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{maybe\_request\_premium\_updates()}{maybe\_request\_premium\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a1cc5df53ee5ad40dc4a649ad3830db09} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::maybe\+\_\+request\+\_\+premium\+\_\+updates (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$what}{, }\item[{}]{\$params}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method maybe\+\_\+request\+\_\+premium\+\_\+updates()
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$website} & Child Site info. \\
+\hline
+mixed & {\em \$what} & stats\texorpdfstring{$\vert$}{|}upgradeplugintheme What function to perform. \\
+\hline
+mixed & {\em \$params} & plugin\texorpdfstring{$\vert$}{|}theme Update Type.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed \$request\+\_\+update 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ac898b4991f59a05d8a3820db7716ea2f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!redirect\_request\_site@{redirect\_request\_site}}
+\index{redirect\_request\_site@{redirect\_request\_site}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{redirect\_request\_site()}{redirect\_request\_site()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ac898b4991f59a05d8a3820db7716ea2f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::redirect\+\_\+request\+\_\+site (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$where\+\_\+url}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method redirect\+\_\+request\+\_\+site()
+
+Redirect to requested Site.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$website} & Child Site. \\
+\hline
+mixed & {\em \$where\+\_\+url} & page to redirerct to.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::get\+\_\+get\+\_\+data\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+::\$version \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ab62324564496aedb9b2f5ce70c0874b4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!request\_premiums\_update@{request\_premiums\_update}}
+\index{request\_premiums\_update@{request\_premiums\_update}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{request\_premiums\_update()}{request\_premiums\_update()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_ab62324564496aedb9b2f5ce70c0874b4} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::request\+\_\+premiums\+\_\+update (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$type}{, }\item[{}]{\$list\+\_\+items}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method request\+\_\+premiums\+\_\+update()
+
+Request to update plugin or theme.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$website} & Child Site to update. \\
+\hline
+mixed & {\em \$type} & Type of update, plugin\texorpdfstring{$\vert$}{|}theme. \\
+\hline
+mixed & {\em \$list\+\_\+items} & list of plugins \& themes installed.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed null\texorpdfstring{$\vert$}{|}true. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a822729e9eb6d45c566d3b708e0a51343}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}!try\_to\_detect\_premiums\_update@{try\_to\_detect\_premiums\_update}}
+\index{try\_to\_detect\_premiums\_update@{try\_to\_detect\_premiums\_update}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Premium\_Update}}
+\doxysubsubsection{\texorpdfstring{try\_to\_detect\_premiums\_update()}{try\_to\_detect\_premiums\_update()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___premium___update_a822729e9eb6d45c566d3b708e0a51343} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Premium\+\_\+\+Update\+::try\+\_\+to\+\_\+detect\+\_\+premiums\+\_\+update (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$type}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method try\+\_\+to\+\_\+detect\+\_\+premiums\+\_\+update()
+
+Try to detect if pugin and themes are premium.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$website} & Child Site. \\
+\hline
+mixed & {\em \$type} & Type of update, plugin\texorpdfstring{$\vert$}{|}theme.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed false\texorpdfstring{$\vert$}{|}static\+::redirect\+\_\+request\+\_\+site() 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-premium-update_8php}{class-\/mainwp-\/premium-\/update.\+php}}\end{DoxyCompactItemize}

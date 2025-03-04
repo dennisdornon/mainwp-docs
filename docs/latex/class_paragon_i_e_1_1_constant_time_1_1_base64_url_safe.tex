@@ -1,0 +1,82 @@
+\doxysection{Paragon\+IE\textbackslash{}Constant\+Time\textbackslash{}Base64\+Url\+Safe Class Reference}
+\hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe}{}\label{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe}}
+Inheritance diagram for Paragon\+IE\textbackslash{}Constant\+Time\textbackslash{}Base64\+Url\+Safe\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe_a17f3f8ae0a5bf506dca0acea77c59d7f}{decode6\+Bits}} (int \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe_ab0ad394993239ece8774597fb08dcbf6}{encode6\+Bits}} (int \$src)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base64}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_a2a70944fa7dd1bb8e9229a697eaee544}{encode}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$bin\+String)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_a3add8517a081959c1fc816aa58cc255e}{encode\+Unpadded}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_a2e882574ac9d2b9eadf99751f5a81771}{decode\+No\+Padding}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$encoded\+String)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Encoder\+Interface}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a6b9b7e0f5446b6b08b074a9fc7ae3c61}{encode}} (string \$bin\+String)
+\item 
+static \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a614b43269cc9bc0291bd79e79ccfc278}{decode}} (string \$encoded\+String, bool \$strict\+Padding=false)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe_a17f3f8ae0a5bf506dca0acea77c59d7f}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe}!decode6Bits@{decode6Bits}}
+\index{decode6Bits@{decode6Bits}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe}}
+\doxysubsubsection{\texorpdfstring{decode6Bits()}{decode6Bits()}}
+{\footnotesize\ttfamily \label{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe_a17f3f8ae0a5bf506dca0acea77c59d7f} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base64\+Url\+Safe\+::decode6\+Bits (\begin{DoxyParamCaption}\item[{int}]{\$src}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Uses bitwise operators instead of table-\/lookups to turn 6-\/bit integers into 8-\/bit integers.
+
+Base64 character set\+: \mbox{[}A-\/Z\mbox{]} \mbox{[}a-\/z\mbox{]} \mbox{[}0-\/9\mbox{]} -\/ \+\_\+ 0x41-\/0x5a, 0x61-\/0x7a, 0x30-\/0x39, 0x2d, 0x5f
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_ad4f782db9d606b16599718a8ba876efc}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base64}}.
+
+\Hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe_ab0ad394993239ece8774597fb08dcbf6}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe}!encode6Bits@{encode6Bits}}
+\index{encode6Bits@{encode6Bits}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base64UrlSafe}}
+\doxysubsubsection{\texorpdfstring{encode6Bits()}{encode6Bits()}}
+{\footnotesize\ttfamily \label{class_paragon_i_e_1_1_constant_time_1_1_base64_url_safe_ab0ad394993239ece8774597fb08dcbf6} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base64\+Url\+Safe\+::encode6\+Bits (\begin{DoxyParamCaption}\item[{int}]{\$src}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Uses bitwise operators instead of table-\/lookups to turn 8-\/bit integers into 6-\/bit integers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64_ae249195486f9ab9805bd56209bddb261}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base64}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/paragonie/constant\+\_\+time\+\_\+encoding/src/\mbox{\hyperlink{_base64_url_safe_8php}{Base64\+Url\+Safe.\+php}}\end{DoxyCompactItemize}

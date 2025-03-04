@@ -1,0 +1,1423 @@
+\doxysection{phpseclib3\textbackslash{}File\textbackslash{}X509 Class Reference}
+\hypertarget{classphpseclib3_1_1_file_1_1_x509}{}\label{classphpseclib3_1_1_file_1_1_x509}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a7bd34ff098ec03f3c33a94865767fcfb}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ab2ea122ec44e187eb1ecef3d94a7c05e}{load\+X509}} (\$cert, \$mode=self\+::\+FORMAT\+\_\+\+AUTO\+\_\+\+DETECT)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a81c203819fbe38f811a3619467e79ff0}{save\+X509}} (array \$cert, \$format=self\+::\+FORMAT\+\_\+\+PEM)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aab483bf6067a49eae39f0f8e7db86116}{load\+CA}} (\$cert)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ade650ed6273cb59bfd6078ed85de7f23}{validate\+URL}} (\$url)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a91f888e136b359c356825258033a34d2}{validate\+Date}} (\$date=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a987f1faf4ec436d1e9be5455038529c5}{validate\+Signature}} (\$caonly=true)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a9d4845631cdc1ef7dca2f6c151127d71}{set\+DNProp}} (\$prop\+Name, \$prop\+Value, \$type=\textquotesingle{}utf8\+String\textquotesingle{})
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a84e8aae522234f8bc10b3022b0e29f76}{remove\+DNProp}} (\$prop\+Name)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aed88c5cd2934b618aa1fbc6e4f5eba86}{get\+DNProp}} (\$prop\+Name, array \$dn=null, \$with\+Type=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a869d3898027049ff4ac8c3bf044a902b}{set\+DN}} (\$dn, \$merge=false, \$type=\textquotesingle{}utf8\+String\textquotesingle{})
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aea3b810146cda447d41849cf622fe4ec}{get\+DN}} (\$format=self\+::\+DN\+\_\+\+ARRAY, array \$dn=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_af0347df3440039575b40f7760185db46}{get\+Issuer\+DN}} (\$format=self\+::\+DN\+\_\+\+ARRAY)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a3b89837ff86bbddc487d9a9dcc87e58a}{get\+Subject\+DN}} (\$format=self\+::\+DN\+\_\+\+ARRAY)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a3a6cb0d30228da07b94a49583b1ea21f}{get\+Issuer\+DNProp}} (\$prop\+Name, \$with\+Type=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_abb6451e9c823f6ae6ee94a82ca2d4555}{get\+Subject\+DNProp}} (\$prop\+Name, \$with\+Type=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aa3e64fa9ce3b27afac1c6c4806d8c0c9}{get\+Chain}} ()
+\item 
+\& \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a4107d7f5eac7d0eb5bed63d986160f19}{get\+Current\+Cert}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a4b94bf0fd7b20446d7ac7e34f1c24353}{set\+Public\+Key}} (\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_public_key}{Public\+Key}} \$key)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a9f0feb1b2d5171b1120d98b7a64151f5}{set\+Private\+Key}} (\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key}{Private\+Key}} \$key)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aff0243df71b235db15fcae3f7afd727b}{set\+Challenge}} (\$challenge)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a3c169c8d911280663619a2850411e930}{get\+Public\+Key}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a84a9d0ac5fb378f6df2c2fd68f7a87c6}{load\+CSR}} (\$csr, \$mode=self\+::\+FORMAT\+\_\+\+AUTO\+\_\+\+DETECT)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a920a9c7c7eeb5935820a0dc27c628a3a}{save\+CSR}} (array \$csr, \$format=self\+::\+FORMAT\+\_\+\+PEM)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a3e5cf3116b9ad8ff7792a3931b7568df}{load\+SPKAC}} (\$spkac)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ad2ba9321c2fff8a15c8186c10cb0f144}{save\+SPKAC}} (array \$spkac, \$format=self\+::\+FORMAT\+\_\+\+PEM)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a607b97bb49619bcc3e1f54cf730c403e}{load\+CRL}} (\$crl, \$mode=self\+::\+FORMAT\+\_\+\+AUTO\+\_\+\+DETECT)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a6184be172cb4aa77d29fe913de610abd}{save\+CRL}} (array \$crl, \$format=self\+::\+FORMAT\+\_\+\+PEM)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_af2ce7b3fa4174b49a1edb391f61751c6}{sign}} (\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}} \$issuer, \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}} \$subject)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ad712092ca23fe3e05509cbe0593e2400}{sign\+CSR}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a0f49d53d94a7e2a6de1186823c85fa4f}{sign\+SPKAC}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ab15bf1e3a51f290c459826ec6e683d46}{sign\+CRL}} (\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}} \$issuer, \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}} \$crl)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a9608dfaa4dcfa66e358790fae0671b83}{set\+Start\+Date}} (\$date)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ac720e71f60e219d2dffa739bbcf637d9}{set\+End\+Date}} (\$date)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aaa1a287c1e25577bdc76014d1b7c5e4e}{set\+Serial\+Number}} (\$serial, \$base=-\/256)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a37fa71df86722e5d1ea3ac6a884a565b}{make\+CA}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a08f408280e0e4ba85c936d8acdb1f3b5}{remove\+Extension}} (\$id)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a15007ebe0a13a016a6e5448f5b1d4cbc}{get\+Extension}} (\$id, array \$cert=null, \$path=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aa387ed389ed21baef27ce87348ea755f}{get\+Extensions}} (array \$cert=null, \$path=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a7283e6ec43aa8bebe89d248988bed121}{set\+Extension}} (\$id, \$value, \$critical=false, \$replace=true)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a735c1dc336f221c2732f5e5f130423fe}{remove\+Attribute}} (\$id, \$disposition=self\+::\+ATTR\+\_\+\+ALL)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a0e2e18244f9484d4dfab1507a00af4af}{get\+Attribute}} (\$id, \$disposition=self\+::\+ATTR\+\_\+\+ALL, array \$csr=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a9a97219cacdfd37970e6f8a97867e1fe}{get\+Attributes}} (array \$csr=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aaf2194f2e2ab85b7bd1a32330a8fb4f5}{set\+Attribute}} (\$id, \$value, \$disposition=self\+::\+ATTR\+\_\+\+ALL)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a5fef37a281592c819415bafbcaed260d}{set\+Key\+Identifier}} (\$value)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a65a80d769cc8c11079b4c330822f58c5}{compute\+Key\+Identifier}} (\$key=null, \$method=1)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_abd892dc20e6bd4127c6d14339706718e}{set\+Domain}} (... \$domains)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a14d996dd99ed578248db8c65e3da1a99}{set\+IPAddress}} (... \$ip\+Addresses)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a49a56ca5338d611b1adf4f14b897b13c}{revoke}} (\$serial, \$date=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ae60b73a0784bd1d1772b2b5f195357f2}{unrevoke}} (\$serial)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a39fd84d579339a91482a72becb3da017}{get\+Revoked}} (\$serial)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a485a0912c817b40c5941104b4fc9d06b}{list\+Revoked}} (array \$crl=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ab99d5099c175110fa61ca3678a366f40}{remove\+Revoked\+Certificate\+Extension}} (\$serial, \$id)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ae79fde244d12953797c18113aa85ef34}{get\+Revoked\+Certificate\+Extension}} (\$serial, \$id, array \$crl=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a59c39b9a500bd9ac1ad89dfc12a71539}{get\+Revoked\+Certificate\+Extensions}} (\$serial, array \$crl=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_adef79975a3eb5e79c35dea35e78bd01c}{set\+Revoked\+Certificate\+Extension}} (\$serial, \$id, \$value, \$critical=false, \$replace=true)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_af98b576e76aa604e82a575b55d460c3a}{set\+Extension\+Value}} (\$id, \$value, \$critical=false, \$replace=false)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a91c14f3deb364e183ea5dbf563ce6725}{set\+Recur\+Limit}} (\$count)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_afa28360e04e268da1f4f3234b8c61ac7}{disable\+URLFetch}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a2459cd7d3359a9469cd43fc9da5d3ba0}{enable\+URLFetch}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a200d9c197574dd2caab79468c2f3fa83}{decode\+IP}} (\$ip)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a4b73eb7fd8a50bb12c9cbd1cc2c5a005}{decode\+Name\+Constraint\+IP}} (\$ip)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a7177326aea848933387040bb7ed8fb5d}{encode\+IP}} (\$ip)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a80aa946e06b1e447734bdab1d45c368a}{register\+Extension}} (\$id, array \$mapping)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aa865a07b42d7aeb9210b15b4f9ead6fd}{get\+Registered\+Extension}} (\$id)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aafb1f54534b36074249ce17079f09c51}{VALIDATE\+\_\+\+SIGNATURE\+\_\+\+BY\+\_\+\+CA}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a1f1932998a72a5786b497590f62450f9}{DN\+\_\+\+ARRAY}} = 0
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a105e60009be34b696bef76edb5b64941}{DN\+\_\+\+STRING}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a3092c6753d54f42e21f0578176057eab}{DN\+\_\+\+ASN1}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a95e78650c635b00d3ea52cfb5695bc23}{DN\+\_\+\+OPENSSL}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_aa903570cf47f4f4030bf1f953b876dc2}{DN\+\_\+\+CANON}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a291cff6f42503be57da48c42a77885a5}{DN\+\_\+\+HASH}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a970145cfc7e6056ee8bdcd4ea1e3bc55}{FORMAT\+\_\+\+PEM}} = 0
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a19d1cf014e98d300d86c5ffb8d2b3d9c}{FORMAT\+\_\+\+DER}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a03854cf50c1fd6314f17401c8b459d60}{FORMAT\+\_\+\+SPKAC}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ac0697ab60a26d291c70450f90105f907}{FORMAT\+\_\+\+AUTO\+\_\+\+DETECT}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a91fa485a36da7dacbeb6e8106871762b}{ATTR\+\_\+\+ALL}} = -\/1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_a340c19a185300b160985d662f4c9ccd8}{ATTR\+\_\+\+APPEND}} = -\/2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509_ac43be3bfd031b980f0300f7c4fdfb0d3}{ATTR\+\_\+\+REPLACE}} = -\/3
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP X.\+509 Parser
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a7bd34ff098ec03f3c33a94865767fcfb}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a7bd34ff098ec03f3c33a94865767fcfb} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Default Constructor.
+
+\begin{DoxyReturn}{Returns}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a65a80d769cc8c11079b4c330822f58c5}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!computeKeyIdentifier@{computeKeyIdentifier}}
+\index{computeKeyIdentifier@{computeKeyIdentifier}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{computeKeyIdentifier()}{computeKeyIdentifier()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a65a80d769cc8c11079b4c330822f58c5} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::compute\+Key\+Identifier (\begin{DoxyParamCaption}\item[{}]{\$key}{ = {\ttfamily null}, }\item[{}]{\$method}{ = {\ttfamily 1}}\end{DoxyParamCaption})}
+
+Compute a public key identifier.
+
+Although key identifiers may be set to any unique value, this function computes key identifiers from public key according to the two recommended methods (4.\+2.\+1.\+2 RFC 3280). Highly polymorphic\+: try to accept all possible forms of key\+:
+\begin{DoxyItemize}
+\item Key object
+\item \textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509 object with public or private key defined
+\item Certificate or CSR array
+\item \textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\textbackslash{}\+Element object
+\item PEM or DER string
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$key} & optional \\
+\hline
+int & {\em \$method} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string binary key identifier 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a200d9c197574dd2caab79468c2f3fa83}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!decodeIP@{decodeIP}}
+\index{decodeIP@{decodeIP}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{decodeIP()}{decodeIP()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a200d9c197574dd2caab79468c2f3fa83} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::decode\+IP (\begin{DoxyParamCaption}\item[{}]{\$ip}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Decodes an IP address
+
+Takes in a base64 encoded "{}blob"{} and returns a human readable IP address
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$ip} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a4b73eb7fd8a50bb12c9cbd1cc2c5a005}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!decodeNameConstraintIP@{decodeNameConstraintIP}}
+\index{decodeNameConstraintIP@{decodeNameConstraintIP}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{decodeNameConstraintIP()}{decodeNameConstraintIP()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a4b73eb7fd8a50bb12c9cbd1cc2c5a005} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::decode\+Name\+Constraint\+IP (\begin{DoxyParamCaption}\item[{}]{\$ip}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Decodes an IP address in a name constraints extension
+
+Takes in a base64 encoded "{}blob"{} and returns a human readable IP address / mask
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$ip} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_afa28360e04e268da1f4f3234b8c61ac7}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!disableURLFetch@{disableURLFetch}}
+\index{disableURLFetch@{disableURLFetch}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{disableURLFetch()}{disableURLFetch()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_afa28360e04e268da1f4f3234b8c61ac7} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::disable\+URLFetch (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Prevents URIs from being automatically retrieved \Hypertarget{classphpseclib3_1_1_file_1_1_x509_a2459cd7d3359a9469cd43fc9da5d3ba0}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!enableURLFetch@{enableURLFetch}}
+\index{enableURLFetch@{enableURLFetch}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{enableURLFetch()}{enableURLFetch()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a2459cd7d3359a9469cd43fc9da5d3ba0} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::enable\+URLFetch (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Allows URIs to be automatically retrieved \Hypertarget{classphpseclib3_1_1_file_1_1_x509_a7177326aea848933387040bb7ed8fb5d}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!encodeIP@{encodeIP}}
+\index{encodeIP@{encodeIP}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{encodeIP()}{encodeIP()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a7177326aea848933387040bb7ed8fb5d} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::encode\+IP (\begin{DoxyParamCaption}\item[{}]{\$ip}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Encodes an IP address
+
+Takes a human readable IP address into a base64-\/encoded "{}blob"{}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$ip} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a0e2e18244f9484d4dfab1507a00af4af}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getAttribute@{getAttribute}}
+\index{getAttribute@{getAttribute}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getAttribute()}{getAttribute()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a0e2e18244f9484d4dfab1507a00af4af} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Attribute (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{}]{\$disposition}{ = {\ttfamily self\+:\+:ATTR\+\_\+ALL}, }\item[{array}]{\$csr}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Get a CSR attribute
+
+Returns the attribute if it exists and false if not
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+int & {\em \$disposition} & optional \\
+\hline
+array & {\em \$csr} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a9a97219cacdfd37970e6f8a97867e1fe}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getAttributes@{getAttributes}}
+\index{getAttributes@{getAttributes}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getAttributes()}{getAttributes()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a9a97219cacdfd37970e6f8a97867e1fe} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Attributes (\begin{DoxyParamCaption}\item[{array}]{\$csr}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Returns a list of all CSR attributes in use
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$csr} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aa3e64fa9ce3b27afac1c6c4806d8c0c9}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getChain@{getChain}}
+\index{getChain@{getChain}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getChain()}{getChain()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aa3e64fa9ce3b27afac1c6c4806d8c0c9} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Chain (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get the certificate chain for the current cert
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a4107d7f5eac7d0eb5bed63d986160f19}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getCurrentCert@{getCurrentCert}}
+\index{getCurrentCert@{getCurrentCert}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getCurrentCert()}{getCurrentCert()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a4107d7f5eac7d0eb5bed63d986160f19} 
+\& phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Current\+Cert (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the current cert
+
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aea3b810146cda447d41849cf622fe4ec}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getDN@{getDN}}
+\index{getDN@{getDN}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getDN()}{getDN()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aea3b810146cda447d41849cf622fe4ec} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN (\begin{DoxyParamCaption}\item[{}]{\$format}{ = {\ttfamily self\+:\+:DN\+\_\+ARRAY}, }\item[{array}]{\$dn}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Get the Distinguished Name for a certificates subject
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$format} & optional \\
+\hline
+array & {\em \$dn} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}bool\texorpdfstring{$\vert$}{|}string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aed88c5cd2934b618aa1fbc6e4f5eba86}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getDNProp@{getDNProp}}
+\index{getDNProp@{getDNProp}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getDNProp()}{getDNProp()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aed88c5cd2934b618aa1fbc6e4f5eba86} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DNProp (\begin{DoxyParamCaption}\item[{}]{\$prop\+Name}{, }\item[{array}]{\$dn}{ = {\ttfamily null}, }\item[{}]{\$with\+Type}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Get Distinguished Name properties
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$prop\+Name} & \\
+\hline
+array & {\em \$dn} & optional \\
+\hline
+bool & {\em \$with\+Type} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a15007ebe0a13a016a6e5448f5b1d4cbc}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getExtension@{getExtension}}
+\index{getExtension@{getExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getExtension()}{getExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a15007ebe0a13a016a6e5448f5b1d4cbc} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Extension (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{array}]{\$cert}{ = {\ttfamily null}, }\item[{}]{\$path}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Get a certificate, CSR or CRL Extension
+
+Returns the extension if it exists and false if not
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+array & {\em \$cert} & optional \\
+\hline
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aa387ed389ed21baef27ce87348ea755f}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getExtensions@{getExtensions}}
+\index{getExtensions@{getExtensions}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getExtensions()}{getExtensions()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aa387ed389ed21baef27ce87348ea755f} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Extensions (\begin{DoxyParamCaption}\item[{array}]{\$cert}{ = {\ttfamily null}, }\item[{}]{\$path}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Returns a list of all extensions in use in certificate, CSR or CRL
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$cert} & optional \\
+\hline
+string & {\em \$path} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_af0347df3440039575b40f7760185db46}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getIssuerDN@{getIssuerDN}}
+\index{getIssuerDN@{getIssuerDN}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getIssuerDN()}{getIssuerDN()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_af0347df3440039575b40f7760185db46} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Issuer\+DN (\begin{DoxyParamCaption}\item[{}]{\$format}{ = {\ttfamily self\+:\+:DN\+\_\+ARRAY}}\end{DoxyParamCaption})}
+
+Get the Distinguished Name for a certificate/crl issuer
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$format} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a3a6cb0d30228da07b94a49583b1ea21f}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getIssuerDNProp@{getIssuerDNProp}}
+\index{getIssuerDNProp@{getIssuerDNProp}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getIssuerDNProp()}{getIssuerDNProp()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a3a6cb0d30228da07b94a49583b1ea21f} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Issuer\+DNProp (\begin{DoxyParamCaption}\item[{}]{\$prop\+Name}{, }\item[{}]{\$with\+Type}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Get an individual Distinguished Name property for a certificate/crl issuer
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$prop\+Name} & \\
+\hline
+bool & {\em \$with\+Type} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a3c169c8d911280663619a2850411e930}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getPublicKey@{getPublicKey}}
+\index{getPublicKey@{getPublicKey}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getPublicKey()}{getPublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a3c169c8d911280663619a2850411e930} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Public\+Key (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Gets the public key
+
+Returns a \textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA object or a false.
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aa865a07b42d7aeb9210b15b4f9ead6fd}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getRegisteredExtension@{getRegisteredExtension}}
+\index{getRegisteredExtension@{getRegisteredExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getRegisteredExtension()}{getRegisteredExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aa865a07b42d7aeb9210b15b4f9ead6fd} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Registered\+Extension (\begin{DoxyParamCaption}\item[{}]{\$id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register the mapping for a custom/unsupported extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}null 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a39fd84d579339a91482a72becb3da017}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getRevoked@{getRevoked}}
+\index{getRevoked@{getRevoked}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getRevoked()}{getRevoked()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a39fd84d579339a91482a72becb3da017} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Revoked (\begin{DoxyParamCaption}\item[{}]{\$serial}{}\end{DoxyParamCaption})}
+
+Get a revoked certificate.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ae79fde244d12953797c18113aa85ef34}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getRevokedCertificateExtension@{getRevokedCertificateExtension}}
+\index{getRevokedCertificateExtension@{getRevokedCertificateExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getRevokedCertificateExtension()}{getRevokedCertificateExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ae79fde244d12953797c18113aa85ef34} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Revoked\+Certificate\+Extension (\begin{DoxyParamCaption}\item[{}]{\$serial}{, }\item[{}]{\$id}{, }\item[{array}]{\$crl}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Get a Revoked Certificate Extension
+
+Returns the extension if it exists and false if not
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+string & {\em \$id} & \\
+\hline
+array & {\em \$crl} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a59c39b9a500bd9ac1ad89dfc12a71539}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getRevokedCertificateExtensions@{getRevokedCertificateExtensions}}
+\index{getRevokedCertificateExtensions@{getRevokedCertificateExtensions}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getRevokedCertificateExtensions()}{getRevokedCertificateExtensions()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a59c39b9a500bd9ac1ad89dfc12a71539} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Revoked\+Certificate\+Extensions (\begin{DoxyParamCaption}\item[{}]{\$serial}{, }\item[{array}]{\$crl}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Returns a list of all extensions in use for a given revoked certificate
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+array & {\em \$crl} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a3b89837ff86bbddc487d9a9dcc87e58a}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getSubjectDN@{getSubjectDN}}
+\index{getSubjectDN@{getSubjectDN}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getSubjectDN()}{getSubjectDN()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a3b89837ff86bbddc487d9a9dcc87e58a} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Subject\+DN (\begin{DoxyParamCaption}\item[{}]{\$format}{ = {\ttfamily self\+:\+:DN\+\_\+ARRAY}}\end{DoxyParamCaption})}
+
+Get the Distinguished Name for a certificate/csr subject Alias of get\+DN()
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$format} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_abb6451e9c823f6ae6ee94a82ca2d4555}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!getSubjectDNProp@{getSubjectDNProp}}
+\index{getSubjectDNProp@{getSubjectDNProp}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{getSubjectDNProp()}{getSubjectDNProp()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_abb6451e9c823f6ae6ee94a82ca2d4555} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+Subject\+DNProp (\begin{DoxyParamCaption}\item[{}]{\$prop\+Name}{, }\item[{}]{\$with\+Type}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Get an individual Distinguished Name property for a certificate/csr subject
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$prop\+Name} & \\
+\hline
+bool & {\em \$with\+Type} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a485a0912c817b40c5941104b4fc9d06b}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!listRevoked@{listRevoked}}
+\index{listRevoked@{listRevoked}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{listRevoked()}{listRevoked()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a485a0912c817b40c5941104b4fc9d06b} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::list\+Revoked (\begin{DoxyParamCaption}\item[{array}]{\$crl}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+List revoked certificates
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$crl} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aab483bf6067a49eae39f0f8e7db86116}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!loadCA@{loadCA}}
+\index{loadCA@{loadCA}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{loadCA()}{loadCA()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aab483bf6067a49eae39f0f8e7db86116} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::load\+CA (\begin{DoxyParamCaption}\item[{}]{\$cert}{}\end{DoxyParamCaption})}
+
+Load an X.\+509 certificate as a certificate authority
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cert} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a607b97bb49619bcc3e1f54cf730c403e}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!loadCRL@{loadCRL}}
+\index{loadCRL@{loadCRL}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{loadCRL()}{loadCRL()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a607b97bb49619bcc3e1f54cf730c403e} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::load\+CRL (\begin{DoxyParamCaption}\item[{}]{\$crl}{, }\item[{}]{\$mode}{ = {\ttfamily self\+:\+:FORMAT\+\_\+AUTO\+\_\+DETECT}}\end{DoxyParamCaption})}
+
+Load a Certificate Revocation List
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$crl} & \\
+\hline
+int & {\em \$mode} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a84a9d0ac5fb378f6df2c2fd68f7a87c6}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!loadCSR@{loadCSR}}
+\index{loadCSR@{loadCSR}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{loadCSR()}{loadCSR()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a84a9d0ac5fb378f6df2c2fd68f7a87c6} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::load\+CSR (\begin{DoxyParamCaption}\item[{}]{\$csr}{, }\item[{}]{\$mode}{ = {\ttfamily self\+:\+:FORMAT\+\_\+AUTO\+\_\+DETECT}}\end{DoxyParamCaption})}
+
+Load a Certificate Signing Request
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$csr} & \\
+\hline
+int & {\em \$mode} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a3e5cf3116b9ad8ff7792a3931b7568df}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!loadSPKAC@{loadSPKAC}}
+\index{loadSPKAC@{loadSPKAC}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{loadSPKAC()}{loadSPKAC()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a3e5cf3116b9ad8ff7792a3931b7568df} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::load\+SPKAC (\begin{DoxyParamCaption}\item[{}]{\$spkac}{}\end{DoxyParamCaption})}
+
+Load a SPKAC CSR
+
+SPKAC\textquotesingle{}s are produced by the HTML5 keygen element\+:
+
+\href{https://developer.mozilla.org/en-US/docs/HTML/Element/keygen}{\texttt{ https\+://developer.\+mozilla.\+org/en-\/\+US/docs/\+HTML/\+Element/keygen}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$spkac} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ab2ea122ec44e187eb1ecef3d94a7c05e}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!loadX509@{loadX509}}
+\index{loadX509@{loadX509}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{loadX509()}{loadX509()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ab2ea122ec44e187eb1ecef3d94a7c05e} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::load\+X509 (\begin{DoxyParamCaption}\item[{}]{\$cert}{, }\item[{}]{\$mode}{ = {\ttfamily self\+:\+:FORMAT\+\_\+AUTO\+\_\+DETECT}}\end{DoxyParamCaption})}
+
+Load X.\+509 certificate
+
+Returns an associative array describing the X.\+509 cert or a false if the cert failed to load
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | string & {\em \$cert} & \\
+\hline
+int & {\em \$mode} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a37fa71df86722e5d1ea3ac6a884a565b}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!makeCA@{makeCA}}
+\index{makeCA@{makeCA}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{makeCA()}{makeCA()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a37fa71df86722e5d1ea3ac6a884a565b} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::make\+CA (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Turns the certificate into a certificate authority \Hypertarget{classphpseclib3_1_1_file_1_1_x509_a80aa946e06b1e447734bdab1d45c368a}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!registerExtension@{registerExtension}}
+\index{registerExtension@{registerExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{registerExtension()}{registerExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a80aa946e06b1e447734bdab1d45c368a} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::register\+Extension (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{array}]{\$mapping}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register the mapping for a custom/unsupported extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+array & {\em \$mapping} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a735c1dc336f221c2732f5e5f130423fe}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!removeAttribute@{removeAttribute}}
+\index{removeAttribute@{removeAttribute}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{removeAttribute()}{removeAttribute()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a735c1dc336f221c2732f5e5f130423fe} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::remove\+Attribute (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{}]{\$disposition}{ = {\ttfamily self\+:\+:ATTR\+\_\+ALL}}\end{DoxyParamCaption})}
+
+Remove a CSR attribute.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+int & {\em \$disposition} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a84e8aae522234f8bc10b3022b0e29f76}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!removeDNProp@{removeDNProp}}
+\index{removeDNProp@{removeDNProp}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{removeDNProp()}{removeDNProp()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a84e8aae522234f8bc10b3022b0e29f76} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::remove\+DNProp (\begin{DoxyParamCaption}\item[{}]{\$prop\+Name}{}\end{DoxyParamCaption})}
+
+Remove Distinguished Name properties
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$prop\+Name} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a08f408280e0e4ba85c936d8acdb1f3b5}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!removeExtension@{removeExtension}}
+\index{removeExtension@{removeExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{removeExtension()}{removeExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a08f408280e0e4ba85c936d8acdb1f3b5} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::remove\+Extension (\begin{DoxyParamCaption}\item[{}]{\$id}{}\end{DoxyParamCaption})}
+
+Remove a certificate, CSR or CRL Extension
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ab99d5099c175110fa61ca3678a366f40}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!removeRevokedCertificateExtension@{removeRevokedCertificateExtension}}
+\index{removeRevokedCertificateExtension@{removeRevokedCertificateExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{removeRevokedCertificateExtension()}{removeRevokedCertificateExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ab99d5099c175110fa61ca3678a366f40} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::remove\+Revoked\+Certificate\+Extension (\begin{DoxyParamCaption}\item[{}]{\$serial}{, }\item[{}]{\$id}{}\end{DoxyParamCaption})}
+
+Remove a Revoked Certificate Extension
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+string & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a49a56ca5338d611b1adf4f14b897b13c}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!revoke@{revoke}}
+\index{revoke@{revoke}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{revoke()}{revoke()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a49a56ca5338d611b1adf4f14b897b13c} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::revoke (\begin{DoxyParamCaption}\item[{}]{\$serial}{, }\item[{}]{\$date}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Revoke a certificate.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+string & {\em \$date} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a6184be172cb4aa77d29fe913de610abd}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!saveCRL@{saveCRL}}
+\index{saveCRL@{saveCRL}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{saveCRL()}{saveCRL()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a6184be172cb4aa77d29fe913de610abd} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CRL (\begin{DoxyParamCaption}\item[{array}]{\$crl}{, }\item[{}]{\$format}{ = {\ttfamily self\+:\+:FORMAT\+\_\+PEM}}\end{DoxyParamCaption})}
+
+Save Certificate Revocation List.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$crl} & \\
+\hline
+int & {\em \$format} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a920a9c7c7eeb5935820a0dc27c628a3a}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!saveCSR@{saveCSR}}
+\index{saveCSR@{saveCSR}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{saveCSR()}{saveCSR()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a920a9c7c7eeb5935820a0dc27c628a3a} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CSR (\begin{DoxyParamCaption}\item[{array}]{\$csr}{, }\item[{}]{\$format}{ = {\ttfamily self\+:\+:FORMAT\+\_\+PEM}}\end{DoxyParamCaption})}
+
+Save CSR request
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$csr} & \\
+\hline
+int & {\em \$format} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ad2ba9321c2fff8a15c8186c10cb0f144}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!saveSPKAC@{saveSPKAC}}
+\index{saveSPKAC@{saveSPKAC}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{saveSPKAC()}{saveSPKAC()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ad2ba9321c2fff8a15c8186c10cb0f144} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+SPKAC (\begin{DoxyParamCaption}\item[{array}]{\$spkac}{, }\item[{}]{\$format}{ = {\ttfamily self\+:\+:FORMAT\+\_\+PEM}}\end{DoxyParamCaption})}
+
+Save a SPKAC CSR request
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$spkac} & \\
+\hline
+int & {\em \$format} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a81c203819fbe38f811a3619467e79ff0}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!saveX509@{saveX509}}
+\index{saveX509@{saveX509}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{saveX509()}{saveX509()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a81c203819fbe38f811a3619467e79ff0} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+X509 (\begin{DoxyParamCaption}\item[{array}]{\$cert}{, }\item[{}]{\$format}{ = {\ttfamily self\+:\+:FORMAT\+\_\+PEM}}\end{DoxyParamCaption})}
+
+Save X.\+509 certificate
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$cert} & \\
+\hline
+int & {\em \$format} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aaf2194f2e2ab85b7bd1a32330a8fb4f5}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setAttribute@{setAttribute}}
+\index{setAttribute@{setAttribute}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setAttribute()}{setAttribute()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aaf2194f2e2ab85b7bd1a32330a8fb4f5} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Attribute (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{}]{\$value}{, }\item[{}]{\$disposition}{ = {\ttfamily self\+:\+:ATTR\+\_\+ALL}}\end{DoxyParamCaption})}
+
+Set a CSR attribute
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+int & {\em \$disposition} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aff0243df71b235db15fcae3f7afd727b}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setChallenge@{setChallenge}}
+\index{setChallenge@{setChallenge}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setChallenge()}{setChallenge()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aff0243df71b235db15fcae3f7afd727b} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Challenge (\begin{DoxyParamCaption}\item[{}]{\$challenge}{}\end{DoxyParamCaption})}
+
+Set challenge
+
+Used for SPKAC CSR\textquotesingle{}s
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$challenge} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a869d3898027049ff4ac8c3bf044a902b}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setDN@{setDN}}
+\index{setDN@{setDN}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setDN()}{setDN()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a869d3898027049ff4ac8c3bf044a902b} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+DN (\begin{DoxyParamCaption}\item[{}]{\$dn}{, }\item[{}]{\$merge}{ = {\ttfamily false}, }\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}utf8String\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Set a Distinguished Name
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$dn} & \\
+\hline
+bool & {\em \$merge} & optional \\
+\hline
+string & {\em \$type} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a9d4845631cdc1ef7dca2f6c151127d71}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setDNProp@{setDNProp}}
+\index{setDNProp@{setDNProp}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setDNProp()}{setDNProp()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a9d4845631cdc1ef7dca2f6c151127d71} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+DNProp (\begin{DoxyParamCaption}\item[{}]{\$prop\+Name}{, }\item[{}]{\$prop\+Value}{, }\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}utf8String\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Set a Distinguished Name property
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$prop\+Name} & \\
+\hline
+mixed & {\em \$prop\+Value} & \\
+\hline
+string & {\em \$type} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_abd892dc20e6bd4127c6d14339706718e}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setDomain@{setDomain}}
+\index{setDomain@{setDomain}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setDomain()}{setDomain()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_abd892dc20e6bd4127c6d14339706718e} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Domain (\begin{DoxyParamCaption}\item[{}]{...}{}\end{DoxyParamCaption})}
+
+Set the domain name\textquotesingle{}s which the cert is to be valid for
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & ...\$domains \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ac720e71f60e219d2dffa739bbcf637d9}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setEndDate@{setEndDate}}
+\index{setEndDate@{setEndDate}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setEndDate()}{setEndDate()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ac720e71f60e219d2dffa739bbcf637d9} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+End\+Date (\begin{DoxyParamCaption}\item[{}]{\$date}{}\end{DoxyParamCaption})}
+
+Set certificate end date
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Date\+Time\+Interface | string & {\em \$date} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a7283e6ec43aa8bebe89d248988bed121}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setExtension@{setExtension}}
+\index{setExtension@{setExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setExtension()}{setExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a7283e6ec43aa8bebe89d248988bed121} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Extension (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{}]{\$value}{, }\item[{}]{\$critical}{ = {\ttfamily false}, }\item[{}]{\$replace}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Set a certificate, CSR or CRL Extension
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+bool & {\em \$critical} & optional \\
+\hline
+bool & {\em \$replace} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_af98b576e76aa604e82a575b55d460c3a}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setExtensionValue@{setExtensionValue}}
+\index{setExtensionValue@{setExtensionValue}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setExtensionValue()}{setExtensionValue()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_af98b576e76aa604e82a575b55d460c3a} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Extension\+Value (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{}]{\$value}{, }\item[{}]{\$critical}{ = {\ttfamily false}, }\item[{}]{\$replace}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Register the mapping for a custom/unsupported extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+bool & {\em \$critical} & \\
+\hline
+bool & {\em \$replace} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a14d996dd99ed578248db8c65e3da1a99}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setIPAddress@{setIPAddress}}
+\index{setIPAddress@{setIPAddress}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setIPAddress()}{setIPAddress()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a14d996dd99ed578248db8c65e3da1a99} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+IPAddress (\begin{DoxyParamCaption}\item[{}]{...}{}\end{DoxyParamCaption})}
+
+Set the IP Addresses\textquotesingle{}s which the cert is to be valid for
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed\mbox{[}$\,$\mbox{]}} & ...\$ip\+Addresses \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a5fef37a281592c819415bafbcaed260d}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setKeyIdentifier@{setKeyIdentifier}}
+\index{setKeyIdentifier@{setKeyIdentifier}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setKeyIdentifier()}{setKeyIdentifier()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a5fef37a281592c819415bafbcaed260d} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Key\+Identifier (\begin{DoxyParamCaption}\item[{}]{\$value}{}\end{DoxyParamCaption})}
+
+Sets the subject key identifier
+
+This is used by the id-\/ce-\/authority\+Key\+Identifier and the id-\/ce-\/subject\+Key\+Identifier extensions.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a9f0feb1b2d5171b1120d98b7a64151f5}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setPrivateKey@{setPrivateKey}}
+\index{setPrivateKey@{setPrivateKey}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setPrivateKey()}{setPrivateKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a9f0feb1b2d5171b1120d98b7a64151f5} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Private\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key}{Private\+Key}}}]{\$key}{}\end{DoxyParamCaption})}
+
+Set private key
+
+Key needs to be a \textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA object
+
+
+\begin{DoxyParams}[1]{Parameters}
+Private\+Key & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a4b94bf0fd7b20446d7ac7e34f1c24353}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setPublicKey@{setPublicKey}}
+\index{setPublicKey@{setPublicKey}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setPublicKey()}{setPublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a4b94bf0fd7b20446d7ac7e34f1c24353} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Public\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_public_key}{Public\+Key}}}]{\$key}{}\end{DoxyParamCaption})}
+
+Set public key
+
+Key needs to be a \textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA object
+
+
+\begin{DoxyParams}[1]{Parameters}
+Public\+Key & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a91c14f3deb364e183ea5dbf563ce6725}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setRecurLimit@{setRecurLimit}}
+\index{setRecurLimit@{setRecurLimit}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setRecurLimit()}{setRecurLimit()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a91c14f3deb364e183ea5dbf563ce6725} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Recur\+Limit (\begin{DoxyParamCaption}\item[{}]{\$count}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the recursion limit
+
+When validating a signature it may be necessary to download intermediate certs from URI\textquotesingle{}s. An intermediate cert that linked to itself would result in an infinite loop so to prevent that we set a recursion limit. A negative number means that there is no recursion limit.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$count} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_adef79975a3eb5e79c35dea35e78bd01c}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setRevokedCertificateExtension@{setRevokedCertificateExtension}}
+\index{setRevokedCertificateExtension@{setRevokedCertificateExtension}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setRevokedCertificateExtension()}{setRevokedCertificateExtension()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_adef79975a3eb5e79c35dea35e78bd01c} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Revoked\+Certificate\+Extension (\begin{DoxyParamCaption}\item[{}]{\$serial}{, }\item[{}]{\$id}{, }\item[{}]{\$value}{, }\item[{}]{\$critical}{ = {\ttfamily false}, }\item[{}]{\$replace}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Set a Revoked Certificate Extension
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+string & {\em \$id} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+bool & {\em \$critical} & optional \\
+\hline
+bool & {\em \$replace} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aaa1a287c1e25577bdc76014d1b7c5e4e}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setSerialNumber@{setSerialNumber}}
+\index{setSerialNumber@{setSerialNumber}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setSerialNumber()}{setSerialNumber()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aaa1a287c1e25577bdc76014d1b7c5e4e} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Serial\+Number (\begin{DoxyParamCaption}\item[{}]{\$serial}{, }\item[{}]{\$base}{ = {\ttfamily -\/256}}\end{DoxyParamCaption})}
+
+Set Serial Number
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+int & {\em \$base} & optional \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a9608dfaa4dcfa66e358790fae0671b83}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!setStartDate@{setStartDate}}
+\index{setStartDate@{setStartDate}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{setStartDate()}{setStartDate()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a9608dfaa4dcfa66e358790fae0671b83} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::set\+Start\+Date (\begin{DoxyParamCaption}\item[{}]{\$date}{}\end{DoxyParamCaption})}
+
+Set certificate start date
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Date\+Time\+Interface | string & {\em \$date} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_af2ce7b3fa4174b49a1edb391f61751c6}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!sign@{sign}}
+\index{sign@{sign}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{sign()}{sign()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_af2ce7b3fa4174b49a1edb391f61751c6} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::sign (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}}}]{\$issuer}{, }\item[{\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}}}]{\$subject}{}\end{DoxyParamCaption})}
+
+Sign an X.\+509 certificate
+
+\$issuer\textquotesingle{}s private key needs to be loaded. \$subject can be either an existing X.\+509 cert (if you want to resign it), a CSR or something with the DN and public key explicitly set.
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ab15bf1e3a51f290c459826ec6e683d46}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!signCRL@{signCRL}}
+\index{signCRL@{signCRL}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{signCRL()}{signCRL()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ab15bf1e3a51f290c459826ec6e683d46} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::sign\+CRL (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}}}]{\$issuer}{, }\item[{\mbox{\hyperlink{classphpseclib3_1_1_file_1_1_x509}{X509}}}]{\$crl}{}\end{DoxyParamCaption})}
+
+Sign a CRL
+
+\$issuer\textquotesingle{}s private key needs to be loaded.
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ad712092ca23fe3e05509cbe0593e2400}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!signCSR@{signCSR}}
+\index{signCSR@{signCSR}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{signCSR()}{signCSR()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ad712092ca23fe3e05509cbe0593e2400} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::sign\+CSR (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Sign a CSR
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a0f49d53d94a7e2a6de1186823c85fa4f}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!signSPKAC@{signSPKAC}}
+\index{signSPKAC@{signSPKAC}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{signSPKAC()}{signSPKAC()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a0f49d53d94a7e2a6de1186823c85fa4f} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::sign\+SPKAC (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Sign a SPKAC
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ae60b73a0784bd1d1772b2b5f195357f2}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!unrevoke@{unrevoke}}
+\index{unrevoke@{unrevoke}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{unrevoke()}{unrevoke()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ae60b73a0784bd1d1772b2b5f195357f2} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::unrevoke (\begin{DoxyParamCaption}\item[{}]{\$serial}{}\end{DoxyParamCaption})}
+
+Unrevoke a certificate.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$serial} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a91f888e136b359c356825258033a34d2}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!validateDate@{validateDate}}
+\index{validateDate@{validateDate}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{validateDate()}{validateDate()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a91f888e136b359c356825258033a34d2} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::validate\+Date (\begin{DoxyParamCaption}\item[{}]{\$date}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Validate a date
+
+If \$date isn\textquotesingle{}t defined it is assumed to be the current date.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Date\+Time\+Interface | string & {\em \$date} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a987f1faf4ec436d1e9be5455038529c5}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!validateSignature@{validateSignature}}
+\index{validateSignature@{validateSignature}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{validateSignature()}{validateSignature()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a987f1faf4ec436d1e9be5455038529c5} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::validate\+Signature (\begin{DoxyParamCaption}\item[{}]{\$caonly}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Validate a signature
+
+Works on X.\+509 certs, CSR\textquotesingle{}s and CRL\textquotesingle{}s. Returns true if the signature is verified, false if it is not correct or null on error
+
+By default returns false for self-\/signed certs. Call validate\+Signature(false) to make this support self-\/signed.
+
+The behavior of this function is inspired by {\ttfamily \doxylink{}{openssl\+\_\+verify}}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$caonly} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ade650ed6273cb59bfd6078ed85de7f23}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!validateURL@{validateURL}}
+\index{validateURL@{validateURL}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{validateURL()}{validateURL()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ade650ed6273cb59bfd6078ed85de7f23} 
+phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::validate\+URL (\begin{DoxyParamCaption}\item[{}]{\$url}{}\end{DoxyParamCaption})}
+
+Validate an X.\+509 certificate against a URL
+
+From RFC2818 "{}\+HTTP over TLS"{}\+:
+
+Matching is performed using the matching rules specified by \mbox{[}RFC2459\mbox{]}. If more than one identity of a given type is present in the certificate (e.\+g., more than one d\+NSName name, a match in any one of the set is considered acceptable.) Names may contain the wildcard character \texorpdfstring{$\ast$}{*} which is considered to match any single domain name component or component fragment. E.\+g., {\itshape .a.\+com matches foo.\+a.\+com but not bar.\+foo.\+a.\+com. f}.com matches foo.\+com but not bar.\+com.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a91fa485a36da7dacbeb6e8106871762b}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!ATTR\_ALL@{ATTR\_ALL}}
+\index{ATTR\_ALL@{ATTR\_ALL}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{ATTR\_ALL}{ATTR\_ALL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a91fa485a36da7dacbeb6e8106871762b} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+ATTR\+\_\+\+ALL = -\/1}
+
+Attribute value disposition. If disposition is \texorpdfstring{$>$}{>}= 0, this is the index of the target value. \Hypertarget{classphpseclib3_1_1_file_1_1_x509_a340c19a185300b160985d662f4c9ccd8}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!ATTR\_APPEND@{ATTR\_APPEND}}
+\index{ATTR\_APPEND@{ATTR\_APPEND}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{ATTR\_APPEND}{ATTR\_APPEND}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a340c19a185300b160985d662f4c9ccd8} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+ATTR\+\_\+\+APPEND = -\/2}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ac43be3bfd031b980f0300f7c4fdfb0d3}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!ATTR\_REPLACE@{ATTR\_REPLACE}}
+\index{ATTR\_REPLACE@{ATTR\_REPLACE}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{ATTR\_REPLACE}{ATTR\_REPLACE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ac43be3bfd031b980f0300f7c4fdfb0d3} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+ATTR\+\_\+\+REPLACE = -\/3}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a1f1932998a72a5786b497590f62450f9}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!DN\_ARRAY@{DN\_ARRAY}}
+\index{DN\_ARRAY@{DN\_ARRAY}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{DN\_ARRAY}{DN\_ARRAY}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a1f1932998a72a5786b497590f62450f9} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+DN\+\_\+\+ARRAY = 0}
+
+Return internal array representation
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a3092c6753d54f42e21f0578176057eab}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!DN\_ASN1@{DN\_ASN1}}
+\index{DN\_ASN1@{DN\_ASN1}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{DN\_ASN1}{DN\_ASN1}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a3092c6753d54f42e21f0578176057eab} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+DN\+\_\+\+ASN1 = 2}
+
+Return ASN.\+1 name string
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_aa903570cf47f4f4030bf1f953b876dc2}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!DN\_CANON@{DN\_CANON}}
+\index{DN\_CANON@{DN\_CANON}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{DN\_CANON}{DN\_CANON}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aa903570cf47f4f4030bf1f953b876dc2} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+DN\+\_\+\+CANON = 4}
+
+Return canonical ASN.\+1 RDNs string
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a291cff6f42503be57da48c42a77885a5}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!DN\_HASH@{DN\_HASH}}
+\index{DN\_HASH@{DN\_HASH}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{DN\_HASH}{DN\_HASH}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a291cff6f42503be57da48c42a77885a5} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+DN\+\_\+\+HASH = 5}
+
+Return name hash for file indexing
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a95e78650c635b00d3ea52cfb5695bc23}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!DN\_OPENSSL@{DN\_OPENSSL}}
+\index{DN\_OPENSSL@{DN\_OPENSSL}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{DN\_OPENSSL}{DN\_OPENSSL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a95e78650c635b00d3ea52cfb5695bc23} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+DN\+\_\+\+OPENSSL = 3}
+
+Return Open\+SSL compatible array
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a105e60009be34b696bef76edb5b64941}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!DN\_STRING@{DN\_STRING}}
+\index{DN\_STRING@{DN\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{DN\_STRING}{DN\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a105e60009be34b696bef76edb5b64941} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+DN\+\_\+\+STRING = 1}
+
+Return string
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::get\+DN() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_ac0697ab60a26d291c70450f90105f907}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!FORMAT\_AUTO\_DETECT@{FORMAT\_AUTO\_DETECT}}
+\index{FORMAT\_AUTO\_DETECT@{FORMAT\_AUTO\_DETECT}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{FORMAT\_AUTO\_DETECT}{FORMAT\_AUTO\_DETECT}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_ac0697ab60a26d291c70450f90105f907} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+FORMAT\+\_\+\+AUTO\+\_\+\+DETECT = 3}
+
+Auto-\/detect the format
+
+Used only by the load\texorpdfstring{$\ast$}{*}() functions
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+X509() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CSR() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CRL() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a19d1cf014e98d300d86c5ffb8d2b3d9c}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!FORMAT\_DER@{FORMAT\_DER}}
+\index{FORMAT\_DER@{FORMAT\_DER}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{FORMAT\_DER}{FORMAT\_DER}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a19d1cf014e98d300d86c5ffb8d2b3d9c} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+FORMAT\+\_\+\+DER = 1}
+
+Save as DER
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+X509() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CSR() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CRL() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a970145cfc7e6056ee8bdcd4ea1e3bc55}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!FORMAT\_PEM@{FORMAT\_PEM}}
+\index{FORMAT\_PEM@{FORMAT\_PEM}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{FORMAT\_PEM}{FORMAT\_PEM}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a970145cfc7e6056ee8bdcd4ea1e3bc55} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+FORMAT\+\_\+\+PEM = 0}
+
+Save as PEM
+
+ie. a base64-\/encoded PEM with a header and a footer
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+X509() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CSR() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CRL() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_file_1_1_x509_a03854cf50c1fd6314f17401c8b459d60}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!FORMAT\_SPKAC@{FORMAT\_SPKAC}}
+\index{FORMAT\_SPKAC@{FORMAT\_SPKAC}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{FORMAT\_SPKAC}{FORMAT\_SPKAC}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_a03854cf50c1fd6314f17401c8b459d60} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+FORMAT\+\_\+\+SPKAC = 2}
+
+Save as a SPKAC
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+X509() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CSR() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::save\+CRL()
+\end{DoxySeeAlso}
+Only works on CSRs. Not currently supported. \Hypertarget{classphpseclib3_1_1_file_1_1_x509_aafb1f54534b36074249ce17079f09c51}\index{phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}!VALIDATE\_SIGNATURE\_BY\_CA@{VALIDATE\_SIGNATURE\_BY\_CA}}
+\index{VALIDATE\_SIGNATURE\_BY\_CA@{VALIDATE\_SIGNATURE\_BY\_CA}!phpseclib3\textbackslash{}File\textbackslash{}X509@{phpseclib3\textbackslash{}File\textbackslash{}X509}}
+\doxysubsubsection{\texorpdfstring{VALIDATE\_SIGNATURE\_BY\_CA}{VALIDATE\_SIGNATURE\_BY\_CA}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_x509_aafb1f54534b36074249ce17079f09c51} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+X509\+::\+VALIDATE\+\_\+\+SIGNATURE\+\_\+\+BY\+\_\+\+CA = 1}
+
+Flag to only accept signatures signed by certificate authorities
+
+Not really used anymore but retained all the same to suppress E\+\_\+\+NOTICEs from old installs 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+File/\mbox{\hyperlink{_x509_8php}{X509.\+php}}\end{DoxyCompactItemize}

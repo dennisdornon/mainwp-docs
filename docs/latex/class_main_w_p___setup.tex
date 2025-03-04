@@ -1,0 +1,108 @@
+\doxysection{Main\+WP\+\_\+\+Setup Class Reference}
+\hypertarget{class_main_w_p___setup}{}\label{class_main_w_p___setup}\index{MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___setup_a6aa96c86515a47a54d16371a3ae79463}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___setup_a5ba9e832fc3f81c236047fb676e9a815}{is\+\_\+rest\+\_\+api\+\_\+request}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___setup_af09cd841e73af165f66736b189192ddd}{load\+\_\+rest\+\_\+api}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___setup_a49004118c4505aa38f946e01d96b7da4}{includes}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p___setup_ad1e83aa3231348a737e891855c65a8f7}{instance}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___setup_a643fbc0e7f4ddce634e692baca0aa3ff}{\$api}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p___setup_af65f564d739c10d80b527f97dda1acc1}{\$\+\_\+instance}} = null
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{namespace_main_w_p}{Main\+WP} Setup Class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p___setup_a6aa96c86515a47a54d16371a3ae79463}\index{MainWP\_Setup@{MainWP\_Setup}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_a6aa96c86515a47a54d16371a3ae79463} 
+Main\+WP\+\_\+\+Setup\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Constructor. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p___setup_a49004118c4505aa38f946e01d96b7da4}\index{MainWP\_Setup@{MainWP\_Setup}!includes@{includes}}
+\index{includes@{includes}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{includes()}{includes()}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_a49004118c4505aa38f946e01d96b7da4} 
+Main\+WP\+\_\+\+Setup\+::includes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Include required core files used in admin. REST API.\Hypertarget{class_main_w_p___setup_ad1e83aa3231348a737e891855c65a8f7}\index{MainWP\_Setup@{MainWP\_Setup}!instance@{instance}}
+\index{instance@{instance}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_ad1e83aa3231348a737e891855c65a8f7} 
+static Main\+WP\+\_\+\+Setup\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Main Instance.
+
+Ensures only one instance loaded or can be loaded.
+
+\begin{DoxyReturn}{Returns}
+Main instance. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___setup_a5ba9e832fc3f81c236047fb676e9a815}\index{MainWP\_Setup@{MainWP\_Setup}!is\_rest\_api\_request@{is\_rest\_api\_request}}
+\index{is\_rest\_api\_request@{is\_rest\_api\_request}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{is\_rest\_api\_request()}{is\_rest\_api\_request()}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_a5ba9e832fc3f81c236047fb676e9a815} 
+Main\+WP\+\_\+\+Setup\+::is\+\_\+rest\+\_\+api\+\_\+request (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns true if the request is a non-\/legacy REST API request.
+
+Legacy REST requests should still run some extra code for backwards compatibility.
+
+@to\+\_\+do\+: replace this function once core WP function is available\+: \href{https://core.trac.wordpress.org/ticket/42061}{\texttt{ https\+://core.\+trac.\+wordpress.\+org/ticket/42061}}.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Whether this is a REST API request.
+
+\begin{DoxySince}{Since}
+5.\+1.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p___setup_af09cd841e73af165f66736b189192ddd}\index{MainWP\_Setup@{MainWP\_Setup}!load\_rest\_api@{load\_rest\_api}}
+\index{load\_rest\_api@{load\_rest\_api}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{load\_rest\_api()}{load\_rest\_api()}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_af09cd841e73af165f66736b189192ddd} 
+Main\+WP\+\_\+\+Setup\+::load\+\_\+rest\+\_\+api (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Load REST API. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p___setup_af65f564d739c10d80b527f97dda1acc1}\index{MainWP\_Setup@{MainWP\_Setup}!\$\_instance@{\$\_instance}}
+\index{\$\_instance@{\$\_instance}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{\$\_instance}{\$\_instance}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_af65f564d739c10d80b527f97dda1acc1} 
+Main\+WP\+\_\+\+Setup\+::\$\+\_\+instance = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p___setup_a643fbc0e7f4ddce634e692baca0aa3ff}\index{MainWP\_Setup@{MainWP\_Setup}!\$api@{\$api}}
+\index{\$api@{\$api}!MainWP\_Setup@{MainWP\_Setup}}
+\doxysubsubsection{\texorpdfstring{\$api}{\$api}}
+{\footnotesize\ttfamily \label{class_main_w_p___setup_a643fbc0e7f4ddce634e692baca0aa3ff} 
+Main\+WP\+\_\+\+Setup\+::\$api}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{class-mainwp-setup_8php}{class-\/mainwp-\/setup.\+php}}\end{DoxyCompactItemize}

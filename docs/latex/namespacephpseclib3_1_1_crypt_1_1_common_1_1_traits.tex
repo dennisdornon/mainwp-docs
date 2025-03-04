@@ -1,0 +1,69 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits}{}\label{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits_aa2a76188f6aecefbb4b26f12ea052aed}{with\+Password}} (\$password=false)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+trait \mbox{\hyperlink{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits_a0e3492f17517df09670c44c993f89c36}{Password\+Protected}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fingerprint Trait for Public Keys
+
+PHP version 5
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2015 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License \doxylink{}{Password Protected Trait for Private Keys PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} }
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits_aa2a76188f6aecefbb4b26f12ea052aed}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits}!withPassword@{withPassword}}
+\index{withPassword@{withPassword}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits}}
+\doxysubsubsection{\texorpdfstring{withPassword()}{withPassword()}}
+{\footnotesize\ttfamily \label{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits_aa2a76188f6aecefbb4b26f12ea052aed} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Traits\textbackslash{}with\+Password (\begin{DoxyParamCaption}\item[{}]{\$password}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Sets the password
+
+Private keys can be encrypted with a password. To unset the password, pass in the empty string or false. Or rather, pass in \$password such that empty(\$password) \&\& !is\+\_\+string(\$password) is true.
+
+\begin{DoxySeeAlso}{See also}
+self\+::create\+Key() 
+
+self\+::load() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string | bool & {\em \$password} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits_a0e3492f17517df09670c44c993f89c36}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits}!PasswordProtected@{PasswordProtected}}
+\index{PasswordProtected@{PasswordProtected}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Traits}}
+\doxysubsubsection{\texorpdfstring{PasswordProtected}{PasswordProtected}}
+{\footnotesize\ttfamily \label{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits_a0e3492f17517df09670c44c993f89c36} 
+trait phpseclib3\+::\+Crypt\+::\+Common\+::\+Traits\textbackslash{}\+Password\+Protected}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{private}\ \$password\ =\ \textcolor{keyword}{false}}
+
+\end{DoxyCode}
+Password Protected Trait for Private Keys
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}

@@ -1,0 +1,40 @@
+\doxysection{cron/bootstrap.php File Reference}
+\hypertarget{cron_2bootstrap_8php}{}\label{cron_2bootstrap_8php}\index{cron/bootstrap.php@{cron/bootstrap.php}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_main_w_p}{Main\+WP}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{autoload_8php_a26d062d8da79dc83e81e01fd4d82c715}{if}}(false !==strpos(ini\+\_\+get( \textquotesingle{}disable\+\_\+functions\textquotesingle{}), \textquotesingle{}set\+\_\+time\+\_\+limit\textquotesingle{})) \mbox{\hyperlink{cron_2bootstrap_8php_ab0344d13e175b4e2e5a17fa92e898d78}{\$mem}} = \textquotesingle{}512M\textquotesingle{}
+\item 
+const \mbox{\hyperlink{cron_2bootstrap_8php_a27bfc155c0a3fbd3103bf2d1928375f8}{DOING\+\_\+\+CRON}} true
+\item 
+\mbox{\hyperlink{cron_2bootstrap_8php_afc44ef0981a4c72dfc03aba296639cb4}{\$included}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{cron_2bootstrap_8php_afc44ef0981a4c72dfc03aba296639cb4}\index{bootstrap.php@{bootstrap.php}!\$included@{\$included}}
+\index{\$included@{\$included}!bootstrap.php@{bootstrap.php}}
+\doxysubsubsection{\texorpdfstring{\$included}{\$included}}
+{\footnotesize\ttfamily \label{cron_2bootstrap_8php_afc44ef0981a4c72dfc03aba296639cb4} 
+\$included = false}
+
+\Hypertarget{cron_2bootstrap_8php_ab0344d13e175b4e2e5a17fa92e898d78}\index{bootstrap.php@{bootstrap.php}!\$mem@{\$mem}}
+\index{\$mem@{\$mem}!bootstrap.php@{bootstrap.php}}
+\doxysubsubsection{\texorpdfstring{\$mem}{\$mem}}
+{\footnotesize\ttfamily \label{cron_2bootstrap_8php_ab0344d13e175b4e2e5a17fa92e898d78} 
+\mbox{\hyperlink{autoload_8php_a26d062d8da79dc83e81e01fd4d82c715}{if}} (false !==strpos(ini\+\_\+get(\textquotesingle{}disable\+\_\+functions\textquotesingle{}), \textquotesingle{}set\+\_\+time\+\_\+limit\textquotesingle{})) \$mem = \textquotesingle{}512M\textquotesingle{}}
+
+\Hypertarget{cron_2bootstrap_8php_a27bfc155c0a3fbd3103bf2d1928375f8}\index{bootstrap.php@{bootstrap.php}!DOING\_CRON@{DOING\_CRON}}
+\index{DOING\_CRON@{DOING\_CRON}!bootstrap.php@{bootstrap.php}}
+\doxysubsubsection{\texorpdfstring{DOING\_CRON}{DOING\_CRON}}
+{\footnotesize\ttfamily \label{cron_2bootstrap_8php_a27bfc155c0a3fbd3103bf2d1928375f8} 
+const DOING\+\_\+\+CRON true}
+
+Checks whether cron is in progress.
+
+@const ( bool ) Default\+: true @source \href{https://github.com/mainwp/mainwp/blob/master/cron/bootstrap.php}{\texttt{ https\+://github.\+com/mainwp/mainwp/blob/master/cron/bootstrap.\+php}} 

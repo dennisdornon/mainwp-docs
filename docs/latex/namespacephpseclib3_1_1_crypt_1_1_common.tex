@@ -1,0 +1,35 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Common Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_crypt_1_1_common}{}\label{namespacephpseclib3_1_1_crypt_1_1_common}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacephpseclib3_1_1_crypt_1_1_common_1_1_traits}{Traits}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_asymmetric_key}{Asymmetric\+Key}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_block_cipher}{Block\+Cipher}}
+\item 
+interface \mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key}{Private\+Key}}
+\item 
+interface \mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_public_key}{Public\+Key}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_stream_cipher}{Stream\+Cipher}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{Symmetric\+Key}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base Class for all asymmetric key ciphers
+
+PHP version 5
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2016 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License \doxylink{}{Base Class for all block ciphers PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  Hans-\/\+Juergen Petrich \href{mailto:petrich@tronic-media.com}{\texttt{ petrich@tronic-\/media.\+com}}  2007 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Private\+Key interface  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2009 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Public\+Key interface  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2009 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Base Class for all stream ciphers PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  Hans-\/\+Juergen Petrich \href{mailto:petrich@tronic-media.com}{\texttt{ petrich@tronic-\/media.\+com}}  2007 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Base Class for all \texorpdfstring{$\ast$}{*} cipher classes PHP version 5 Internally for phpseclib developers\+: If you plan to add a new cipher class, please note following rules\+: The new \texorpdfstring{$\ast$}{*} cipher class should extend  Following methods are then required to be overridden/overloaded\+: encrypt\+Block() decrypt\+Block() setup\+Key() All other methods are optional to be overridden/overloaded Look at the source code of the current ciphers how they extend  and take one of them as a start up for the new cipher class. Please read all the other comments/notes/hints here also for each class var/method  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  Hans-\/\+Juergen Petrich \href{mailto:petrich@tronic-media.com}{\texttt{ petrich@tronic-\/media.\+com}}  2007 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} }
+\end{DoxyCopyright}

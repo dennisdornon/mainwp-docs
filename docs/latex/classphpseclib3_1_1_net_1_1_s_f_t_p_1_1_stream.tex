@@ -1,0 +1,127 @@
+\doxysection{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream Class Reference}
+\hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream}{}\label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a82621d4f6b107482ec5c36e2175c9ba8}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_aaa87d1741a7057b214fd62f23d64313f}{\+\_\+\+\_\+call}} (\$name, array \$arguments)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a26c4629b83ab0e8e9bfffa8e840470cc}{register}} (\$protocol=\textquotesingle{}sftp\textquotesingle{})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a946d716fcc79a4c0d2d63066b1e9d82d}{\$context}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a648268c6adc33b4d30c4a931784e28b9}{\$instances}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_afeb1b2c38484f41c822647ea53839902}{parse\+\_\+path}} (\$path)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+SFTP Stream Wrapper
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a82621d4f6b107482ec5c36e2175c9ba8}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a82621d4f6b107482ec5c36e2175c9ba8} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\textbackslash{}\+Stream\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+The Constructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_aaa87d1741a7057b214fd62f23d64313f}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}!\_\_call@{\_\_call}}
+\index{\_\_call@{\_\_call}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection{\texorpdfstring{\_\_call()}{\_\_call()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_aaa87d1741a7057b214fd62f23d64313f} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\textbackslash{}\+Stream\+::\+\_\+\+\_\+call (\begin{DoxyParamCaption}\item[{}]{\$name}{, }\item[{array}]{\$arguments}{}\end{DoxyParamCaption})}
+
+\+\_\+\+\_\+call Magic Method
+
+When you\textquotesingle{}re utilizing an SFTP stream you\textquotesingle{}re not calling the methods in this class directly -\/ PHP is calling them for you. Which kinda begs the question... what methods is PHP calling and what parameters is it passing to them? This function lets you figure that out.
+
+If NET\+\_\+\+SFTP\+\_\+\+STREAM\+\_\+\+LOGGING is defined all calls will be output on the screen and then (regardless of whether or not NET\+\_\+\+SFTP\+\_\+\+STREAM\+\_\+\+LOGGING is enabled) the parameters will be passed through to the appropriate method.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+array & {\em \$arguments} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_afeb1b2c38484f41c822647ea53839902}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}!parse\_path@{parse\_path}}
+\index{parse\_path@{parse\_path}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection{\texorpdfstring{parse\_path()}{parse\_path()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_afeb1b2c38484f41c822647ea53839902} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\textbackslash{}\+Stream\+::parse\+\_\+path (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Path Parser
+
+Extract a path from a URI and actually connect to an SSH server if appropriate
+
+If "{}notification"{} is set as a context parameter the message code for successful login is NET\+\_\+\+SSH2\+\_\+\+MSG\+\_\+\+USERAUTH\+\_\+\+SUCCESS. For a failed login it\textquotesingle{}s NET\+\_\+\+SSH2\+\_\+\+MSG\+\_\+\+USERAUTH\+\_\+\+FAILURE.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a26c4629b83ab0e8e9bfffa8e840470cc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}!register@{register}}
+\index{register@{register}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection{\texorpdfstring{register()}{register()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a26c4629b83ab0e8e9bfffa8e840470cc} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\textbackslash{}\+Stream\+::register (\begin{DoxyParamCaption}\item[{}]{\$protocol}{ = {\ttfamily \textquotesingle{}sftp\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Registers this class as a URL wrapper.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$protocol} & The wrapper name to be registered. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True on success, false otherwise. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a946d716fcc79a4c0d2d63066b1e9d82d}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}!\$context@{\$context}}
+\index{\$context@{\$context}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection{\texorpdfstring{\$context}{\$context}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a946d716fcc79a4c0d2d63066b1e9d82d} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\textbackslash{}\+Stream\+::\$context}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a648268c6adc33b4d30c4a931784e28b9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}!\$instances@{\$instances}}
+\index{\$instances@{\$instances}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP\textbackslash{}Stream}}
+\doxysubsubsection{\texorpdfstring{\$instances}{\$instances}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_1_1_stream_a648268c6adc33b4d30c4a931784e28b9} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\textbackslash{}\+Stream\+::\$instances\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Net/\+SFTP/\mbox{\hyperlink{_stream_8php}{Stream.\+php}}\end{DoxyCompactItemize}

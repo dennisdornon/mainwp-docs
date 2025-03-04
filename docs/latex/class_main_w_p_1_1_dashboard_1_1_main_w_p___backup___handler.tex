@@ -1,0 +1,369 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Backup\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_ad0f11f7a05294869dcf00f51886aa885}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_aa442c26730fc0d22e7e7c03f4aa169ca}{backup\+\_\+site}} ( \$siteid, \$p\+Task, \$subfolder)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a66a559c5306380d0a96a685be9bd3376}{backup\+\_\+download\+\_\+file}} ( \$p\+Site\+Id, \$p\+Type, \$p\+Url, \$p\+File)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a300a72032ca749dc0950a060c9a21e12}{backup\+\_\+delete\+\_\+file}} ( \$p\+Site\+Id, \$p\+File)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a30bd8707f3dd0ada2e8c7f982fe10e29}{backup\+\_\+check\+\_\+pid}} ( \$p\+Site\+Id, \$pid, \$type, \$subfolder, \$p\+Filename)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a3745cf8756c34bff801129a6b474177f}{backup}} ( \$p\+Site\+Id, \$p\+Type, \$p\+Subfolder, \$p\+Exclude, \$excludebackup, \$excludecache, \$excludenonwp, \$excludezip, \$p\+Filename=null, \$p\+File\+Name\+UID=\textquotesingle{}\textquotesingle{}, \$p\+Archive\+Format=false, \$p\+Maximum\+File\+Descriptors\+Override=false, \$p\+Maximum\+File\+Descriptors\+Auto=false, \$p\+Maximum\+File\+Descriptors=false, \$p\+Load\+Files\+Before\+Zip=false, \$pid=false, \$append=false)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a526a9e365ec5b50a5d546cee170f7a9f}{normalize\+\_\+filename}} ( \$s)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_ab84cfef9ebf1c1dd1a5ee2de3753f98b}{is\+\_\+archive}} ( \$p\+File\+Name, \$p\+Prefix=\textquotesingle{}\textquotesingle{}, \$p\+Suffix=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_afcf79297a36f9852ff46a1b7efc960c1}{is\+\_\+sql\+\_\+file}} ( \$p\+File\+Name)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a8a56f9fcbd8ba1e2e7cf388bda5a3025}{is\+\_\+sql\+\_\+archive}} ( \$p\+File\+Name)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_abdc21f8b4bd7b59fc3756d563af713ed}{get\+\_\+current\+\_\+archive\+\_\+extension}} ( \$website=false, \$task=false)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a8add8b09571d26e8a0b725dbe0a59e2f}{get\+\_\+real\+\_\+extension}} ( \$path)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a098b4c9e8f129244cf942cb3f4c5ced8}{handle\+\_\+settings\+\_\+post}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a6fc8eecedbefaf98a01fc98f7cafe06e}{backup\+\_\+get\+\_\+file\+\_\+size}} ( \$p\+File)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a3745cf8756c34bff801129a6b474177f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!backup@{backup}}
+\index{backup@{backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup()}{backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a3745cf8756c34bff801129a6b474177f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup (\begin{DoxyParamCaption}\item[{}]{\$p\+Site\+Id}{, }\item[{}]{\$p\+Type}{, }\item[{}]{\$p\+Subfolder}{, }\item[{}]{\$p\+Exclude}{, }\item[{}]{\$excludebackup}{, }\item[{}]{\$excludecache}{, }\item[{}]{\$excludenonwp}{, }\item[{}]{\$excludezip}{, }\item[{}]{\$p\+Filename}{ = {\ttfamily null}, }\item[{}]{\$p\+File\+Name\+UID}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}, }\item[{}]{\$p\+Archive\+Format}{ = {\ttfamily false}, }\item[{}]{\$p\+Maximum\+File\+Descriptors\+Override}{ = {\ttfamily false}, }\item[{}]{\$p\+Maximum\+File\+Descriptors\+Auto}{ = {\ttfamily false}, }\item[{}]{\$p\+Maximum\+File\+Descriptors}{ = {\ttfamily false}, }\item[{}]{\$p\+Load\+Files\+Before\+Zip}{ = {\ttfamily false}, }\item[{}]{\$pid}{ = {\ttfamily false}, }\item[{}]{\$append}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method backup()
+
+Backup Child Site.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Site\+Id} & Child Site ID. \\
+\hline
+mixed & {\em \$p\+Type} & full\texorpdfstring{$\vert$}{|}db Typ of backup. \\
+\hline
+mixed & {\em \$p\+Subfolder} & Sub folder to store backup. \\
+\hline
+mixed & {\em \$p\+Exclude} & Exclusion list. \\
+\hline
+mixed & {\em \$excludebackup} & Exclude backup files. \\
+\hline
+mixed & {\em \$excludecache} & Exclude cache files. \\
+\hline
+mixed & {\em \$excludenonwp} & Exclude no WP Files. \\
+\hline
+mixed & {\em \$excludezip} & Exclude Zip files. \\
+\hline
+null & {\em \$p\+Filename} & Name of backup file. \\
+\hline
+string & {\em \$p\+File\+Name\+UID} & File name unique ID. \\
+\hline
+bool & {\em \$p\+Archive\+Format} & Archive format. \\
+\hline
+bool & {\em \$p\+Maximum\+File\+Descriptors\+Override} & Override maximum file descriptors. \\
+\hline
+bool & {\em \$p\+Maximum\+File\+Descriptors\+Auto} & Auto maximum file descriptors. \\
+\hline
+bool & {\em \$p\+Maximum\+File\+Descriptors} & Maximum file descriptors. \\
+\hline
+bool & {\em \$p\+Load\+Files\+Before\+Zip} & Load files before zip. \\
+\hline
+bool & {\em \$pid} & Backup pid. \\
+\hline
+bool & {\em \$append} & Append to backup.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed \$backup\+\_\+result 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Main\+WP\+\_\+\+Exception} & Error message.\\
+\hline
+\end{DoxyExceptions}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug\+\_\+for\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+mainwp\+\_\+specific\+\_\+dir() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::date() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::remove\+\_\+preslash\+\_\+spaces() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}static\+::normalize\+\_\+filename() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize\+\_\+file\+\_\+name() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::end\+\_\+session() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::value\+\_\+to\+\_\+string() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}static\+::get\+\_\+real\+\_\+extension() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a30bd8707f3dd0ada2e8c7f982fe10e29}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!backup\_check\_pid@{backup\_check\_pid}}
+\index{backup\_check\_pid@{backup\_check\_pid}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup\_check\_pid()}{backup\_check\_pid()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a30bd8707f3dd0ada2e8c7f982fe10e29} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup\+\_\+check\+\_\+pid (\begin{DoxyParamCaption}\item[{}]{\$p\+Site\+Id}{, }\item[{}]{\$pid}{, }\item[{}]{\$type}{, }\item[{}]{\$subfolder}{, }\item[{}]{\$p\+Filename}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method backup\+\_\+check\+\_\+pid()
+
+Check backup pid.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Site\+Id} & Child Site id. \\
+\hline
+mixed & {\em \$pid} & Backup pid. \\
+\hline
+mixed & {\em \$type} & full\texorpdfstring{$\vert$}{|}db Type of backup. \\
+\hline
+mixed & {\em \$subfolder} & Sub folder for backup. \\
+\hline
+mixed & {\em \$p\+Filename} & Backups filename.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array \$status, \$result. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Error message.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+mainwp\+\_\+specific\+\_\+dir() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::end\+\_\+session() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+nice\+\_\+url() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::date() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::remove\+\_\+preslash\+\_\+spaces() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}static\+::normalize\+\_\+filename() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize\+\_\+file\+\_\+name() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}static\+::get\+\_\+real\+\_\+extension() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a300a72032ca749dc0950a060c9a21e12}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!backup\_delete\_file@{backup\_delete\_file}}
+\index{backup\_delete\_file@{backup\_delete\_file}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup\_delete\_file()}{backup\_delete\_file()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a300a72032ca749dc0950a060c9a21e12} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup\+\_\+delete\+\_\+file (\begin{DoxyParamCaption}\item[{}]{\$p\+Site\+Id}{, }\item[{}]{\$p\+File}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method backup\+\_\+delete\+\_\+file().
+
+Delete backup file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Site\+Id} & Child Site ID. \\
+\hline
+mixed & {\em \$p\+File} & File to delete.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a66a559c5306380d0a96a685be9bd3376}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!backup\_download\_file@{backup\_download\_file}}
+\index{backup\_download\_file@{backup\_download\_file}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup\_download\_file()}{backup\_download\_file()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a66a559c5306380d0a96a685be9bd3376} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup\+\_\+download\+\_\+file (\begin{DoxyParamCaption}\item[{}]{\$p\+Site\+Id}{, }\item[{}]{\$p\+Type}{, }\item[{}]{\$p\+Url}{, }\item[{}]{\$p\+File}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method backup\+\_\+download\+\_\+file()
+
+Download backup file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Site\+Id} & Child Site ID. \\
+\hline
+mixed & {\em \$p\+Type} & full\texorpdfstring{$\vert$}{|}db Type of backup. \\
+\hline
+mixed & {\em \$p\+Url} & Backup location. \\
+\hline
+mixed & {\em \$p\+File} & Backup File.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Main\+WP\+\_\+\+Exception} & Error message.\\
+\hline
+\end{DoxyExceptions}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::get\+\_\+get\+\_\+data\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::download\+\_\+to\+\_\+file() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::end\+\_\+session() Word\+Press filesystem instance.
+
+@global object\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a6fc8eecedbefaf98a01fc98f7cafe06e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!backup\_get\_file\_size@{backup\_get\_file\_size}}
+\index{backup\_get\_file\_size@{backup\_get\_file\_size}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup\_get\_file\_size()}{backup\_get\_file\_size()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a6fc8eecedbefaf98a01fc98f7cafe06e} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup\+\_\+get\+\_\+file\+\_\+size (\begin{DoxyParamCaption}\item[{}]{\$p\+File}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method backup\+\_\+get\+\_\+file\+\_\+size()
+
+Get file size.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+File} & Backup file.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+false\texorpdfstring{$\vert$}{|}int
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+mainwp\+\_\+specific\+\_\+dir() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_aa442c26730fc0d22e7e7c03f4aa169ca}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!backup\_site@{backup\_site}}
+\index{backup\_site@{backup\_site}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup\_site()}{backup\_site()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_aa442c26730fc0d22e7e7c03f4aa169ca} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup\+\_\+site (\begin{DoxyParamCaption}\item[{}]{\$siteid}{, }\item[{}]{\$p\+Task}{, }\item[{}]{\$subfolder}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method backup\+\_\+site()
+
+Backup Child Site.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$siteid} & Child Site ID. \\
+\hline
+mixed & {\em \$p\+Task} & Task to perform. \\
+\hline
+mixed & {\em \$subfolder} & Sub folder to place backup.\\
+\hline
+\end{DoxyParams}
+@gobal object \$wp\+\_\+filesystem Word\+Press filesystem instance.
+
+\begin{DoxyReturn}{Returns}
+mixed \$backup\+\_\+result 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Main\+WP\+\_\+\+Exception} & Error message.\\
+\hline
+\end{DoxyExceptions}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::download\+\_\+to\+\_\+file() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::get\+\_\+get\+\_\+data\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+progress() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::add\+\_\+backup\+\_\+task\+\_\+progress() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+task\+\_\+progress() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug\+\_\+for\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::warning\+\_\+for\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+::is\+\_\+single\+\_\+user() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+wp\+\_\+file\+\_\+system() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+mainwp\+\_\+specific\+\_\+dir() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::date() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::remove\+\_\+preslash\+\_\+spaces() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}static\+::normalize\+\_\+filename() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::value\+\_\+to\+\_\+string() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}static\+::get\+\_\+real\+\_\+extension() Word\+Press filesystem instance.
+
+@global object\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_ad0f11f7a05294869dcf00f51886aa885}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_ad0f11f7a05294869dcf00f51886aa885} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_abdc21f8b4bd7b59fc3756d563af713ed}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!get\_current\_archive\_extension@{get\_current\_archive\_extension}}
+\index{get\_current\_archive\_extension@{get\_current\_archive\_extension}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_current\_archive\_extension()}{get\_current\_archive\_extension()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_abdc21f8b4bd7b59fc3756d563af713ed} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::get\+\_\+current\+\_\+archive\+\_\+extension (\begin{DoxyParamCaption}\item[{}]{\$website}{ = {\ttfamily false}, }\item[{}]{\$task}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+current\+\_\+archive\+\_\+extension()
+
+Get extension of current Archive.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$website} & true\texorpdfstring{$\vert$}{|}false. \\
+\hline
+bool | string & {\em \$task} & true\texorpdfstring{$\vert$}{|}false\texorpdfstring{$\vert$}{|}global\texorpdfstring{$\vert$}{|}site.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed \$archive\+Format Format of Archive.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+website\+\_\+backup\+\_\+settings() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a8add8b09571d26e8a0b725dbe0a59e2f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!get\_real\_extension@{get\_real\_extension}}
+\index{get\_real\_extension@{get\_real\_extension}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_real\_extension()}{get\_real\_extension()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a8add8b09571d26e8a0b725dbe0a59e2f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::get\+\_\+real\+\_\+extension (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+real\+\_\+extension()
+
+Get full file extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$path} & Path to file.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed \$check\texorpdfstring{$\vert$}{|}pathinfo() 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a098b4c9e8f129244cf942cb3f4c5ced8}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!handle\_settings\_post@{handle\_settings\_post}}
+\index{handle\_settings\_post@{handle\_settings\_post}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{handle\_settings\_post()}{handle\_settings\_post()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a098b4c9e8f129244cf942cb3f4c5ced8} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::handle\+\_\+settings\+\_\+post (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method handle\+\_\+settings\+\_\+post()
+
+Update Child Site Settings.
+
+\begin{DoxyReturn}{Returns}
+bool true\texorpdfstring{$\vert$}{|}false
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::is\+\_\+admin() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::update\+\_\+option() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_ab84cfef9ebf1c1dd1a5ee2de3753f98b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!is\_archive@{is\_archive}}
+\index{is\_archive@{is\_archive}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{is\_archive()}{is\_archive()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_ab84cfef9ebf1c1dd1a5ee2de3753f98b} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::is\+\_\+archive (\begin{DoxyParamCaption}\item[{}]{\$p\+File\+Name}{, }\item[{}]{\$p\+Prefix}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}, }\item[{}]{\$p\+Suffix}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method is\+\_\+archive()
+
+Check if Archive.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+File\+Name} & File to check. \\
+\hline
+string & {\em \$p\+Prefix} & File prefix. \\
+\hline
+string & {\em \$p\+Suffix} & File suffix.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed Files that are archives. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a8a56f9fcbd8ba1e2e7cf388bda5a3025}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!is\_sql\_archive@{is\_sql\_archive}}
+\index{is\_sql\_archive@{is\_sql\_archive}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{is\_sql\_archive()}{is\_sql\_archive()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a8a56f9fcbd8ba1e2e7cf388bda5a3025} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::is\+\_\+sql\+\_\+archive (\begin{DoxyParamCaption}\item[{}]{\$p\+File\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method is\+\_\+sql\+\_\+archive()
+
+Check if is SQL Archive.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+File\+Name} & File to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed SQL archive. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_afcf79297a36f9852ff46a1b7efc960c1}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!is\_sql\_file@{is\_sql\_file}}
+\index{is\_sql\_file@{is\_sql\_file}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{is\_sql\_file()}{is\_sql\_file()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_afcf79297a36f9852ff46a1b7efc960c1} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::is\+\_\+sql\+\_\+file (\begin{DoxyParamCaption}\item[{}]{\$p\+File\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method is\+\_\+sql\+\_\+file()
+
+Check if file is SQL.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+File\+Name} & File to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed SQL Files. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a526a9e365ec5b50a5d546cee170f7a9f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}!normalize\_filename@{normalize\_filename}}
+\index{normalize\_filename@{normalize\_filename}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Backup\_Handler}}
+\doxysubsubsection{\texorpdfstring{normalize\_filename()}{normalize\_filename()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___backup___handler_a526a9e365ec5b50a5d546cee170f7a9f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::normalize\+\_\+filename (\begin{DoxyParamCaption}\item[{}]{\$s}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method normalize\+\_\+filename()
+
+Normalize filename.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$s} & Filename to normalize.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string \$s Normalised filename. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-backup-handler_8php}{class-\/mainwp-\/backup-\/handler.\+php}}\end{DoxyCompactItemize}

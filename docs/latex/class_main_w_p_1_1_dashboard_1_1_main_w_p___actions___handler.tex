@@ -1,0 +1,118 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Actions\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_ab8c02da89ec5d39b68177a708207453b}{do\+\_\+action\+\_\+mainwp\+\_\+post\+\_\+action}} ( \$website, \$p\+Action, \$information, \$post\+Id, \$type=\textquotesingle{}\textquotesingle{})
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a058afd009d7d7e33574b07082944f2eb}{do\+\_\+action\+\_\+mainwp\+\_\+install\+\_\+actions}} ( \$websites, \$p\+Action, \$output, \$type, \$post\+\_\+data=array(), \$upload=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a56fce213eb10e85d0aa6d6e3f1285f57}{hook\+\_\+mainwp\+\_\+fetch\+\_\+url\+\_\+authed}} ( \$website, \$information, \$action, \$params, \$others)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a85b9aecfb5b11ba518dc7e668add09cc}{instance}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Actions\+\_\+\+Handler 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a058afd009d7d7e33574b07082944f2eb}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}!do\_action\_mainwp\_install\_actions@{do\_action\_mainwp\_install\_actions}}
+\index{do\_action\_mainwp\_install\_actions@{do\_action\_mainwp\_install\_actions}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}}
+\doxysubsubsection{\texorpdfstring{do\_action\_mainwp\_install\_actions()}{do\_action\_mainwp\_install\_actions()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a058afd009d7d7e33574b07082944f2eb} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Actions\+\_\+\+Handler\+::do\+\_\+action\+\_\+mainwp\+\_\+install\+\_\+actions (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$p\+Action}{, }\item[{}]{\$output}{, }\item[{}]{\$type}{, }\item[{}]{\$post\+\_\+data}{ = {\ttfamily array()}, }\item[{}]{\$upload}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Action mainwp\+\_\+install\+\_\+actions.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$websites} & websites. \\
+\hline
+string & {\em \$p\+Action} & install action. \\
+\hline
+mixed & {\em \$output} & result. \\
+\hline
+string & {\em \$type} & action type. \\
+\hline
+mixed & {\em \$post\+\_\+data} & post data (option). \\
+\hline
+bool & {\em \$upload} & true\texorpdfstring{$\vert$}{|}false\+: install by upload (option). \\
+\hline
+\end{DoxyParams}
+Fires immediately after install action.
+
+\begin{DoxySince}{Since}
+4.\+5.\+1.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_ab8c02da89ec5d39b68177a708207453b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}!do\_action\_mainwp\_post\_action@{do\_action\_mainwp\_post\_action}}
+\index{do\_action\_mainwp\_post\_action@{do\_action\_mainwp\_post\_action}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}}
+\doxysubsubsection{\texorpdfstring{do\_action\_mainwp\_post\_action()}{do\_action\_mainwp\_post\_action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_ab8c02da89ec5d39b68177a708207453b} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Actions\+\_\+\+Handler\+::do\+\_\+action\+\_\+mainwp\+\_\+post\+\_\+action (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$p\+Action}{, }\item[{}]{\$information}{, }\item[{}]{\$post\+Id}{, }\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Action mainwp\+\_\+post\+\_\+action.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & website data. \\
+\hline
+string & {\em \$p\+Action} & post action. \\
+\hline
+array & {\em \$information} & post action information. \\
+\hline
+int | false & {\em \$post\+Id} & post id. \\
+\hline
+string & {\em \$type} & post\texorpdfstring{$\vert$}{|}page. \\
+\hline
+\end{DoxyParams}
+Fires immediately after post action.
+
+\begin{DoxySince}{Since}
+4.\+5.\+1.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a56fce213eb10e85d0aa6d6e3f1285f57}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}!hook\_mainwp\_fetch\_url\_authed@{hook\_mainwp\_fetch\_url\_authed}}
+\index{hook\_mainwp\_fetch\_url\_authed@{hook\_mainwp\_fetch\_url\_authed}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}}
+\doxysubsubsection{\texorpdfstring{hook\_mainwp\_fetch\_url\_authed()}{hook\_mainwp\_fetch\_url\_authed()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a56fce213eb10e85d0aa6d6e3f1285f57} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Actions\+\_\+\+Handler\+::hook\+\_\+mainwp\+\_\+fetch\+\_\+url\+\_\+authed (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$information}{, }\item[{}]{\$action}{, }\item[{}]{\$params}{, }\item[{}]{\$others}{}\end{DoxyParamCaption})}
+
+Handle @action mainwp\+\_\+fetch\+\_\+url\+\_\+authed.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & website. \\
+\hline
+array & {\em \$information} & information result data. \\
+\hline
+string & {\em \$action} & action. \\
+\hline
+array & {\em \$params} & params input array. \\
+\hline
+array & {\em \$others} & others input array.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+5.\+1.\+1 
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a85b9aecfb5b11ba518dc7e668add09cc}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}!instance@{instance}}
+\index{instance@{instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Actions\_Handler}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___actions___handler_a85b9aecfb5b11ba518dc7e668add09cc} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Actions\+\_\+\+Handler\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method instance()
+
+Create a public static instance.
+
+\begin{DoxyReturn}{Returns}
+Main\+WP\+\_\+\+Actions\+\_\+\+Handler 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-actions-handler_8php}{class-\/mainwp-\/actions-\/handler.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,49 @@
+\doxysection{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension Class Reference}
+\hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_extension}{}\label{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_extension}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension}}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_extension_ac333b64970e5446c1c50ceef2468bad1}{MAP}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Extension
+
+A certificate using system MUST reject the certificate if it encounters a critical extension it does not recognize; however, a non-\/critical extension may be ignored if it is not recognized.
+
+\href{http://tools.ietf.org/html/rfc5280\#section-4.2}{\texttt{ http\+://tools.\+ietf.\+org/html/rfc5280\#section-\/4.\+2}}
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_extension_ac333b64970e5446c1c50ceef2468bad1}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension}!MAP@{MAP}}
+\index{MAP@{MAP}!phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}Extension}}
+\doxysubsubsection{\texorpdfstring{MAP}{MAP}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_extension_ac333b64970e5446c1c50ceef2468bad1} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\textbackslash{}\+Maps\textbackslash{}\+Extension\+::\+MAP}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_SEQUENCE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'children'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'extnId'}\ =>\ [\textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_OBJECT\_IDENTIFIER],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'critical'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_BOOLEAN,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'optional'}\ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'default'}\ =>\ false}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ ],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'extnValue'}\ =>\ [\textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_OCTET\_STRING]}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ ]}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+File/\+ASN1/\+Maps/\mbox{\hyperlink{_extension_8php}{Extension.\+php}}\end{DoxyCompactItemize}

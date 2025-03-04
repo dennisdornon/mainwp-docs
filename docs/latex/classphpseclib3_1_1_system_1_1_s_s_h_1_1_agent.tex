@@ -1,0 +1,192 @@
+\doxysection{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent Class Reference}
+\hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent}{}\label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_ac33e390ed931e12472dacae833936e37}{\+\_\+\+\_\+construct}} (\$address=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_ada25cdb2346762ff13cadeff01e52daf}{request\+Identities}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a237ee98aa35464752ac707aedca7dc72}{start\+SSHForwarding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a79ae3b730db919f5ffe64cd91aa38f22}{register\+Channel\+Open}} (\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{SSH2}} \$ssh)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aacc481f633bbedff1df50208531c1805}{forward\+Data}} (\$data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a0f75e9544bec662ad339b06dc8bb7bf3}{SSH\+\_\+\+AGENTC\+\_\+\+REQUEST\+\_\+\+IDENTITIES}} = 11
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a17c2a07cf80eba54102e951e0d8b68b2}{SSH\+\_\+\+AGENT\+\_\+\+IDENTITIES\+\_\+\+ANSWER}} = 12
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aa961b0cfd17a1642b5de824ff20660fa}{SSH\+\_\+\+AGENTC\+\_\+\+SIGN\+\_\+\+REQUEST}} = 13
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a193b909c1a8188894c34e8eca3e02598}{SSH\+\_\+\+AGENT\+\_\+\+SIGN\+\_\+\+RESPONSE}} = 14
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a2e14c25aa8a71d09ad7c0e9899fe30bc}{FORWARD\+\_\+\+NONE}} = 0
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aec97fe6caaf698b296ba767e6c9f6db3}{FORWARD\+\_\+\+REQUEST}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_af028a02006864d3bef994c7ba0bbb826}{FORWARD\+\_\+\+ACTIVE}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a6868c8766611a38f6b9030a399628152}{SSH\+\_\+\+AGENT\+\_\+\+FAILURE}} = 5
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP ssh-\/agent client identity factory
+
+request\+Identities() method pumps out \textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity objects
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_ac33e390ed931e12472dacae833936e37}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_ac33e390ed931e12472dacae833936e37} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$address}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Default Constructor
+
+\begin{DoxyReturn}{Returns}
+\textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+phpseclib3\textbackslash{}\+Exception\textbackslash{}\+Bad\+Configuration\+Exception if SSH\+\_\+\+AUTH\+\_\+\+SOCK cannot be found 
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection errors 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aacc481f633bbedff1df50208531c1805}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!forwardData@{forwardData}}
+\index{forwardData@{forwardData}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{forwardData()}{forwardData()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aacc481f633bbedff1df50208531c1805} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::forward\+Data (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})}
+
+Forward data to SSH Agent and return data reply
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Data from SSH Agent 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection errors \Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a79ae3b730db919f5ffe64cd91aa38f22}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!registerChannelOpen@{registerChannelOpen}}
+\index{registerChannelOpen@{registerChannelOpen}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{registerChannelOpen()}{registerChannelOpen()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a79ae3b730db919f5ffe64cd91aa38f22} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::register\+Channel\+Open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{SSH2}}}]{\$ssh}{}\end{DoxyParamCaption})}
+
+On successful channel open
+
+This method is called upon successful channel open to give the SSH Agent an opportunity to take further action. i.\+e. request agent forwarding
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2 & {\em \$ssh} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_ada25cdb2346762ff13cadeff01e52daf}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!requestIdentities@{requestIdentities}}
+\index{requestIdentities@{requestIdentities}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{requestIdentities()}{requestIdentities()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_ada25cdb2346762ff13cadeff01e52daf} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::request\+Identities (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Request Identities
+
+See "{}2.\+5.\+2 Requesting a list of protocol 2 keys"{} Returns an array containing zero or more \textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity objects
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on receipt of unexpected packets \Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a237ee98aa35464752ac707aedca7dc72}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!startSSHForwarding@{startSSHForwarding}}
+\index{startSSHForwarding@{startSSHForwarding}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{startSSHForwarding()}{startSSHForwarding()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a237ee98aa35464752ac707aedca7dc72} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::start\+SSHForwarding (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Signal that agent forwarding should be requested when a channel is opened
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_af028a02006864d3bef994c7ba0bbb826}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!FORWARD\_ACTIVE@{FORWARD\_ACTIVE}}
+\index{FORWARD\_ACTIVE@{FORWARD\_ACTIVE}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{FORWARD\_ACTIVE}{FORWARD\_ACTIVE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_af028a02006864d3bef994c7ba0bbb826} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+FORWARD\+\_\+\+ACTIVE = 2}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a2e14c25aa8a71d09ad7c0e9899fe30bc}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!FORWARD\_NONE@{FORWARD\_NONE}}
+\index{FORWARD\_NONE@{FORWARD\_NONE}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{FORWARD\_NONE}{FORWARD\_NONE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a2e14c25aa8a71d09ad7c0e9899fe30bc} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+FORWARD\+\_\+\+NONE = 0}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aec97fe6caaf698b296ba767e6c9f6db3}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!FORWARD\_REQUEST@{FORWARD\_REQUEST}}
+\index{FORWARD\_REQUEST@{FORWARD\_REQUEST}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{FORWARD\_REQUEST}{FORWARD\_REQUEST}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aec97fe6caaf698b296ba767e6c9f6db3} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+FORWARD\+\_\+\+REQUEST = 1}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a6868c8766611a38f6b9030a399628152}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!SSH\_AGENT\_FAILURE@{SSH\_AGENT\_FAILURE}}
+\index{SSH\_AGENT\_FAILURE@{SSH\_AGENT\_FAILURE}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENT\_FAILURE}{SSH\_AGENT\_FAILURE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a6868c8766611a38f6b9030a399628152} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+SSH\+\_\+\+AGENT\+\_\+\+FAILURE = 5}
+
+Unused \Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a17c2a07cf80eba54102e951e0d8b68b2}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!SSH\_AGENT\_IDENTITIES\_ANSWER@{SSH\_AGENT\_IDENTITIES\_ANSWER}}
+\index{SSH\_AGENT\_IDENTITIES\_ANSWER@{SSH\_AGENT\_IDENTITIES\_ANSWER}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENT\_IDENTITIES\_ANSWER}{SSH\_AGENT\_IDENTITIES\_ANSWER}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a17c2a07cf80eba54102e951e0d8b68b2} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+SSH\+\_\+\+AGENT\+\_\+\+IDENTITIES\+\_\+\+ANSWER = 12}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a193b909c1a8188894c34e8eca3e02598}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!SSH\_AGENT\_SIGN\_RESPONSE@{SSH\_AGENT\_SIGN\_RESPONSE}}
+\index{SSH\_AGENT\_SIGN\_RESPONSE@{SSH\_AGENT\_SIGN\_RESPONSE}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENT\_SIGN\_RESPONSE}{SSH\_AGENT\_SIGN\_RESPONSE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a193b909c1a8188894c34e8eca3e02598} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+SSH\+\_\+\+AGENT\+\_\+\+SIGN\+\_\+\+RESPONSE = 14}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a0f75e9544bec662ad339b06dc8bb7bf3}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!SSH\_AGENTC\_REQUEST\_IDENTITIES@{SSH\_AGENTC\_REQUEST\_IDENTITIES}}
+\index{SSH\_AGENTC\_REQUEST\_IDENTITIES@{SSH\_AGENTC\_REQUEST\_IDENTITIES}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENTC\_REQUEST\_IDENTITIES}{SSH\_AGENTC\_REQUEST\_IDENTITIES}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_a0f75e9544bec662ad339b06dc8bb7bf3} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+SSH\+\_\+\+AGENTC\+\_\+\+REQUEST\+\_\+\+IDENTITIES = 11}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aa961b0cfd17a1642b5de824ff20660fa}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}!SSH\_AGENTC\_SIGN\_REQUEST@{SSH\_AGENTC\_SIGN\_REQUEST}}
+\index{SSH\_AGENTC\_SIGN\_REQUEST@{SSH\_AGENTC\_SIGN\_REQUEST}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENTC\_SIGN\_REQUEST}{SSH\_AGENTC\_SIGN\_REQUEST}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_aa961b0cfd17a1642b5de824ff20660fa} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::\+SSH\+\_\+\+AGENTC\+\_\+\+SIGN\+\_\+\+REQUEST = 13}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+System/\+SSH/\mbox{\hyperlink{_agent_8php}{Agent.\+php}}\end{DoxyCompactItemize}

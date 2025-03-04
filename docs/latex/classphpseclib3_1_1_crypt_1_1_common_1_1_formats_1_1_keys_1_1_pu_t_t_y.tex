@@ -1,0 +1,122 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}Pu\+TTY Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y}{}\label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a7a9e7798583d2345acdc85ef46fb2908}{set\+Comment}} (\$comment)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_ac967bd67cfedc0efdf221477871b2314}{set\+Version}} (\$version)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a2e7ee011e0b65a45b327e77308f25b97}{load}} (\$key, \$password)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a6eefdf01cb5cd2650a76a489ecc665e1}{wrap\+Private\+Key}} (\$public, \$private, \$type, \$password, array \$options=\mbox{[}$\,$\mbox{]})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a45e7a10e59ee12f989efa325c2871cf7}{wrap\+Public\+Key}} (\$key, \$type)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pu\+TTY Formatted Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a2e7ee011e0b65a45b327e77308f25b97}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a2e7ee011e0b65a45b327e77308f25b97} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Pu\+TTY\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Break a public or private key down into its constituent components
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a7a9e7798583d2345acdc85ef46fb2908}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}!setComment@{setComment}}
+\index{setComment@{setComment}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}}
+\doxysubsubsection{\texorpdfstring{setComment()}{setComment()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a7a9e7798583d2345acdc85ef46fb2908} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Pu\+TTY\+::set\+Comment (\begin{DoxyParamCaption}\item[{}]{\$comment}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the default comment
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$comment} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_ac967bd67cfedc0efdf221477871b2314}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}!setVersion@{setVersion}}
+\index{setVersion@{setVersion}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}}
+\doxysubsubsection{\texorpdfstring{setVersion()}{setVersion()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_ac967bd67cfedc0efdf221477871b2314} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Pu\+TTY\+::set\+Version (\begin{DoxyParamCaption}\item[{}]{\$version}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the default version
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$version} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a6eefdf01cb5cd2650a76a489ecc665e1}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}!wrapPrivateKey@{wrapPrivateKey}}
+\index{wrapPrivateKey@{wrapPrivateKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}}
+\doxysubsubsection{\texorpdfstring{wrapPrivateKey()}{wrapPrivateKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a6eefdf01cb5cd2650a76a489ecc665e1} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Pu\+TTY\+::wrap\+Private\+Key (\begin{DoxyParamCaption}\item[{}]{\$public}{, }\item[{}]{\$private}{, }\item[{}]{\$type}{, }\item[{}]{\$password}{, }\item[{array}]{\$options}{ = {\ttfamily \mbox{[}\mbox{]}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Wrap a private key appropriately
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$public} & \\
+\hline
+string & {\em \$private} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+string & {\em \$password} & \\
+\hline
+array & {\em \$options} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a45e7a10e59ee12f989efa325c2871cf7}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}!wrapPublicKey@{wrapPublicKey}}
+\index{wrapPublicKey@{wrapPublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}PuTTY}}
+\doxysubsubsection{\texorpdfstring{wrapPublicKey()}{wrapPublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_pu_t_t_y_a45e7a10e59ee12f989efa325c2871cf7} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Pu\+TTY\+::wrap\+Public\+Key (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$type}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Wrap a public key appropriately
+
+This is basically the format described in RFC 4716 (\href{https://tools.ietf.org/html/rfc4716}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4716}})
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+Common/\+Formats/\+Keys/\mbox{\hyperlink{_common_2_formats_2_keys_2_pu_t_t_y_8php}{Pu\+TTY.\+php}}\end{DoxyCompactItemize}

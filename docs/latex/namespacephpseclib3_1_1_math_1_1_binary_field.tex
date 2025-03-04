@@ -1,0 +1,22 @@
+\doxysection{phpseclib3\textbackslash{}Math\textbackslash{}Binary\+Field Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_math_1_1_binary_field}{}\label{namespacephpseclib3_1_1_math_1_1_binary_field}\index{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField@{phpseclib3\textbackslash{}Math\textbackslash{}BinaryField}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_math_1_1_binary_field_1_1_integer}{Integer}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Binary Finite Fields
+
+In a binary finite field numbers are actually polynomial equations. If you represent the number as a sequence of bits you get a sequence of 1\textquotesingle{}s or 0\textquotesingle{}s. These 1\textquotesingle{}s or 0\textquotesingle{}s represent the coefficients of the x\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}n, where n is the location of the given bit. When you add numbers over a binary finite field the result should have a coefficient of 1 or 0 as well. Hence addition and subtraction become the same operation as XOR. eg. 1 + 1 + 1 == 3 \% 2 == 1 or 0 -\/ 1 == -\/1 \% 2 == 1
+
+PHP version 5 and 7
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2017 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License 
+\end{DoxyCopyright}

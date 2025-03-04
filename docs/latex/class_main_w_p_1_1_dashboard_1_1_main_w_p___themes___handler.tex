@@ -1,0 +1,151 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Themes\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_ac4daceaa464f541d45448d1d9b4f973f}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a07ad74007ea0df24f48310e4aae77447}{themes\+\_\+search\+\_\+handler}} ( \$data, \$website, \&\$output)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a84fefc3b5a029f6fea3c1c3cb487dc59}{activate\+\_\+theme}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a14210adcc26ea740e3759167a41f4b86}{delete\+\_\+themes}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a2b2d04eab32a3702085835568bf94018}{action}} ( \$p\+Action, \$theme)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a2024bec5a8f02fb7c2ab070483c83b10}{ignore\+\_\+updates}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a57e9ce49c634be82d10903ea0367748b}{trust\+\_\+post}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a236f6aa5129fefd59fa61b5b9118d04a}{save\+\_\+trusted\+\_\+theme\+\_\+note}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Themes\+\_\+\+Handler
+
+@uses Main\+WP\+\_\+\+Install\+\_\+\+Bulk 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a2b2d04eab32a3702085835568bf94018}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!action@{action}}
+\index{action@{action}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{action()}{action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a2b2d04eab32a3702085835568bf94018} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::action (\begin{DoxyParamCaption}\item[{}]{\$p\+Action}{, }\item[{}]{\$theme}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks to see if Theme exists, current user can edit settings, check for any errors.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Action} & Action to perform. \\
+\hline
+mixed & {\em \$theme} & Theme to perform action on.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Error message.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Action\+: mainwp\+\_\+before\+\_\+theme\+\_\+action
+
+Fires before theme activate/delete actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+theme\+\_\+action
+
+Fires after theme activate/delete actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a84fefc3b5a029f6fea3c1c3cb487dc59}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!activate\_theme@{activate\_theme}}
+\index{activate\_theme@{activate\_theme}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{activate\_theme()}{activate\_theme()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a84fefc3b5a029f6fea3c1c3cb487dc59} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::activate\+\_\+theme (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Activate the selected theme. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a14210adcc26ea740e3759167a41f4b86}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!delete\_themes@{delete\_themes}}
+\index{delete\_themes@{delete\_themes}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{delete\_themes()}{delete\_themes()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a14210adcc26ea740e3759167a41f4b86} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::delete\+\_\+themes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Delete the selected theme. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_ac4daceaa464f541d45448d1d9b4f973f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_ac4daceaa464f541d45448d1d9b4f973f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get Class Name
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a2024bec5a8f02fb7c2ab070483c83b10}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!ignore\_updates@{ignore\_updates}}
+\index{ignore\_updates@{ignore\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{ignore\_updates()}{ignore\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a2024bec5a8f02fb7c2ab070483c83b10} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::ignore\+\_\+updates (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check to see if Theme is on the Ignore List.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::esc\+\_\+content() Action\+: mainwp\+\_\+before\+\_\+theme\+\_\+ignore
+
+Fires before theme ignore.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+theme\+\_\+ignore
+
+Fires after theme ignore.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a236f6aa5129fefd59fa61b5b9118d04a}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!save\_trusted\_theme\_note@{save\_trusted\_theme\_note}}
+\index{save\_trusted\_theme\_note@{save\_trusted\_theme\_note}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{save\_trusted\_theme\_note()}{save\_trusted\_theme\_note()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a236f6aa5129fefd59fa61b5b9118d04a} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::save\+\_\+trusted\+\_\+theme\+\_\+note (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This Method Saves a Trusted theme note. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a07ad74007ea0df24f48310e4aae77447}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!themes\_search\_handler@{themes\_search\_handler}}
+\index{themes\_search\_handler@{themes\_search\_handler}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{themes\_search\_handler()}{themes\_search\_handler()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a07ad74007ea0df24f48310e4aae77447} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::themes\+\_\+search\+\_\+handler (\begin{DoxyParamCaption}\item[{}]{\$data}{, }\item[{}]{\$website}{, }\item[{\&}]{\$output}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method themes\+\_\+search\+\_\+handler()
+
+Theme Search Handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$data} & Search data. \\
+\hline
+object & {\em \$website} & The website object. \\
+\hline
+object & {\em \$output} & Search results object.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed Exception\texorpdfstring{$\vert$}{|}\+Theme
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Error\+\_\+\+Helper\+::get\+\_\+error\+\_\+message() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+child\+\_\+response() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a57e9ce49c634be82d10903ea0367748b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}!trust\_post@{trust\_post}}
+\index{trust\_post@{trust\_post}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Themes\_Handler}}
+\doxysubsubsection{\texorpdfstring{trust\_post()}{trust\_post()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___themes___handler_a57e9ce49c634be82d10903ea0367748b} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Themes\+\_\+\+Handler\+::trust\+\_\+post (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This is the Bulk Method to Trust A Theme.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+extension() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::update\+\_\+user\+\_\+extension() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pages/\mbox{\hyperlink{page-mainwp-themes-handler_8php}{page-\/mainwp-\/themes-\/handler.\+php}}\end{DoxyCompactItemize}

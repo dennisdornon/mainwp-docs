@@ -1,0 +1,138 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Common\+\_\+\+Functions Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_ada190eabf60fda1649795f724550a872}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a6ac4e21656b98ed195080766ffab20fe}{get\+\_\+available\+\_\+update\+\_\+siteids}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_aacf9fb376813062b2605c1a11aeae9a3}{get\+\_\+not\+\_\+ignored\+\_\+updates\+\_\+themesplugins}} ( \$updates, \$ignored)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a4892a692705f0e23b36445d4be7c6dd6}{is\+\_\+ignored\+\_\+updates}} ( \$item, \$ignored, \$type=\textquotesingle{}plugin\textquotesingle{})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a5b475b29271a123b678236a38783afb4}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a07b2539714d77b68e59538105450e451}{instance}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_aa0932f6ee34b342e2b2dda34d06d7903}{\$user\+Extension}} = null
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_ada190eabf60fda1649795f724550a872}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_ada190eabf60fda1649795f724550a872} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Main\+WP\+\_\+\+Common\+\_\+\+Functions constructor.
+
+Runs any time class is called. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a6ac4e21656b98ed195080766ffab20fe}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!get\_available\_update\_siteids@{get\_available\_update\_siteids}}
+\index{get\_available\_update\_siteids@{get\_available\_update\_siteids}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{get\_available\_update\_siteids()}{get\_available\_update\_siteids()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a6ac4e21656b98ed195080766ffab20fe} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::get\+\_\+available\+\_\+update\+\_\+siteids (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get child site ids that have available updates.
+
+\begin{DoxyReturn}{Returns}
+array \$site\+\_\+ids Array of Child Site ID\textquotesingle{}s that have updates.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::instance()\+::query() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::instance()\+::get\+\_\+sql\+\_\+websites\+\_\+for\+\_\+current\+\_\+user() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::instance()\+::get\+\_\+website\+\_\+options\+\_\+array() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a5b475b29271a123b678236a38783afb4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a5b475b29271a123b678236a38783afb4} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_aacf9fb376813062b2605c1a11aeae9a3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!get\_not\_ignored\_updates\_themesplugins@{get\_not\_ignored\_updates\_themesplugins}}
+\index{get\_not\_ignored\_updates\_themesplugins@{get\_not\_ignored\_updates\_themesplugins}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{get\_not\_ignored\_updates\_themesplugins()}{get\_not\_ignored\_updates\_themesplugins()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_aacf9fb376813062b2605c1a11aeae9a3} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::get\+\_\+not\+\_\+ignored\+\_\+updates\+\_\+themesplugins (\begin{DoxyParamCaption}\item[{}]{\$updates}{, }\item[{}]{\$ignored}{}\end{DoxyParamCaption})}
+
+Method get\+\_\+not\+\_\+ignored\+\_\+updates\+\_\+themesplugins().
+
+To compatible with new ignored update info.
+
+\begin{DoxySince}{Since}
+5.\+2.
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$updates} & Update info. \\
+\hline
+array & {\em \$ignored} & Ignored update info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array \$updates Not ignored updates info. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a07b2539714d77b68e59538105450e451}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!instance@{instance}}
+\index{instance@{instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a07b2539714d77b68e59538105450e451} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method instance()
+
+Create public static instance.
+
+\begin{DoxyReturn}{Returns}
+Main\+WP\+\_\+\+Common\+\_\+\+Functions 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a4892a692705f0e23b36445d4be7c6dd6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!is\_ignored\_updates@{is\_ignored\_updates}}
+\index{is\_ignored\_updates@{is\_ignored\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{is\_ignored\_updates()}{is\_ignored\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_a4892a692705f0e23b36445d4be7c6dd6} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::is\+\_\+ignored\+\_\+updates (\begin{DoxyParamCaption}\item[{}]{\$item}{, }\item[{}]{\$ignored}{, }\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}plugin\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Method is\+\_\+ignored\+\_\+updates().
+
+To compatible with new ignored update info.
+
+\begin{DoxySince}{Since}
+5.\+2.
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$item} & Update info of theme or plugin. \\
+\hline
+array & {\em \$ignored} & Ignored update info. \\
+\hline
+string & {\em \$type} & theme/plugin/core.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Ignored updates. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_aa0932f6ee34b342e2b2dda34d06d7903}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}!\$userExtension@{\$userExtension}}
+\index{\$userExtension@{\$userExtension}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Common\_Functions}}
+\doxysubsubsection{\texorpdfstring{\$userExtension}{\$userExtension}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___common___functions_aa0932f6ee34b342e2b2dda34d06d7903} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Common\+\_\+\+Functions\+::\$user\+Extension = null\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-common-functions_8php}{class-\/mainwp-\/common-\/functions.\+php}}\end{DoxyCompactItemize}

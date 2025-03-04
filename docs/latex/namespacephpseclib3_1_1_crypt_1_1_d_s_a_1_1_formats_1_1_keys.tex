@@ -1,0 +1,32 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys}{}\label{namespacephpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys@{phpseclib3\textbackslash{}Crypt\textbackslash{}DSA\textbackslash{}Formats\textbackslash{}Keys}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_open_s_s_h}{Open\+SSH}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_p_k_c_s1}{PKCS1}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_p_k_c_s8}{PKCS8}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_pu_t_t_y}{Pu\+TTY}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_raw}{Raw}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_d_s_a_1_1_formats_1_1_keys_1_1_x_m_l}{XML}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Open\+SSH Formatted DSA Key Handler
+
+PHP version 5
+
+Place in \$\+HOME/.ssh/authorized\+\_\+keys
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2015 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License \doxylink{}{PKCS\#1 Formatted DSA Key Handler PHP version 5 Used by File/\+X509.\+php Processes keys with the following headers\+: -\/-\/---BEGIN DSA PRIVATE KEY-\/-\/--- -\/-\/---BEGIN DSA PUBLIC KEY-\/-\/--- -\/-\/---BEGIN DSA PARAMETERS-\/-\/--- Analogous to ssh-\/keygen\textquotesingle{}s pem format (as specified by -\/m) Also, technically, PKCS1 decribes RSA but I am not aware of a formal specification for DSA. The DSA private key format seems to have been adapted from the RSA private key format so we\textquotesingle{}re just re-\/using that as the name.  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} PKCS\#8 Formatted DSA Key Handler PHP version 5 Processes keys with the following headers\+: -\/-\/---BEGIN ENCRYPTED PRIVATE KEY-\/-\/--- -\/-\/---BEGIN PRIVATE KEY-\/-\/--- -\/-\/---BEGIN PUBLIC KEY-\/-\/--- Analogous to ssh-\/keygen\textquotesingle{}s pkcs8 format (as specified by -\/m). Although PKCS8 is specific to private keys it\textquotesingle{}s basically creating a DER-\/encoded wrapper for keys. This just extends that same concept to public keys (much like ssh-\/keygen)  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Pu\+TTY Formatted DSA Key Handler puttygen does not generate DSA keys with an N of anything other than 160, however, it can still load them and convert them. Pu\+TTY will load them, too, but SSH servers won\textquotesingle{}t accept them. Since Pu\+TTY formatted keys are primarily used with SSH this makes keys with N \texorpdfstring{$>$}{>} 160 kinda useless, hence this handlers not supporting such keys. PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Raw DSA Key Handler PHP version 5 Reads and creates arrays as DSA keys  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} XML Formatted DSA Key Handler While XKMS defines a private key format for RSA it does not do so for DSA. Quoting that standard\+: "{}\mbox{[}\+XKMS\mbox{]} does not specify private key parameters for the DSA signature algorithm since the algorithm only  supports signature modes and so the application of server generated keys and key recovery is of limited  value"{} PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} }
+\end{DoxyCopyright}

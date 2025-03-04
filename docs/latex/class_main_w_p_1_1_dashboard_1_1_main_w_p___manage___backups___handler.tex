@@ -1,0 +1,196 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_adab0de538e5a5ba085ab6ca721fe5d9d}{instance}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a2f1606962438d408351f91d6803b2789}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a5181cd866eb1822ba8259031649fde0c}{validate\+\_\+backup\+\_\+tasks}} ( \$p\+Backup\+Tasks)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a357cd281f3db2f3b1702b503d4065645}{can\+\_\+edit\+\_\+backuptask}} (\&\$task)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a29bf49fdf3eec22a7e4d2d2688ff9891}{update\+\_\+backup}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_af316866ecd02f903c3c47fc62a20e94d}{add\+\_\+backup}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_ad5f914b50dcf2002a0fbbaee8e3c3055}{execute\+\_\+backup\+\_\+task}} ( \$task, \$nr\+Of\+Sites=0, \$update\+Run=true)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_aab82735582c75db2b37ef7d7d24fb798}{backup}} ( \$p\+Task\+Id, \$p\+Site\+Id, \$p\+File\+Name\+UID)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a61a5a3f8b802a9c767e6ec9fa578343e}{get\+\_\+backup\+\_\+task\+\_\+sites}} ( \$p\+Task\+Id)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_ada9548680d216297d273631b9098e0ee}{remove\+\_\+backup}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a3151947a48e81c6de6550656199d2c14}{resume\+\_\+backup}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a42ef840c0aeaf801e9bd8fd988278e1e}{pause\+\_\+backup}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_af316866ecd02f903c3c47fc62a20e94d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!add\_backup@{add\_backup}}
+\index{add\_backup@{add\_backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{add\_backup()}{add\_backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_af316866ecd02f903c3c47fc62a20e94d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::add\+\_\+backup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add backup task. Current user global.
+
+@global string\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_aab82735582c75db2b37ef7d7d24fb798}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!backup@{backup}}
+\index{backup@{backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{backup()}{backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_aab82735582c75db2b37ef7d7d24fb798} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::backup (\begin{DoxyParamCaption}\item[{}]{\$p\+Task\+Id}{, }\item[{}]{\$p\+Site\+Id}{, }\item[{}]{\$p\+File\+Name\+UID}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Prepare Child Site to be backed up.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Task\+Id} & Task ID. \\
+\hline
+mixed & {\em \$p\+Site\+Id} & Child Site ID. \\
+\hline
+mixed & {\em \$p\+File\+Name\+UID} & Filename Unique ID.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+self Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+\_\+\+Handler()
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Main\+WP\+\_\+\+Exception} & Error message.\\
+\hline
+\end{DoxyExceptions}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a357cd281f3db2f3b1702b503d4065645}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!can\_edit\_backuptask@{can\_edit\_backuptask}}
+\index{can\_edit\_backuptask@{can\_edit\_backuptask}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{can\_edit\_backuptask()}{can\_edit\_backuptask()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a357cd281f3db2f3b1702b503d4065645} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::can\+\_\+edit\+\_\+backuptask (\begin{DoxyParamCaption}\item[{\&}]{\$task}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Can Edit Backup Task.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$task} & Backup task.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true\texorpdfstring{$\vert$}{|}false.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+::is\+\_\+single\+\_\+user() Current user global.
+
+@global string\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_ad5f914b50dcf2002a0fbbaee8e3c3055}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!execute\_backup\_task@{execute\_backup\_task}}
+\index{execute\_backup\_task@{execute\_backup\_task}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{execute\_backup\_task()}{execute\_backup\_task()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_ad5f914b50dcf2002a0fbbaee8e3c3055} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::execute\+\_\+backup\+\_\+task (\begin{DoxyParamCaption}\item[{}]{\$task}{, }\item[{}]{\$nr\+Of\+Sites}{ = {\ttfamily 0}, }\item[{}]{\$update\+Run}{ = {\ttfamily true}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute the backup task.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$task} & Task to perform. \\
+\hline
+integer & {\em \$nr\+Of\+Sites} & Number of Child Sites to perform the task on. \\
+\hline
+bool & {\em \$update\+Run} & ture\texorpdfstring{$\vert$}{|}false.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed \$error\+Output.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Backup\+\_\+\+Handler\+::backup\+\_\+site() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+run() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+task\+\_\+with\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+completed\+\_\+sites() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+errors() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+completed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+notification\+\_\+email() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Format\+::format\+\_\+email() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Error\+\_\+\+Helper\+::get\+\_\+error\+\_\+message() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+group\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+nice\+\_\+url() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sanitize() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a61a5a3f8b802a9c767e6ec9fa578343e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!get\_backup\_task\_sites@{get\_backup\_task\_sites}}
+\index{get\_backup\_task\_sites@{get\_backup\_task\_sites}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_backup\_task\_sites()}{get\_backup\_task\_sites()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a61a5a3f8b802a9c767e6ec9fa578343e} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::get\+\_\+backup\+\_\+task\+\_\+sites (\begin{DoxyParamCaption}\item[{}]{\$p\+Task\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get backup tasks and site ID.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Task\+Id} & Task ID.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array \$all\+Sites All Sites array. \$remote\+Destinations Remote destinations array.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+run\+\_\+manually() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+group\+\_\+id() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a2f1606962438d408351f91d6803b2789}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a2f1606962438d408351f91d6803b2789} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_adab0de538e5a5ba085ab6ca721fe5d9d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!instance@{instance}}
+\index{instance@{instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_adab0de538e5a5ba085ab6ca721fe5d9d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create instance.
+
+\begin{DoxyReturn}{Returns}
+self \$instance. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a42ef840c0aeaf801e9bd8fd988278e1e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!pause\_backup@{pause\_backup}}
+\index{pause\_backup@{pause\_backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{pause\_backup()}{pause\_backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a42ef840c0aeaf801e9bd8fd988278e1e} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::pause\+\_\+backup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Pause Backup.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+task\+\_\+with\+\_\+values() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_ada9548680d216297d273631b9098e0ee}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!remove\_backup@{remove\_backup}}
+\index{remove\_backup@{remove\_backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{remove\_backup()}{remove\_backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_ada9548680d216297d273631b9098e0ee} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::remove\+\_\+backup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove Backup.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::remove\+\_\+backup\+\_\+task() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a3151947a48e81c6de6550656199d2c14}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!resume\_backup@{resume\_backup}}
+\index{resume\_backup@{resume\_backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{resume\_backup()}{resume\_backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a3151947a48e81c6de6550656199d2c14} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::resume\+\_\+backup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Resume Backup.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+task\+\_\+with\+\_\+values() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a29bf49fdf3eec22a7e4d2d2688ff9891}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!update\_backup@{update\_backup}}
+\index{update\_backup@{update\_backup}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{update\_backup()}{update\_backup()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a29bf49fdf3eec22a7e4d2d2688ff9891} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::update\+\_\+backup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Update backup task.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::add\+\_\+backup\+\_\+task() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+backup\+\_\+task\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+task() Current user global.
+
+@global string\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a5181cd866eb1822ba8259031649fde0c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}!validate\_backup\_tasks@{validate\_backup\_tasks}}
+\index{validate\_backup\_tasks@{validate\_backup\_tasks}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Backups\_Handler}}
+\doxysubsubsection{\texorpdfstring{validate\_backup\_tasks()}{validate\_backup\_tasks()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___backups___handler_a5181cd866eb1822ba8259031649fde0c} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Backups\+\_\+\+Handler\+::validate\+\_\+backup\+\_\+tasks (\begin{DoxyParamCaption}\item[{}]{\$p\+Backup\+Tasks}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Validate Backup Tasks.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$p\+Backup\+Tasks} & Backup tasks.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true\texorpdfstring{$\vert$}{|}false.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::update\+\_\+backup\+\_\+task\+\_\+with\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+group\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pages/\mbox{\hyperlink{page-mainwp-manage-backups-handler_8php}{page-\/mainwp-\/manage-\/backups-\/handler.\+php}}\end{DoxyCompactItemize}

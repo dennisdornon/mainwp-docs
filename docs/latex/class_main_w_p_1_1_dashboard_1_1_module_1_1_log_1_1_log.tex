@@ -1,0 +1,118 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log}{}\label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a2b7ffcd14f933db8631b82f115c87849}{\+\_\+\+\_\+construct}} ( \$manager)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a2c0f7f4c3bd46628874203680d768d90}{log}} ( \$connector, \$message, \$args, \$site\+\_\+id, \$context, \$action, \$state=null, \$user\+\_\+id=null)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_afe5da15dafb107e2b94cdac2802bbd3b}{log\+\_\+record}} ( \$recordarr)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_ad11f849810112958ebf15e8594b2d854}{debug\+\_\+backtrace}} ( \$recordarr)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a4e4f43b7b1a464416fb5877c7bc97d8a}{\$manager}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Logs 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a2b7ffcd14f933db8631b82f115c87849}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a2b7ffcd14f933db8631b82f115c87849} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$manager}{}\end{DoxyParamCaption})}
+
+Log constructor.
+
+Run each time the class is called.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Log\+\_\+\+Manager & {\em \$manager} & The main manager class. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_ad11f849810112958ebf15e8594b2d854}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}!debug\_backtrace@{debug\_backtrace}}
+\index{debug\_backtrace@{debug\_backtrace}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}}
+\doxysubsubsection{\texorpdfstring{debug\_backtrace()}{debug\_backtrace()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_ad11f849810112958ebf15e8594b2d854} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+::debug\+\_\+backtrace (\begin{DoxyParamCaption}\item[{}]{\$recordarr}{}\end{DoxyParamCaption})}
+
+Helper function to send a full backtrace of calls to the PHP error log for debugging.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$recordarr} & Record argument array.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string \$output \doxylink{namespace_main_w_p}{Main\+WP} Pro Reports backtrace. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a2c0f7f4c3bd46628874203680d768d90}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}!log@{log}}
+\index{log@{log}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a2c0f7f4c3bd46628874203680d768d90} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+::log (\begin{DoxyParamCaption}\item[{}]{\$connector}{, }\item[{}]{\$message}{, }\item[{}]{\$args}{, }\item[{}]{\$site\+\_\+id}{, }\item[{}]{\$context}{, }\item[{}]{\$action}{, }\item[{}]{\$state}{ = {\ttfamily null}, }\item[{}]{\$user\+\_\+id}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Log handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Connector & {\em \$connector} & Connector responsible for logging the event. \\
+\hline
+string & {\em \$message} & sprintf-\/ready error message string. \\
+\hline
+array & {\em \$args} & sprintf (and extra) arguments to use. \\
+\hline
+int & {\em \$site\+\_\+id} & Target site id. \\
+\hline
+string & {\em \$context} & Context of the event. \\
+\hline
+string & {\em \$action} & Action of the event. \\
+\hline
+int | null & {\em \$state} & action status\+: null -\/ N/A, 0 -\/ failed, 1 -\/ success. \\
+\hline
+int & {\em \$user\+\_\+id} & User responsible for the event.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error True if updated, otherwise false\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_afe5da15dafb107e2b94cdac2802bbd3b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}!log\_record@{log\_record}}
+\index{log\_record@{log\_record}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}}
+\doxysubsubsection{\texorpdfstring{log\_record()}{log\_record()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_afe5da15dafb107e2b94cdac2802bbd3b} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+::log\+\_\+record (\begin{DoxyParamCaption}\item[{}]{\$recordarr}{}\end{DoxyParamCaption})}
+
+Log record.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$recordarr} & sprintf (and extra) arguments to use.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error True if updated, otherwise false\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a4e4f43b7b1a464416fb5877c7bc97d8a}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}!\$manager@{\$manager}}
+\index{\$manager@{\$manager}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log}}
+\doxysubsubsection{\texorpdfstring{\$manager}{\$manager}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log_a4e4f43b7b1a464416fb5877c7bc97d8a} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+::\$manager}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/logs/classes/\mbox{\hyperlink{class-log_8php}{class-\/log.\+php}}\end{DoxyCompactItemize}

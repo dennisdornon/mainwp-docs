@@ -1,0 +1,62 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys}{}\label{namespacephpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_j_w_k}{JWK}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium}{libsodium}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_private}{Montgomery\+Private}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public}{Montgomery\+Public}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_open_s_s_h}{Open\+SSH}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_p_k_c_s1}{PKCS1}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_p_k_c_s8}{PKCS8}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_pu_t_t_y}{Pu\+TTY}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_x_m_l}{XML}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+trait \mbox{\hyperlink{namespacephpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_a7802cfa910c6b56fcdf29f078934396d}{Common}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic EC Key Parsing Helper functions
+
+PHP version 5
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2015 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License \doxylink{}{JSON Web Key (RFC7517 / RFC8037) Formatted EC Handler PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} libsodium Key Handler Different Na\+Cl implementations store the key differently. \href{https://blog.mozilla.org/warner/2011/11/29/ed25519-keys/}{\texttt{ https\+://blog.\+mozilla.\+org/warner/2011/11/29/ed25519-\/keys/}} elaborates. libsodium appears to use the same format as SUPERCOP. PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Montgomery Private Key Handler "{}\+Naked"{} Curve25519 private keys can pretty much be any sequence of random 32x bytes so unless we have a "{}hidden"{} key handler pretty much every 32 byte string will be loaded as a curve25519 private key even if it probably isn\textquotesingle{}t one by Public\+Key\+Loader. "{}\+Naked"{} Curve25519 public keys also a string of 32 bytes so distinguishing between a "{}naked"{} curve25519 private key and a public key is nigh impossible, hence separate plugins for each PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Montgomery Public Key Handler PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Open\+SSH Formatted EC Key Handler PHP version 5 Place in \$\+HOME/.ssh/authorized\+\_\+keys  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} "{}\+PKCS1"{} (RFC5915) Formatted EC Key Handler PHP version 5 Used by File/\+X509.\+php Processes keys with the following headers\+: -\/-\/---BEGIN EC PRIVATE KEY-\/-\/--- -\/-\/---BEGIN EC PARAMETERS-\/-\/--- Technically, PKCS1 is for RSA keys, only, but we\textquotesingle{}re using PKCS1 to describe DSA, whose format isn\textquotesingle{}t really formally described anywhere, so might as well use it to describe this, too. PKCS1 is easier to remember than RFC5915, after all. I suppose this could also be named IETF but idk  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} PKCS\#8 Formatted EC Key Handler PHP version 5 Processes keys with the following headers\+: -\/-\/---BEGIN ENCRYPTED PRIVATE KEY-\/-\/--- -\/-\/---BEGIN PRIVATE KEY-\/-\/--- -\/-\/---BEGIN PUBLIC KEY-\/-\/--- Analogous to ssh-\/keygen\textquotesingle{}s pkcs8 format (as specified by -\/m). Although PKCS8 is specific to private keys it\textquotesingle{}s basically creating a DER-\/encoded wrapper for keys. This just extends that same concept to public keys (much like ssh-\/keygen)  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} Pu\+TTY Formatted EC Key Handler PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} XML Formatted EC Key Handler More info\+: \href{https://www.w3.org/TR/xmldsig-core/\#sec-ECKeyValue}{\texttt{ https\+://www.\+w3.\+org/\+TR/xmldsig-\/core/\#sec-\/\+ECKey\+Value}} \href{http://en.wikipedia.org/wiki/XML_Signature}{\texttt{ http\+://en.\+wikipedia.\+org/wiki/\+XML\+\_\+\+Signature}} PHP version 5  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2015 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} }
+\end{DoxyCopyright}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacephpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_a7802cfa910c6b56fcdf29f078934396d}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys}!Common@{Common}}
+\index{Common@{Common}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys}}
+\doxysubsubsection{\texorpdfstring{Common}{Common}}
+{\footnotesize\ttfamily \label{namespacephpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_a7802cfa910c6b56fcdf29f078934396d} 
+trait phpseclib3\+::\+Crypt\+::\+EC\+::\+Formats\+::\+Keys\textbackslash{}\+Common}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{private}\ \textcolor{keyword}{static}\ \$curveOIDs\ =\ []}
+
+\end{DoxyCode}
+Generic EC Key Parsing Helper functions
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}

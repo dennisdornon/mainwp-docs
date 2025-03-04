@@ -1,0 +1,133 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b}{}\label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ae14f4e8ae2ada6128a9551f5f065eeb8}{save\+Private\+Key}} (Big\+Integer \$n, Big\+Integer \$e, Big\+Integer \$d, array \$primes, array \$exponents, array \$coefficients, \$password=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ac4c2368cd927921f9096b13950e1c2b8}{save\+Public\+Key}} (Big\+Integer \$n, Big\+Integer \$e)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ab83aa18395687496e8450236a25d5976}{PRIVATEKEYBLOB}} = 0x7
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a5a92218f161034d5f930d4c5943e0378}{PUBLICKEYBLOB}} = 0x6
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a85c694917ed9457da79a83d640cd9d12}{PUBLICKEYBLOBEX}} = 0xA
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ab8b8f6c65190e42a00bbbdc9767938c6}{CALG\+\_\+\+RSA\+\_\+\+KEYX}} = 0x0000\+A400
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a846ee301dd306a3518d6e29def21b11d}{CALG\+\_\+\+RSA\+\_\+\+SIGN}} = 0x00002400
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a3374b287b3fb4a391bedecc3486c01ef}{RSA1}} = 0x31415352
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a4a09216376d58f3d6f09c3889a7bb620}{RSA2}} = 0x32415352
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Microsoft BLOB Formatted RSA Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ae14f4e8ae2ada6128a9551f5f065eeb8}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!savePrivateKey@{savePrivateKey}}
+\index{savePrivateKey@{savePrivateKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{savePrivateKey()}{savePrivateKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ae14f4e8ae2ada6128a9551f5f065eeb8} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::save\+Private\+Key (\begin{DoxyParamCaption}\item[{Big\+Integer}]{\$n}{, }\item[{Big\+Integer}]{\$e}{, }\item[{Big\+Integer}]{\$d}{, }\item[{array}]{\$primes}{, }\item[{array}]{\$exponents}{, }\item[{array}]{\$coefficients}{, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a private key to the appropriate format.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$n} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$e} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$d} & \\
+\hline
+array & {\em \$primes} & \\
+\hline
+array & {\em \$exponents} & \\
+\hline
+array & {\em \$coefficients} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ac4c2368cd927921f9096b13950e1c2b8}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!savePublicKey@{savePublicKey}}
+\index{savePublicKey@{savePublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{savePublicKey()}{savePublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ac4c2368cd927921f9096b13950e1c2b8} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::save\+Public\+Key (\begin{DoxyParamCaption}\item[{Big\+Integer}]{\$n}{, }\item[{Big\+Integer}]{\$e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a public key to the appropriate format
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$n} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$e} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ab8b8f6c65190e42a00bbbdc9767938c6}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!CALG\_RSA\_KEYX@{CALG\_RSA\_KEYX}}
+\index{CALG\_RSA\_KEYX@{CALG\_RSA\_KEYX}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{CALG\_RSA\_KEYX}{CALG\_RSA\_KEYX}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ab8b8f6c65190e42a00bbbdc9767938c6} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+CALG\+\_\+\+RSA\+\_\+\+KEYX = 0x0000\+A400}
+
+RSA public key exchange algorithm \Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a846ee301dd306a3518d6e29def21b11d}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!CALG\_RSA\_SIGN@{CALG\_RSA\_SIGN}}
+\index{CALG\_RSA\_SIGN@{CALG\_RSA\_SIGN}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{CALG\_RSA\_SIGN}{CALG\_RSA\_SIGN}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a846ee301dd306a3518d6e29def21b11d} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+CALG\+\_\+\+RSA\+\_\+\+SIGN = 0x00002400}
+
+RSA public key exchange algorithm \Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ab83aa18395687496e8450236a25d5976}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!PRIVATEKEYBLOB@{PRIVATEKEYBLOB}}
+\index{PRIVATEKEYBLOB@{PRIVATEKEYBLOB}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{PRIVATEKEYBLOB}{PRIVATEKEYBLOB}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_ab83aa18395687496e8450236a25d5976} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+PRIVATEKEYBLOB = 0x7}
+
+Public/\+Private Key Pair \Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a5a92218f161034d5f930d4c5943e0378}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!PUBLICKEYBLOB@{PUBLICKEYBLOB}}
+\index{PUBLICKEYBLOB@{PUBLICKEYBLOB}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{PUBLICKEYBLOB}{PUBLICKEYBLOB}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a5a92218f161034d5f930d4c5943e0378} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+PUBLICKEYBLOB = 0x6}
+
+Public Key \Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a85c694917ed9457da79a83d640cd9d12}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!PUBLICKEYBLOBEX@{PUBLICKEYBLOBEX}}
+\index{PUBLICKEYBLOBEX@{PUBLICKEYBLOBEX}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{PUBLICKEYBLOBEX}{PUBLICKEYBLOBEX}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a85c694917ed9457da79a83d640cd9d12} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+PUBLICKEYBLOBEX = 0xA}
+
+Public Key \Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a3374b287b3fb4a391bedecc3486c01ef}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!RSA1@{RSA1}}
+\index{RSA1@{RSA1}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{RSA1}{RSA1}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a3374b287b3fb4a391bedecc3486c01ef} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+RSA1 = 0x31415352}
+
+Public Key \Hypertarget{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a4a09216376d58f3d6f09c3889a7bb620}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}!RSA2@{RSA2}}
+\index{RSA2@{RSA2}!phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB@{phpseclib3\textbackslash{}Crypt\textbackslash{}RSA\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MSBLOB}}
+\doxysubsubsection{\texorpdfstring{RSA2}{RSA2}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_r_s_a_1_1_formats_1_1_keys_1_1_m_s_b_l_o_b_a4a09216376d58f3d6f09c3889a7bb620} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+MSBLOB\+::\+RSA2 = 0x32415352}
+
+Private Key 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+RSA/\+Formats/\+Keys/\mbox{\hyperlink{_m_s_b_l_o_b_8php}{MSBLOB.\+php}}\end{DoxyCompactItemize}

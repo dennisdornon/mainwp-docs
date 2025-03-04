@@ -1,0 +1,166 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ab31ee8c542f3ed0639ea7f9fd9b7021e}{encrypt\+\_\+privkey}} ( \$value, \$site\+\_\+id=false, \$create\+\_\+keys\+\_\+file=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ae5cdc9a4d7d242872505bab2709c4ac7}{decrypt\+\_\+privkey}} ( \$encrypted, \$site\+\_\+id=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_aac3f998937e600ffdef3fc84c7d9a231}{decrypt\+\_\+data}} ( \$encrypted\+Data, \$load\+\_\+keys)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a0d19a3d65ac0abc7552f65b48c00a1ea}{instance}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a85d5ff3e08743d37ae5beba044353ebd}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ab339b88438af27f9d4c593cc335f43bb}{get\+\_\+key\+\_\+file}} ( \$site\+\_\+id, \$fullpath=false)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a8e010f4723d2c828d74542df9df07950}{remove\+\_\+key\+\_\+file}} ( \$site\+\_\+id)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a9b6cfc46fbe26244cac15d421be380fa}{encrypt\+\_\+save\+\_\+keys}} ( \$site\+\_\+id, \$encrypted\+\_\+data)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_aac3f998937e600ffdef3fc84c7d9a231}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!decrypt\_data@{decrypt\_data}}
+\index{decrypt\_data@{decrypt\_data}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{decrypt\_data()}{decrypt\_data()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_aac3f998937e600ffdef3fc84c7d9a231} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::decrypt\+\_\+data (\begin{DoxyParamCaption}\item[{}]{\$encrypted\+Data}{, }\item[{}]{\$load\+\_\+keys}{}\end{DoxyParamCaption})}
+
+Decrypt data.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$encrypted\+Data} & encrypted data. \\
+\hline
+array & {\em \$load\+\_\+keys} & load keys. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ae5cdc9a4d7d242872505bab2709c4ac7}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!decrypt\_privkey@{decrypt\_privkey}}
+\index{decrypt\_privkey@{decrypt\_privkey}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{decrypt\_privkey()}{decrypt\_privkey()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ae5cdc9a4d7d242872505bab2709c4ac7} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::decrypt\+\_\+privkey (\begin{DoxyParamCaption}\item[{}]{\$encrypted}{, }\item[{}]{\$site\+\_\+id}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Decrypt data.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$encrypted} & encrypted. \\
+\hline
+int & {\em \$site\+\_\+id} & site id. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ab31ee8c542f3ed0639ea7f9fd9b7021e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!encrypt\_privkey@{encrypt\_privkey}}
+\index{encrypt\_privkey@{encrypt\_privkey}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{encrypt\_privkey()}{encrypt\_privkey()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ab31ee8c542f3ed0639ea7f9fd9b7021e} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::encrypt\+\_\+privkey (\begin{DoxyParamCaption}\item[{}]{\$value}{, }\item[{}]{\$site\+\_\+id}{ = {\ttfamily false}, }\item[{}]{\$create\+\_\+keys\+\_\+file}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Encrypt data.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & value. \\
+\hline
+int & {\em \$site\+\_\+id} & site\+\_\+id. \\
+\hline
+bool & {\em \$create\+\_\+keys\+\_\+file} & create\+\_\+keys\+\_\+file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a9b6cfc46fbe26244cac15d421be380fa}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!encrypt\_save\_keys@{encrypt\_save\_keys}}
+\index{encrypt\_save\_keys@{encrypt\_save\_keys}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{encrypt\_save\_keys()}{encrypt\_save\_keys()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a9b6cfc46fbe26244cac15d421be380fa} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::encrypt\+\_\+save\+\_\+keys (\begin{DoxyParamCaption}\item[{}]{\$site\+\_\+id}{, }\item[{}]{\$encrypted\+\_\+data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Encrypt save keys.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$site\+\_\+id} & site id. \\
+\hline
+array & {\em \$encrypted\+\_\+data} & encrypted data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a85d5ff3e08743d37ae5beba044353ebd}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a85d5ff3e08743d37ae5beba044353ebd} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+string Class name. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ab339b88438af27f9d4c593cc335f43bb}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!get\_key\_file@{get\_key\_file}}
+\index{get\_key\_file@{get\_key\_file}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{get\_key\_file()}{get\_key\_file()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_ab339b88438af27f9d4c593cc335f43bb} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::get\+\_\+key\+\_\+file (\begin{DoxyParamCaption}\item[{}]{\$site\+\_\+id}{, }\item[{}]{\$fullpath}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get key filename.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$site\+\_\+id} & site id. \\
+\hline
+bool & {\em \$fullpath} & full path.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a0d19a3d65ac0abc7552f65b48c00a1ea}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!instance@{instance}}
+\index{instance@{instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a0d19a3d65ac0abc7552f65b48c00a1ea} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method instance()
+
+Create a public static instance.
+
+\begin{DoxyReturn}{Returns}
+static class. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a8e010f4723d2c828d74542df9df07950}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}!remove\_key\_file@{remove\_key\_file}}
+\index{remove\_key\_file@{remove\_key\_file}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Encrypt\_Data\_Lib}}
+\doxysubsubsection{\texorpdfstring{remove\_key\_file()}{remove\_key\_file()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___encrypt___data___lib_a8e010f4723d2c828d74542df9df07950} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Encrypt\+\_\+\+Data\+\_\+\+Lib\+::remove\+\_\+key\+\_\+file (\begin{DoxyParamCaption}\item[{}]{\$site\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove key file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$site\+\_\+id} & site id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-encrypt-data-lib_8php}{class-\/mainwp-\/encrypt-\/data-\/lib.\+php}}\end{DoxyCompactItemize}

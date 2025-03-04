@@ -1,0 +1,82 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+QQ2\+\_\+\+File\+\_\+\+Uploader Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_aea6692e6de4240db839a42d17efc4f23}{\+\_\+\+\_\+construct}} (array \$allowed\+Extensions=array(), \$size\+Limit=8388608)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_a40b81623955705efdde254a65e31e97d}{handle\+\_\+upload}} ( \$upload\+Directory, \$replace\+Old\+File=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_afc0989e4f5391d2ca36b59eb4fc0c21f}{handle\+Upload}} ( \$upload\+Directory, \$replace\+Old\+File=false)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_aea6692e6de4240db839a42d17efc4f23}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_aea6692e6de4240db839a42d17efc4f23} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+QQ2\+\_\+\+File\+\_\+\+Uploader\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{array}]{\$allowed\+Extensions}{ = {\ttfamily array()}, }\item[{}]{\$size\+Limit}{ = {\ttfamily 8388608}}\end{DoxyParamCaption})}
+
+Main\+WP\+\_\+\+QQ2\+\_\+\+File\+\_\+\+Uploader constructor.
+
+Run each time the class is called.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$allowed\+Extensions} & Array of allowed Extensions. \\
+\hline
+int & {\em \$size\+Limit} & Maximum allowed file size.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+QQ2\+\_\+\+Uploaded\+\_\+\+File\+\_\+\+Form @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+QQ2\+\_\+\+Uploaded\+\_\+\+File\+\_\+\+Xhr Filter\+: \textquotesingle{}mainwp\+\_\+file\+\_\+uploader\+\_\+size\+\_\+limit\textquotesingle{}
+
+Filters the maximum upload file size. Default\+: 8388608 Bytes (B) = 8 Megabytes (MB)
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_a40b81623955705efdde254a65e31e97d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}!handle\_upload@{handle\_upload}}
+\index{handle\_upload@{handle\_upload}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}}
+\doxysubsubsection{\texorpdfstring{handle\_upload()}{handle\_upload()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_a40b81623955705efdde254a65e31e97d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+QQ2\+\_\+\+File\+\_\+\+Uploader\+::handle\+\_\+upload (\begin{DoxyParamCaption}\item[{}]{\$upload\+Directory}{, }\item[{}]{\$replace\+Old\+File}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Handle the file upload.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$upload\+Directory} & File Upload directory. \\
+\hline
+bool & {\em \$replace\+Old\+File} & True\texorpdfstring{$\vert$}{|}\+False Weather or not to replace the orignal file or not.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array success\textquotesingle{}=\texorpdfstring{$>$}{>}true\texorpdfstring{$\vert$}{|}error\textquotesingle{}=\texorpdfstring{$>$}{>}\textquotesingle{}error message\textquotesingle{} 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_afc0989e4f5391d2ca36b59eb4fc0c21f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}!handleUpload@{handleUpload}}
+\index{handleUpload@{handleUpload}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_QQ2\_File\_Uploader}}
+\doxysubsubsection{\texorpdfstring{handleUpload()}{handleUpload()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___q_q2___file___uploader_afc0989e4f5391d2ca36b59eb4fc0c21f} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+QQ2\+\_\+\+File\+\_\+\+Uploader\+::handle\+Upload (\begin{DoxyParamCaption}\item[{}]{\$upload\+Directory}{, }\item[{}]{\$replace\+Old\+File}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Wrap of the method handle\+\_\+upload() for compatible.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$upload\+Directory} & File Upload directory. \\
+\hline
+bool & {\em \$replace\+Old\+File} & True\texorpdfstring{$\vert$}{|}\+False Weather or not to replace the orignal file or not.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array success\textquotesingle{}=\texorpdfstring{$>$}{>}true\texorpdfstring{$\vert$}{|}error\textquotesingle{}=\texorpdfstring{$>$}{>}\textquotesingle{}error message\textquotesingle{} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-qq2-file-uploader_8php}{class-\/mainwp-\/qq2-\/file-\/uploader.\+php}}\end{DoxyCompactItemize}

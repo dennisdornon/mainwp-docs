@@ -1,0 +1,429 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Recent\+\_\+\+Posts Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a2feda0cf6a9587df499c8c57daeb0ec9}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a9691b890a0888da4de61c679f7839b19}{render}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a4b807e5af8d1ce9875db71d726b77f27}{render\+\_\+sites}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a02bae14465f930caec3f36fc5334d4c0}{render\+\_\+top\+\_\+grid}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ac7a4ca58ec771a15718faab369b9e7b4}{render\+\_\+published\+\_\+posts}} ( \$all\+Posts, \$recent\+\_\+number, \$individual)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ac77901e1b2410fe0ed60b71066cbbfd4}{render\+\_\+draft\+\_\+posts}} ( \$all\+Posts, \$recent\+\_\+number, \$individual)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a0847480b128a130b3a3fb868fb8f4bf1}{render\+\_\+pending\+\_\+posts}} ( \$all\+Posts, \$recent\+\_\+number, \$individual)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a6e5ddfc0970bf6065fe769c4d04ed8ec}{render\+\_\+future\+\_\+posts}} ( \$all\+Posts, \$recent\+\_\+number, \$individual)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a30bfcb809d2eafdf10d61890adec6b67}{render\+\_\+trash\+\_\+posts}} ( \$all\+Posts, \$recent\+\_\+number, \$individual)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a22c2a6765cd2d2bd0972588afd4370f9}{publish}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ad79317eec39a08d408c57cbac39cceaa}{approve}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a7b0e9e3130f80905ddcfeab8e7e7c9fe}{unpublish}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a8385fb47262570da640087bbe277a54b}{trash}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a96ba974bcdb8adced1fa5a17c105ab5d}{delete}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_afb3ea782e81be176838fe71b07e77ced}{restore}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_afb3f4f589aa4bef1988490539782e616}{action}} ( \$p\+Action, \$type=\textquotesingle{}post\textquotesingle{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Recent\+\_\+\+Posts
+
+Displays the Child Sites most recent published draft, pending, trash \& future posts. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_afb3f4f589aa4bef1988490539782e616}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!action@{action}}
+\index{action@{action}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{action()}{action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_afb3f4f589aa4bef1988490539782e616} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::action (\begin{DoxyParamCaption}\item[{}]{\$p\+Action}{, }\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}post\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method action()
+
+Initiate try catch for chosen Action
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$p\+Action} & Post Action. \\
+\hline
+string & {\em \$type} & Post type.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Error message.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Error\+\_\+\+Helper\+::get\+\_\+error\+\_\+message() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Action\+: mainwp\+\_\+before\+\_\+post\+\_\+action
+
+Fires before post/page publish/unpublish/trash/delete/restore actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+post\+\_\+action Fires after post/page publish/unpublish/trash/delete/restore actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ad79317eec39a08d408c57cbac39cceaa}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!approve@{approve}}
+\index{approve@{approve}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{approve()}{approve()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ad79317eec39a08d408c57cbac39cceaa} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::approve (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method approve()
+
+Approve Post. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a96ba974bcdb8adced1fa5a17c105ab5d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!delete@{delete}}
+\index{delete@{delete}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a96ba974bcdb8adced1fa5a17c105ab5d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::delete (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method delete()
+
+Delete Post. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a2feda0cf6a9587df499c8c57daeb0ec9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a2feda0cf6a9587df499c8c57daeb0ec9} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} Class Name 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a22c2a6765cd2d2bd0972588afd4370f9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!publish@{publish}}
+\index{publish@{publish}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{publish()}{publish()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a22c2a6765cd2d2bd0972588afd4370f9} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::publish (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method publish()
+
+Publish Post. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a9691b890a0888da4de61c679f7839b19}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render@{render}}
+\index{render@{render}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a9691b890a0888da4de61c679f7839b19} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render()
+
+Fire off render\+\_\+sites(). \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ac77901e1b2410fe0ed60b71066cbbfd4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_draft\_posts@{render\_draft\_posts}}
+\index{render\_draft\_posts@{render\_draft\_posts}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_draft\_posts()}{render\_draft\_posts()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ac77901e1b2410fe0ed60b71066cbbfd4} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+draft\+\_\+posts (\begin{DoxyParamCaption}\item[{}]{\$all\+Posts}{, }\item[{}]{\$recent\+\_\+number}{, }\item[{}]{\$individual}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render all draft posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts. \\
+\hline
+bool & {\em \$individual} & Determins if it\textquotesingle{}s individual site dashboard.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+sub\+\_\+array\+\_\+having() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sortmulti() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+timestamp() Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+before\+\_\+draft\+\_\+list
+
+Fires before the list of recent draft Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+after\+\_\+draft\+\_\+list
+
+Fires after the list of recent draft Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a6e5ddfc0970bf6065fe769c4d04ed8ec}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_future\_posts@{render\_future\_posts}}
+\index{render\_future\_posts@{render\_future\_posts}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_future\_posts()}{render\_future\_posts()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a6e5ddfc0970bf6065fe769c4d04ed8ec} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+future\+\_\+posts (\begin{DoxyParamCaption}\item[{}]{\$all\+Posts}{, }\item[{}]{\$recent\+\_\+number}{, }\item[{}]{\$individual}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render all future posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts. \\
+\hline
+bool & {\em \$individual} & Determins if it\textquotesingle{}s individual site dashboard .\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+sub\+\_\+array\+\_\+having() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sortmulti() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+timestamp() Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+before\+\_\+future\+\_\+list
+
+Fires before the list of recent future Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+after\+\_\+future\+\_\+list
+
+Fires after the list of recent future Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a0847480b128a130b3a3fb868fb8f4bf1}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_pending\_posts@{render\_pending\_posts}}
+\index{render\_pending\_posts@{render\_pending\_posts}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_pending\_posts()}{render\_pending\_posts()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a0847480b128a130b3a3fb868fb8f4bf1} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+pending\+\_\+posts (\begin{DoxyParamCaption}\item[{}]{\$all\+Posts}{, }\item[{}]{\$recent\+\_\+number}{, }\item[{}]{\$individual}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render all pending posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts. \\
+\hline
+bool & {\em \$individual} & Determins if it\textquotesingle{}s individual site dashboard.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+sub\+\_\+array\+\_\+having() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sortmulti() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+timestamp() Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+before\+\_\+pending\+\_\+list
+
+Fires before the list of recent pending Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+after\+\_\+pending\+\_\+list
+
+Fires after the list of recent pending Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ac7a4ca58ec771a15718faab369b9e7b4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_published\_posts@{render\_published\_posts}}
+\index{render\_published\_posts@{render\_published\_posts}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_published\_posts()}{render\_published\_posts()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_ac7a4ca58ec771a15718faab369b9e7b4} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+published\+\_\+posts (\begin{DoxyParamCaption}\item[{}]{\$all\+Posts}{, }\item[{}]{\$recent\+\_\+number}{, }\item[{}]{\$individual}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render Published Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts. \\
+\hline
+bool & {\em \$individual} & Determins if it\textquotesingle{}s individual site dashboard.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+sub\+\_\+array\+\_\+having() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sortmulti() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+timestamp() Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+before\+\_\+publised\+\_\+list
+
+Fires before the list of recent published Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+after\+\_\+publised\+\_\+list
+
+Fires after the list of recent published Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a4b807e5af8d1ce9875db71d726b77f27}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_sites@{render\_sites}}
+\index{render\_sites@{render\_sites}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_sites()}{render\_sites()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a4b807e5af8d1ce9875db71d726b77f27} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+sites (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+sites()
+
+Build the recent posts list.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::query() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+sql\+\_\+websites\+\_\+for\+\_\+current\+\_\+user() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::free\+\_\+result() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+current\+\_\+wpid() Sets number of recent posts \& pages
+
+Limits the number of recent posts \& pages to show in the widget. Min 0, Max 30, Default 5.
+
+\begin{DoxySince}{Since}
+4.\+0
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+widget\+\_\+top
+
+Fires at the top of the Recent Posts widget.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+after\+\_\+lists
+
+Fires after the recent posts lists, before the bottom actions section.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+widget\+\_\+bottom
+
+Fires at the bottom of the Recent Posts widget.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a02bae14465f930caec3f36fc5334d4c0}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_top\_grid@{render\_top\_grid}}
+\index{render\_top\_grid@{render\_top\_grid}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_top\_grid()}{render\_top\_grid()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a02bae14465f930caec3f36fc5334d4c0} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+top\+\_\+grid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render \doxylink{namespace_main_w_p}{Main\+WP} Recent Posts Widget Header Filter\+: mainwp\+\_\+recent\+\_\+posts\+\_\+widget\+\_\+title
+
+Filters the recent posts widget title text.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a30bfcb809d2eafdf10d61890adec6b67}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!render\_trash\_posts@{render\_trash\_posts}}
+\index{render\_trash\_posts@{render\_trash\_posts}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{render\_trash\_posts()}{render\_trash\_posts()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a30bfcb809d2eafdf10d61890adec6b67} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::render\+\_\+trash\+\_\+posts (\begin{DoxyParamCaption}\item[{}]{\$all\+Posts}{, }\item[{}]{\$recent\+\_\+number}{, }\item[{}]{\$individual}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render all trashed posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts. \\
+\hline
+bool & {\em \$individual} & Determins if it\textquotesingle{}s individual site dashboard .\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+sub\+\_\+array\+\_\+having() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sortmulti() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+timestamp() Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+before\+\_\+trash\+\_\+list
+
+Fires before the list of recent trash Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+recent\+\_\+posts\+\_\+after\+\_\+trash\+\_\+list
+
+Fires after the list of recent trash Posts.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$all\+Posts} & All posts data. \\
+\hline
+int & {\em \$recent\+\_\+number} & Number of posts.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_afb3ea782e81be176838fe71b07e77ced}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!restore@{restore}}
+\index{restore@{restore}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{restore()}{restore()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_afb3ea782e81be176838fe71b07e77ced} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::restore (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method restore()
+
+Restore Post. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a8385fb47262570da640087bbe277a54b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!trash@{trash}}
+\index{trash@{trash}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{trash()}{trash()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a8385fb47262570da640087bbe277a54b} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::trash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method trash()
+
+Trash Post. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a7b0e9e3130f80905ddcfeab8e7e7c9fe}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}!unpublish@{unpublish}}
+\index{unpublish@{unpublish}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Recent\_Posts}}
+\doxysubsubsection{\texorpdfstring{unpublish()}{unpublish()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___recent___posts_a7b0e9e3130f80905ddcfeab8e7e7c9fe} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Recent\+\_\+\+Posts\+::unpublish (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method unpublish()
+
+Unpublish Post. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+widgets/\mbox{\hyperlink{widget-mainwp-recent-posts_8php}{widget-\/mainwp-\/recent-\/posts.\+php}}\end{DoxyCompactItemize}

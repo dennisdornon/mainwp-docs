@@ -1,0 +1,177 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Extensions Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a9a14a2f89965b3e2a295d03f595a4368}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a73408601ec8ca3618395e7224fdc7573}{init}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_adb41cbfd171ac87824d60c0c461a6862}{init\+\_\+menu}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a6c1dfdcd446b04be9c867c87589ea9e2}{init\+\_\+left\+\_\+menu}} ( \$ext\+Pages)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a95ba152b00b8c1ff5fbda9e8ec309af3}{init\+\_\+subpages\+\_\+menu}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_abb186a82e2ad45f37ad16af087b140b3}{ajax\+\_\+get\+\_\+purchased\+\_\+extensions}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a8ade8494aaec112b0deb39fd71b4e257}{render\+\_\+header}} ( \$shown\+Page=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_ac795982f713fc88dac050ad0eb2bbddf}{render\+\_\+footer}} ( \$shown\+Page)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a7c6009bca5b77f7543ec7292df1c99b5}{render}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a51f821fb83a61d54166fe362b85adc07}{mainwp\+\_\+help\+\_\+content}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Extensions 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_abb186a82e2ad45f37ad16af087b140b3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!ajax\_get\_purchased\_extensions@{ajax\_get\_purchased\_extensions}}
+\index{ajax\_get\_purchased\_extensions@{ajax\_get\_purchased\_extensions}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{ajax\_get\_purchased\_extensions()}{ajax\_get\_purchased\_extensions()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_abb186a82e2ad45f37ad16af087b140b3} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::ajax\+\_\+get\+\_\+purchased\+\_\+extensions (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method ajax\+\_\+get\+\_\+purchased\+\_\+extensions()
+
+Get purchased \doxylink{namespace_main_w_p}{Main\+WP} Extensions.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Api\+\_\+\+Manager\+::get\+\_\+purchased\+\_\+extension() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Api\+\_\+\+Manager\+::check\+\_\+response\+\_\+for\+\_\+intall\+\_\+errors() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+View\+::get\+\_\+available\+\_\+extensions() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+View\+::get\+\_\+extension\+\_\+groups() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Post\+\_\+\+Handler\+::secure\+\_\+request() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::get\+\_\+extensions() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::update\+\_\+option() API Manager Upgrade URL
+
+Filters the Upgrade URL for extensions.
+
+\begin{DoxySince}{Since}
+Unknown @ignore
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a9a14a2f89965b3e2a295d03f595a4368}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a9a14a2f89965b3e2a295d03f595a4368} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+object Class name. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a73408601ec8ca3618395e7224fdc7573}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!init@{init}}
+\index{init@{init}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a73408601ec8ca3618395e7224fdc7573} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Instantiate action hooks.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::get\+\_\+class\+\_\+name() This hook allows you to render the Extensions page header via the \textquotesingle{}mainwp-\/pageheader-\/extensions\textquotesingle{} action.
+
+\doxylink{}{\+::render\+\_\+header  This hook allows you to render the Extensions page footer via the \textquotesingle{}mainwp-\/pagefooter-\/extensions\textquotesingle{} action.  \href{http://codex.mainwp.com/\#mainwp-pagefooter-extensions}{\texttt{ http\+://codex.\+mainwp.\+com/\#mainwp-\/pagefooter-\/extensions}}  \+::render\+\_\+footer }\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a6c1dfdcd446b04be9c867c87589ea9e2}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!init\_left\_menu@{init\_left\_menu}}
+\index{init\_left\_menu@{init\_left\_menu}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{init\_left\_menu()}{init\_left\_menu()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a6c1dfdcd446b04be9c867c87589ea9e2} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::init\+\_\+left\+\_\+menu (\begin{DoxyParamCaption}\item[{}]{\$ext\+Pages}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method init\+\_\+left\+\_\+menu()
+
+Initiate top level Extensions Menues.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$ext\+Pages} & List of extension pages. @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Menu\+::is\+\_\+disable\+\_\+menu\+\_\+item() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Menu\+::add\+\_\+left\+\_\+menu() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Menu\+::init\+\_\+subpages\+\_\+left\+\_\+menu() \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_adb41cbfd171ac87824d60c0c461a6862}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!init\_menu@{init\_menu}}
+\index{init\_menu@{init\_menu}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{init\_menu()}{init\_menu()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_adb41cbfd171ac87824d60c0c461a6862} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::init\+\_\+menu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method init\+\_\+menu()
+
+Instantiate Extensions Menu.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Api\+\_\+\+Manager\+::get\+\_\+activation\+\_\+info() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+View\+::init\+\_\+menu() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Menu\+::is\+\_\+disable\+\_\+menu\+\_\+item() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::polish\+\_\+ext\+\_\+name() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::added\+\_\+on\+\_\+menu() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::get\+\_\+extensions() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::update\+\_\+option() Get extensions
+
+Adds extension to \doxylink{namespace_main_w_p}{Main\+WP} system.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a95ba152b00b8c1ff5fbda9e8ec309af3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!init\_subpages\_menu@{init\_subpages\_menu}}
+\index{init\_subpages\_menu@{init\_subpages\_menu}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{init\_subpages\_menu()}{init\_subpages\_menu()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a95ba152b00b8c1ff5fbda9e8ec309af3} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::init\+\_\+subpages\+\_\+menu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method init\+\_\+subpages\+\_\+menu()
+
+Initiate Extensions Subpage Menu.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::get\+\_\+extensions() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::added\+\_\+on\+\_\+menu() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+Handler\+::polish\+\_\+ext\+\_\+name() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a51f821fb83a61d54166fe362b85adc07}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!mainwp\_help\_content@{mainwp\_help\_content}}
+\index{mainwp\_help\_content@{mainwp\_help\_content}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{mainwp\_help\_content()}{mainwp\_help\_content()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a51f821fb83a61d54166fe362b85adc07} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::mainwp\+\_\+help\+\_\+content (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method mainwp\+\_\+help\+\_\+content()
+
+Creates the \doxylink{namespace_main_w_p}{Main\+WP} Help Documentation List for the help component in the sidebar. Action\+: mainwp\+\_\+extensions\+\_\+help\+\_\+item
+
+Fires at the bottom of the help articles list in the Help sidebar on the Extensions page.
+
+Suggested HTML markup\+:
+
+\href{Your custom URL}{\texttt{ Your custom text}}
+
+\begin{DoxySince}{Since}
+5.\+2
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a7c6009bca5b77f7543ec7292df1c99b5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!render@{render}}
+\index{render@{render}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a7c6009bca5b77f7543ec7292df1c99b5} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::render (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render()
+
+Render page content.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+View\+::render() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+UI\+::render\+\_\+top\+\_\+header() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_ac795982f713fc88dac050ad0eb2bbddf}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!render\_footer@{render\_footer}}
+\index{render\_footer@{render\_footer}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{render\_footer()}{render\_footer()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_ac795982f713fc88dac050ad0eb2bbddf} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::render\+\_\+footer (\begin{DoxyParamCaption}\item[{}]{\$shown\+Page}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+footer()
+
+Render page footer.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$shown\+Page} & The page slug shown at this moment.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Deprecated\+\_\+\+Hooks\+::maybe\+\_\+handle\+\_\+deprecated\+\_\+hook() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+View\+::render\+\_\+footer() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a8ade8494aaec112b0deb39fd71b4e257}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}!render\_header@{render\_header}}
+\index{render\_header@{render\_header}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Extensions}}
+\doxysubsubsection{\texorpdfstring{render\_header()}{render\_header()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___extensions_a8ade8494aaec112b0deb39fd71b4e257} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+::render\+\_\+header (\begin{DoxyParamCaption}\item[{}]{\$shown\+Page}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+header()
+
+Render page header.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$shown\+Page} & The page slug shown at this moment.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Deprecated\+\_\+\+Hooks\+::maybe\+\_\+handle\+\_\+deprecated\+\_\+hook() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Extensions\+\_\+\+View\+::render\+\_\+header() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pages/\mbox{\hyperlink{page-mainwp-extensions_8php}{page-\/mainwp-\/extensions.\+php}}\end{DoxyCompactItemize}

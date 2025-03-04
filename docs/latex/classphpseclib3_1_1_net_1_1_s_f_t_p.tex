@@ -1,0 +1,1374 @@
+\doxysection{phpseclib3\textbackslash{}Net\textbackslash{}SFTP Class Reference}
+\hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p}{}\label{classphpseclib3_1_1_net_1_1_s_f_t_p}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+Inheritance diagram for phpseclib3\textbackslash{}Net\textbackslash{}SFTP\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classphpseclib3_1_1_net_1_1_s_f_t_p}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a783b9c0e195c191cd15a5774fa6ca540}{\+\_\+\+\_\+construct}} (\$host, \$port=22, \$timeout=10)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ace46165b2d2e43c8fd45b4fe153fc01b}{disable\+Stat\+Cache}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_aa4b9a617602e9f1f0f938d05acd9dfef}{enable\+Stat\+Cache}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_aca504027b21c15422cefae3cbadf1fee}{clear\+Stat\+Cache}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_aa2c96e3f1b518ec7c8dafdaaddda0aa8}{enable\+Path\+Canonicalization}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a4998b27fd8f95e551310b39a77b66e50}{disable\+Path\+Canonicalization}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a03453a7ee90b018330213eabd8c112fc}{enable\+Arbitrary\+Length\+Packets}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_afab2938061b9f4e4b201b52f8ab42804}{disable\+Arbitrary\+Length\+Packets}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ad1fcf3b58c68f3a29f140b8baa39e408}{pwd}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a15b22dfee451a815c028eb76a34bd2d9}{realpath}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a5138f52081aab957e4956ee1e9680f1c}{chdir}} (\$dir)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ab742eee80f60fe323bd5d8cbe28a17ab}{nlist}} (\$dir=\textquotesingle{}.\textquotesingle{}, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a4ac96e87b04057a60f0df635830f95b9}{rawlist}} (\$dir=\textquotesingle{}.\textquotesingle{}, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a13380c00997de22bc56be5b5c4056523}{set\+List\+Order}} (... \$args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a871184358eb7805b54510df61d5190aa}{stat}} (\$filename)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a522db849dedd674e370e78229dac24bd}{lstat}} (\$filename)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a99cc02c2a881a817afbc6d4fd7177d80}{truncate}} (\$filename, \$new\+\_\+size)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_acf1f99afa4303dde7600c9f9b4f41815}{touch}} (\$filename, \$time=null, \$atime=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a0316f4509c851e704b2b6e2b1c40717c}{chown}} (\$filename, \$uid, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_abfaff2e48ea565acccefe567dc69aebc}{chgrp}} (\$filename, \$gid, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_aaa7c77d116de863141bcf0d5ce706231}{chmod}} (\$mode, \$filename, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ab49d2e1e4f6f0a02ca6f2a3dc8daebb3}{readlink}} (\$link)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ae839eb6d2330f4ac2078f052aa3a62a9}{symlink}} (\$target, \$link)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_af11ed12865007b6ed02ee4ff54398627}{mkdir}} (\$dir, \$mode=-\/1, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_aba59055707f99a4e5d7e0dd49a95123c}{rmdir}} (\$dir)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a3cc1157f1feda0afbc2ef73a184954b4}{put}} (\$remote\+\_\+file, \$data, \$mode=self\+::\+SOURCE\+\_\+\+STRING, \$start=-\/1, \$local\+\_\+start=-\/1, \$progress\+Callback=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a72b254b53994a27de354826ac4529088}{get}} (\$remote\+\_\+file, \$local\+\_\+file=false, \$offset=0, \$length=-\/1, \$progress\+Callback=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_aeeaad6c35c7b654689923caf04fbd494}{delete}} (\$path, \$recursive=true)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a7639780e61dbd0112a31a59984e10745}{file\+\_\+exists}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a2b45ee5039b3a5acf42898d940dd4c36}{is\+\_\+dir}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ad4acf8316c78982aa6d3140fa35c0508}{is\+\_\+file}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a9eaf51923ba168a720be084603c09ae1}{is\+\_\+link}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a3b48f018bec07f3765c6d72c1fffb153}{is\+\_\+readable}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ab0c76f440369d43eee28204862e89bfc}{is\+\_\+writable}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a687fb36a6c6d78ae48a80771a6a19470}{is\+\_\+writeable}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_acfc68673fa5751c40bcf6851b512d2cc}{fileatime}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ae6a0fb8a3865272842115bea8d963a47}{filemtime}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a65a5f85bc0298c569725212336102dd6}{fileperms}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ad913ef024beb49ce1d2f212751f9adf3}{fileowner}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a3d0ba23d7a0d652986a296e439634a57}{filegroup}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a1452917ebcaffc5e480d2ebb23797bfc}{filesize}} (\$path, \$recursive=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a2b517ca88c669aa87828c3316839624e}{filetype}} (\$path)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ac0115b063e705be777cc105062978f92}{rename}} (\$oldname, \$newname)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_abfb6129a941e8b9df149776f89e55e18}{get\+SFTPLog}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a534bf5ec6bbaa5ea2e71b006344fbe28}{get\+SFTPErrors}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a2fa7a9bef457cba96774148bc7d38c1f}{get\+Last\+SFTPError}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a9043199c4fdf30f462b40cb03ea773bd}{get\+Supported\+Versions}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a83a30715687a7045a30c1ad622bc95c5}{get\+Negotiated\+Version}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a342f3873ee78d9ff32b0bd3ebec0f458}{set\+Preferred\+Version}} (\$version)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_acb4e388fdff9b0f64f3f6d2ac81ccb05}{enable\+Date\+Preservation}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ae25d4a0d9a0e9a9379a538cd067b0359}{disable\+Date\+Preservation}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4c76eff1478836e1523ce7f93c045e75}{send\+Identification\+String\+First}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a22ea1bfe5565e508c3f3e186d2c422a6}{send\+Identification\+String\+Last}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acfb8e8f77269e1e19d83c25801a0c4ce}{send\+KEXINITFirst}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a20133e144550082697c177234ec27c7f}{send\+KEXINITLast}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a35f9d6bee22f71f0972df874c52acbdf}{login}} (\$username,... \$args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae76e423d90fe489a472a45305d8a6554}{get\+Timeout}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a96775b3d7a0b328e6b19e5fb0df611f7}{set\+Timeout}} (\$timeout)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae44d828b4d8bc4bc4f330ae9d9904d42}{set\+Keep\+Alive}} (\$interval)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a60d95e2b10828cabad086985b09b3653}{get\+Std\+Error}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a2bca4751f6a6c3dc73033981239d868b}{exec}} (\$command, callable \$callback=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aff14c7df9fb91afbb3fb39c29fe28ea8}{get\+Open\+Channel\+Count}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3ff3efa63ea9a3c5ca1ac5e186779db9}{open\+Shell}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae98a044cfaf3740097caf2004034b839}{request\+Agent\+Forwarding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa86cb1ae657bd7125e2269abfb3c542b}{read}} (\$expect=\textquotesingle{}\textquotesingle{}, \$mode=self\+::\+READ\+\_\+\+SIMPLE, \$channel=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa2d55740c9f3a206f995b5585bc5acfc}{write}} (\$cmd, \$channel=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4bd807d556a61802faab9b4961fc9188}{start\+Subsystem}} (\$subsystem)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad021ca6142dd5bbe929a0783311f155b}{stop\+Subsystem}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9aa64b4ee55fa2d68331dac5b787db5b}{reset}} (\$channel=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab9fc94cd3005392e59104de72565a46b}{is\+Timeout}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a67344e7175e7083e8a685e21db659118}{disconnect}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad3601a2650aeb0d247f117796b7be7b6}{\+\_\+\+\_\+destruct}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a05ae129561069aaafa9009fbac6eae30}{is\+Connected}} (\$level=0)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab15d9cf913443d1448dace759ae4c6a0}{is\+Authenticated}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a63e82b7d63c9485f160d12e2ee0b2a7b}{is\+Shell\+Open}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa00a8d486b879d0e5223fe71b9924c97}{is\+PTYOpen}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae9bb537ced8188a88792ebe22c8ed7ec}{is\+Interactive\+Channel\+Open}} (\$channel)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acb439c334de1497e23763f586bf5d779}{get\+Interactive\+Channel\+Id}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a27fe64f124f7003f5490e6407362d75d}{ping}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1fe04223f4e80e614d1f37ec3ec40791}{enable\+Quiet\+Mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3094de0b66c80c64276583a21ca268bf}{disable\+Quiet\+Mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1caeac08210ff3ca6e5f1b1f31263e6d}{is\+Quiet\+Mode\+Enabled}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a2502eff501246953b92eef70a5c144c1}{enable\+PTY}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_adb71ab3c30b3ae67744a71ba192568b2}{disable\+PTY}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3bd8a6f27718f90394b38f0652edb8f6}{is\+PTYEnabled}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a6fe63b875b5a595158ee1a92c83cdea8}{get\+Log}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_abdf9f354d93a6f507032a2081f1dc5a0}{get\+Errors}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3cdb22209201e550b92ae8d11fdf4e2b}{get\+Last\+Error}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ac7a1b5b6203ac948cf2f8369ac92d028}{get\+Server\+Identification}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aba9020e38cfcf98ef36f05146534dfec}{get\+Server\+Algorithms}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1a84cb8d69570a306f918cd2f7da1f4e}{get\+Algorithms\+Negotiated}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae7b123f04d432aa8f0ef0af9334a3426}{force\+Multiple\+Channels}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a0060cbe17bc0f98e07842ea32dfc7c13}{set\+Terminal}} (\$term)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af48d5905cce3bb84940604cb516afaa8}{set\+Preferred\+Algorithms}} (array \$methods)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_afced405edfa037ac76564c79b8cd7539}{get\+Banner\+Message}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a540691513cb1a243529d85d99dac0fbd}{get\+Server\+Public\+Host\+Key}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a6ea1402fa7eca4e19d4456527be15eb0}{get\+Exit\+Status}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_afbf7f8a701bf0edfd83c17008ef61866}{get\+Window\+Columns}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a398af4cf008f8cd1de21b2b459ca75db}{get\+Window\+Rows}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae6fe3dbba3c97da1303afe1b0826e306}{set\+Window\+Columns}} (\$value)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a67ebc5e40d563db1d562ee20584bd7e9}{set\+Window\+Rows}} (\$value)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a6a99a9bd7e06246068eaa65abfbbcb9c}{set\+Window\+Size}} (\$columns=80, \$rows=24)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae43eb7d4611a043d8d7a7da4f7135660}{\+\_\+\+\_\+to\+String}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aaa5e0050d1b33101ed49c988dd6853c0}{get\+Resource\+Id}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ac9ea4c8b27a677d91f0a004bb57f3e39}{get\+Auth\+Methods\+To\+Continue}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4c25cd02bad55de0aa38543b8fb245a4}{enable\+Smart\+MFA}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1d47ee7b89f77a02102f952733a39b04}{disable\+Smart\+MFA}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a9bddbb51a88344f5ddb95d02e3ba58c2}{CHANNEL}} = 0x100
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ab75913afbe112e4b1d92903a7fe8b3f7}{SOURCE\+\_\+\+LOCAL\+\_\+\+FILE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a8d256682223a0a7a6836f53bfb7161b9}{SOURCE\+\_\+\+STRING}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a1ee0d8d550824077de546e2b26253331}{SOURCE\+\_\+\+CALLBACK}} = 16
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a03d4fa873c5d41187a69165379e0c7c5}{RESUME}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_afb2baeaddfab6cd34fd10c044c7eec5d}{RESUME\+\_\+\+START}} = 8
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aaa3684e82ebacd8cf9caa7c4275ea784}{NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+NONE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a2153ac85d33c8a4b73e24a45e8949385}{NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+ZLIB}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a04263800781767e7a4d5a7f43a19b750}{NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+ZLIB\+\_\+\+AT\+\_\+\+OPENSSH}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a114ba9c4d719c4a2ad6dd3add4e92929}{MASK\+\_\+\+CONSTRUCTOR}} = 0x00000001
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a206c1e2d7fa4196456b627f17021590e}{MASK\+\_\+\+CONNECTED}} = 0x00000002
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a7df7d3061c2468b06fd84dfa03331eaa}{MASK\+\_\+\+LOGIN\+\_\+\+REQ}} = 0x00000004
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad96be98fc90db0ccd1745a4df9767846}{MASK\+\_\+\+LOGIN}} = 0x00000008
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a5df8e305f4719ecabb9190e336ce0cbd}{MASK\+\_\+\+SHELL}} = 0x00000010
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a749bf2ef82b3fe14f83b636b513d9d4c}{MASK\+\_\+\+WINDOW\+\_\+\+ADJUST}} = 0x00000020
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a91a2778ab8a6b48d04583697731951ae}{CHANNEL\+\_\+\+EXEC}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af6e59f909f3769dcf8613d8a74abe66c}{CHANNEL\+\_\+\+SHELL}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ac74685c3fe105ea5fdbedea38d195d03}{CHANNEL\+\_\+\+SUBSYSTEM}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9c2585f0af3fff9919da26fdc5a10df4}{CHANNEL\+\_\+\+AGENT\+\_\+\+FORWARD}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af89e7e9535489d4ef1196b224770cf79}{CHANNEL\+\_\+\+KEEP\+\_\+\+ALIVE}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3af744100751c520c05368fad49bc608}{LOG\+\_\+\+SIMPLE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a639e20cff1597831bd9201bb138a9f33}{LOG\+\_\+\+COMPLEX}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4687b20fbcdc55049a2a8cbc51493a2e}{LOG\+\_\+\+REALTIME}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9df7d680d73014738596efc8a0efde56}{LOG\+\_\+\+REALTIME\+\_\+\+FILE}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa51f8e6829eae8a43cf966276dcc8022}{LOG\+\_\+\+SIMPLE\+\_\+\+REALTIME}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab84fb135e1637c7564e28cf857e0f982}{LOG\+\_\+\+MAX\+\_\+\+SIZE}} = 1048576
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acc48385e871932de07e0997f63153b4f}{READ\+\_\+\+SIMPLE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae25721ac309c480dfc8f2825ca914200}{READ\+\_\+\+REGEX}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a5d37845e0b78d1da971e8cb750b28919}{READ\+\_\+\+NEXT}} = 3
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a091aa3a4bddc7c365a940fac34289ee2}{\$fsock}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_affa7c5b1da2a16b3554028ab23461e93}{parse\+Attributes}} (\&\$response)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ab790910df8c4e36b3be7d8872a771331}{reset\+\_\+connection}} (\$reason)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a0de82457391f035704e2cabe70290c6e}{disconnect\+\_\+helper}} (\$reason)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_abaa656a8ac2597b76636d4c2aca9a63b}{sublogin}} (\$username,... \$args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9fc48e34f7bd03f404ac340aadd9c74d}{open\+\_\+channel}} (\$channel, \$skip\+\_\+extended=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a75517c07b0a491a45a60c54584015a96}{get\+\_\+channel\+\_\+packet}} (\$client\+\_\+channel, \$skip\+\_\+extended=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acbccb83638c6d44c03ee683d97130eb3}{send\+\_\+binary\+\_\+packet}} (\$data, \$logged=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae20006cca8fd990b21574e861b01be66}{append\+\_\+log\+\_\+helper}} (\$constant, \$message\+\_\+number, \$message, array \&\$message\+\_\+number\+\_\+log, array \&\$message\+\_\+log, \&\$log\+\_\+size, \&\$realtime\+\_\+log\+\_\+file, \&\$realtime\+\_\+log\+\_\+wrap, \&\$realtime\+\_\+log\+\_\+size)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acffbc88e5bd7dae7f6623aa5ddeae90a}{send\+\_\+channel\+\_\+packet}} (\$client\+\_\+channel, \$data)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa1f3afa462750de8b74424a1c0006d23}{format\+\_\+log}} (array \$message\+\_\+log, array \$message\+\_\+number\+\_\+log)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a0b4d8db4ef6eaa51785baec6cfb32273}{\$sort\+Options}} = \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a5c7fa5c707697a79642904ba9a4eb2ee}{\$bitmap}} = 0
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acb8df7a7d4e13e30a8a066306906576a}{\$server\+\_\+identifier}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aeae1e1ce06e4f2194379931b443dcb5c}{\$server\+\_\+channels}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a90b01d5d7fde7725c22c48a7c47cb9fe}{\$channel\+\_\+status}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af599ec6bc419dcc91df6d9af3faaa41d}{\$window\+\_\+size}} = 0x7\+FFFFFFF
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad5013b677955a12c527a30a6c609ddb1}{\$window\+\_\+size\+\_\+server\+\_\+to\+\_\+client}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab6324bcc1a8a9b8b71e6824611d52f4a}{\$timeout}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae32f8790a30a54b2dcfae2bad1f33491}{\$cur\+Timeout}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9244a24681b91aeb59d1f5b9bc821efd}{\$preferred\+\_\+signature\+\_\+format}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ada8764a827d5f478c96499d92a8d8a53}{\$auth}} = \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9c31227421e3fa3a8bbae44f6721c77f}{set\+Crypto\+Engine}} (\$engine)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a294ba9c33897898aa45788a69c7e979b}{get\+Supported\+KEXAlgorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a24fadea9ac8a2a6e7687134de2bfe3ab}{get\+Supported\+Host\+Key\+Algorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a94e149a0d05269b852a0147b349a0c31}{get\+Supported\+Encryption\+Algorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a05a25a0d51625b798e090cc7edb1e5f7}{get\+Supported\+MACAlgorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_adc6c2925583192a7c400bae93ac3e2fa}{get\+Supported\+Compression\+Algorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a040102fc1f1937bb61daf8b5f80c91cb}{get\+Connection\+By\+Resource\+Id}} (\$id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_afe1797073190cc7cb9a8f00a0f93dc69}{define\+\_\+array}} (... \$args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP implementations of SFTP.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a783b9c0e195c191cd15a5774fa6ca540}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a783b9c0e195c191cd15a5774fa6ca540} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$host}{, }\item[{}]{\$port}{ = {\ttfamily 22}, }\item[{}]{\$timeout}{ = {\ttfamily 10}}\end{DoxyParamCaption})}
+
+Default Constructor.
+
+Connects to an SFTP server
+
+\$host can either be a string, representing the host, or a stream resource.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$host} & \\
+\hline
+int & {\em \$port} & \\
+\hline
+int & {\em \$timeout} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a5138f52081aab957e4956ee1e9680f1c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!chdir@{chdir}}
+\index{chdir@{chdir}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{chdir()}{chdir()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a5138f52081aab957e4956ee1e9680f1c} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::chdir (\begin{DoxyParamCaption}\item[{}]{\$dir}{}\end{DoxyParamCaption})}
+
+Changes the current directory
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$dir} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_abfaff2e48ea565acccefe567dc69aebc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!chgrp@{chgrp}}
+\index{chgrp@{chgrp}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{chgrp()}{chgrp()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_abfaff2e48ea565acccefe567dc69aebc} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::chgrp (\begin{DoxyParamCaption}\item[{}]{\$filename}{, }\item[{}]{\$gid}{, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Changes file or directory group
+
+\$gid should be an int for SFTPv3 and a string for SFTPv4+. Ideally the string would be of the form "{}user@dns\+\_\+domain"{} but it does not need to be. `\$sftp-\/\texorpdfstring{$>$}{>}get\+Supported\+Versions()\mbox{[}\textquotesingle{}version'\mbox{]}\`{} will return the specific version that\textquotesingle{}s being used.
+
+Returns true on success or false on error.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & \\
+\hline
+int | string & {\em \$gid} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_aaa7c77d116de863141bcf0d5ce706231}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!chmod@{chmod}}
+\index{chmod@{chmod}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{chmod()}{chmod()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_aaa7c77d116de863141bcf0d5ce706231} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::chmod (\begin{DoxyParamCaption}\item[{}]{\$mode}{, }\item[{}]{\$filename}{, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Set permissions on a file.
+
+Returns the new file permissions on success or false on error. If \$recursive is true than this just returns true or false.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$mode} & \\
+\hline
+string & {\em \$filename} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a0316f4509c851e704b2b6e2b1c40717c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!chown@{chown}}
+\index{chown@{chown}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{chown()}{chown()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a0316f4509c851e704b2b6e2b1c40717c} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::chown (\begin{DoxyParamCaption}\item[{}]{\$filename}{, }\item[{}]{\$uid}{, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Changes file or directory owner
+
+\$uid should be an int for SFTPv3 and a string for SFTPv4+. Ideally the string would be of the form "{}user@dns\+\_\+domain"{} but it does not need to be. `\$sftp-\/\texorpdfstring{$>$}{>}get\+Supported\+Versions()\mbox{[}\textquotesingle{}version'\mbox{]}\`{} will return the specific version that\textquotesingle{}s being used.
+
+Returns true on success or false on error.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & \\
+\hline
+int | string & {\em \$uid} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_aca504027b21c15422cefae3cbadf1fee}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!clearStatCache@{clearStatCache}}
+\index{clearStatCache@{clearStatCache}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{clearStatCache()}{clearStatCache()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_aca504027b21c15422cefae3cbadf1fee} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::clear\+Stat\+Cache (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Clear the stat cache \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_aeeaad6c35c7b654689923caf04fbd494}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!delete@{delete}}
+\index{delete@{delete}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_aeeaad6c35c7b654689923caf04fbd494} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::delete (\begin{DoxyParamCaption}\item[{}]{\$path}{, }\item[{}]{\$recursive}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Deletes a file on the SFTP server.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_afab2938061b9f4e4b201b52f8ab42804}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!disableArbitraryLengthPackets@{disableArbitraryLengthPackets}}
+\index{disableArbitraryLengthPackets@{disableArbitraryLengthPackets}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{disableArbitraryLengthPackets()}{disableArbitraryLengthPackets()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_afab2938061b9f4e4b201b52f8ab42804} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::disable\+Arbitrary\+Length\+Packets (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disable arbitrary length packets \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ae25d4a0d9a0e9a9379a538cd067b0359}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!disableDatePreservation@{disableDatePreservation}}
+\index{disableDatePreservation@{disableDatePreservation}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{disableDatePreservation()}{disableDatePreservation()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ae25d4a0d9a0e9a9379a538cd067b0359} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::disable\+Date\+Preservation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disable Date Preservation \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a4998b27fd8f95e551310b39a77b66e50}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!disablePathCanonicalization@{disablePathCanonicalization}}
+\index{disablePathCanonicalization@{disablePathCanonicalization}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{disablePathCanonicalization()}{disablePathCanonicalization()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a4998b27fd8f95e551310b39a77b66e50} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::disable\+Path\+Canonicalization (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disable path canonicalization
+
+If this is enabled then \$sftp-\/\texorpdfstring{$>$}{>}pwd() will not return the canonicalized absolute path \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ace46165b2d2e43c8fd45b4fe153fc01b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!disableStatCache@{disableStatCache}}
+\index{disableStatCache@{disableStatCache}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{disableStatCache()}{disableStatCache()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ace46165b2d2e43c8fd45b4fe153fc01b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::disable\+Stat\+Cache (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disable the stat cache \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a0de82457391f035704e2cabe70290c6e}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!disconnect\_helper@{disconnect\_helper}}
+\index{disconnect\_helper@{disconnect\_helper}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{disconnect\_helper()}{disconnect\_helper()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a0de82457391f035704e2cabe70290c6e} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::disconnect\+\_\+helper (\begin{DoxyParamCaption}\item[{}]{\$reason}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Disconnect
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$reason} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+false 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab2fc4624d86c69b1117ccaac1db0015e}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}.
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a03453a7ee90b018330213eabd8c112fc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!enableArbitraryLengthPackets@{enableArbitraryLengthPackets}}
+\index{enableArbitraryLengthPackets@{enableArbitraryLengthPackets}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{enableArbitraryLengthPackets()}{enableArbitraryLengthPackets()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a03453a7ee90b018330213eabd8c112fc} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::enable\+Arbitrary\+Length\+Packets (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enable arbitrary length packets \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_acb4e388fdff9b0f64f3f6d2ac81ccb05}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!enableDatePreservation@{enableDatePreservation}}
+\index{enableDatePreservation@{enableDatePreservation}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{enableDatePreservation()}{enableDatePreservation()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_acb4e388fdff9b0f64f3f6d2ac81ccb05} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::enable\+Date\+Preservation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enable Date Preservation \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_aa2c96e3f1b518ec7c8dafdaaddda0aa8}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!enablePathCanonicalization@{enablePathCanonicalization}}
+\index{enablePathCanonicalization@{enablePathCanonicalization}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{enablePathCanonicalization()}{enablePathCanonicalization()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_aa2c96e3f1b518ec7c8dafdaaddda0aa8} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::enable\+Path\+Canonicalization (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enable path canonicalization \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_aa4b9a617602e9f1f0f938d05acd9dfef}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!enableStatCache@{enableStatCache}}
+\index{enableStatCache@{enableStatCache}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{enableStatCache()}{enableStatCache()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_aa4b9a617602e9f1f0f938d05acd9dfef} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::enable\+Stat\+Cache (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enable the stat cache \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a7639780e61dbd0112a31a59984e10745}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!file\_exists@{file\_exists}}
+\index{file\_exists@{file\_exists}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{file\_exists()}{file\_exists()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a7639780e61dbd0112a31a59984e10745} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::file\+\_\+exists (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Checks whether a file or directory exists
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_acfc68673fa5751c40bcf6851b512d2cc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!fileatime@{fileatime}}
+\index{fileatime@{fileatime}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{fileatime()}{fileatime()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_acfc68673fa5751c40bcf6851b512d2cc} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::fileatime (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Gets last access time of file
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a3d0ba23d7a0d652986a296e439634a57}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!filegroup@{filegroup}}
+\index{filegroup@{filegroup}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{filegroup()}{filegroup()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a3d0ba23d7a0d652986a296e439634a57} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::filegroup (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Gets file group
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ae6a0fb8a3865272842115bea8d963a47}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!filemtime@{filemtime}}
+\index{filemtime@{filemtime}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{filemtime()}{filemtime()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ae6a0fb8a3865272842115bea8d963a47} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::filemtime (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Gets file modification time
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ad913ef024beb49ce1d2f212751f9adf3}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!fileowner@{fileowner}}
+\index{fileowner@{fileowner}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{fileowner()}{fileowner()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ad913ef024beb49ce1d2f212751f9adf3} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::fileowner (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Gets file owner
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a65a5f85bc0298c569725212336102dd6}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!fileperms@{fileperms}}
+\index{fileperms@{fileperms}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{fileperms()}{fileperms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a65a5f85bc0298c569725212336102dd6} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::fileperms (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Gets file permissions
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a1452917ebcaffc5e480d2ebb23797bfc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!filesize@{filesize}}
+\index{filesize@{filesize}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{filesize()}{filesize()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a1452917ebcaffc5e480d2ebb23797bfc} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::filesize (\begin{DoxyParamCaption}\item[{}]{\$path}{, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Gets file size
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a2b517ca88c669aa87828c3316839624e}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!filetype@{filetype}}
+\index{filetype@{filetype}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{filetype()}{filetype()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a2b517ca88c669aa87828c3316839624e} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::filetype (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Gets file type
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a72b254b53994a27de354826ac4529088}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!get@{get}}
+\index{get@{get}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a72b254b53994a27de354826ac4529088} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get (\begin{DoxyParamCaption}\item[{}]{\$remote\+\_\+file}{, }\item[{}]{\$local\+\_\+file}{ = {\ttfamily false}, }\item[{}]{\$offset}{ = {\ttfamily 0}, }\item[{}]{\$length}{ = {\ttfamily -\/1}, }\item[{}]{\$progress\+Callback}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Downloads a file from the SFTP server.
+
+Returns a string containing the contents of \$remote\+\_\+file if \$local\+\_\+file is left undefined or a boolean false if the operation was unsuccessful. If \$local\+\_\+file is defined, returns true or false depending on the success of the operation.
+
+\$offset and \$length can be used to download files in chunks.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$remote\+\_\+file} & \\
+\hline
+string | bool | resource | callable & {\em \$local\+\_\+file} & \\
+\hline
+int & {\em \$offset} & \\
+\hline
+int & {\em \$length} & \\
+\hline
+callable | null & {\em \$progress\+Callback} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a2fa7a9bef457cba96774148bc7d38c1f}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!getLastSFTPError@{getLastSFTPError}}
+\index{getLastSFTPError@{getLastSFTPError}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{getLastSFTPError()}{getLastSFTPError()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a2fa7a9bef457cba96774148bc7d38c1f} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get\+Last\+SFTPError (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the last error on the SFTP layer
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a83a30715687a7045a30c1ad622bc95c5}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!getNegotiatedVersion@{getNegotiatedVersion}}
+\index{getNegotiatedVersion@{getNegotiatedVersion}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{getNegotiatedVersion()}{getNegotiatedVersion()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a83a30715687a7045a30c1ad622bc95c5} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get\+Negotiated\+Version (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get supported SFTP versions
+
+\begin{DoxyReturn}{Returns}
+int\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a534bf5ec6bbaa5ea2e71b006344fbe28}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!getSFTPErrors@{getSFTPErrors}}
+\index{getSFTPErrors@{getSFTPErrors}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{getSFTPErrors()}{getSFTPErrors()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a534bf5ec6bbaa5ea2e71b006344fbe28} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get\+SFTPErrors (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns all errors on the SFTP layer
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_abfb6129a941e8b9df149776f89e55e18}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!getSFTPLog@{getSFTPLog}}
+\index{getSFTPLog@{getSFTPLog}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{getSFTPLog()}{getSFTPLog()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_abfb6129a941e8b9df149776f89e55e18} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get\+SFTPLog (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns a log of the packets that have been sent and received.
+
+Returns a string if NET\+\_\+\+SFTP\+\_\+\+LOGGING == self\+::\+LOG\+\_\+\+COMPLEX, an array if NET\+\_\+\+SFTP\+\_\+\+LOGGING == self\+::\+LOG\+\_\+\+SIMPLE and false if !defined(\textquotesingle{}NET\+\_\+\+SFTP\+\_\+\+LOGGING\textquotesingle{})
+
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}string\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a9043199c4fdf30f462b40cb03ea773bd}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!getSupportedVersions@{getSupportedVersions}}
+\index{getSupportedVersions@{getSupportedVersions}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{getSupportedVersions()}{getSupportedVersions()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a9043199c4fdf30f462b40cb03ea773bd} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get\+Supported\+Versions (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get supported SFTP versions
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a2b45ee5039b3a5acf42898d940dd4c36}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!is\_dir@{is\_dir}}
+\index{is\_dir@{is\_dir}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{is\_dir()}{is\_dir()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a2b45ee5039b3a5acf42898d940dd4c36} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::is\+\_\+dir (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Tells whether the filename is a directory
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ad4acf8316c78982aa6d3140fa35c0508}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!is\_file@{is\_file}}
+\index{is\_file@{is\_file}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{is\_file()}{is\_file()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ad4acf8316c78982aa6d3140fa35c0508} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::is\+\_\+file (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Tells whether the filename is a regular file
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a9eaf51923ba168a720be084603c09ae1}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!is\_link@{is\_link}}
+\index{is\_link@{is\_link}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{is\_link()}{is\_link()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a9eaf51923ba168a720be084603c09ae1} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::is\+\_\+link (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Tells whether the filename is a symbolic link
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a3b48f018bec07f3765c6d72c1fffb153}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!is\_readable@{is\_readable}}
+\index{is\_readable@{is\_readable}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{is\_readable()}{is\_readable()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a3b48f018bec07f3765c6d72c1fffb153} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::is\+\_\+readable (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Tells whether a file exists and is readable
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ab0c76f440369d43eee28204862e89bfc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!is\_writable@{is\_writable}}
+\index{is\_writable@{is\_writable}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{is\_writable()}{is\_writable()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ab0c76f440369d43eee28204862e89bfc} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::is\+\_\+writable (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Tells whether the filename is writable
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a687fb36a6c6d78ae48a80771a6a19470}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!is\_writeable@{is\_writeable}}
+\index{is\_writeable@{is\_writeable}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{is\_writeable()}{is\_writeable()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a687fb36a6c6d78ae48a80771a6a19470} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::is\+\_\+writeable (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Tells whether the filename is writeable
+
+Alias of is\+\_\+writable
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a522db849dedd674e370e78229dac24bd}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!lstat@{lstat}}
+\index{lstat@{lstat}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{lstat()}{lstat()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a522db849dedd674e370e78229dac24bd} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::lstat (\begin{DoxyParamCaption}\item[{}]{\$filename}{}\end{DoxyParamCaption})}
+
+Returns general information about a file or symbolic link.
+
+Returns an array on success and false otherwise.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_af11ed12865007b6ed02ee4ff54398627}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!mkdir@{mkdir}}
+\index{mkdir@{mkdir}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{mkdir()}{mkdir()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_af11ed12865007b6ed02ee4ff54398627} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::mkdir (\begin{DoxyParamCaption}\item[{}]{\$dir}{, }\item[{}]{\$mode}{ = {\ttfamily -\/1}, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Creates a directory.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$dir} & \\
+\hline
+int & {\em \$mode} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ab742eee80f60fe323bd5d8cbe28a17ab}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!nlist@{nlist}}
+\index{nlist@{nlist}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{nlist()}{nlist()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ab742eee80f60fe323bd5d8cbe28a17ab} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::nlist (\begin{DoxyParamCaption}\item[{}]{\$dir}{ = {\ttfamily \textquotesingle{}.\textquotesingle{}}, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Returns a list of files in the given directory
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$dir} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_affa7c5b1da2a16b3554028ab23461e93}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!parseAttributes@{parseAttributes}}
+\index{parseAttributes@{parseAttributes}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{parseAttributes()}{parseAttributes()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_affa7c5b1da2a16b3554028ab23461e93} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::parse\+Attributes (\begin{DoxyParamCaption}\item[{\&}]{\$response}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Parse Attributes
+
+See \textquotesingle{}7. File Attributes\textquotesingle{} of draft-\/ietf-\/secsh-\/filexfer-\/13 for more info.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$response} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a3cc1157f1feda0afbc2ef73a184954b4}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!put@{put}}
+\index{put@{put}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{put()}{put()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a3cc1157f1feda0afbc2ef73a184954b4} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put (\begin{DoxyParamCaption}\item[{}]{\$remote\+\_\+file}{, }\item[{}]{\$data}{, }\item[{}]{\$mode}{ = {\ttfamily self\+:\+:SOURCE\+\_\+STRING}, }\item[{}]{\$start}{ = {\ttfamily -\/1}, }\item[{}]{\$local\+\_\+start}{ = {\ttfamily -\/1}, }\item[{}]{\$progress\+Callback}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Uploads a file to the SFTP server.
+
+By default, \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put() does not read from the local filesystem. \$data is dumped directly into \$remote\+\_\+file. So, for example, if you set \$data to \textquotesingle{}filename.\+ext\textquotesingle{} and then do \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::get(), you will get a file, twelve bytes long, containing \textquotesingle{}filename.\+ext\textquotesingle{} as its contents.
+
+Setting \$mode to self\+::\+SOURCE\+\_\+\+LOCAL\+\_\+\+FILE will change the above behavior. With self\+::\+SOURCE\+\_\+\+LOCAL\+\_\+\+FILE, \$remote\+\_\+file will contain as many bytes as filename.\+ext does on your local filesystem. If your filename.\+ext is 1MB then that is how large \$remote\+\_\+file will be, as well.
+
+Setting \$mode to self\+::\+SOURCE\+\_\+\+CALLBACK will use \$data as callback function, which gets only one parameter -- number of bytes to return, and returns a string if there is some data or null if there is no more data
+
+If \$data is a resource then it\textquotesingle{}ll be used as a resource instead.
+
+Currently, only binary mode is supported. As such, if the line endings need to be adjusted, you will need to take care of that, yourself.
+
+\$mode can take an additional two parameters -\/ self\+::\+RESUME and self\+::\+RESUME\+\_\+\+START. These are bitwise AND\textquotesingle{}d with \$mode. So if you want to resume upload of a 300mb file on the local file system you\textquotesingle{}d set \$mode to the following\+:
+
+self\+::\+SOURCE\+\_\+\+LOCAL\+\_\+\+FILE \texorpdfstring{$\vert$}{|} self\+::\+RESUME
+
+If you wanted to simply append the full contents of a local file to the full contents of a remote file you\textquotesingle{}d replace self\+::\+RESUME with self\+::\+RESUME\+\_\+\+START.
+
+If \$mode \& (self\+::\+RESUME \texorpdfstring{$\vert$}{|} self\+::\+RESUME\+\_\+\+START) then self\+::\+RESUME\+\_\+\+START will be assumed.
+
+\$start and \$local\+\_\+start give you more fine grained control over this process and take precident over self\+::\+RESUME when they\textquotesingle{}re non-\/negative. ie. \$start could let you write at the end of a file (like self\+::\+RESUME) or in the middle of one. \$local\+\_\+start could let you start your reading from the end of a file (like self\+::\+RESUME\+\_\+\+START) or in the middle of one.
+
+Setting \$local\+\_\+start to \texorpdfstring{$>$}{>} 0 or \$mode \texorpdfstring{$\vert$}{|} self\+::\+RESUME\+\_\+\+START doesn\textquotesingle{}t do anything unless \$mode \texorpdfstring{$\vert$}{|} self\+::\+SOURCE\+\_\+\+LOCAL\+\_\+\+FILE.
+
+\{ \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ad1fcf3b58c68f3a29f140b8baa39e408}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!pwd@{pwd}}
+\index{pwd@{pwd}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{pwd()}{pwd()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ad1fcf3b58c68f3a29f140b8baa39e408} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::pwd (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the current directory name
+
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a4ac96e87b04057a60f0df635830f95b9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!rawlist@{rawlist}}
+\index{rawlist@{rawlist}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{rawlist()}{rawlist()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a4ac96e87b04057a60f0df635830f95b9} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::rawlist (\begin{DoxyParamCaption}\item[{}]{\$dir}{ = {\ttfamily \textquotesingle{}.\textquotesingle{}}, }\item[{}]{\$recursive}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Returns a detailed list of files in the given directory
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$dir} & \\
+\hline
+bool & {\em \$recursive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ab49d2e1e4f6f0a02ca6f2a3dc8daebb3}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!readlink@{readlink}}
+\index{readlink@{readlink}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{readlink()}{readlink()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ab49d2e1e4f6f0a02ca6f2a3dc8daebb3} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::readlink (\begin{DoxyParamCaption}\item[{}]{\$link}{}\end{DoxyParamCaption})}
+
+Return the target of a symbolic link
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$link} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a15b22dfee451a815c028eb76a34bd2d9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!realpath@{realpath}}
+\index{realpath@{realpath}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{realpath()}{realpath()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a15b22dfee451a815c028eb76a34bd2d9} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::realpath (\begin{DoxyParamCaption}\item[{}]{\$path}{}\end{DoxyParamCaption})}
+
+Canonicalize the Server-\/\+Side Path Name
+
+SFTP doesn\textquotesingle{}t provide a mechanism by which the current working directory can be changed, so we\textquotesingle{}ll emulate it. Returns the absolute (canonicalized) path.
+
+If canonicalize\+\_\+paths has been disabled using disable\+Path\+Canonicalization(), \$path is returned as-\/is.
+
+\begin{DoxySeeAlso}{See also}
+self\+::chdir() 
+
+self\+::disable\+Path\+Canonicalization() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ac0115b063e705be777cc105062978f92}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!rename@{rename}}
+\index{rename@{rename}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{rename()}{rename()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ac0115b063e705be777cc105062978f92} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::rename (\begin{DoxyParamCaption}\item[{}]{\$oldname}{, }\item[{}]{\$newname}{}\end{DoxyParamCaption})}
+
+Renames a file or a directory on the SFTP server.
+
+If the file already exists this will return false
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$oldname} & \\
+\hline
+string & {\em \$newname} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ab790910df8c4e36b3be7d8872a771331}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!reset\_connection@{reset\_connection}}
+\index{reset\_connection@{reset\_connection}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{reset\_connection()}{reset\_connection()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ab790910df8c4e36b3be7d8872a771331} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::reset\+\_\+connection (\begin{DoxyParamCaption}\item[{}]{\$reason}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Resets a connection for re-\/use
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$reason} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad2c0cc825ceb64c93662c97eb0a64329}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2}}.
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_aba59055707f99a4e5d7e0dd49a95123c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!rmdir@{rmdir}}
+\index{rmdir@{rmdir}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{rmdir()}{rmdir()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_aba59055707f99a4e5d7e0dd49a95123c} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::rmdir (\begin{DoxyParamCaption}\item[{}]{\$dir}{}\end{DoxyParamCaption})}
+
+Removes a directory.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$dir} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a13380c00997de22bc56be5b5c4056523}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!setListOrder@{setListOrder}}
+\index{setListOrder@{setListOrder}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{setListOrder()}{setListOrder()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a13380c00997de22bc56be5b5c4056523} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::set\+List\+Order (\begin{DoxyParamCaption}\item[{}]{...}{}\end{DoxyParamCaption})}
+
+Defines how nlist() and rawlist() will be sorted -\/ if at all.
+
+If sorting is enabled directories and files will be sorted independently with directories appearing before files in the resultant array that is returned.
+
+Any parameter returned by stat is a valid sort parameter for this function. Filename comparisons are case insensitive.
+
+Examples\+:
+
+\$sftp-\/\texorpdfstring{$>$}{>}set\+List\+Order(\textquotesingle{}filename\textquotesingle{}, SORT\+\_\+\+ASC); \$sftp-\/\texorpdfstring{$>$}{>}set\+List\+Order(\textquotesingle{}size\textquotesingle{}, SORT\+\_\+\+DESC, \textquotesingle{}filename\textquotesingle{}, SORT\+\_\+\+ASC); \$sftp-\/\texorpdfstring{$>$}{>}set\+List\+Order(true); Separates directories from files but doesn\textquotesingle{}t do any sorting beyond that \$sftp-\/\texorpdfstring{$>$}{>}set\+List\+Order(); Don\textquotesingle{}t do any sort of sorting
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & ...\$args \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a342f3873ee78d9ff32b0bd3ebec0f458}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!setPreferredVersion@{setPreferredVersion}}
+\index{setPreferredVersion@{setPreferredVersion}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{setPreferredVersion()}{setPreferredVersion()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a342f3873ee78d9ff32b0bd3ebec0f458} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::set\+Preferred\+Version (\begin{DoxyParamCaption}\item[{}]{\$version}{}\end{DoxyParamCaption})}
+
+Set preferred version
+
+If you\textquotesingle{}re preferred version isn\textquotesingle{}t supported then the highest supported version of SFTP will be utilized. Set to null or false or int(0) to unset the preferred version
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$version} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a871184358eb7805b54510df61d5190aa}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!stat@{stat}}
+\index{stat@{stat}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{stat()}{stat()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a871184358eb7805b54510df61d5190aa} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::stat (\begin{DoxyParamCaption}\item[{}]{\$filename}{}\end{DoxyParamCaption})}
+
+Returns general information about a file.
+
+Returns an array on success and false otherwise.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ae839eb6d2330f4ac2078f052aa3a62a9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!symlink@{symlink}}
+\index{symlink@{symlink}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{symlink()}{symlink()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ae839eb6d2330f4ac2078f052aa3a62a9} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::symlink (\begin{DoxyParamCaption}\item[{}]{\$target}{, }\item[{}]{\$link}{}\end{DoxyParamCaption})}
+
+Create a symlink
+
+symlink() creates a symbolic link to the existing target with the specified name link.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$target} & \\
+\hline
+string & {\em \$link} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_acf1f99afa4303dde7600c9f9b4f41815}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!touch@{touch}}
+\index{touch@{touch}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{touch()}{touch()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_acf1f99afa4303dde7600c9f9b4f41815} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::touch (\begin{DoxyParamCaption}\item[{}]{\$filename}{, }\item[{}]{\$time}{ = {\ttfamily null}, }\item[{}]{\$atime}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Sets access and modification time of file.
+
+If the file does not exist, it will be created.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & \\
+\hline
+int & {\em \$time} & \\
+\hline
+int & {\em \$atime} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a99cc02c2a881a817afbc6d4fd7177d80}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!truncate@{truncate}}
+\index{truncate@{truncate}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{truncate()}{truncate()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a99cc02c2a881a817afbc6d4fd7177d80} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::truncate (\begin{DoxyParamCaption}\item[{}]{\$filename}{, }\item[{}]{\$new\+\_\+size}{}\end{DoxyParamCaption})}
+
+Truncates a file to a given length
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & \\
+\hline
+int & {\em \$new\+\_\+size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a0b4d8db4ef6eaa51785baec6cfb32273}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!\$sortOptions@{\$sortOptions}}
+\index{\$sortOptions@{\$sortOptions}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{\$sortOptions}{\$sortOptions}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a0b4d8db4ef6eaa51785baec6cfb32273} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\$sort\+Options = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a9bddbb51a88344f5ddb95d02e3ba58c2}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!CHANNEL@{CHANNEL}}
+\index{CHANNEL@{CHANNEL}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{CHANNEL}{CHANNEL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a9bddbb51a88344f5ddb95d02e3ba58c2} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+CHANNEL = 0x100}
+
+SFTP channel constant
+
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::exec() uses 0 and \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::read() / \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::write() use 1.
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+\_\+channel\+\_\+packet() 
+
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+\_\+channel\+\_\+packet() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a03d4fa873c5d41187a69165379e0c7c5}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!RESUME@{RESUME}}
+\index{RESUME@{RESUME}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{RESUME}{RESUME}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a03d4fa873c5d41187a69165379e0c7c5} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+RESUME = 4}
+
+Resumes an upload
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_afb2baeaddfab6cd34fd10c044c7eec5d}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!RESUME\_START@{RESUME\_START}}
+\index{RESUME\_START@{RESUME\_START}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{RESUME\_START}{RESUME\_START}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_afb2baeaddfab6cd34fd10c044c7eec5d} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+RESUME\+\_\+\+START = 8}
+
+Append a local file to an already existing remote file
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a1ee0d8d550824077de546e2b26253331}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!SOURCE\_CALLBACK@{SOURCE\_CALLBACK}}
+\index{SOURCE\_CALLBACK@{SOURCE\_CALLBACK}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{SOURCE\_CALLBACK}{SOURCE\_CALLBACK}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a1ee0d8d550824077de546e2b26253331} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+SOURCE\+\_\+\+CALLBACK = 16}
+
+Reads data from callback\+: function callback(\$length) returns string to proceed, null for EOF
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_ab75913afbe112e4b1d92903a7fe8b3f7}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!SOURCE\_LOCAL\_FILE@{SOURCE\_LOCAL\_FILE}}
+\index{SOURCE\_LOCAL\_FILE@{SOURCE\_LOCAL\_FILE}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{SOURCE\_LOCAL\_FILE}{SOURCE\_LOCAL\_FILE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_ab75913afbe112e4b1d92903a7fe8b3f7} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+SOURCE\+\_\+\+LOCAL\+\_\+\+FILE = 1}
+
+Reads data from a local file.
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_f_t_p_a8d256682223a0a7a6836f53bfb7161b9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}!SOURCE\_STRING@{SOURCE\_STRING}}
+\index{SOURCE\_STRING@{SOURCE\_STRING}!phpseclib3\textbackslash{}Net\textbackslash{}SFTP@{phpseclib3\textbackslash{}Net\textbackslash{}SFTP}}
+\doxysubsubsection{\texorpdfstring{SOURCE\_STRING}{SOURCE\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_f_t_p_a8d256682223a0a7a6836f53bfb7161b9} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::\+SOURCE\+\_\+\+STRING = 2}
+
+Reads data from a string.
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP\+::put() 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Net/\mbox{\hyperlink{_s_f_t_p_8php}{SFTP.\+php}}\end{DoxyCompactItemize}

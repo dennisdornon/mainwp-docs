@@ -1,0 +1,438 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish}{}\label{classphpseclib3_1_1_crypt_1_1_blowfish}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+Inheritance diagram for phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classphpseclib3_1_1_crypt_1_1_blowfish}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_ae3e032c9471275de95c892355339319a}{\+\_\+\+\_\+construct}} (\$mode)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_a08d82358816976a28242d822e3413fa1}{set\+Key\+Length}} (\$length)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af5b99c4821a10fd60b9b69f8b5c72d4c}{set\+IV}} (\$iv)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a004e5123ef2b1b4140fdc2da08f6b588}{enable\+Poly1305}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad0f3a4b02afc4cbb74972743b207b7b8}{set\+Poly1305\+Key}} (\$key=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3615479e63a5d8303764ce9b9044464d}{set\+Nonce}} (\$nonce)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac55c4d329fc7c9350fd880553b7f93e7}{set\+AAD}} (\$aad)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac91070e7a12b5bd0ace6275ca0f3b85f}{uses\+IV}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a7931ece5ae611d06a928c048f2ab8316}{uses\+Nonce}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa55dc615d829005ca80b15315c532bdd}{get\+Key\+Length}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa53b84456a917299a2f15e3d1b1bc59c}{get\+Block\+Length}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a661ea0d18fa92ef44f9367ae34e6fd26}{get\+Block\+Length\+In\+Bytes}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a81e05d5aaacad1b1907893af39b42f33}{set\+Key}} (\$key)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad6fe15d4dc13b6bf4e2ea7b168fd41e0}{set\+Password}} (\$password, \$method=\textquotesingle{}pbkdf2\textquotesingle{},... \$func\+\_\+args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a1a63ea0ec8e6f6a2973f829c4e6731f6}{encrypt}} (\$plaintext)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa1bc3b8f13403093e6caa2f593fb0f76}{decrypt}} (\$ciphertext)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3b82b2b1f095e689e41aab650601ff44}{get\+Tag}} (\$length=16)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a52a4b3e6209b2f0f3ce5968d4b2f2a11}{set\+Tag}} (\$tag)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_abc3da16a45133f68951acbe813b9fa60}{enable\+Padding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4264fc7c489f71d4f531252403d7fb8c}{disable\+Padding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac4673473f834f488aadd33a073d316ca}{enable\+Continuous\+Buffer}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac2815d798be5dfd5d5010bd975c118e5}{disable\+Continuous\+Buffer}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a2f54fb49eb5a79792438d013c686e91f}{is\+Valid\+Engine}} (\$engine)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a1fee83e507dea5a1b004bd4ab5cbfe3c}{set\+Preferred\+Engine}} (\$engine)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ab50dae588fd3e6fa948acbd7dc45aefe}{get\+Engine}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac2399d3619459aaf4e44629d3d9cc097}{get\+Mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a10f554a7386e36a0a55a329f6428578e}{continuous\+Buffer\+Enabled}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_ab7e2f13b47bcaa13f26130d67566ca19}{bcrypt\+\_\+pbkdf}} (\$pass, \$salt, \$keylen, \$rounds)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_a73b10db08805493f716308b4c1b24f36}{is\+Valid\+Engine\+Helper}} (\$engine)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_a77f53e44101f71a12057d0224bbdcb3e}{setup\+Key}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_aa319a6452f0a613c3a521097577a398b}{encrypt\+Block}} (\$in)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_ae4294127e8aeb64f6e4ac85cd188b42d}{decrypt\+Block}} (\$in)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_a80608257494833eebb3bf85a7dd4fc24}{setup\+Inline\+Crypt}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa2bbf6080744742d55eaa665c6326137}{get\+IV}} (\$iv)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a8061b80d290a3277eeb1a207ce15c30e}{openssl\+\_\+translate\+\_\+mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a33b6c533ad8a0e3dbd57d9423c2dc5e2}{set\+Engine}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3301ccd0d3f51339ed9d46fb5ec0fb99}{setup}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a00bb0eb8e7f8039fabba7f3e303c3fcf}{pad}} (\$text)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a281d1a60b327a8aa93fbd73329102be6}{unpad}} (\$text)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af59a179559323cdfcfda5314e22b5bf6}{create\+Inline\+Crypt\+Function}} (\$cipher\+\_\+code)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ab880d93c54e7688b7ef0600acb9c50d3}{poly1305}} (\$text)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_aed6422a2dfbec0fe87117f0c17e45197}{initialize\+\_\+static\+\_\+variables}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aa7af0219afb67b6e1b1c38fc575e5c45}{safe\+\_\+intval}} (\$x)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a1df670b5f3e5f951f1813d6f8f5be3a8}{safe\+\_\+intval\+\_\+inline}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_adf274eafdc7dede0b67050dbeb10e9b1}{null\+Pad128}} (\$str)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_ac26110265b2f952c5328fff9f4cf0b01}{\$block\+\_\+size}} = 8
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_a4cec8f06d07238cbaf6e692ceb530202}{\$cipher\+\_\+name\+\_\+mcrypt}} = \textquotesingle{}blowfish\textquotesingle{}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_ae2d7ac8eda4f54408fa696d09c327efc}{\$cfb\+\_\+init\+\_\+len}} = 500
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_blowfish_a9d16a2987756f143af93f0bc2c0ecdb8}{\$key\+\_\+length}} = 16
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac6160c014693760b32e769cf1491c426}{\$mode}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a08c2396ed5dd7c5e348d727785abaa5c}{\$block\+\_\+size}} = 16
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a5d0f0a86309064642b6d919ac354b3a9}{\$key}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a49f4d53df385a1bff94639e22daedf4b}{\$h\+Key}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad23657de2c1f9cca9da6ba36d1a24f50}{\$iv}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a12322f9b4299f54ac0935d9d963da3dd}{\$encrypt\+IV}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ace655010a78bc37d8a494e0eaf79086a}{\$decrypt\+IV}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_acabdeaf01a923f02bde00918f2ff3245}{\$continuous\+Buffer}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a0d8c5146facb76ca2b73b3c0ce2bd22d}{\$enbuffer}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a38c23c7ef01ef62147d7cf960eae1d59}{\$debuffer}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9b0d1005dd8d805f79da012e10e1cfdd}{\$cfb\+\_\+init\+\_\+len}} = 600
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3995760209100f483706302d244c29f3}{\$changed}} = true
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a792b26fc3fd0ee343cd507ac963870cc}{\$non\+IVChanged}} = true
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4eb0b7f96f246ff9d771908f5f1d15e0}{\$engine}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af62c1c9b64c572507ac886676e823773}{\$cipher\+\_\+name\+\_\+mcrypt}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af3c4d2a3bc6012f4800a390c16f83c4a}{\$cipher\+\_\+name\+\_\+openssl}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aba46441ce95c1801ecfbaef8d83bba0a}{\$cipher\+\_\+name\+\_\+openssl\+\_\+ecb}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a8b502c5b62b6460e51b5d541c2752651}{\$inline\+\_\+crypt}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3a70f65c9c6fce10acb8272728479e12}{\$explicit\+\_\+key\+\_\+length}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_abc72343043a18aac0678920e1de5e58d}{\$aad}} = \textquotesingle{}\textquotesingle{}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a7141e60f8924730f1d1c02cda90a48c6}{\$newtag}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_adf3301823fec1d811f138df25cea6c75}{\$oldtag}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a3c94f4db2f1ab290b42f0095990f0ca7}{\$poly1305\+Key}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a08a5f8c44b46ac1969239ad858b84c6d}{\$use\+Poly1305}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_af345f34530bf10586e0c1370b037cf44}{\$nonce}} = false
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a7bd0eb484495ea34eb50beff43527f72}{MODE\+\_\+\+CTR}} = -\/1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a11da6b783c45ee1dfd884eec716dd9eb}{MODE\+\_\+\+ECB}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ac42da5df003f985f35019cda9d6c3c61}{MODE\+\_\+\+CBC}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ad312468142590df4824f5d7652b41b7e}{MODE\+\_\+\+CFB}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a02dc211e9ea5808aed2cdea49277da81}{MODE\+\_\+\+CFB8}} = 7
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a0d9a6ae5c68d1c90dee34fa140863134}{MODE\+\_\+\+OFB8}} = 8
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_afa9cc607301aeef7bf30c6dba58496e0}{MODE\+\_\+\+OFB}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4bffae3cc937d18cb316661897c11c61}{MODE\+\_\+\+GCM}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a75bb17baca2858f8442f0d5cb89eb133}{MODE\+\_\+\+STREAM}} = 6
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aebedbafd9d819621e5b4bb0b71984951}{MODE\+\_\+\+MAP}}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9c9db27357745ccde37ffc7310284a17}{ENGINE\+\_\+\+INTERNAL}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a2cfad95d016604a5dd244b38fcbe9321}{ENGINE\+\_\+\+EVAL}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_aad95baf6373be7dfb005d9b35ce4fab5}{ENGINE\+\_\+\+MCRYPT}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ab8f96cd764de863162febdf7f7082961}{ENGINE\+\_\+\+OPENSSL}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a24f7c4db38f8428c29c98152532a3d68}{ENGINE\+\_\+\+LIBSODIUM}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ae192833c9d53965ea922e31fb3d5b7c1}{ENGINE\+\_\+\+OPENSSL\+\_\+\+GCM}} = 6
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a144efb42d0d02b0307a6e95ead881d10}{ENGINE\+\_\+\+MAP}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes inherited from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9aa7fc99d516024873ecada28f685647}{\$use\+\_\+reg\+\_\+intval}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP implementation of Blowfish.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+
+Hans-\/\+Juergen Petrich \href{mailto:petrich@tronic-media.com}{\texttt{ petrich@tronic-\/media.\+com}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_ae3e032c9471275de95c892355339319a}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_ae3e032c9471275de95c892355339319a} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$mode}{}\end{DoxyParamCaption})}
+
+Default Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$mode} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Invalid\+Argument\+Exception if an invalid / unsupported mode is provided 
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a4eef93135ed110075016020301843db7}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_ab7e2f13b47bcaa13f26130d67566ca19}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!bcrypt\_pbkdf@{bcrypt\_pbkdf}}
+\index{bcrypt\_pbkdf@{bcrypt\_pbkdf}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{bcrypt\_pbkdf()}{bcrypt\_pbkdf()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_ab7e2f13b47bcaa13f26130d67566ca19} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::bcrypt\+\_\+pbkdf (\begin{DoxyParamCaption}\item[{}]{\$pass}{, }\item[{}]{\$salt}{, }\item[{}]{\$keylen}{, }\item[{}]{\$rounds}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Performs Open\+SSH-\/style bcrypt
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$pass} & \\
+\hline
+string & {\em \$salt} & \\
+\hline
+int & {\em \$keylen} & \\
+\hline
+int & {\em \$rounds} & @access public \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_ae4294127e8aeb64f6e4ac85cd188b42d}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!decryptBlock@{decryptBlock}}
+\index{decryptBlock@{decryptBlock}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{decryptBlock()}{decryptBlock()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_ae4294127e8aeb64f6e4ac85cd188b42d} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::decrypt\+Block (\begin{DoxyParamCaption}\item[{}]{\$in}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Decrypts a block
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$in} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a9f711fcf764b4365c1d74fb9ca74255e}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_aa319a6452f0a613c3a521097577a398b}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!encryptBlock@{encryptBlock}}
+\index{encryptBlock@{encryptBlock}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{encryptBlock()}{encryptBlock()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_aa319a6452f0a613c3a521097577a398b} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::encrypt\+Block (\begin{DoxyParamCaption}\item[{}]{\$in}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Encrypts a block
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$in} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a65476a90edcb9235a4ae2878fe5ee2ea}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_aed6422a2dfbec0fe87117f0c17e45197}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!initialize\_static\_variables@{initialize\_static\_variables}}
+\index{initialize\_static\_variables@{initialize\_static\_variables}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{initialize\_static\_variables()}{initialize\_static\_variables()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_aed6422a2dfbec0fe87117f0c17e45197} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::initialize\+\_\+static\+\_\+variables (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Initialize Static Variables 
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a375c4cec2c45daad3b2daf9eb36940c4}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_a73b10db08805493f716308b4c1b24f36}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!isValidEngineHelper@{isValidEngineHelper}}
+\index{isValidEngineHelper@{isValidEngineHelper}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{isValidEngineHelper()}{isValidEngineHelper()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_a73b10db08805493f716308b4c1b24f36} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::is\+Valid\+Engine\+Helper (\begin{DoxyParamCaption}\item[{}]{\$engine}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Test for engine validity
+
+This is mainly just a wrapper to set things up for \textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::is\+Valid\+Engine()
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::is\+Valid\+Engine() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$engine} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_a5ccb6aa48376c9b609faaec8db9232fa}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_a08d82358816976a28242d822e3413fa1}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!setKeyLength@{setKeyLength}}
+\index{setKeyLength@{setKeyLength}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{setKeyLength()}{setKeyLength()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_a08d82358816976a28242d822e3413fa1} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::set\+Key\+Length (\begin{DoxyParamCaption}\item[{}]{\$length}{}\end{DoxyParamCaption})}
+
+Sets the key length.
+
+Key lengths can be between 32 and 448 bits.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$length} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_ae69cce6ccd2caba74d395db144547291}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_a80608257494833eebb3bf85a7dd4fc24}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!setupInlineCrypt@{setupInlineCrypt}}
+\index{setupInlineCrypt@{setupInlineCrypt}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{setupInlineCrypt()}{setupInlineCrypt()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_a80608257494833eebb3bf85a7dd4fc24} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::setup\+Inline\+Crypt (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Setup the performance-\/optimized function for de/encrypt()
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::\+\_\+setup\+Inline\+Crypt() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_a77f53e44101f71a12057d0224bbdcb3e}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!setupKey@{setupKey}}
+\index{setupKey@{setupKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{setupKey()}{setupKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_a77f53e44101f71a12057d0224bbdcb3e} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::setup\+Key (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Setup the key (expansion)
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key\+::\+\_\+setup\+Key() 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_symmetric_key_afb89a51938635226b54d8008ed8b4ead}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Symmetric\+Key}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_ac26110265b2f952c5328fff9f4cf0b01}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!\$block\_size@{\$block\_size}}
+\index{\$block\_size@{\$block\_size}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{\$block\_size}{\$block\_size}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_ac26110265b2f952c5328fff9f4cf0b01} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::\$block\+\_\+size = 8\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_ae2d7ac8eda4f54408fa696d09c327efc}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!\$cfb\_init\_len@{\$cfb\_init\_len}}
+\index{\$cfb\_init\_len@{\$cfb\_init\_len}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{\$cfb\_init\_len}{\$cfb\_init\_len}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_ae2d7ac8eda4f54408fa696d09c327efc} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::\$cfb\+\_\+init\+\_\+len = 500\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_a4cec8f06d07238cbaf6e692ceb530202}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!\$cipher\_name\_mcrypt@{\$cipher\_name\_mcrypt}}
+\index{\$cipher\_name\_mcrypt@{\$cipher\_name\_mcrypt}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{\$cipher\_name\_mcrypt}{\$cipher\_name\_mcrypt}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_a4cec8f06d07238cbaf6e692ceb530202} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::\$cipher\+\_\+name\+\_\+mcrypt = \textquotesingle{}blowfish\textquotesingle{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_blowfish_a9d16a2987756f143af93f0bc2c0ecdb8}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}!\$key\_length@{\$key\_length}}
+\index{\$key\_length@{\$key\_length}!phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish@{phpseclib3\textbackslash{}Crypt\textbackslash{}Blowfish}}
+\doxysubsubsection{\texorpdfstring{\$key\_length}{\$key\_length}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_blowfish_a9d16a2987756f143af93f0bc2c0ecdb8} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Blowfish\+::\$key\+\_\+length = 16\hspace{0.3cm}{\ttfamily [protected]}}
+
+The Key Length (in bytes) \{ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\mbox{\hyperlink{_blowfish_8php}{Blowfish.\+php}}\end{DoxyCompactItemize}

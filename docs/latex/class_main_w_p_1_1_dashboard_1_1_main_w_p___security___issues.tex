@@ -1,0 +1,114 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Security\+\_\+\+Issues Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a6d1920159752d3610d7b181aa235c8c6}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a589400d72ea1f9f89b59e1c67e9a72af}{render}} ( \$website=null)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a4fecb9d78dcd5773f737ddef12906354}{fetch\+\_\+security\+\_\+issues}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a0e64dff3143673801d2b4c6bbdd23595}{fix\+\_\+security\+\_\+issue}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a97fc6aab46e6b148f7a9e53a2a57f75c}{unfix\+\_\+security\+\_\+issue}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Security\+\_\+\+Issues
+
+Detect, display \& fix known Security Issues. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a4fecb9d78dcd5773f737ddef12906354}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}!fetch\_security\_issues@{fetch\_security\_issues}}
+\index{fetch\_security\_issues@{fetch\_security\_issues}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}}
+\doxysubsubsection{\texorpdfstring{fetch\_security\_issues()}{fetch\_security\_issues()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a4fecb9d78dcd5773f737ddef12906354} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+::fetch\+\_\+security\+\_\+issues (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method Fetch Security Issues
+
+Fetch stored known Child Site Security Issues from DB that were found during Sync.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Filters security issues
+
+Filters the default security checks and enables user to disable certain checks.
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em bool} & false Whether security issues should be filtered. \\
+\hline
+object & {\em \$information} & Object containing data from che chid site related to security issues. Available options\+: \textquotesingle{}db\+\_\+reporting\textquotesingle{}, \textquotesingle{}php\+\_\+reporting\textquotesingle{}. \\
+\hline
+object & {\em \$website} & Object containing child site data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a0e64dff3143673801d2b4c6bbdd23595}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}!fix\_security\_issue@{fix\_security\_issue}}
+\index{fix\_security\_issue@{fix\_security\_issue}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}}
+\doxysubsubsection{\texorpdfstring{fix\_security\_issue()}{fix\_security\_issue()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a0e64dff3143673801d2b4c6bbdd23595} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+::fix\+\_\+security\+\_\+issue (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method Fix Security Issues
+
+Fix the selected security issue.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::sync\+\_\+information\+\_\+array() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Filters security issues from fixing
+
+Filters the default security checks and enables user to disable certain issues from being fixed by using the Fix All button.
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em bool} & false Whether security issues should be filtered. \\
+\hline
+object & {\em \$skip\+\_\+features} & Object containing data from che chid site related to security issues. Available options\+: \textquotesingle{}db\+\_\+reporting\textquotesingle{}, \textquotesingle{}php\+\_\+reporting\textquotesingle{}. \\
+\hline
+object & {\em \$website} & Object containing child site data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a6d1920159752d3610d7b181aa235c8c6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a6d1920159752d3610d7b181aa235c8c6} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} Class Name 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a589400d72ea1f9f89b59e1c67e9a72af}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}!render@{render}}
+\index{render@{render}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a589400d72ea1f9f89b59e1c67e9a72af} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+::render (\begin{DoxyParamCaption}\item[{}]{\$website}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render()
+
+
+\begin{DoxyParams}[1]{Parameters}
+null & {\em \$website} & Child Site ID.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a97fc6aab46e6b148f7a9e53a2a57f75c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}!unfix\_security\_issue@{unfix\_security\_issue}}
+\index{unfix\_security\_issue@{unfix\_security\_issue}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues}}
+\doxysubsubsection{\texorpdfstring{unfix\_security\_issue()}{unfix\_security\_issue()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues_a97fc6aab46e6b148f7a9e53a2a57f75c} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+::unfix\+\_\+security\+\_\+issue (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method un-\/\+Fix Security Issues
+
+Un-\/\+Fix the selected security issue.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Sync\+::sync\+\_\+information\+\_\+array() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pages/\mbox{\hyperlink{page-mainwp-security-issues_8php}{page-\/mainwp-\/security-\/issues.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,101 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium}{}\label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_aa083a35540837804560e4717d09961de}{load}} (\$key, \$password=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_a8522f7e84598f5d1a9710f4ba582833f}{save\+Public\+Key}} (\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_curves_1_1_ed25519}{Ed25519}} \$curve, array \$public\+Key)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_af45f9f2d3a718ea9773d76127571666f}{save\+Private\+Key}} (Big\+Integer \$private\+Key, \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_curves_1_1_ed25519}{Ed25519}} \$curve, array \$public\+Key, \$secret=null, \$password=\textquotesingle{}\textquotesingle{})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_a0989483f8340bedb95c5156202e014d8}{IS\+\_\+\+INVISIBLE}} = true
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+libsodium Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_aa083a35540837804560e4717d09961de}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_aa083a35540837804560e4717d09961de} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}libsodium\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Break a public or private key down into its constituent components
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_af45f9f2d3a718ea9773d76127571666f}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}!savePrivateKey@{savePrivateKey}}
+\index{savePrivateKey@{savePrivateKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}}
+\doxysubsubsection{\texorpdfstring{savePrivateKey()}{savePrivateKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_af45f9f2d3a718ea9773d76127571666f} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}libsodium\+::save\+Private\+Key (\begin{DoxyParamCaption}\item[{Big\+Integer}]{\$private\+Key}{, }\item[{\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_curves_1_1_ed25519}{Ed25519}}}]{\$curve}{, }\item[{array}]{\$public\+Key}{, }\item[{}]{\$secret}{ = {\ttfamily null}, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a private key to the appropriate format.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Big\+Integer & {\em \$private\+Key} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Curves\textbackslash{}\+Ed25519 & {\em \$curve} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Common\textbackslash{}\+Finite\+Field\textbackslash{}\+Integer\mbox{[}$\,$\mbox{]} & {\em \$public\+Key} & \\
+\hline
+string & {\em \$secret} & optional \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_a8522f7e84598f5d1a9710f4ba582833f}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}!savePublicKey@{savePublicKey}}
+\index{savePublicKey@{savePublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}}
+\doxysubsubsection{\texorpdfstring{savePublicKey()}{savePublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_a8522f7e84598f5d1a9710f4ba582833f} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}libsodium\+::save\+Public\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_curves_1_1_ed25519}{Ed25519}}}]{\$curve}{, }\item[{array}]{\$public\+Key}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert an EC public key to the appropriate format
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Curves\textbackslash{}\+Ed25519 & {\em \$curve} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Common\textbackslash{}\+Finite\+Field\textbackslash{}\+Integer\mbox{[}$\,$\mbox{]} & {\em \$public\+Key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_a0989483f8340bedb95c5156202e014d8}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}!IS\_INVISIBLE@{IS\_INVISIBLE}}
+\index{IS\_INVISIBLE@{IS\_INVISIBLE}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}libsodium}}
+\doxysubsubsection{\texorpdfstring{IS\_INVISIBLE}{IS\_INVISIBLE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1libsodium_a0989483f8340bedb95c5156202e014d8} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}libsodium\+::\+IS\+\_\+\+INVISIBLE = true}
+
+Is invisible flag 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+EC/\+Formats/\+Keys/\mbox{\hyperlink{libsodium_8php}{libsodium.\+php}}\end{DoxyCompactItemize}

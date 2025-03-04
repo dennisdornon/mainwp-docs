@@ -1,0 +1,211 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_hash}{}\label{classphpseclib3_1_1_crypt_1_1_hash}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a2027dc52038c8ae3f49a77a85a06c1ad}{\+\_\+\+\_\+construct}} (\$\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a6746729db327b9ee8e34adda4e60bc74}{hash}}=\textquotesingle{}sha256\textquotesingle{})
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a40d3e31731bad45cd1eb61cf039facac}{set\+Key}} (\$key=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a35fa931c379c994f3bee0fe7aa5008e8}{set\+Nonce}} (\$nonce=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_aaa950b7df4e1fa41f560c7dca5d20427}{get\+Hash}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a284411cfeb725be1045ef32a9d9250f9}{set\+Hash}} (\$\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a6746729db327b9ee8e34adda4e60bc74}{hash}})
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a6746729db327b9ee8e34adda4e60bc74}{hash}} (\$text)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_ad535a44698d5f5118025fb304b4218cd}{get\+Length}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a52dc6f02446b33ebed00fd8f39fb7ec9}{get\+Length\+In\+Bytes}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a38ff1b2ab54683e310358ed7a03aaf19}{get\+Block\+Length}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a9b2682705fb71b3787a62869a84aa3b6}{get\+Block\+Length\+In\+Bytes}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a59986939c046a0d72e6b44a47b292eb6}{\+\_\+\+\_\+to\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_ae8b3ae3fc5d1056eeb6328d4af7d0065}{PADDING\+\_\+\+KECCAK}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_afde611702957bbe24a79f6cae97b0c66}{PADDING\+\_\+\+SHA3}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_hash_a88a3dc810565f7739b0b66dd83197c82}{PADDING\+\_\+\+SHAKE}} = 3
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+
+Andreas Fischer \href{mailto:bantu@phpbb.com}{\texttt{ bantu@phpbb.\+com}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a2027dc52038c8ae3f49a77a85a06c1ad}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a2027dc52038c8ae3f49a77a85a06c1ad} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$hash}{ = {\ttfamily \textquotesingle{}sha256\textquotesingle{}}}\end{DoxyParamCaption})}
+
+\#-\/ Default Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$hash} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a59986939c046a0d72e6b44a47b292eb6}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!\_\_toString@{\_\_toString}}
+\index{\_\_toString@{\_\_toString}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{\_\_toString()}{\_\_toString()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a59986939c046a0d72e6b44a47b292eb6} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::\+\_\+\+\_\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\+\_\+\+\_\+to\+String() magic method \Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a38ff1b2ab54683e310358ed7a03aaf19}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!getBlockLength@{getBlockLength}}
+\index{getBlockLength@{getBlockLength}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{getBlockLength()}{getBlockLength()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a38ff1b2ab54683e310358ed7a03aaf19} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::get\+Block\+Length (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the block length (in bits)
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a9b2682705fb71b3787a62869a84aa3b6}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!getBlockLengthInBytes@{getBlockLengthInBytes}}
+\index{getBlockLengthInBytes@{getBlockLengthInBytes}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{getBlockLengthInBytes()}{getBlockLengthInBytes()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a9b2682705fb71b3787a62869a84aa3b6} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::get\+Block\+Length\+In\+Bytes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the block length (in bytes)
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_aaa950b7df4e1fa41f560c7dca5d20427}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!getHash@{getHash}}
+\index{getHash@{getHash}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{getHash()}{getHash()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_aaa950b7df4e1fa41f560c7dca5d20427} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::get\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Gets the hash function.
+
+As set by the constructor or by the set\+Hash() method.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_ad535a44698d5f5118025fb304b4218cd}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!getLength@{getLength}}
+\index{getLength@{getLength}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{getLength()}{getLength()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_ad535a44698d5f5118025fb304b4218cd} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::get\+Length (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the hash length (in bits)
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a52dc6f02446b33ebed00fd8f39fb7ec9}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!getLengthInBytes@{getLengthInBytes}}
+\index{getLengthInBytes@{getLengthInBytes}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{getLengthInBytes()}{getLengthInBytes()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a52dc6f02446b33ebed00fd8f39fb7ec9} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::get\+Length\+In\+Bytes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the hash length (in bytes)
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a6746729db327b9ee8e34adda4e60bc74}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!hash@{hash}}
+\index{hash@{hash}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{hash()}{hash()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a6746729db327b9ee8e34adda4e60bc74} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::hash (\begin{DoxyParamCaption}\item[{}]{\$text}{}\end{DoxyParamCaption})}
+
+Compute the Hash / HMAC / UMAC.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$text} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a284411cfeb725be1045ef32a9d9250f9}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!setHash@{setHash}}
+\index{setHash@{setHash}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{setHash()}{setHash()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a284411cfeb725be1045ef32a9d9250f9} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::set\+Hash (\begin{DoxyParamCaption}\item[{}]{\$hash}{}\end{DoxyParamCaption})}
+
+Sets the hash function.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$hash} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a40d3e31731bad45cd1eb61cf039facac}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!setKey@{setKey}}
+\index{setKey@{setKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{setKey()}{setKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a40d3e31731bad45cd1eb61cf039facac} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::set\+Key (\begin{DoxyParamCaption}\item[{}]{\$key}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Sets the key for HMACs
+
+Keys can be of any length.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a35fa931c379c994f3bee0fe7aa5008e8}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!setNonce@{setNonce}}
+\index{setNonce@{setNonce}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{setNonce()}{setNonce()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a35fa931c379c994f3bee0fe7aa5008e8} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::set\+Nonce (\begin{DoxyParamCaption}\item[{}]{\$nonce}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Sets the nonce for UMACs
+
+Keys can be of any length.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$nonce} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_ae8b3ae3fc5d1056eeb6328d4af7d0065}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!PADDING\_KECCAK@{PADDING\_KECCAK}}
+\index{PADDING\_KECCAK@{PADDING\_KECCAK}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{PADDING\_KECCAK}{PADDING\_KECCAK}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_ae8b3ae3fc5d1056eeb6328d4af7d0065} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::\+PADDING\+\_\+\+KECCAK = 1}
+
+Padding Types \Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_afde611702957bbe24a79f6cae97b0c66}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!PADDING\_SHA3@{PADDING\_SHA3}}
+\index{PADDING\_SHA3@{PADDING\_SHA3}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{PADDING\_SHA3}{PADDING\_SHA3}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_afde611702957bbe24a79f6cae97b0c66} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::\+PADDING\+\_\+\+SHA3 = 2}
+
+Padding Types \Hypertarget{classphpseclib3_1_1_crypt_1_1_hash_a88a3dc810565f7739b0b66dd83197c82}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}!PADDING\_SHAKE@{PADDING\_SHAKE}}
+\index{PADDING\_SHAKE@{PADDING\_SHAKE}!phpseclib3\textbackslash{}Crypt\textbackslash{}Hash@{phpseclib3\textbackslash{}Crypt\textbackslash{}Hash}}
+\doxysubsubsection{\texorpdfstring{PADDING\_SHAKE}{PADDING\_SHAKE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_hash_a88a3dc810565f7739b0b66dd83197c82} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Hash\+::\+PADDING\+\_\+\+SHAKE = 3}
+
+Padding Types 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\mbox{\hyperlink{_hash_8php}{Hash.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,57 @@
+\doxysection{Paragon\+IE\textbackslash{}Constant\+Time\textbackslash{}Encoder\+Interface Interface Reference}
+\hypertarget{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface}{}\label{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface}}
+Inheritance diagram for Paragon\+IE\textbackslash{}Constant\+Time\textbackslash{}Encoder\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.390728cm]{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a6b9b7e0f5446b6b08b074a9fc7ae3c61}{encode}} (string \$bin\+String)
+\item 
+static \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a614b43269cc9bc0291bd79e79ccfc278}{decode}} (string \$encoded\+String, bool \$strict\+Padding=false)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a614b43269cc9bc0291bd79e79ccfc278}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface}!decode@{decode}}
+\index{decode@{decode}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface}}
+\doxysubsubsection{\texorpdfstring{decode()}{decode()}}
+{\footnotesize\ttfamily \label{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a614b43269cc9bc0291bd79e79ccfc278} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Encoder\+Interface\+::decode (\begin{DoxyParamCaption}\item[{string}]{\$encoded\+String}{, }\item[{bool}]{\$strict\+Padding}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a binary string into a hexadecimal string without cache-\/timing leaks
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$encoded\+String} & \\
+\hline
+bool & {\em \$strict\+Padding} & Error on invalid padding \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string (raw binary) 
+\end{DoxyReturn}
+\Hypertarget{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a6b9b7e0f5446b6b08b074a9fc7ae3c61}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface}!encode@{encode}}
+\index{encode@{encode}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}EncoderInterface}}
+\doxysubsubsection{\texorpdfstring{encode()}{encode()}}
+{\footnotesize\ttfamily \label{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a6b9b7e0f5446b6b08b074a9fc7ae3c61} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Encoder\+Interface\+::encode (\begin{DoxyParamCaption}\item[{string}]{\$bin\+String}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert a binary string into a hexadecimal string without cache-\/timing leaks
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$bin\+String} & (raw binary) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/paragonie/constant\+\_\+time\+\_\+encoding/src/\mbox{\hyperlink{_encoder_interface_8php}{Encoder\+Interface.\+php}}\end{DoxyCompactItemize}

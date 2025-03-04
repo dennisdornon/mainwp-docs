@@ -1,0 +1,186 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Plugins\+\_\+\+Handler Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_af094d3d59090450785de53a7da223a55}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a91b525b70ff99e6b74a98edfea7e4ab7}{plugins\+\_\+search\+\_\+handler}} ( \$data, \$website, \&\$output)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a4a90a39d50fe6a1c13264b42024dbf73}{activate\+\_\+plugins}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a1c8dcf0d97dd2656802a5a06c5e1f15c}{deactivate\+\_\+plugins}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a25f386049b759669f0f564c792631442}{delete\+\_\+plugins}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ab8ba95b276a48f91ed250fcde5799056}{ignore\+\_\+updates}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ad5b0aec22ff1418c49a9835f785a9b08}{action}} ( \$p\+Action)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a27a66bb9eb6efd53611e0f2ad90e9b82}{trust\+\_\+post}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ab2776e2a94f4f1438727ebdeab28eb67}{trust\+\_\+plugin}} ( \$slug)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ae134a92b9f83a40351e8b7bcc9a414b6}{check\+\_\+auto\+\_\+update\+\_\+plugin}} ( \$slug)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a928fa864facea17b9d64d1a1c2dfdfec}{save\+\_\+trusted\+\_\+plugin\+\_\+note}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \doxylink{namespace_main_w_p}{Main\+WP} Main\+WP\+\_\+\+Plugins\+\_\+\+Handler
+
+@uses Main\+WP\+\_\+\+Install\+\_\+\+Bulk() 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ad5b0aec22ff1418c49a9835f785a9b08}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!action@{action}}
+\index{action@{action}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{action()}{action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ad5b0aec22ff1418c49a9835f785a9b08} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::action (\begin{DoxyParamCaption}\item[{}]{\$p\+Action}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Plugin Action handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$p\+Action} & activate\texorpdfstring{$\vert$}{|}deactivate\texorpdfstring{$\vert$}{|}delete.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed error\texorpdfstring{$\vert$}{|}true
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Error\+\_\+\+Helper\+::get\+\_\+error\+\_\+message() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Action\+: mainwp\+\_\+before\+\_\+plugin\+\_\+action
+
+Fires before plugin activate/deactivate/delete actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+plugin\+\_\+action
+
+Fires after plugin activate/deactivate/delete actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a4a90a39d50fe6a1c13264b42024dbf73}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!activate\_plugins@{activate\_plugins}}
+\index{activate\_plugins@{activate\_plugins}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{activate\_plugins()}{activate\_plugins()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a4a90a39d50fe6a1c13264b42024dbf73} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::activate\+\_\+plugins (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Activate Plugin. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ae134a92b9f83a40351e8b7bcc9a414b6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!check\_auto\_update\_plugin@{check\_auto\_update\_plugin}}
+\index{check\_auto\_update\_plugin@{check\_auto\_update\_plugin}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{check\_auto\_update\_plugin()}{check\_auto\_update\_plugin()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ae134a92b9f83a40351e8b7bcc9a414b6} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::check\+\_\+auto\+\_\+update\+\_\+plugin (\begin{DoxyParamCaption}\item[{}]{\$slug}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check if automatic daily updates is on and the plugin is on the trusted list.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$slug} & Plugin Slug.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true\texorpdfstring{$\vert$}{|}false.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+extension() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::update\+\_\+user\+\_\+extension() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a1c8dcf0d97dd2656802a5a06c5e1f15c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!deactivate\_plugins@{deactivate\_plugins}}
+\index{deactivate\_plugins@{deactivate\_plugins}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{deactivate\_plugins()}{deactivate\_plugins()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a1c8dcf0d97dd2656802a5a06c5e1f15c} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::deactivate\+\_\+plugins (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Deactivate Plugin \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a25f386049b759669f0f564c792631442}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!delete\_plugins@{delete\_plugins}}
+\index{delete\_plugins@{delete\_plugins}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{delete\_plugins()}{delete\_plugins()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a25f386049b759669f0f564c792631442} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::delete\+\_\+plugins (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Delete Plugin. \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_af094d3d59090450785de53a7da223a55}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_af094d3d59090450785de53a7da223a55} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ab8ba95b276a48f91ed250fcde5799056}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!ignore\_updates@{ignore\_updates}}
+\index{ignore\_updates@{ignore\_updates}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{ignore\_updates()}{ignore\_updates()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ab8ba95b276a48f91ed250fcde5799056} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::ignore\+\_\+updates (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Ignore Plugin.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Action\+: mainwp\+\_\+before\+\_\+plugin\+\_\+ignore
+
+Fires before plugin ignore.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+plugin\+\_\+ignore
+
+Fires after plugin ignore.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a91b525b70ff99e6b74a98edfea7e4ab7}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!plugins\_search\_handler@{plugins\_search\_handler}}
+\index{plugins\_search\_handler@{plugins\_search\_handler}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{plugins\_search\_handler()}{plugins\_search\_handler()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a91b525b70ff99e6b74a98edfea7e4ab7} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::plugins\+\_\+search\+\_\+handler (\begin{DoxyParamCaption}\item[{}]{\$data}{, }\item[{}]{\$website}{, }\item[{\&}]{\$output}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Plugins Search Handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$data} & Search Data. \\
+\hline
+object & {\em \$website} & Child Sites. \\
+\hline
+mixed & {\em \$output} & Output.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed error\texorpdfstring{$\vert$}{|}array.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Error\+\_\+\+Helper\+::get\+\_\+error\+\_\+message() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+child\+\_\+response() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+child\+\_\+response() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a928fa864facea17b9d64d1a1c2dfdfec}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!save\_trusted\_plugin\_note@{save\_trusted\_plugin\_note}}
+\index{save\_trusted\_plugin\_note@{save\_trusted\_plugin\_note}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{save\_trusted\_plugin\_note()}{save\_trusted\_plugin\_note()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a928fa864facea17b9d64d1a1c2dfdfec} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::save\+\_\+trusted\+\_\+plugin\+\_\+note (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Save the trusted plugin note.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::esc\+\_\+content() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ab2776e2a94f4f1438727ebdeab28eb67}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!trust\_plugin@{trust\_plugin}}
+\index{trust\_plugin@{trust\_plugin}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{trust\_plugin()}{trust\_plugin()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_ab2776e2a94f4f1438727ebdeab28eb67} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::trust\+\_\+plugin (\begin{DoxyParamCaption}\item[{}]{\$slug}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Update Trusted Plugin list.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$slug} & Plugin Slug.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+extension() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::update\+\_\+user\+\_\+extension() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a27a66bb9eb6efd53611e0f2ad90e9b82}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}!trust\_post@{trust\_post}}
+\index{trust\_post@{trust\_post}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Plugins\_Handler}}
+\doxysubsubsection{\texorpdfstring{trust\_post()}{trust\_post()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___plugins___handler_a27a66bb9eb6efd53611e0f2ad90e9b82} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Plugins\+\_\+\+Handler\+::trust\+\_\+post (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Trust Plugin \$\+\_\+\+POST.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+extension() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::update\+\_\+user\+\_\+extension() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pages/\mbox{\hyperlink{page-mainwp-plugins-handler_8php}{page-\/mainwp-\/plugins-\/handler.\+php}}\end{DoxyCompactItemize}

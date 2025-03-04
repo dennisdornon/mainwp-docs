@@ -1,0 +1,210 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a8733e1f26ebb712190d83a2ef1f93a5d}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a4d7148360057810e1fdd482428445bd8}{hook\+\_\+regular\+\_\+sequence\+\_\+process}} ( \$list\+\_\+values)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a3a68c3460c74467ea34a2eea3a2035e4}{cron\+\_\+uptime\+\_\+check}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_ad915e5a95b157b1cead28c4e961fce1d}{update\+\_\+monitoring\+\_\+time}} ( \$monitor, \$set\+\_\+retry=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_afbf8a694e4f56f2d86c1f780b2ab04bc}{check\+\_\+to\+\_\+disable\+\_\+schedule\+\_\+individual\+\_\+uptime\+\_\+monitoring}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a3c353a4dbb17b6de7ed368eb1026a470}{run\+\_\+schedule\+\_\+uptime\+\_\+notification}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a2cd6999346c0f590d4d4ca0a3bd56304}{send\+\_\+uptime\+\_\+notification\+\_\+importance\+\_\+status}} ( \$process\+\_\+notices)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a64daf361704a727e67e7885773df7a5e}{update\+\_\+uptime\+\_\+notification\+\_\+status}} ( \$new\+\_\+status)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_aa39aecc91ad5162ae548948da8f2e8fb}{instance}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a6e4e61befb6112dc313e9478c7cdd40c}{send\+\_\+uptime\+\_\+notification\+\_\+heartbeats\+\_\+importance\+\_\+status}} ( \$uptime\+\_\+notices, \$admin\+\_\+email, \$email\+\_\+settings, \$plain\+\_\+text, \$to\+\_\+admin=false)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a816007511413a7a33ed021e49b22f94f}{UP}} = 1
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_afe879d36fffc8b1135e0feba0b56ac98}{DOWN}} = 2
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a0bf143db3979c756d8892d3e8293ade4}{\$instance}} = null
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a8733e1f26ebb712190d83a2ef1f93a5d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a8733e1f26ebb712190d83a2ef1f93a5d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Main\+WP\+\_\+\+Setup\+\_\+\+Wizard constructor.
+
+Run each time the class is called. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_afbf8a694e4f56f2d86c1f780b2ab04bc}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!check\_to\_disable\_schedule\_individual\_uptime\_monitoring@{check\_to\_disable\_schedule\_individual\_uptime\_monitoring}}
+\index{check\_to\_disable\_schedule\_individual\_uptime\_monitoring@{check\_to\_disable\_schedule\_individual\_uptime\_monitoring}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{check\_to\_disable\_schedule\_individual\_uptime\_monitoring()}{check\_to\_disable\_schedule\_individual\_uptime\_monitoring()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_afbf8a694e4f56f2d86c1f780b2ab04bc} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::check\+\_\+to\+\_\+disable\+\_\+schedule\+\_\+individual\+\_\+uptime\+\_\+monitoring (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Method check\+\_\+to\+\_\+disable\+\_\+schedule\+\_\+individual\+\_\+uptime\+\_\+monitoring
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a3a68c3460c74467ea34a2eea3a2035e4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!cron\_uptime\_check@{cron\_uptime\_check}}
+\index{cron\_uptime\_check@{cron\_uptime\_check}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{cron\_uptime\_check()}{cron\_uptime\_check()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a3a68c3460c74467ea34a2eea3a2035e4} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::cron\+\_\+uptime\+\_\+check (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Method cron\+\_\+uptime\+\_\+check
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a4d7148360057810e1fdd482428445bd8}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!hook\_regular\_sequence\_process@{hook\_regular\_sequence\_process}}
+\index{hook\_regular\_sequence\_process@{hook\_regular\_sequence\_process}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{hook\_regular\_sequence\_process()}{hook\_regular\_sequence\_process()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a4d7148360057810e1fdd482428445bd8} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::hook\+\_\+regular\+\_\+sequence\+\_\+process (\begin{DoxyParamCaption}\item[{}]{\$list\+\_\+values}{}\end{DoxyParamCaption})}
+
+Method hook\+\_\+regular\+\_\+sequence\+\_\+process
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$list\+\_\+values} & process list. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_aa39aecc91ad5162ae548948da8f2e8fb}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!instance@{instance}}
+\index{instance@{instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_aa39aecc91ad5162ae548948da8f2e8fb} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get instance.
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a3c353a4dbb17b6de7ed368eb1026a470}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!run\_schedule\_uptime\_notification@{run\_schedule\_uptime\_notification}}
+\index{run\_schedule\_uptime\_notification@{run\_schedule\_uptime\_notification}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{run\_schedule\_uptime\_notification()}{run\_schedule\_uptime\_notification()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a3c353a4dbb17b6de7ed368eb1026a470} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::run\+\_\+schedule\+\_\+uptime\+\_\+notification (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Run schedule uptime notification.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a6e4e61befb6112dc313e9478c7cdd40c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!send\_uptime\_notification\_heartbeats\_importance\_status@{send\_uptime\_notification\_heartbeats\_importance\_status}}
+\index{send\_uptime\_notification\_heartbeats\_importance\_status@{send\_uptime\_notification\_heartbeats\_importance\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{send\_uptime\_notification\_heartbeats\_importance\_status()}{send\_uptime\_notification\_heartbeats\_importance\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a6e4e61befb6112dc313e9478c7cdd40c} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::send\+\_\+uptime\+\_\+notification\+\_\+heartbeats\+\_\+importance\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$uptime\+\_\+notices}{, }\item[{}]{\$admin\+\_\+email}{, }\item[{}]{\$email\+\_\+settings}{, }\item[{}]{\$plain\+\_\+text}{, }\item[{}]{\$to\+\_\+admin}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Basic site uptime monitoring.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$uptime\+\_\+notices} & Array containing the uptime monitor notices. \\
+\hline
+string & {\em \$admin\+\_\+email} & Notification email. \\
+\hline
+string & {\em \$email\+\_\+settings} & Email settings. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Determines if the plain text format should be used. \\
+\hline
+bool & {\em \$to\+\_\+admin} & Send to admin or not.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::update\+\_\+website\+\_\+values() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+websites\+\_\+uptime\+\_\+monitoring() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Template\+::get\+\_\+template\+\_\+html() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a2cd6999346c0f590d4d4ca0a3bd56304}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!send\_uptime\_notification\_importance\_status@{send\_uptime\_notification\_importance\_status}}
+\index{send\_uptime\_notification\_importance\_status@{send\_uptime\_notification\_importance\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{send\_uptime\_notification\_importance\_status()}{send\_uptime\_notification\_importance\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a2cd6999346c0f590d4d4ca0a3bd56304} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::send\+\_\+uptime\+\_\+notification\+\_\+importance\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$process\+\_\+notices}{}\end{DoxyParamCaption})}
+
+Method notification uptime status.
+
+Prepare uptime status notification.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$process\+\_\+notices} & sites.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True\texorpdfstring{$\vert$}{|}\+False
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::info() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Monitoring\+\_\+\+Handler\+::notice\+\_\+sites\+\_\+uptime\+\_\+monitoring() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Settings\+::get\+\_\+general\+\_\+email\+\_\+settings() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Settings\+::get\+\_\+site\+\_\+email\+\_\+settings() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Settings\+::get\+\_\+default\+\_\+emails\+\_\+fields() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_ad915e5a95b157b1cead28c4e961fce1d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!update\_monitoring\_time@{update\_monitoring\_time}}
+\index{update\_monitoring\_time@{update\_monitoring\_time}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{update\_monitoring\_time()}{update\_monitoring\_time()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_ad915e5a95b157b1cead28c4e961fce1d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::update\+\_\+monitoring\+\_\+time (\begin{DoxyParamCaption}\item[{}]{\$monitor}{, }\item[{}]{\$set\+\_\+retry}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Method update\+\_\+monitoring\+\_\+time
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$monitor} & monitor. \\
+\hline
+bool & {\em \$set\+\_\+retry} & retry time if \texorpdfstring{$>$}{>} 0.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a64daf361704a727e67e7885773df7a5e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!update\_uptime\_notification\_status@{update\_uptime\_notification\_status}}
+\index{update\_uptime\_notification\_status@{update\_uptime\_notification\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{update\_uptime\_notification\_status()}{update\_uptime\_notification\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a64daf361704a727e67e7885773df7a5e} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::update\+\_\+uptime\+\_\+notification\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$new\+\_\+status}{}\end{DoxyParamCaption})}
+
+Update uptime notification status.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$new\+\_\+status} & new status.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a0bf143db3979c756d8892d3e8293ade4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!\$instance@{\$instance}}
+\index{\$instance@{\$instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{\$instance}{\$instance}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a0bf143db3979c756d8892d3e8293ade4} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::\$instance = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_afe879d36fffc8b1135e0feba0b56ac98}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!DOWN@{DOWN}}
+\index{DOWN@{DOWN}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{DOWN}{DOWN}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_afe879d36fffc8b1135e0feba0b56ac98} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::\+DOWN = 2}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a816007511413a7a33ed021e49b22f94f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}!UP@{UP}}
+\index{UP@{UP}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Schedule}}
+\doxysubsubsection{\texorpdfstring{UP}{UP}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___schedule_a816007511413a7a33ed021e49b22f94f} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Schedule\+::\+UP = 1}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-uptime-monitoring-schedule_8php}{class-\/mainwp-\/uptime-\/monitoring-\/schedule.\+php}}\end{DoxyCompactItemize}

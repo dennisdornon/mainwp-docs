@@ -1,0 +1,124 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}Open\+SSH Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h}{}\label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a448eca8fa2639510385a6063773da695}{set\+Comment}} (\$comment)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a92ea13ce962feb8bfcf8c968d44aa0b3}{load}} (\$key, \$password=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a1a0d987074e356d868180f3d36d8ad71}{set\+Binary\+Output}} (\$enabled)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a150b0a931a078d956d400505e9afdce5}{wrap\+Private\+Key}} (\$public\+Key, \$private\+Key, \$password, \$options)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a24b6a3ed3918cd8c99eff971eda1210f}{\$comment}} = \textquotesingle{}phpseclib-\/generated-\/key\textquotesingle{}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a72b8ad32126bfba0573a6222cd7ef687}{\$binary}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Open\+SSH Formatted RSA Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a92ea13ce962feb8bfcf8c968d44aa0b3}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a92ea13ce962feb8bfcf8c968d44aa0b3} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Open\+SSH\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Break a public or private key down into its constituent components
+
+\$type can be either ssh-\/dss or ssh-\/rsa
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a1a0d987074e356d868180f3d36d8ad71}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}!setBinaryOutput@{setBinaryOutput}}
+\index{setBinaryOutput@{setBinaryOutput}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection{\texorpdfstring{setBinaryOutput()}{setBinaryOutput()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a1a0d987074e356d868180f3d36d8ad71} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Open\+SSH\+::set\+Binary\+Output (\begin{DoxyParamCaption}\item[{}]{\$enabled}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Toggle between binary and printable keys
+
+Printable keys are what are generated by default. These are the ones that go in \$\+HOME/.ssh/authorized\+\_\+key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$enabled} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a448eca8fa2639510385a6063773da695}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}!setComment@{setComment}}
+\index{setComment@{setComment}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection{\texorpdfstring{setComment()}{setComment()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a448eca8fa2639510385a6063773da695} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Open\+SSH\+::set\+Comment (\begin{DoxyParamCaption}\item[{}]{\$comment}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the default comment
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$comment} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a150b0a931a078d956d400505e9afdce5}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}!wrapPrivateKey@{wrapPrivateKey}}
+\index{wrapPrivateKey@{wrapPrivateKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection{\texorpdfstring{wrapPrivateKey()}{wrapPrivateKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a150b0a931a078d956d400505e9afdce5} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Open\+SSH\+::wrap\+Private\+Key (\begin{DoxyParamCaption}\item[{}]{\$public\+Key}{, }\item[{}]{\$private\+Key}{, }\item[{}]{\$password}{, }\item[{}]{\$options}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Wrap a private key appropriately
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$public\+Key} & \\
+\hline
+string & {\em \$private\+Key} & \\
+\hline
+string & {\em \$password} & \\
+\hline
+array & {\em \$options} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a72b8ad32126bfba0573a6222cd7ef687}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}!\$binary@{\$binary}}
+\index{\$binary@{\$binary}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection{\texorpdfstring{\$binary}{\$binary}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a72b8ad32126bfba0573a6222cd7ef687} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Open\+SSH\+::\$binary = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a24b6a3ed3918cd8c99eff971eda1210f}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}!\$comment@{\$comment}}
+\index{\$comment@{\$comment}!phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH@{phpseclib3\textbackslash{}Crypt\textbackslash{}Common\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}OpenSSH}}
+\doxysubsubsection{\texorpdfstring{\$comment}{\$comment}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_common_1_1_formats_1_1_keys_1_1_open_s_s_h_a24b6a3ed3918cd8c99eff971eda1210f} 
+phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Open\+SSH\+::\$comment = \textquotesingle{}phpseclib-\/generated-\/key\textquotesingle{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+Common/\+Formats/\+Keys/\mbox{\hyperlink{_common_2_formats_2_keys_2_open_s_s_h_8php}{Open\+SSH.\+php}}\end{DoxyCompactItemize}

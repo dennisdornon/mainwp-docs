@@ -1,0 +1,441 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a74307f90c26571d14279f717b445cae9}{check\+\_\+monitors}} (\&\$monitors, \$glo\+\_\+settings)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_afea37cd41ed3b87d9554f8ba2eb56d2b}{check\+\_\+multi\+\_\+monitors}} (\&\$monitors, \$glo\+\_\+settings)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ad1fb83999fd8d4393df504a3c8da6150}{check\+\_\+uptime\+\_\+monitors}} (\&\$monitors, \$glo\+\_\+settings)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5de7241af532fd1d1a3c4910d8c1e47e}{fetch\+\_\+uptime\+\_\+monitor}} (\&\$monitor, \$global\+\_\+settings=array(), \$second\+\_\+try=false, \$params=array())
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa3924461617df32a78103ce22f38669e}{handle\+\_\+response\+\_\+fetch\+\_\+uptime}} ( \$data, \$monitor, \&\$output, \$params=array())
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ab22736a98d5605d86f7dd68fb0451a02}{parse\+\_\+response\+\_\+status}} ( \$http\+Code, \$error=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a92ace0c2a85484fb9d3f0d1ac9572d5b}{is\+\_\+importance\+\_\+status}} ( \$previous, \$current)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a0958b45974a2e9230d8d9e678ba9722a}{get\+\_\+up\+\_\+codes}} ( \$monitor, \$global\+\_\+settings)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ab6b2dee27282674d9e57d2b8c32ce8d5}{instance}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5bcdc2735b740a2749874691a2788989}{fetch\+\_\+uptime\+\_\+urls}} (\&\$websites, \$handler, \&\$output, \$params=array())
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ad443134cfeb80a900fff3bc8e3e2c5b9}{fetch\+\_\+single\+\_\+uptime\+\_\+url}} ( \$ch, \$handler, \$website, \$output, \$params, \$try\+\_\+second=false)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a878e5429ec1c07f87b64060f2be46fb4}{is\+\_\+http\+\_\+code\+\_\+type}} ( \$type, \$code)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5ae1b83e2ab2f537689e50fabb31cacd}{get\+\_\+mapping\+\_\+status\+\_\+code\+\_\+names}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a4a562ca80c7217af69ef2e0d6aaa4255}{get\+\_\+apply\+\_\+monitor\+\_\+url}} ( \$monitor)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a77fc17ae2c0d0886cd7cbbb905463fdf}{get\+\_\+apply\+\_\+setting}} ( \$name, \$indiv\+\_\+settings, \$glo\+\_\+settings, \$apply\+\_\+global\+\_\+value, \$default\+\_\+value)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a2f056b74c29cd270650771d4e80a01e2}{get\+\_\+user\+\_\+agent}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa4f3e0383ceeb69688e7483326aad064}{DOWN}} = 0
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ae3da426cf4ffa1241d560176dc00f760}{UP}} = 1
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a1125c6ac12344f8472e8c78016ff5729}{PENDING}} = 2
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_abad18ade6bd51657ffc7d7eb36b98fdf}{FIRST}} = 3
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ae98aebcca77c577bcee1990a4cde0a36}{RETRY}} = 10
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a17af23dfcf5550c6927301dd94225076}{NOTALLOWED}} = 11
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa8ac2771448f5c1260a13158ff868054}{TIMEOUTED\+\_\+\+ERROR}} = 20
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a163eec3642ffd4f255efc602a9e1574e}{CERT\+\_\+\+ERROR}} = 21
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a8784e6b5d1df5eeb3df05b4ab645f7eb}{RESOLVEHOST\+\_\+\+ERROR}} = 22
+\item 
+const \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5c48b4e074aa3c099a37cd9aebd70c3e}{UNDEFINED\+\_\+\+ERROR}} = 23
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a4ff3334df4a2a5053544abdb9aaddd1a}{\$instance}} = null
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a74307f90c26571d14279f717b445cae9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!check\_monitors@{check\_monitors}}
+\index{check\_monitors@{check\_monitors}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{check\_monitors()}{check\_monitors()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a74307f90c26571d14279f717b445cae9} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::check\+\_\+monitors (\begin{DoxyParamCaption}\item[{\&}]{\$monitors}{, }\item[{}]{\$glo\+\_\+settings}{}\end{DoxyParamCaption})}
+
+Check multi uptime monitors.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$monitors} & object array monitors. \\
+\hline
+array & {\em \$glo\+\_\+settings} & global settings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+Apply disable check multi exec.
+
+\begin{DoxySince}{Since}
+5.\+3
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_afea37cd41ed3b87d9554f8ba2eb56d2b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!check\_multi\_monitors@{check\_multi\_monitors}}
+\index{check\_multi\_monitors@{check\_multi\_monitors}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{check\_multi\_monitors()}{check\_multi\_monitors()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_afea37cd41ed3b87d9554f8ba2eb56d2b} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::check\+\_\+multi\+\_\+monitors (\begin{DoxyParamCaption}\item[{\&}]{\$monitors}{, }\item[{}]{\$glo\+\_\+settings}{}\end{DoxyParamCaption})}
+
+Check multi uptime monitors.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$monitors} & object array monitors. \\
+\hline
+array & {\em \$glo\+\_\+settings} & global settings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ad1fb83999fd8d4393df504a3c8da6150}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!check\_uptime\_monitors@{check\_uptime\_monitors}}
+\index{check\_uptime\_monitors@{check\_uptime\_monitors}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{check\_uptime\_monitors()}{check\_uptime\_monitors()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ad1fb83999fd8d4393df504a3c8da6150} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::check\+\_\+uptime\+\_\+monitors (\begin{DoxyParamCaption}\item[{\&}]{\$monitors}{, }\item[{}]{\$glo\+\_\+settings}{}\end{DoxyParamCaption})}
+
+Check uptime monitors.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$monitors} & object array monitors. \\
+\hline
+array & {\em \$glo\+\_\+settings} & glo settings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ad443134cfeb80a900fff3bc8e3e2c5b9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!fetch\_single\_uptime\_url@{fetch\_single\_uptime\_url}}
+\index{fetch\_single\_uptime\_url@{fetch\_single\_uptime\_url}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{fetch\_single\_uptime\_url()}{fetch\_single\_uptime\_url()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ad443134cfeb80a900fff3bc8e3e2c5b9} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::fetch\+\_\+single\+\_\+uptime\+\_\+url (\begin{DoxyParamCaption}\item[{}]{\$ch}{, }\item[{}]{\$handler}{, }\item[{}]{\$website}{, }\item[{}]{\$output}{, }\item[{}]{\$params}{, }\item[{}]{\$try\+\_\+second}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fetch single curl exec.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$ch} & ch. \\
+\hline
+mixed & {\em \$handler} & handler. \\
+\hline
+object & {\em \$website} & website. \\
+\hline
+object & {\em \$output} & output. \\
+\hline
+array & {\em \$params} & params. \\
+\hline
+bool & {\em \$try\+\_\+second} & try second. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5de7241af532fd1d1a3c4910d8c1e47e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!fetch\_uptime\_monitor@{fetch\_uptime\_monitor}}
+\index{fetch\_uptime\_monitor@{fetch\_uptime\_monitor}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{fetch\_uptime\_monitor()}{fetch\_uptime\_monitor()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5de7241af532fd1d1a3c4910d8c1e47e} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::fetch\+\_\+uptime\+\_\+monitor (\begin{DoxyParamCaption}\item[{\&}]{\$monitor}{, }\item[{}]{\$global\+\_\+settings}{ = {\ttfamily array()}, }\item[{}]{\$second\+\_\+try}{ = {\ttfamily false}, }\item[{}]{\$params}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Method fetch uptime monitor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$monitor} & monitor. \\
+\hline
+mixed & {\em \$global\+\_\+settings} & global settings. \\
+\hline
+bool & {\em \$second\+\_\+try} & second try. \\
+\hline
+array & {\em \$params} & params.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5bcdc2735b740a2749874691a2788989}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!fetch\_uptime\_urls@{fetch\_uptime\_urls}}
+\index{fetch\_uptime\_urls@{fetch\_uptime\_urls}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{fetch\_uptime\_urls()}{fetch\_uptime\_urls()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5bcdc2735b740a2749874691a2788989} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::fetch\+\_\+uptime\+\_\+urls (\begin{DoxyParamCaption}\item[{\&}]{\$websites}{, }\item[{}]{\$handler}{, }\item[{\&}]{\$output}{, }\item[{}]{\$params}{ = {\ttfamily array()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fetch uptime urls.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$websites} & websites. \\
+\hline
+array & {\em \$handler} & callable. \\
+\hline
+object & {\em \$output} & output. \\
+\hline
+array & {\em \$params} & params. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a4a562ca80c7217af69ef2e0d6aaa4255}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!get\_apply\_monitor\_url@{get\_apply\_monitor\_url}}
+\index{get\_apply\_monitor\_url@{get\_apply\_monitor\_url}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{get\_apply\_monitor\_url()}{get\_apply\_monitor\_url()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a4a562ca80c7217af69ef2e0d6aaa4255} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::get\+\_\+apply\+\_\+monitor\+\_\+url (\begin{DoxyParamCaption}\item[{}]{\$monitor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get apply monitor url.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$monitor} & monitor.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a77fc17ae2c0d0886cd7cbbb905463fdf}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!get\_apply\_setting@{get\_apply\_setting}}
+\index{get\_apply\_setting@{get\_apply\_setting}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{get\_apply\_setting()}{get\_apply\_setting()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a77fc17ae2c0d0886cd7cbbb905463fdf} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::get\+\_\+apply\+\_\+setting (\begin{DoxyParamCaption}\item[{}]{\$name}{, }\item[{}]{\$indiv\+\_\+settings}{, }\item[{}]{\$glo\+\_\+settings}{, }\item[{}]{\$apply\+\_\+global\+\_\+value}{, }\item[{}]{\$default\+\_\+value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get apply setting.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$name} & name. \\
+\hline
+mixed & {\em \$indiv\+\_\+settings} & indiv settings. \\
+\hline
+mixed & {\em \$glo\+\_\+settings} & glo settings. \\
+\hline
+mixed & {\em \$apply\+\_\+global\+\_\+value} & apply global value. \\
+\hline
+mixed & {\em \$default\+\_\+value} & default value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed value 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5ae1b83e2ab2f537689e50fabb31cacd}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!get\_mapping\_status\_code\_names@{get\_mapping\_status\_code\_names}}
+\index{get\_mapping\_status\_code\_names@{get\_mapping\_status\_code\_names}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{get\_mapping\_status\_code\_names()}{get\_mapping\_status\_code\_names()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5ae1b83e2ab2f537689e50fabb31cacd} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::get\+\_\+mapping\+\_\+status\+\_\+code\+\_\+names (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+mapping\+\_\+status\+\_\+code\+\_\+names
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a0958b45974a2e9230d8d9e678ba9722a}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!get\_up\_codes@{get\_up\_codes}}
+\index{get\_up\_codes@{get\_up\_codes}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{get\_up\_codes()}{get\_up\_codes()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a0958b45974a2e9230d8d9e678ba9722a} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::get\+\_\+up\+\_\+codes (\begin{DoxyParamCaption}\item[{}]{\$monitor}{, }\item[{}]{\$global\+\_\+settings}{}\end{DoxyParamCaption})}
+
+Method get\+\_\+up\+\_\+codes
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$monitor} & monitor. \\
+\hline
+mixed & {\em \$global\+\_\+settings} & global settings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a2f056b74c29cd270650771d4e80a01e2}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!get\_user\_agent@{get\_user\_agent}}
+\index{get\_user\_agent@{get\_user\_agent}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{get\_user\_agent()}{get\_user\_agent()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a2f056b74c29cd270650771d4e80a01e2} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::get\+\_\+user\+\_\+agent (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+user\+\_\+agent
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa3924461617df32a78103ce22f38669e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!handle\_response\_fetch\_uptime@{handle\_response\_fetch\_uptime}}
+\index{handle\_response\_fetch\_uptime@{handle\_response\_fetch\_uptime}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{handle\_response\_fetch\_uptime()}{handle\_response\_fetch\_uptime()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa3924461617df32a78103ce22f38669e} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::handle\+\_\+response\+\_\+fetch\+\_\+uptime (\begin{DoxyParamCaption}\item[{}]{\$data}{, }\item[{}]{\$monitor}{, }\item[{\&}]{\$output}{, }\item[{}]{\$params}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Method handle response fetch uptime.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$data} & data. \\
+\hline
+mixed & {\em \$monitor} & monitor. \\
+\hline
+mixed & {\em \$output} & output. \\
+\hline
+array & {\em \$params} & params. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ab6b2dee27282674d9e57d2b8c32ce8d5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!instance@{instance}}
+\index{instance@{instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ab6b2dee27282674d9e57d2b8c32ce8d5} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get instance.
+
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a878e5429ec1c07f87b64060f2be46fb4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!is\_http\_code\_type@{is\_http\_code\_type}}
+\index{is\_http\_code\_type@{is\_http\_code\_type}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{is\_http\_code\_type()}{is\_http\_code\_type()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a878e5429ec1c07f87b64060f2be46fb4} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::is\+\_\+http\+\_\+code\+\_\+type (\begin{DoxyParamCaption}\item[{}]{\$type}{, }\item[{}]{\$code}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method is\+\_\+http\+\_\+code\+\_\+type
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$type} & type. \\
+\hline
+mixed & {\em \$code} & code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a92ace0c2a85484fb9d3f0d1ac9572d5b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!is\_importance\_status@{is\_importance\_status}}
+\index{is\_importance\_status@{is\_importance\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{is\_importance\_status()}{is\_importance\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a92ace0c2a85484fb9d3f0d1ac9572d5b} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::is\+\_\+importance\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$previous}{, }\item[{}]{\$current}{}\end{DoxyParamCaption})}
+
+Method is\+\_\+importance\+\_\+status
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$previous} & previous. \\
+\hline
+int & {\em \$current} & current. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ab22736a98d5605d86f7dd68fb0451a02}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!parse\_response\_status@{parse\_response\_status}}
+\index{parse\_response\_status@{parse\_response\_status}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{parse\_response\_status()}{parse\_response\_status()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ab22736a98d5605d86f7dd68fb0451a02} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::parse\+\_\+response\+\_\+status (\begin{DoxyParamCaption}\item[{}]{\$http\+Code}{, }\item[{}]{\$error}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Parse response status.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$http\+Code} & http code. \\
+\hline
+mixed & {\em \$error} & error. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a4ff3334df4a2a5053544abdb9aaddd1a}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!\$instance@{\$instance}}
+\index{\$instance@{\$instance}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{\$instance}{\$instance}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a4ff3334df4a2a5053544abdb9aaddd1a} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\$instance = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a163eec3642ffd4f255efc602a9e1574e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!CERT\_ERROR@{CERT\_ERROR}}
+\index{CERT\_ERROR@{CERT\_ERROR}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{CERT\_ERROR}{CERT\_ERROR}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a163eec3642ffd4f255efc602a9e1574e} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+CERT\+\_\+\+ERROR = 21}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa4f3e0383ceeb69688e7483326aad064}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!DOWN@{DOWN}}
+\index{DOWN@{DOWN}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{DOWN}{DOWN}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa4f3e0383ceeb69688e7483326aad064} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+DOWN = 0}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_abad18ade6bd51657ffc7d7eb36b98fdf}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!FIRST@{FIRST}}
+\index{FIRST@{FIRST}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{FIRST}{FIRST}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_abad18ade6bd51657ffc7d7eb36b98fdf} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+FIRST = 3}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a17af23dfcf5550c6927301dd94225076}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!NOTALLOWED@{NOTALLOWED}}
+\index{NOTALLOWED@{NOTALLOWED}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{NOTALLOWED}{NOTALLOWED}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a17af23dfcf5550c6927301dd94225076} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+NOTALLOWED = 11}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a1125c6ac12344f8472e8c78016ff5729}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!PENDING@{PENDING}}
+\index{PENDING@{PENDING}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{PENDING}{PENDING}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a1125c6ac12344f8472e8c78016ff5729} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+PENDING = 2}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a8784e6b5d1df5eeb3df05b4ab645f7eb}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!RESOLVEHOST\_ERROR@{RESOLVEHOST\_ERROR}}
+\index{RESOLVEHOST\_ERROR@{RESOLVEHOST\_ERROR}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{RESOLVEHOST\_ERROR}{RESOLVEHOST\_ERROR}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a8784e6b5d1df5eeb3df05b4ab645f7eb} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+RESOLVEHOST\+\_\+\+ERROR = 22}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ae98aebcca77c577bcee1990a4cde0a36}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!RETRY@{RETRY}}
+\index{RETRY@{RETRY}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{RETRY}{RETRY}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ae98aebcca77c577bcee1990a4cde0a36} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+RETRY = 10}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa8ac2771448f5c1260a13158ff868054}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!TIMEOUTED\_ERROR@{TIMEOUTED\_ERROR}}
+\index{TIMEOUTED\_ERROR@{TIMEOUTED\_ERROR}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{TIMEOUTED\_ERROR}{TIMEOUTED\_ERROR}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_aa8ac2771448f5c1260a13158ff868054} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+TIMEOUTED\+\_\+\+ERROR = 20}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5c48b4e074aa3c099a37cd9aebd70c3e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!UNDEFINED\_ERROR@{UNDEFINED\_ERROR}}
+\index{UNDEFINED\_ERROR@{UNDEFINED\_ERROR}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{UNDEFINED\_ERROR}{UNDEFINED\_ERROR}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_a5c48b4e074aa3c099a37cd9aebd70c3e} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+UNDEFINED\+\_\+\+ERROR = 23}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ae3da426cf4ffa1241d560176dc00f760}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}!UP@{UP}}
+\index{UP@{UP}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Uptime\_Monitoring\_Connect}}
+\doxysubsubsection{\texorpdfstring{UP}{UP}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___uptime___monitoring___connect_ae3da426cf4ffa1241d560176dc00f760} 
+const Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Uptime\+\_\+\+Monitoring\+\_\+\+Connect\+::\+UP = 1}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-uptime-monitoring-connect_8php}{class-\/mainwp-\/uptime-\/monitoring-\/connect.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,62 @@
+\doxysection{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCert\+List Class Reference}
+\hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_t_b_s_cert_list}{}\label{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_t_b_s_cert_list}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCertList@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCertList}}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_t_b_s_cert_list_a51b91f3f9b6ce9cc677d2c6fee32526c}{MAP}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+TBSCert\+List
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_t_b_s_cert_list_a51b91f3f9b6ce9cc677d2c6fee32526c}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCertList@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCertList}!MAP@{MAP}}
+\index{MAP@{MAP}!phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCertList@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}TBSCertList}}
+\doxysubsubsection{\texorpdfstring{MAP}{MAP}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_t_b_s_cert_list_a51b91f3f9b6ce9cc677d2c6fee32526c} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\textbackslash{}\+Maps\textbackslash{}\+TBSCert\+List\+::\+MAP}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_SEQUENCE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'children'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'version'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_INTEGER,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'mapping'}\ =>\ [\textcolor{stringliteral}{'v1'},\ \textcolor{stringliteral}{'v2'},\ \textcolor{stringliteral}{'v3'}],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'optional'}\ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'default'}\ =>\ \textcolor{stringliteral}{'v2'}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ ],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'signature'}\ =>\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_algorithm_identifier_a99c15804de118b6e7628a2b7f8db6e85}{AlgorithmIdentifier::MAP}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'issuer'}\ =>\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_name_a75158eede5bd56f07294671ce0a9b1d2}{Name::MAP}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'thisUpdate'}\ =>\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_time_adf3fbbc1cb8e3cf6b7b689735d76eae6}{Time::MAP}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'nextUpdate'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'optional'}\ =>\ true}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ ]\ +\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_time_adf3fbbc1cb8e3cf6b7b689735d76eae6}{Time::MAP}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'revokedCertificates'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_SEQUENCE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'optional'}\ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'min'}\ =>\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'max'}\ =>\ -\/1,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'children'}\ =>\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_revoked_certificate_ac8e180006c34425e47c9ff1837922994}{RevokedCertificate::MAP}}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ ],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'crlExtensions'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'constant'}\ =>\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'optional'}\ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'explicit'}\ =>\ true}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ ]\ +\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_extensions_a43a8ccfbb70e14e0a680f13afa9edbb7}{Extensions::MAP}}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ ]}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+File/\+ASN1/\+Maps/\mbox{\hyperlink{_t_b_s_cert_list_8php}{TBSCert\+List.\+php}}\end{DoxyCompactItemize}

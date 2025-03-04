@@ -1,0 +1,33 @@
+\doxysection{libs/phpseclib/vendor/paragonie/random\+\_\+compat/other/build\+\_\+phar.php File Reference}
+\hypertarget{build__phar_8php}{}\label{build__phar_8php}\index{libs/phpseclib/vendor/paragonie/random\_compat/other/build\_phar.php@{libs/phpseclib/vendor/paragonie/random\_compat/other/build\_phar.php}}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{build__phar_8php_a2c65ce87b20f770bf48c5f6c585ec4a5}{\$dist}} = dirname(\+\_\+\+\_\+\+DIR\+\_\+\+\_\+).\textquotesingle{}/dist\textquotesingle{}
+\item 
+\mbox{\hyperlink{autoload_8php_a26d062d8da79dc83e81e01fd4d82c715}{if}}(!is\+\_\+dir( \$dist)) \mbox{\hyperlink{autoload_8php_a26d062d8da79dc83e81e01fd4d82c715}{if}}(file\+\_\+exists(\$dist.\textquotesingle{}/random\+\_\+compat.\+phar\textquotesingle{})) \mbox{\hyperlink{build__phar_8php_a44a0b7b0cda3645cc852be053df5e6bc}{\$phar}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{build__phar_8php_a2c65ce87b20f770bf48c5f6c585ec4a5}\index{build\_phar.php@{build\_phar.php}!\$dist@{\$dist}}
+\index{\$dist@{\$dist}!build\_phar.php@{build\_phar.php}}
+\doxysubsubsection{\texorpdfstring{\$dist}{\$dist}}
+{\footnotesize\ttfamily \label{build__phar_8php_a2c65ce87b20f770bf48c5f6c585ec4a5} 
+\$dist = dirname(\+\_\+\+\_\+\+DIR\+\_\+\+\_\+).\textquotesingle{}/dist\textquotesingle{}}
+
+\Hypertarget{build__phar_8php_a44a0b7b0cda3645cc852be053df5e6bc}\index{build\_phar.php@{build\_phar.php}!\$phar@{\$phar}}
+\index{\$phar@{\$phar}!build\_phar.php@{build\_phar.php}}
+\doxysubsubsection{\texorpdfstring{\$phar}{\$phar}}
+{\footnotesize\ttfamily \label{build__phar_8php_a44a0b7b0cda3645cc852be053df5e6bc} 
+\mbox{\hyperlink{autoload_8php_a26d062d8da79dc83e81e01fd4d82c715}{if}}(!is\+\_\+dir(\$dist)) \mbox{\hyperlink{autoload_8php_a26d062d8da79dc83e81e01fd4d82c715}{if}} (file\+\_\+exists( \$dist.\textquotesingle{}/random\+\_\+compat.\+phar\textquotesingle{})) \$phar}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \textcolor{keyword}{new}\ Phar(}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{build__phar_8php_a2c65ce87b20f770bf48c5f6c585ec4a5}{\$dist}}.\textcolor{stringliteral}{'/random\_compat.phar'},}
+\DoxyCodeLine{\ \ \ \ FilesystemIterator::CURRENT\_AS\_FILEINFO\ |\ \(\backslash\)FilesystemIterator::KEY\_AS\_FILENAME,}
+\DoxyCodeLine{\ \ \ \ \textcolor{stringliteral}{'random\_compat.phar'}}
+\DoxyCodeLine{)}
+
+\end{DoxyCode}

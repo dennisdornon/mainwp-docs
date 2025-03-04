@@ -1,0 +1,272 @@
+\doxysection{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity Class Reference}
+\hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity}{}\label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+Inheritance diagram for phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a0b75d7572a4b715e120a73de4afadaf4}{\+\_\+\+\_\+construct}} (\$fsock)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_abfca699e71cb6ef6a4121c2f25ad978c}{with\+Public\+Key}} (\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_public_key}{Public\+Key}} \$key)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a8467b494a5189257d9b7c69b4e5f91b6}{with\+Public\+Key\+Blob}} (\$key\+\_\+blob)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_aa2c97d3f446642bcc4980c4535c103e9}{get\+Public\+Key}} (\$type=\textquotesingle{}PKCS8\textquotesingle{})
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a9388021d4440ba3d3487d853dcd5a790}{with\+Hash}} (\$hash)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a12d19352fc7af8a215c4925610ed38e4}{with\+Padding}} (\$padding)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_aa8d2bbc8cffb79fd818e90b2ff801f3b}{with\+Signature\+Format}} (\$format)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a4b45a2e58cb5afcfdbba92816010eb0c}{get\+Curve}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a7c0d2a3ec48d17d04871e0f54ba6c15e}{sign}} (\$message)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a9c1d4ba0d6591314c4bf3f8436bb06c5}{to\+String}} (\$type, array \$options=\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a3ff8df8a8da953f6d8bf5b1c392306ce}{with\+Password}} (\$password=false)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Private\+Key}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key_ae4ad1a6511f9349e8e4b2f49fcfeb98a}{get\+Public\+Key}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a114d9c3b419d43fee687d4bb458ba025}{SSH\+\_\+\+AGENT\+\_\+\+RSA2\+\_\+256}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a6719585d9aa5519487336993a7c3253d}{SSH\+\_\+\+AGENT\+\_\+\+RSA2\+\_\+512}} = 4
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP ssh-\/agent client identity object
+
+Instantiation should only be performed by \textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent class. This could be thought of as implementing an interface that phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA implements. ie. maybe a Net\+\_\+\+SSH\+\_\+\+Auth\+\_\+\+Public\+Key interface or something. The methods in this interface would be get\+Public\+Key and sign since those are the methods phpseclib looks for to perform public key authentication.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a0b75d7572a4b715e120a73de4afadaf4}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a0b75d7572a4b715e120a73de4afadaf4} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$fsock}{}\end{DoxyParamCaption})}
+
+Default Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+resource & {\em \$fsock} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a4b45a2e58cb5afcfdbba92816010eb0c}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!getCurve@{getCurve}}
+\index{getCurve@{getCurve}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{getCurve()}{getCurve()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a4b45a2e58cb5afcfdbba92816010eb0c} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::get\+Curve (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the curve
+
+Returns a string if it\textquotesingle{}s a named curve, an array if not
+
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_aa2c97d3f446642bcc4980c4535c103e9}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!getPublicKey@{getPublicKey}}
+\index{getPublicKey@{getPublicKey}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{getPublicKey()}{getPublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_aa2c97d3f446642bcc4980c4535c103e9} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::get\+Public\+Key (\begin{DoxyParamCaption}\item[{}]{\$type}{ = {\ttfamily \textquotesingle{}PKCS8\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Get Public Key
+
+Wrapper for \$this-\/\texorpdfstring{$>$}{>}key-\/\texorpdfstring{$>$}{>}get\+Public\+Key()
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$type} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a7c0d2a3ec48d17d04871e0f54ba6c15e}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!sign@{sign}}
+\index{sign@{sign}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{sign()}{sign()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a7c0d2a3ec48d17d04871e0f54ba6c15e} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::sign (\begin{DoxyParamCaption}\item[{}]{\$message}{}\end{DoxyParamCaption})}
+
+Create a signature
+
+See "{}2.\+6.\+2 Protocol 2 private key signature request"{}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection errors 
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+phpseclib3\textbackslash{}\+Exception\textbackslash{}\+Unsupported\+Algorithm\+Exception if the algorithm is unsupported 
+
+Implements \mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key_a2bd42c1b48c116b5c3fc7d1b69b77625}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Private\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a9c1d4ba0d6591314c4bf3f8436bb06c5}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!toString@{toString}}
+\index{toString@{toString}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a9c1d4ba0d6591314c4bf3f8436bb06c5} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::to\+String (\begin{DoxyParamCaption}\item[{}]{\$type}{, }\item[{array}]{\$options}{ = {\ttfamily \mbox{[}\mbox{]}}}\end{DoxyParamCaption})}
+
+Returns the private key
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$type} & \\
+\hline
+array & {\em \$options} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key_a55cc9fffb66d19ce215b3a168019b74d}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Private\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a9388021d4440ba3d3487d853dcd5a790}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!withHash@{withHash}}
+\index{withHash@{withHash}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{withHash()}{withHash()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a9388021d4440ba3d3487d853dcd5a790} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::with\+Hash (\begin{DoxyParamCaption}\item[{}]{\$hash}{}\end{DoxyParamCaption})}
+
+Sets the hash
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$hash} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a12d19352fc7af8a215c4925610ed38e4}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!withPadding@{withPadding}}
+\index{withPadding@{withPadding}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{withPadding()}{withPadding()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a12d19352fc7af8a215c4925610ed38e4} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::with\+Padding (\begin{DoxyParamCaption}\item[{}]{\$padding}{}\end{DoxyParamCaption})}
+
+Sets the padding
+
+Only PKCS1 padding is supported
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$padding} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a3ff8df8a8da953f6d8bf5b1c392306ce}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!withPassword@{withPassword}}
+\index{withPassword@{withPassword}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{withPassword()}{withPassword()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a3ff8df8a8da953f6d8bf5b1c392306ce} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::with\+Password (\begin{DoxyParamCaption}\item[{}]{\$password}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Sets the password
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | bool & {\em \$password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+never 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_private_key_af1472bd2da7829dbba8e8525b8bba6f1}{phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Private\+Key}}.
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_abfca699e71cb6ef6a4121c2f25ad978c}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!withPublicKey@{withPublicKey}}
+\index{withPublicKey@{withPublicKey}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{withPublicKey()}{withPublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_abfca699e71cb6ef6a4121c2f25ad978c} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::with\+Public\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacephpseclib3_1_1_crypt_1_1_common_1_1_public_key}{Public\+Key}}}]{\$key}{}\end{DoxyParamCaption})}
+
+Set Public Key
+
+Called by \textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::request\+Identities()
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Common\textbackslash{}\+Public\+Key & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a8467b494a5189257d9b7c69b4e5f91b6}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!withPublicKeyBlob@{withPublicKeyBlob}}
+\index{withPublicKeyBlob@{withPublicKeyBlob}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{withPublicKeyBlob()}{withPublicKeyBlob()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a8467b494a5189257d9b7c69b4e5f91b6} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::with\+Public\+Key\+Blob (\begin{DoxyParamCaption}\item[{}]{\$key\+\_\+blob}{}\end{DoxyParamCaption})}
+
+Set Public Key
+
+Called by \textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\+::request\+Identities(). The key blob could be extracted from \$this-\/\texorpdfstring{$>$}{>}key but this saves a small amount of computation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key\+\_\+blob} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_aa8d2bbc8cffb79fd818e90b2ff801f3b}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!withSignatureFormat@{withSignatureFormat}}
+\index{withSignatureFormat@{withSignatureFormat}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{withSignatureFormat()}{withSignatureFormat()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_aa8d2bbc8cffb79fd818e90b2ff801f3b} 
+phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::with\+Signature\+Format (\begin{DoxyParamCaption}\item[{}]{\$format}{}\end{DoxyParamCaption})}
+
+Determines the signature padding mode
+
+Valid values are\+: ASN1, SSH2, Raw
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a114d9c3b419d43fee687d4bb458ba025}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!SSH\_AGENT\_RSA2\_256@{SSH\_AGENT\_RSA2\_256}}
+\index{SSH\_AGENT\_RSA2\_256@{SSH\_AGENT\_RSA2\_256}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENT\_RSA2\_256}{SSH\_AGENT\_RSA2\_256}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a114d9c3b419d43fee687d4bb458ba025} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::\+SSH\+\_\+\+AGENT\+\_\+\+RSA2\+\_\+256 = 2}
+
+\Hypertarget{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a6719585d9aa5519487336993a7c3253d}\index{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}!SSH\_AGENT\_RSA2\_512@{SSH\_AGENT\_RSA2\_512}}
+\index{SSH\_AGENT\_RSA2\_512@{SSH\_AGENT\_RSA2\_512}!phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity@{phpseclib3\textbackslash{}System\textbackslash{}SSH\textbackslash{}Agent\textbackslash{}Identity}}
+\doxysubsubsection{\texorpdfstring{SSH\_AGENT\_RSA2\_512}{SSH\_AGENT\_RSA2\_512}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_system_1_1_s_s_h_1_1_agent_1_1_identity_a6719585d9aa5519487336993a7c3253d} 
+const phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent\textbackslash{}\+Identity\+::\+SSH\+\_\+\+AGENT\+\_\+\+RSA2\+\_\+512 = 4}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+System/\+SSH/\+Agent/\mbox{\hyperlink{_identity_8php}{Identity.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,155 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Meta\+\_\+\+Boxes Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a0762842dbda72d39438e7d924f68edca}{select\+\_\+sites\+\_\+handle}} ( \$post\+\_\+id, \$post\+\_\+type)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a885bd3e3281879d09f674e6f05799288}{add\+\_\+categories}} ( \$post\+\_\+id=false)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a177032d6880a6aa1e2b48c4a2333309d}{add\+\_\+categories\+\_\+handle}} ( \$post\+\_\+id, \$post\+\_\+type)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_ab0c713840e6cb0886048a974cad1fc3a}{add\+\_\+tags}} ( \$post)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a16dbf5e219234d15d20908f37be63b6c}{add\+\_\+tags\+\_\+handle}} ( \$post\+\_\+id, \$post\+\_\+type)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_ae798482f04b5d8aa5944523a3b4aae54}{add\+\_\+slug}} ( \$post)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a8faa8589d4036afc03aa9c5dd929aea8}{add\+\_\+slug\+\_\+handle}} ( \$post\+\_\+id, \$post\+\_\+type)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a885bd3e3281879d09f674e6f05799288}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!add\_categories@{add\_categories}}
+\index{add\_categories@{add\_categories}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{add\_categories()}{add\_categories()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a885bd3e3281879d09f674e6f05799288} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::add\+\_\+categories (\begin{DoxyParamCaption}\item[{}]{\$post\+\_\+id}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Method add\+\_\+categories()
+
+Add categories.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$post\+\_\+id} & Post ID. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a177032d6880a6aa1e2b48c4a2333309d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!add\_categories\_handle@{add\_categories\_handle}}
+\index{add\_categories\_handle@{add\_categories\_handle}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{add\_categories\_handle()}{add\_categories\_handle()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a177032d6880a6aa1e2b48c4a2333309d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::add\+\_\+categories\+\_\+handle (\begin{DoxyParamCaption}\item[{}]{\$post\+\_\+id}{, }\item[{}]{\$post\+\_\+type}{}\end{DoxyParamCaption})}
+
+Method add\+\_\+categories\+\_\+handle()
+
+Handle adding categories.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$post\+\_\+id} & Post ID. \\
+\hline
+string & {\em \$post\+\_\+type} & Post type. \\
+\hline
+\end{DoxyParams}
+Verify this came from the our screen and with proper authorization.
+
+Verify if this is an auto save routine. If it is our form has not been submitted, so we dont want to do anything.
+
+Check permissions.
+
+OK, we\textquotesingle{}re authenticated\+: we need to find and save the data.\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_ae798482f04b5d8aa5944523a3b4aae54}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!add\_slug@{add\_slug}}
+\index{add\_slug@{add\_slug}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{add\_slug()}{add\_slug()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_ae798482f04b5d8aa5944523a3b4aae54} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::add\+\_\+slug (\begin{DoxyParamCaption}\item[{}]{\$post}{}\end{DoxyParamCaption})}
+
+Method add\+\_\+slug()
+
+Add Slug to Post object.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$post} & Post object. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a8faa8589d4036afc03aa9c5dd929aea8}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!add\_slug\_handle@{add\_slug\_handle}}
+\index{add\_slug\_handle@{add\_slug\_handle}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{add\_slug\_handle()}{add\_slug\_handle()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a8faa8589d4036afc03aa9c5dd929aea8} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::add\+\_\+slug\+\_\+handle (\begin{DoxyParamCaption}\item[{}]{\$post\+\_\+id}{, }\item[{}]{\$post\+\_\+type}{}\end{DoxyParamCaption})}
+
+Method add\+\_\+slug\+\_\+handle()
+
+Add post slug.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$post\+\_\+id} & Post ID. \\
+\hline
+string & {\em \$post\+\_\+type} & Post type. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_ab0c713840e6cb0886048a974cad1fc3a}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!add\_tags@{add\_tags}}
+\index{add\_tags@{add\_tags}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{add\_tags()}{add\_tags()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_ab0c713840e6cb0886048a974cad1fc3a} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::add\+\_\+tags (\begin{DoxyParamCaption}\item[{}]{\$post}{}\end{DoxyParamCaption})}
+
+Method add\+\_\+tags()
+
+Add tags to Post array.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$post} & Post object. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a16dbf5e219234d15d20908f37be63b6c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!add\_tags\_handle@{add\_tags\_handle}}
+\index{add\_tags\_handle@{add\_tags\_handle}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{add\_tags\_handle()}{add\_tags\_handle()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a16dbf5e219234d15d20908f37be63b6c} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::add\+\_\+tags\+\_\+handle (\begin{DoxyParamCaption}\item[{}]{\$post\+\_\+id}{, }\item[{}]{\$post\+\_\+type}{}\end{DoxyParamCaption})}
+
+Method add\+\_\+tags\+\_\+handle()
+
+Add Tags to post array handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$post\+\_\+id} & Post ID. \\
+\hline
+string & {\em \$post\+\_\+type} & Post type. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a0762842dbda72d39438e7d924f68edca}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}!select\_sites\_handle@{select\_sites\_handle}}
+\index{select\_sites\_handle@{select\_sites\_handle}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Meta\_Boxes}}
+\doxysubsubsection{\texorpdfstring{select\_sites\_handle()}{select\_sites\_handle()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___meta___boxes_a0762842dbda72d39438e7d924f68edca} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Meta\+\_\+\+Boxes\+::select\+\_\+sites\+\_\+handle (\begin{DoxyParamCaption}\item[{}]{\$post\+\_\+id}{, }\item[{}]{\$post\+\_\+type}{}\end{DoxyParamCaption})}
+
+Method select\+\_\+sites\+\_\+handle()
+
+Update Post meta for Select Sites Meta boxes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$post\+\_\+id} & Post ID. \\
+\hline
+mixed & {\em \$post\+\_\+type} & Post type.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int \$post\+\_\+id Post ID. 
+\end{DoxyReturn}
+Verify this came from the our screen and with proper authorization.
+
+Verify if this is an auto save routine. If it is our form has not been submitted, so we dont want to do anything.
+
+Check permissions.
+
+OK, we\textquotesingle{}re authenticated\+: we need to find and save the data.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-meta-boxes_8php}{class-\/mainwp-\/meta-\/boxes.\+php}}\end{DoxyCompactItemize}

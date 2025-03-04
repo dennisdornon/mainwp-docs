@@ -1,0 +1,249 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Widget\+\_\+\+Plugins Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a7db5636da9fba9e6535d0d2ae86f2aa7}{prepare\+\_\+icons}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a4346fbcc2acf0b52a5c4918a8707a3ad}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a5cb6a43b784de9c7d31206d8d068fc4f}{render}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_aa9c142f659caaa8364f7eddf5ad07090}{render\+\_\+widget}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_aaac93bd25045b30cf6fe51f290874196}{render\+\_\+html\+\_\+widget}} ( \$website, \$all\+Plugins)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a7b8f30e9d8f45d9eaa24b060c200b377}{activate\+\_\+plugin}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a52a36ce9455bb49da464b3a4077380b2}{deactivate\+\_\+plugin}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a34429f4dc3142f3329ccae0f47b91513}{delete\+\_\+plugin}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a0d770b25ab96c71f52fd9dfed235812d}{action}} ( \$action)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Widget\+\_\+\+Plugins 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a0d770b25ab96c71f52fd9dfed235812d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!action@{action}}
+\index{action@{action}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{action()}{action()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a0d770b25ab96c71f52fd9dfed235812d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::action (\begin{DoxyParamCaption}\item[{}]{\$action}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method action()
+
+Initiate try catch for chosen Action
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$action} & Plugin Action.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Main\+WP\+\_\+\+Exception Error message.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Error\+\_\+\+Helper\+::get\+\_\+error\+\_\+message() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Exception @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Connect\+::fetch\+\_\+url\+\_\+authed() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::can\+\_\+edit\+\_\+website() Action\+: mainwp\+\_\+before\+\_\+plugin\+\_\+action
+
+Fires before plugin activate/deactivate/delete actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+plugin\+\_\+action
+
+Fires after plugin activate/deactivate/delete actions.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a7b8f30e9d8f45d9eaa24b060c200b377}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!activate\_plugin@{activate\_plugin}}
+\index{activate\_plugin@{activate\_plugin}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{activate\_plugin()}{activate\_plugin()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a7b8f30e9d8f45d9eaa24b060c200b377} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::activate\+\_\+plugin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method activate\+\_\+plugin()
+
+Fire off Action activate \& display result \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a52a36ce9455bb49da464b3a4077380b2}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!deactivate\_plugin@{deactivate\_plugin}}
+\index{deactivate\_plugin@{deactivate\_plugin}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{deactivate\_plugin()}{deactivate\_plugin()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a52a36ce9455bb49da464b3a4077380b2} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::deactivate\+\_\+plugin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method deactivate\+\_\+plugin()
+
+Fire off action deactivate \& display result \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a34429f4dc3142f3329ccae0f47b91513}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!delete\_plugin@{delete\_plugin}}
+\index{delete\_plugin@{delete\_plugin}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{delete\_plugin()}{delete\_plugin()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a34429f4dc3142f3329ccae0f47b91513} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::delete\+\_\+plugin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method delete\+\_\+plugin()
+
+Fire off action delete \& display result \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a4346fbcc2acf0b52a5c4918a8707a3ad}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a4346fbcc2acf0b52a5c4918a8707a3ad} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} Class Name. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a7db5636da9fba9e6535d0d2ae86f2aa7}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!prepare\_icons@{prepare\_icons}}
+\index{prepare\_icons@{prepare\_icons}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{prepare\_icons()}{prepare\_icons()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a7db5636da9fba9e6535d0d2ae86f2aa7} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::prepare\+\_\+icons (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Method prepair\+\_\+icons()
+
+Utilizes WP API to grab plugin icons, last\+\_\+updated, active\+\_\+installs \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a5cb6a43b784de9c7d31206d8d068fc4f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!render@{render}}
+\index{render@{render}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_a5cb6a43b784de9c7d31206d8d068fc4f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::render (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render()
+
+Fire off render\+\_\+widget(). \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_aaac93bd25045b30cf6fe51f290874196}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!render\_html\_widget@{render\_html\_widget}}
+\index{render\_html\_widget@{render\_html\_widget}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{render\_html\_widget()}{render\_html\_widget()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_aaac93bd25045b30cf6fe51f290874196} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::render\+\_\+html\+\_\+widget (\begin{DoxyParamCaption}\item[{}]{\$website}{, }\item[{}]{\$all\+Plugins}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+html\+\_\+widget().
+
+Render HTML plugins widget for current site
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$all\+Plugins} & Array containing all detected plugins data.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+sub\+\_\+array\+\_\+having() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::sortmulti() Filter\+: mainwp\+\_\+plugins\+\_\+widget\+\_\+title
+
+Filters the Plugins widget title text.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+plugins\+\_\+widget\+\_\+top
+
+Fires at the top of the Plugins widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$all\+Plugins} & Array containing all detected plugins data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+before\+\_\+active\+\_\+plugins\+\_\+list
+
+Fires before the active plugins list in the Plugins widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$actived\+\_\+plugins} & Array containing all active plugins data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+active\+\_\+plugins\+\_\+list
+
+Fires after the active plugins list in the Plugins widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$actived\+\_\+plugins} & Array containing all active plugins data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+before\+\_\+inactive\+\_\+plugins\+\_\+list
+
+Fires before the inactive plugins list in the Plugins widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$inactive\+\_\+plugins} & Array containing all active plugins data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+after\+\_\+inactive\+\_\+plugins\+\_\+list
+
+Fires after the inactive plugins list in the Plugins widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$inactive\+\_\+plugins} & Array containing all active plugins data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+plugins\+\_\+widget\+\_\+bottom
+
+Fires at the bottom of the Plugins widget on the Individual site overview page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info. \\
+\hline
+array & {\em \$all\+Plugins} & Array containing all detected plugins data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_aa9c142f659caaa8364f7eddf5ad07090}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}!render\_widget@{render\_widget}}
+\index{render\_widget@{render\_widget}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Widget\_Plugins}}
+\doxysubsubsection{\texorpdfstring{render\_widget()}{render\_widget()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___widget___plugins_aa9c142f659caaa8364f7eddf5ad07090} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Widget\+\_\+\+Plugins\+::render\+\_\+widget (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+widget()
+
+Build Plugins Widget
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::query() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+sql\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::free\+\_\+result() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+current\+\_\+wpid() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+widgets/\mbox{\hyperlink{widget-mainwp-widget-plugins_8php}{widget-\/mainwp-\/widget-\/plugins.\+php}}\end{DoxyCompactItemize}

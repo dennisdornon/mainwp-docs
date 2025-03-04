@@ -1,0 +1,1562 @@
+\doxysection{phpseclib3\textbackslash{}Net\textbackslash{}SSH2 Class Reference}
+\hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2}{}\label{classphpseclib3_1_1_net_1_1_s_s_h2}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+Inheritance diagram for phpseclib3\textbackslash{}Net\textbackslash{}SSH2\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classphpseclib3_1_1_net_1_1_s_s_h2}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4c76eff1478836e1523ce7f93c045e75}{send\+Identification\+String\+First}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a22ea1bfe5565e508c3f3e186d2c422a6}{send\+Identification\+String\+Last}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acfb8e8f77269e1e19d83c25801a0c4ce}{send\+KEXINITFirst}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a20133e144550082697c177234ec27c7f}{send\+KEXINITLast}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a35f9d6bee22f71f0972df874c52acbdf}{login}} (\$username,... \$args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae76e423d90fe489a472a45305d8a6554}{get\+Timeout}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a96775b3d7a0b328e6b19e5fb0df611f7}{set\+Timeout}} (\$timeout)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae44d828b4d8bc4bc4f330ae9d9904d42}{set\+Keep\+Alive}} (\$interval)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a60d95e2b10828cabad086985b09b3653}{get\+Std\+Error}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a2bca4751f6a6c3dc73033981239d868b}{exec}} (\$command, callable \$callback=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aff14c7df9fb91afbb3fb39c29fe28ea8}{get\+Open\+Channel\+Count}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3ff3efa63ea9a3c5ca1ac5e186779db9}{open\+Shell}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae98a044cfaf3740097caf2004034b839}{request\+Agent\+Forwarding}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa86cb1ae657bd7125e2269abfb3c542b}{read}} (\$expect=\textquotesingle{}\textquotesingle{}, \$mode=self\+::\+READ\+\_\+\+SIMPLE, \$channel=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa2d55740c9f3a206f995b5585bc5acfc}{write}} (\$cmd, \$channel=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4bd807d556a61802faab9b4961fc9188}{start\+Subsystem}} (\$subsystem)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad021ca6142dd5bbe929a0783311f155b}{stop\+Subsystem}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9aa64b4ee55fa2d68331dac5b787db5b}{reset}} (\$channel=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab9fc94cd3005392e59104de72565a46b}{is\+Timeout}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a67344e7175e7083e8a685e21db659118}{disconnect}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad3601a2650aeb0d247f117796b7be7b6}{\+\_\+\+\_\+destruct}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a05ae129561069aaafa9009fbac6eae30}{is\+Connected}} (\$level=0)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab15d9cf913443d1448dace759ae4c6a0}{is\+Authenticated}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a63e82b7d63c9485f160d12e2ee0b2a7b}{is\+Shell\+Open}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa00a8d486b879d0e5223fe71b9924c97}{is\+PTYOpen}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae9bb537ced8188a88792ebe22c8ed7ec}{is\+Interactive\+Channel\+Open}} (\$channel)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acb439c334de1497e23763f586bf5d779}{get\+Interactive\+Channel\+Id}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a27fe64f124f7003f5490e6407362d75d}{ping}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1fe04223f4e80e614d1f37ec3ec40791}{enable\+Quiet\+Mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3094de0b66c80c64276583a21ca268bf}{disable\+Quiet\+Mode}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1caeac08210ff3ca6e5f1b1f31263e6d}{is\+Quiet\+Mode\+Enabled}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a2502eff501246953b92eef70a5c144c1}{enable\+PTY}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_adb71ab3c30b3ae67744a71ba192568b2}{disable\+PTY}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3bd8a6f27718f90394b38f0652edb8f6}{is\+PTYEnabled}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a6fe63b875b5a595158ee1a92c83cdea8}{get\+Log}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_abdf9f354d93a6f507032a2081f1dc5a0}{get\+Errors}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3cdb22209201e550b92ae8d11fdf4e2b}{get\+Last\+Error}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ac7a1b5b6203ac948cf2f8369ac92d028}{get\+Server\+Identification}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aba9020e38cfcf98ef36f05146534dfec}{get\+Server\+Algorithms}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1a84cb8d69570a306f918cd2f7da1f4e}{get\+Algorithms\+Negotiated}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae7b123f04d432aa8f0ef0af9334a3426}{force\+Multiple\+Channels}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a0060cbe17bc0f98e07842ea32dfc7c13}{set\+Terminal}} (\$term)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af48d5905cce3bb84940604cb516afaa8}{set\+Preferred\+Algorithms}} (array \$methods)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_afced405edfa037ac76564c79b8cd7539}{get\+Banner\+Message}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a540691513cb1a243529d85d99dac0fbd}{get\+Server\+Public\+Host\+Key}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a6ea1402fa7eca4e19d4456527be15eb0}{get\+Exit\+Status}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_afbf7f8a701bf0edfd83c17008ef61866}{get\+Window\+Columns}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a398af4cf008f8cd1de21b2b459ca75db}{get\+Window\+Rows}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae6fe3dbba3c97da1303afe1b0826e306}{set\+Window\+Columns}} (\$value)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a67ebc5e40d563db1d562ee20584bd7e9}{set\+Window\+Rows}} (\$value)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a6a99a9bd7e06246068eaa65abfbbcb9c}{set\+Window\+Size}} (\$columns=80, \$rows=24)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae43eb7d4611a043d8d7a7da4f7135660}{\+\_\+\+\_\+to\+String}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aaa5e0050d1b33101ed49c988dd6853c0}{get\+Resource\+Id}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ac9ea4c8b27a677d91f0a004bb57f3e39}{get\+Auth\+Methods\+To\+Continue}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4c25cd02bad55de0aa38543b8fb245a4}{enable\+Smart\+MFA}} ()
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a1d47ee7b89f77a02102f952733a39b04}{disable\+Smart\+MFA}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9c31227421e3fa3a8bbae44f6721c77f}{set\+Crypto\+Engine}} (\$engine)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a294ba9c33897898aa45788a69c7e979b}{get\+Supported\+KEXAlgorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a24fadea9ac8a2a6e7687134de2bfe3ab}{get\+Supported\+Host\+Key\+Algorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a94e149a0d05269b852a0147b349a0c31}{get\+Supported\+Encryption\+Algorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a05a25a0d51625b798e090cc7edb1e5f7}{get\+Supported\+MACAlgorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_adc6c2925583192a7c400bae93ac3e2fa}{get\+Supported\+Compression\+Algorithms}} ()
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a040102fc1f1937bb61daf8b5f80c91cb}{get\+Connection\+By\+Resource\+Id}} (\$id)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aaa3684e82ebacd8cf9caa7c4275ea784}{NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+NONE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a2153ac85d33c8a4b73e24a45e8949385}{NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+ZLIB}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a04263800781767e7a4d5a7f43a19b750}{NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+ZLIB\+\_\+\+AT\+\_\+\+OPENSSH}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a114ba9c4d719c4a2ad6dd3add4e92929}{MASK\+\_\+\+CONSTRUCTOR}} = 0x00000001
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a206c1e2d7fa4196456b627f17021590e}{MASK\+\_\+\+CONNECTED}} = 0x00000002
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a7df7d3061c2468b06fd84dfa03331eaa}{MASK\+\_\+\+LOGIN\+\_\+\+REQ}} = 0x00000004
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad96be98fc90db0ccd1745a4df9767846}{MASK\+\_\+\+LOGIN}} = 0x00000008
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a5df8e305f4719ecabb9190e336ce0cbd}{MASK\+\_\+\+SHELL}} = 0x00000010
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a749bf2ef82b3fe14f83b636b513d9d4c}{MASK\+\_\+\+WINDOW\+\_\+\+ADJUST}} = 0x00000020
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a91a2778ab8a6b48d04583697731951ae}{CHANNEL\+\_\+\+EXEC}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af6e59f909f3769dcf8613d8a74abe66c}{CHANNEL\+\_\+\+SHELL}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ac74685c3fe105ea5fdbedea38d195d03}{CHANNEL\+\_\+\+SUBSYSTEM}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9c2585f0af3fff9919da26fdc5a10df4}{CHANNEL\+\_\+\+AGENT\+\_\+\+FORWARD}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af89e7e9535489d4ef1196b224770cf79}{CHANNEL\+\_\+\+KEEP\+\_\+\+ALIVE}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a3af744100751c520c05368fad49bc608}{LOG\+\_\+\+SIMPLE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a639e20cff1597831bd9201bb138a9f33}{LOG\+\_\+\+COMPLEX}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a4687b20fbcdc55049a2a8cbc51493a2e}{LOG\+\_\+\+REALTIME}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9df7d680d73014738596efc8a0efde56}{LOG\+\_\+\+REALTIME\+\_\+\+FILE}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa51f8e6829eae8a43cf966276dcc8022}{LOG\+\_\+\+SIMPLE\+\_\+\+REALTIME}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab84fb135e1637c7564e28cf857e0f982}{LOG\+\_\+\+MAX\+\_\+\+SIZE}} = 1048576
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acc48385e871932de07e0997f63153b4f}{READ\+\_\+\+SIMPLE}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae25721ac309c480dfc8f2825ca914200}{READ\+\_\+\+REGEX}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a5d37845e0b78d1da971e8cb750b28919}{READ\+\_\+\+NEXT}} = 3
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a091aa3a4bddc7c365a940fac34289ee2}{\$fsock}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_abaa656a8ac2597b76636d4c2aca9a63b}{sublogin}} (\$username,... \$args)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9fc48e34f7bd03f404ac340aadd9c74d}{open\+\_\+channel}} (\$channel, \$skip\+\_\+extended=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad2c0cc825ceb64c93662c97eb0a64329}{reset\+\_\+connection}} (\$reason)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a75517c07b0a491a45a60c54584015a96}{get\+\_\+channel\+\_\+packet}} (\$client\+\_\+channel, \$skip\+\_\+extended=false)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acbccb83638c6d44c03ee683d97130eb3}{send\+\_\+binary\+\_\+packet}} (\$data, \$logged=null)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae20006cca8fd990b21574e861b01be66}{append\+\_\+log\+\_\+helper}} (\$constant, \$message\+\_\+number, \$message, array \&\$message\+\_\+number\+\_\+log, array \&\$message\+\_\+log, \&\$log\+\_\+size, \&\$realtime\+\_\+log\+\_\+file, \&\$realtime\+\_\+log\+\_\+wrap, \&\$realtime\+\_\+log\+\_\+size)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acffbc88e5bd7dae7f6623aa5ddeae90a}{send\+\_\+channel\+\_\+packet}} (\$client\+\_\+channel, \$data)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab2fc4624d86c69b1117ccaac1db0015e}{disconnect\+\_\+helper}} (\$reason)
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aa1f3afa462750de8b74424a1c0006d23}{format\+\_\+log}} (array \$message\+\_\+log, array \$message\+\_\+number\+\_\+log)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_afe1797073190cc7cb9a8f00a0f93dc69}{define\+\_\+array}} (... \$args)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a5c7fa5c707697a79642904ba9a4eb2ee}{\$bitmap}} = 0
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_acb8df7a7d4e13e30a8a066306906576a}{\$server\+\_\+identifier}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_aeae1e1ce06e4f2194379931b443dcb5c}{\$server\+\_\+channels}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a90b01d5d7fde7725c22c48a7c47cb9fe}{\$channel\+\_\+status}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_af599ec6bc419dcc91df6d9af3faaa41d}{\$window\+\_\+size}} = 0x7\+FFFFFFF
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ad5013b677955a12c527a30a6c609ddb1}{\$window\+\_\+size\+\_\+server\+\_\+to\+\_\+client}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ab6324bcc1a8a9b8b71e6824611d52f4a}{\$timeout}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ae32f8790a30a54b2dcfae2bad1f33491}{\$cur\+Timeout}}
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_a9244a24681b91aeb59d1f5b9bc821efd}{\$preferred\+\_\+signature\+\_\+format}} = false
+\item 
+\mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2_ada8764a827d5f478c96499d92a8d8a53}{\$auth}} = \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP implementation of SSHv2.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ad3601a2650aeb0d247f117796b7be7b6}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\_\_destruct@{\_\_destruct}}
+\index{\_\_destruct@{\_\_destruct}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\_\_destruct()}{\_\_destruct()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ad3601a2650aeb0d247f117796b7be7b6} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+\_\+\+\_\+destruct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Destructor.
+
+Will be called, automatically, if you\textquotesingle{}re supporting just PHP5. If you\textquotesingle{}re supporting PHP4, you\textquotesingle{}ll need to call disconnect(). 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae43eb7d4611a043d8d7a7da4f7135660}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\_\_toString@{\_\_toString}}
+\index{\_\_toString@{\_\_toString}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\_\_toString()}{\_\_toString()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae43eb7d4611a043d8d7a7da4f7135660} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+\_\+\+\_\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+To String Magic Method
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae20006cca8fd990b21574e861b01be66}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!append\_log\_helper@{append\_log\_helper}}
+\index{append\_log\_helper@{append\_log\_helper}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{append\_log\_helper()}{append\_log\_helper()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae20006cca8fd990b21574e861b01be66} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::append\+\_\+log\+\_\+helper (\begin{DoxyParamCaption}\item[{}]{\$constant}{, }\item[{}]{\$message\+\_\+number}{, }\item[{}]{\$message}{, }\item[{array \&}]{\$message\+\_\+number\+\_\+log}{, }\item[{array \&}]{\$message\+\_\+log}{, }\item[{\&}]{\$log\+\_\+size}{, }\item[{\&}]{\$realtime\+\_\+log\+\_\+file}{, }\item[{\&}]{\$realtime\+\_\+log\+\_\+wrap}{, }\item[{\&}]{\$realtime\+\_\+log\+\_\+size}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Logs data packet helper
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$constant} & \\
+\hline
+string & {\em \$message\+\_\+number} & \\
+\hline
+string & {\em \$message} & \\
+\hline
+array & {\em \&\$message\+\_\+number\+\_\+log} & \\
+\hline
+array & {\em \&\$message\+\_\+log} & \\
+\hline
+int & {\em \&\$log\+\_\+size} & \\
+\hline
+resource & {\em \&\$realtime\+\_\+log\+\_\+file} & \\
+\hline
+bool & {\em \&\$realtime\+\_\+log\+\_\+wrap} & \\
+\hline
+int & {\em \&\$realtime\+\_\+log\+\_\+size} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_afe1797073190cc7cb9a8f00a0f93dc69}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!define\_array@{define\_array}}
+\index{define\_array@{define\_array}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{define\_array()}{define\_array()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_afe1797073190cc7cb9a8f00a0f93dc69} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::define\+\_\+array (\begin{DoxyParamCaption}\item[{}]{...}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Define Array
+
+Takes any number of arrays whose indices are integers and whose values are strings and defines a bunch of named constants from it, using the value as the name of the constant and the index as the value of the constant. If any of the constants that would be defined already exists, none of the constants will be defined.
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed\mbox{[}$\,$\mbox{]}} & ...\$args @access protected \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_adb71ab3c30b3ae67744a71ba192568b2}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!disablePTY@{disablePTY}}
+\index{disablePTY@{disablePTY}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{disablePTY()}{disablePTY()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_adb71ab3c30b3ae67744a71ba192568b2} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::disable\+PTY (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disable request-\/pty when using exec() \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a3094de0b66c80c64276583a21ca268bf}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!disableQuietMode@{disableQuietMode}}
+\index{disableQuietMode@{disableQuietMode}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{disableQuietMode()}{disableQuietMode()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a3094de0b66c80c64276583a21ca268bf} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::disable\+Quiet\+Mode (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disable Quiet Mode
+
+Show stderr in output \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a1d47ee7b89f77a02102f952733a39b04}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!disableSmartMFA@{disableSmartMFA}}
+\index{disableSmartMFA@{disableSmartMFA}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{disableSmartMFA()}{disableSmartMFA()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a1d47ee7b89f77a02102f952733a39b04} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::disable\+Smart\+MFA (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disables "{}smart"{} multi-\/factor authentication (MFA) \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a67344e7175e7083e8a685e21db659118}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{disconnect()}{disconnect()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a67344e7175e7083e8a685e21db659118} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::disconnect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Disconnect \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ab2fc4624d86c69b1117ccaac1db0015e}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!disconnect\_helper@{disconnect\_helper}}
+\index{disconnect\_helper@{disconnect\_helper}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{disconnect\_helper()}{disconnect\_helper()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ab2fc4624d86c69b1117ccaac1db0015e} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::disconnect\+\_\+helper (\begin{DoxyParamCaption}\item[{}]{\$reason}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Disconnect
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$reason} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+false 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_a0de82457391f035704e2cabe70290c6e}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP}}.
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a2502eff501246953b92eef70a5c144c1}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!enablePTY@{enablePTY}}
+\index{enablePTY@{enablePTY}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{enablePTY()}{enablePTY()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a2502eff501246953b92eef70a5c144c1} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::enable\+PTY (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enable request-\/pty when using exec() \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a1fe04223f4e80e614d1f37ec3ec40791}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!enableQuietMode@{enableQuietMode}}
+\index{enableQuietMode@{enableQuietMode}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{enableQuietMode()}{enableQuietMode()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a1fe04223f4e80e614d1f37ec3ec40791} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::enable\+Quiet\+Mode (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enable Quiet Mode
+
+Suppress stderr from output \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a4c25cd02bad55de0aa38543b8fb245a4}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!enableSmartMFA@{enableSmartMFA}}
+\index{enableSmartMFA@{enableSmartMFA}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{enableSmartMFA()}{enableSmartMFA()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a4c25cd02bad55de0aa38543b8fb245a4} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::enable\+Smart\+MFA (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enables "{}smart"{} multi-\/factor authentication (MFA) \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a2bca4751f6a6c3dc73033981239d868b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!exec@{exec}}
+\index{exec@{exec}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{exec()}{exec()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a2bca4751f6a6c3dc73033981239d868b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::exec (\begin{DoxyParamCaption}\item[{}]{\$command}{, }\item[{callable}]{\$callback}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Execute Command
+
+If \$callback is set to false then \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+\_\+channel\+\_\+packet(self\+::\+CHANNEL\+\_\+\+EXEC) will need to be called manually. In all likelihood, this is not a feature you want to be taking advantage of.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$command} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}bool @psalm-\/return (\$callback is callable ? bool \+: string\texorpdfstring{$\vert$}{|}bool) 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection error \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae7b123f04d432aa8f0ef0af9334a3426}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!forceMultipleChannels@{forceMultipleChannels}}
+\index{forceMultipleChannels@{forceMultipleChannels}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{forceMultipleChannels()}{forceMultipleChannels()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae7b123f04d432aa8f0ef0af9334a3426} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::force\+Multiple\+Channels (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Force multiple channels (even if phpseclib has decided to disable them) \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aa1f3afa462750de8b74424a1c0006d23}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!format\_log@{format\_log}}
+\index{format\_log@{format\_log}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{format\_log()}{format\_log()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aa1f3afa462750de8b74424a1c0006d23} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::format\+\_\+log (\begin{DoxyParamCaption}\item[{array}]{\$message\+\_\+log}{, }\item[{array}]{\$message\+\_\+number\+\_\+log}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Formats a log for printing
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$message\+\_\+log} & \\
+\hline
+array & {\em \$message\+\_\+number\+\_\+log} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a75517c07b0a491a45a60c54584015a96}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!get\_channel\_packet@{get\_channel\_packet}}
+\index{get\_channel\_packet@{get\_channel\_packet}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{get\_channel\_packet()}{get\_channel\_packet()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a75517c07b0a491a45a60c54584015a96} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+\_\+channel\+\_\+packet (\begin{DoxyParamCaption}\item[{}]{\$client\+\_\+channel}{, }\item[{}]{\$skip\+\_\+extended}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Gets channel data
+
+Returns the data as a string. bool(true) is returned if\+:
+
+
+\begin{DoxyItemize}
+\item the server closes the channel
+\item if the connection times out
+\item if the channel status is CHANNEL\+\_\+\+OPEN and the response was CHANNEL\+\_\+\+OPEN\+\_\+\+CONFIRMATION
+\item if the channel status is CHANNEL\+\_\+\+REQUEST and the response was CHANNEL\+\_\+\+SUCCESS
+\item if the channel status is CHANNEL\+\_\+\+CLOSE and the response was CHANNEL\+\_\+\+CLOSE
+\end{DoxyItemize}
+
+bool(false) is returned if\+:
+
+
+\begin{DoxyItemize}
+\item if the channel status is CHANNEL\+\_\+\+REQUEST and the response was CHANNEL\+\_\+\+FAILURE
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$client\+\_\+channel} & \\
+\hline
+bool & {\em \$skip\+\_\+extended} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection error \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a1a84cb8d69570a306f918cd2f7da1f4e}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getAlgorithmsNegotiated@{getAlgorithmsNegotiated}}
+\index{getAlgorithmsNegotiated@{getAlgorithmsNegotiated}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getAlgorithmsNegotiated()}{getAlgorithmsNegotiated()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a1a84cb8d69570a306f918cd2f7da1f4e} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Algorithms\+Negotiated (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Return list of negotiated algorithms
+
+Uses the same format as \href{https://www.php.net/ssh2-methods-negotiated}{\texttt{ https\+://www.\+php.\+net/ssh2-\/methods-\/negotiated}}
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ac9ea4c8b27a677d91f0a004bb57f3e39}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getAuthMethodsToContinue@{getAuthMethodsToContinue}}
+\index{getAuthMethodsToContinue@{getAuthMethodsToContinue}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getAuthMethodsToContinue()}{getAuthMethodsToContinue()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ac9ea4c8b27a677d91f0a004bb57f3e39} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Auth\+Methods\+To\+Continue (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Return the list of authentication methods that may productively continue authentication.
+
+\begin{DoxySeeAlso}{See also}
+\href{https://tools.ietf.org/html/rfc4252\#section-5.1}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4252\#section-\/5.\+1}} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}null 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_afced405edfa037ac76564c79b8cd7539}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getBannerMessage@{getBannerMessage}}
+\index{getBannerMessage@{getBannerMessage}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getBannerMessage()}{getBannerMessage()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_afced405edfa037ac76564c79b8cd7539} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Banner\+Message (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the banner message.
+
+Quoting from the RFC, "{}in some jurisdictions, sending a warning message before authentication may be relevant for getting legal protection."{}
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a040102fc1f1937bb61daf8b5f80c91cb}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getConnectionByResourceId@{getConnectionByResourceId}}
+\index{getConnectionByResourceId@{getConnectionByResourceId}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getConnectionByResourceId()}{getConnectionByResourceId()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a040102fc1f1937bb61daf8b5f80c91cb} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Connection\+By\+Resource\+Id (\begin{DoxyParamCaption}\item[{}]{\$id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return existing connection
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool\texorpdfstring{$\vert$}{|}\+SSH2 will return false if no such connection 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_abdf9f354d93a6f507032a2081f1dc5a0}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getErrors@{getErrors}}
+\index{getErrors@{getErrors}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getErrors()}{getErrors()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_abdf9f354d93a6f507032a2081f1dc5a0} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Errors (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns all errors / debug messages on the SSH layer
+
+If you are looking for messages from the SFTP layer, please see SFTP\+::get\+SFTPErrors()
+
+\begin{DoxyReturn}{Returns}
+string\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a6ea1402fa7eca4e19d4456527be15eb0}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getExitStatus@{getExitStatus}}
+\index{getExitStatus@{getExitStatus}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getExitStatus()}{getExitStatus()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a6ea1402fa7eca4e19d4456527be15eb0} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Exit\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the exit status of an SSH command or false.
+
+\begin{DoxyReturn}{Returns}
+false\texorpdfstring{$\vert$}{|}int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_acb439c334de1497e23763f586bf5d779}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getInteractiveChannelId@{getInteractiveChannelId}}
+\index{getInteractiveChannelId@{getInteractiveChannelId}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getInteractiveChannelId()}{getInteractiveChannelId()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_acb439c334de1497e23763f586bf5d779} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Interactive\+Channel\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns a channel identifier, presently of the last interactive channel opened, regardless of current status. Returns 0 if no interactive channel has been opened.
+
+\begin{DoxySeeAlso}{See also}
+self\+::is\+Interactive\+Channel\+Open() 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a3cdb22209201e550b92ae8d11fdf4e2b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getLastError@{getLastError}}
+\index{getLastError@{getLastError}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getLastError()}{getLastError()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a3cdb22209201e550b92ae8d11fdf4e2b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Last\+Error (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the last error received on the SSH layer
+
+If you are looking for messages from the SFTP layer, please see SFTP\+::get\+Last\+SFTPError()
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a6fe63b875b5a595158ee1a92c83cdea8}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getLog@{getLog}}
+\index{getLog@{getLog}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getLog()}{getLog()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a6fe63b875b5a595158ee1a92c83cdea8} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Log (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns a log of the packets that have been sent and received.
+
+Returns a string if NET\+\_\+\+SSH2\+\_\+\+LOGGING == self\+::\+LOG\+\_\+\+COMPLEX, an array if NET\+\_\+\+SSH2\+\_\+\+LOGGING == self\+::\+LOG\+\_\+\+SIMPLE and false if !defined(\textquotesingle{}NET\+\_\+\+SSH2\+\_\+\+LOGGING\textquotesingle{})
+
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}false\texorpdfstring{$\vert$}{|}string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aff14c7df9fb91afbb3fb39c29fe28ea8}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getOpenChannelCount@{getOpenChannelCount}}
+\index{getOpenChannelCount@{getOpenChannelCount}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getOpenChannelCount()}{getOpenChannelCount()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aff14c7df9fb91afbb3fb39c29fe28ea8} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Open\+Channel\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+How many channels are currently open?
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aaa5e0050d1b33101ed49c988dd6853c0}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getResourceId@{getResourceId}}
+\index{getResourceId@{getResourceId}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getResourceId()}{getResourceId()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aaa5e0050d1b33101ed49c988dd6853c0} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Resource\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get Resource ID
+
+We use \{\} because that symbols should not be in URL according to {\ttfamily \doxylink{}{RFC}}. It will safe us from any conflicts, because otherwise regexp will match all alphanumeric domains.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aba9020e38cfcf98ef36f05146534dfec}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getServerAlgorithms@{getServerAlgorithms}}
+\index{getServerAlgorithms@{getServerAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getServerAlgorithms()}{getServerAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aba9020e38cfcf98ef36f05146534dfec} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Server\+Algorithms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns a list of algorithms the server supports
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ac7a1b5b6203ac948cf2f8369ac92d028}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getServerIdentification@{getServerIdentification}}
+\index{getServerIdentification@{getServerIdentification}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getServerIdentification()}{getServerIdentification()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ac7a1b5b6203ac948cf2f8369ac92d028} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Server\+Identification (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Return the server identification.
+
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a540691513cb1a243529d85d99dac0fbd}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getServerPublicHostKey@{getServerPublicHostKey}}
+\index{getServerPublicHostKey@{getServerPublicHostKey}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getServerPublicHostKey()}{getServerPublicHostKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a540691513cb1a243529d85d99dac0fbd} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Server\+Public\+Host\+Key (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the server public host key.
+
+Caching this the first time you connect to a server and checking the result on subsequent connections is recommended. Returns false if the server signature is not signed correctly with the public host key.
+
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on badly formatted keys 
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+phpseclib3\textbackslash{}\+Exception\textbackslash{}\+No\+Supported\+Algorithms\+Exception when the key isn\textquotesingle{}t in a supported format \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a60d95e2b10828cabad086985b09b3653}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getStdError@{getStdError}}
+\index{getStdError@{getStdError}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getStdError()}{getStdError()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a60d95e2b10828cabad086985b09b3653} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Std\+Error (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get the output from std\+Error \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_adc6c2925583192a7c400bae93ac3e2fa}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getSupportedCompressionAlgorithms@{getSupportedCompressionAlgorithms}}
+\index{getSupportedCompressionAlgorithms@{getSupportedCompressionAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getSupportedCompressionAlgorithms()}{getSupportedCompressionAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_adc6c2925583192a7c400bae93ac3e2fa} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Supported\+Compression\+Algorithms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a list of compression algorithms that phpseclib supports
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a94e149a0d05269b852a0147b349a0c31}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getSupportedEncryptionAlgorithms@{getSupportedEncryptionAlgorithms}}
+\index{getSupportedEncryptionAlgorithms@{getSupportedEncryptionAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getSupportedEncryptionAlgorithms()}{getSupportedEncryptionAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a94e149a0d05269b852a0147b349a0c31} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Supported\+Encryption\+Algorithms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a list of symmetric key algorithms that phpseclib supports
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a24fadea9ac8a2a6e7687134de2bfe3ab}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getSupportedHostKeyAlgorithms@{getSupportedHostKeyAlgorithms}}
+\index{getSupportedHostKeyAlgorithms@{getSupportedHostKeyAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getSupportedHostKeyAlgorithms()}{getSupportedHostKeyAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a24fadea9ac8a2a6e7687134de2bfe3ab} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Supported\+Host\+Key\+Algorithms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a list of host key algorithms that phpseclib supports
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a294ba9c33897898aa45788a69c7e979b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getSupportedKEXAlgorithms@{getSupportedKEXAlgorithms}}
+\index{getSupportedKEXAlgorithms@{getSupportedKEXAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getSupportedKEXAlgorithms()}{getSupportedKEXAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a294ba9c33897898aa45788a69c7e979b} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Supported\+KEXAlgorithms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a list of KEX algorithms that phpseclib supports
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a05a25a0d51625b798e090cc7edb1e5f7}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getSupportedMACAlgorithms@{getSupportedMACAlgorithms}}
+\index{getSupportedMACAlgorithms@{getSupportedMACAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getSupportedMACAlgorithms()}{getSupportedMACAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a05a25a0d51625b798e090cc7edb1e5f7} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Supported\+MACAlgorithms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a list of MAC algorithms that phpseclib supports
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae76e423d90fe489a472a45305d8a6554}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getTimeout@{getTimeout}}
+\index{getTimeout@{getTimeout}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getTimeout()}{getTimeout()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae76e423d90fe489a472a45305d8a6554} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Timeout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Return the currently configured timeout
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_afbf7f8a701bf0edfd83c17008ef61866}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getWindowColumns@{getWindowColumns}}
+\index{getWindowColumns@{getWindowColumns}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getWindowColumns()}{getWindowColumns()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_afbf7f8a701bf0edfd83c17008ef61866} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Window\+Columns (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the number of columns for the terminal window size.
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a398af4cf008f8cd1de21b2b459ca75db}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!getWindowRows@{getWindowRows}}
+\index{getWindowRows@{getWindowRows}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{getWindowRows()}{getWindowRows()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a398af4cf008f8cd1de21b2b459ca75db} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Window\+Rows (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns the number of rows for the terminal window size.
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ab15d9cf913443d1448dace759ae4c6a0}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isAuthenticated@{isAuthenticated}}
+\index{isAuthenticated@{isAuthenticated}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isAuthenticated()}{isAuthenticated()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ab15d9cf913443d1448dace759ae4c6a0} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+Authenticated (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Have you successfully been logged in?
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a05ae129561069aaafa9009fbac6eae30}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isConnected()}{isConnected()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a05ae129561069aaafa9009fbac6eae30} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+Connected (\begin{DoxyParamCaption}\item[{}]{\$level}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+Is the connection still active?
+
+\$level has 3x possible values\+: 0 (default)\+: phpseclib takes a passive approach to see if the connection is still active by calling feof() on the socket 1\+: phpseclib takes an active approach to see if the connection is still active by sending an SSH\+\_\+\+MSG\+\_\+\+IGNORE packet that doesn\textquotesingle{}t require a response 2\+: phpseclib takes an active approach to see if the connection is still active by sending an SSH\+\_\+\+MSG\+\_\+\+CHANNEL\+\_\+\+OPEN packet and imediately trying to close that channel. some routers, in particular, however, will only let you open one channel, so this approach could yield false positives
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$level} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae9bb537ced8188a88792ebe22c8ed7ec}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isInteractiveChannelOpen@{isInteractiveChannelOpen}}
+\index{isInteractiveChannelOpen@{isInteractiveChannelOpen}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isInteractiveChannelOpen()}{isInteractiveChannelOpen()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae9bb537ced8188a88792ebe22c8ed7ec} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+Interactive\+Channel\+Open (\begin{DoxyParamCaption}\item[{}]{\$channel}{}\end{DoxyParamCaption})}
+
+Is the given interactive channel active?
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$channel} & Channel id returned by self\+::get\+Interactive\+Channel\+Id() \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a3bd8a6f27718f90394b38f0652edb8f6}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isPTYEnabled@{isPTYEnabled}}
+\index{isPTYEnabled@{isPTYEnabled}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isPTYEnabled()}{isPTYEnabled()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a3bd8a6f27718f90394b38f0652edb8f6} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+PTYEnabled (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns whether request-\/pty is enabled or not
+
+\begin{DoxySeeAlso}{See also}
+self\+::enable\+PTY() 
+
+self\+::disable\+PTY() 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aa00a8d486b879d0e5223fe71b9924c97}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isPTYOpen@{isPTYOpen}}
+\index{isPTYOpen@{isPTYOpen}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isPTYOpen()}{isPTYOpen()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aa00a8d486b879d0e5223fe71b9924c97} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+PTYOpen (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Is the exec pty active?
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a1caeac08210ff3ca6e5f1b1f31263e6d}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isQuietModeEnabled@{isQuietModeEnabled}}
+\index{isQuietModeEnabled@{isQuietModeEnabled}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isQuietModeEnabled()}{isQuietModeEnabled()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a1caeac08210ff3ca6e5f1b1f31263e6d} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+Quiet\+Mode\+Enabled (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Returns whether Quiet Mode is enabled or not
+
+\begin{DoxySeeAlso}{See also}
+self\+::enable\+Quiet\+Mode() 
+
+self\+::disable\+Quiet\+Mode() 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a63e82b7d63c9485f160d12e2ee0b2a7b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isShellOpen@{isShellOpen}}
+\index{isShellOpen@{isShellOpen}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isShellOpen()}{isShellOpen()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a63e82b7d63c9485f160d12e2ee0b2a7b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+Shell\+Open (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Is the interactive shell active?
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ab9fc94cd3005392e59104de72565a46b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!isTimeout@{isTimeout}}
+\index{isTimeout@{isTimeout}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{isTimeout()}{isTimeout()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ab9fc94cd3005392e59104de72565a46b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::is\+Timeout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Is timeout?
+
+Did exec() or read() return because they timed out or because they encountered the end? \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a35f9d6bee22f71f0972df874c52acbdf}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!login@{login}}
+\index{login@{login}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a35f9d6bee22f71f0972df874c52acbdf} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::login (\begin{DoxyParamCaption}\item[{}]{\$username}{, }\item[{}]{...}{}\end{DoxyParamCaption})}
+
+Login
+
+The \$password parameter can be a plaintext password, a \textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+RSA\texorpdfstring{$\vert$}{|}\+EC\texorpdfstring{$\vert$}{|}\+DSA object, a \textbackslash{}phpseclib3\textbackslash{}\+System\textbackslash{}\+SSH\textbackslash{}\+Agent object or an array
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$username} & \\
+\hline
+ & {\em string\texorpdfstring{$\vert$}{|}\+Private\+Key\texorpdfstring{$\vert$}{|}array\mbox{[}$\,$\mbox{]}\texorpdfstring{$\vert$}{|}\+Agent\texorpdfstring{$\vert$}{|}null} & ...\$args \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+self\+::\+\_\+login() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a9fc48e34f7bd03f404ac340aadd9c74d}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!open\_channel@{open\_channel}}
+\index{open\_channel@{open\_channel}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{open\_channel()}{open\_channel()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a9fc48e34f7bd03f404ac340aadd9c74d} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::open\+\_\+channel (\begin{DoxyParamCaption}\item[{}]{\$channel}{, }\item[{}]{\$skip\+\_\+extended}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Opens a channel
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$channel} & \\
+\hline
+bool & {\em \$skip\+\_\+extended} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a3ff3efa63ea9a3c5ca1ac5e186779db9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!openShell@{openShell}}
+\index{openShell@{openShell}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{openShell()}{openShell()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a3ff3efa63ea9a3c5ca1ac5e186779db9} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::open\+Shell (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Creates an interactive shell
+
+Returns bool(true) if the shell was opened. Returns bool(false) if the shell was already open.
+
+\begin{DoxySeeAlso}{See also}
+self\+::is\+Shell\+Open() 
+
+self\+::read() 
+
+self\+::write() 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Insufficient\+Setup\+Exception} & if not authenticated \\
+\hline
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Unexpected\+Value\+Exception on receipt of unexpected packets 
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on other errors \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a27fe64f124f7003f5490e6407362d75d}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!ping@{ping}}
+\index{ping@{ping}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{ping()}{ping()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a27fe64f124f7003f5490e6407362d75d} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::ping (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Pings a server connection, or tries to reconnect if the connection has gone down
+
+Inspired by \href{http://php.net/manual/en/mysqli.ping.php}{\texttt{ http\+://php.\+net/manual/en/mysqli.\+ping.\+php}}
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aa86cb1ae657bd7125e2269abfb3c542b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!read@{read}}
+\index{read@{read}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aa86cb1ae657bd7125e2269abfb3c542b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::read (\begin{DoxyParamCaption}\item[{}]{\$expect}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}, }\item[{}]{\$mode}{ = {\ttfamily self\+:\+:READ\+\_\+SIMPLE}, }\item[{}]{\$channel}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Returns the output of an interactive shell
+
+Returns when there\textquotesingle{}s a match for \$expect, which can take the form of a string literal or, if \$mode == self\+::\+READ\+\_\+\+REGEX, a regular expression.
+
+If not specifying a channel, an open interactive channel will be selected, or, if there are no open channels, an interactive shell will be created. If there are multiple open interactive channels, a legacy behavior will apply in which channel selection prioritizes an active subsystem, the exec pty, and, lastly, the shell. If using multiple interactive channels, callers are discouraged from relying on this legacy behavior and should specify the intended channel.
+
+\begin{DoxySeeAlso}{See also}
+self\+::write() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$expect} & \\
+\hline
+int & {\em \$mode} & One of the self\+::\+READ\+\_\+\texorpdfstring{$\ast$}{*} constants \\
+\hline
+int | null & {\em \$channel} & Channel id returned by self\+::get\+Interactive\+Channel\+Id() \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}bool\texorpdfstring{$\vert$}{|}null 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection error 
+\begin{DoxyExceptions}{Exceptions}
+{\em Insufficient\+Setup\+Exception} & on unexpected channel status, possibly due to closure \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae98a044cfaf3740097caf2004034b839}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!requestAgentForwarding@{requestAgentForwarding}}
+\index{requestAgentForwarding@{requestAgentForwarding}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{requestAgentForwarding()}{requestAgentForwarding()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae98a044cfaf3740097caf2004034b839} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::request\+Agent\+Forwarding (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Request agent forwarding of remote server
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a9aa64b4ee55fa2d68331dac5b787db5b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!reset@{reset}}
+\index{reset@{reset}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a9aa64b4ee55fa2d68331dac5b787db5b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::reset (\begin{DoxyParamCaption}\item[{}]{\$channel}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Closes a channel
+
+If read() timed out you might want to just close the channel and have it auto-\/restart on the next read() call
+
+If not specifying a channel, an open interactive channel will be selected. If there are multiple open interactive channels, a legacy behavior will apply in which channel selection prioritizes an active subsystem, the exec pty, and, lastly, the shell. If using multiple interactive channels, callers are discouraged from relying on this legacy behavior and should specify the intended channel.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int | null & {\em \$channel} & Channel id returned by self\+::get\+Interactive\+Channel\+Id() \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ad2c0cc825ceb64c93662c97eb0a64329}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!reset\_connection@{reset\_connection}}
+\index{reset\_connection@{reset\_connection}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{reset\_connection()}{reset\_connection()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ad2c0cc825ceb64c93662c97eb0a64329} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::reset\+\_\+connection (\begin{DoxyParamCaption}\item[{}]{\$reason}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Resets a connection for re-\/use
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$reason} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p_ab790910df8c4e36b3be7d8872a771331}{phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP}}.
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_acbccb83638c6d44c03ee683d97130eb3}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!send\_binary\_packet@{send\_binary\_packet}}
+\index{send\_binary\_packet@{send\_binary\_packet}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{send\_binary\_packet()}{send\_binary\_packet()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_acbccb83638c6d44c03ee683d97130eb3} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+\_\+binary\+\_\+packet (\begin{DoxyParamCaption}\item[{}]{\$data}{, }\item[{}]{\$logged}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Sends Binary Packets
+
+See \textquotesingle{}6. Binary Packet Protocol\textquotesingle{} of rfc4253 for more info.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+string & {\em \$logged} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+self\+::\+\_\+get\+\_\+binary\+\_\+packet() 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_acffbc88e5bd7dae7f6623aa5ddeae90a}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!send\_channel\_packet@{send\_channel\_packet}}
+\index{send\_channel\_packet@{send\_channel\_packet}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{send\_channel\_packet()}{send\_channel\_packet()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_acffbc88e5bd7dae7f6623aa5ddeae90a} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+\_\+channel\+\_\+packet (\begin{DoxyParamCaption}\item[{}]{\$client\+\_\+channel}{, }\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Sends channel data
+
+Spans multiple SSH\+\_\+\+MSG\+\_\+\+CHANNEL\+\_\+\+DATAs if appropriate
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$client\+\_\+channel} & \\
+\hline
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a4c76eff1478836e1523ce7f93c045e75}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!sendIdentificationStringFirst@{sendIdentificationStringFirst}}
+\index{sendIdentificationStringFirst@{sendIdentificationStringFirst}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{sendIdentificationStringFirst()}{sendIdentificationStringFirst()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a4c76eff1478836e1523ce7f93c045e75} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+Identification\+String\+First (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Send Identification String First
+
+\href{https://tools.ietf.org/html/rfc4253\#section-4.2}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4253\#section-\/4.\+2}} says "{}when the connection has been established, both sides MUST send an identification string"{}. It does not say which side sends it first. In theory it shouldn\textquotesingle{}t matter but it is a fact of life that some SSH servers are simply buggy \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a22ea1bfe5565e508c3f3e186d2c422a6}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!sendIdentificationStringLast@{sendIdentificationStringLast}}
+\index{sendIdentificationStringLast@{sendIdentificationStringLast}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{sendIdentificationStringLast()}{sendIdentificationStringLast()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a22ea1bfe5565e508c3f3e186d2c422a6} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+Identification\+String\+Last (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Send Identification String Last
+
+\href{https://tools.ietf.org/html/rfc4253\#section-4.2}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4253\#section-\/4.\+2}} says "{}when the connection has been established, both sides MUST send an identification string"{}. It does not say which side sends it first. In theory it shouldn\textquotesingle{}t matter but it is a fact of life that some SSH servers are simply buggy \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_acfb8e8f77269e1e19d83c25801a0c4ce}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!sendKEXINITFirst@{sendKEXINITFirst}}
+\index{sendKEXINITFirst@{sendKEXINITFirst}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{sendKEXINITFirst()}{sendKEXINITFirst()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_acfb8e8f77269e1e19d83c25801a0c4ce} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+KEXINITFirst (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Send SSH\+\_\+\+MSG\+\_\+\+KEXINIT First
+
+\href{https://tools.ietf.org/html/rfc4253\#section-7.1}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4253\#section-\/7.\+1}} says "{}key exchange begins by each sending sending the \mbox{[}\+SSH\+\_\+\+MSG\+\_\+\+KEXINIT\mbox{]} packet"{}. It does not say which side sends it first. In theory it shouldn\textquotesingle{}t matter but it is a fact of life that some SSH servers are simply buggy \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a20133e144550082697c177234ec27c7f}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!sendKEXINITLast@{sendKEXINITLast}}
+\index{sendKEXINITLast@{sendKEXINITLast}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{sendKEXINITLast()}{sendKEXINITLast()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a20133e144550082697c177234ec27c7f} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::send\+KEXINITLast (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Send SSH\+\_\+\+MSG\+\_\+\+KEXINIT Last
+
+\href{https://tools.ietf.org/html/rfc4253\#section-7.1}{\texttt{ https\+://tools.\+ietf.\+org/html/rfc4253\#section-\/7.\+1}} says "{}key exchange begins by each sending sending the \mbox{[}\+SSH\+\_\+\+MSG\+\_\+\+KEXINIT\mbox{]} packet"{}. It does not say which side sends it first. In theory it shouldn\textquotesingle{}t matter but it is a fact of life that some SSH servers are simply buggy \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a9c31227421e3fa3a8bbae44f6721c77f}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setCryptoEngine@{setCryptoEngine}}
+\index{setCryptoEngine@{setCryptoEngine}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setCryptoEngine()}{setCryptoEngine()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a9c31227421e3fa3a8bbae44f6721c77f} 
+static phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Crypto\+Engine (\begin{DoxyParamCaption}\item[{}]{\$engine}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set Crypto Engine Mode
+
+Possible \$engine values\+: Open\+SSL, mcrypt, Eval, PHP
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$engine} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae44d828b4d8bc4bc4f330ae9d9904d42}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setKeepAlive@{setKeepAlive}}
+\index{setKeepAlive@{setKeepAlive}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setKeepAlive()}{setKeepAlive()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae44d828b4d8bc4bc4f330ae9d9904d42} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Keep\+Alive (\begin{DoxyParamCaption}\item[{}]{\$interval}{}\end{DoxyParamCaption})}
+
+Set Keep Alive
+
+Sends an SSH2\+\_\+\+MSG\+\_\+\+IGNORE message every x seconds, if x is a positive non-\/zero number.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$interval} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_af48d5905cce3bb84940604cb516afaa8}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setPreferredAlgorithms@{setPreferredAlgorithms}}
+\index{setPreferredAlgorithms@{setPreferredAlgorithms}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setPreferredAlgorithms()}{setPreferredAlgorithms()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_af48d5905cce3bb84940604cb516afaa8} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Preferred\+Algorithms (\begin{DoxyParamCaption}\item[{array}]{\$methods}{}\end{DoxyParamCaption})}
+
+Accepts an associative array with up to four parameters as described at \href{https://www.php.net/manual/en/function.ssh2-connect.php}{\texttt{ https\+://www.\+php.\+net/manual/en/function.\+ssh2-\/connect.\+php}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$methods} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a0060cbe17bc0f98e07842ea32dfc7c13}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setTerminal@{setTerminal}}
+\index{setTerminal@{setTerminal}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setTerminal()}{setTerminal()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a0060cbe17bc0f98e07842ea32dfc7c13} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Terminal (\begin{DoxyParamCaption}\item[{}]{\$term}{}\end{DoxyParamCaption})}
+
+Allows you to set the terminal
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$term} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a96775b3d7a0b328e6b19e5fb0df611f7}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setTimeout@{setTimeout}}
+\index{setTimeout@{setTimeout}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setTimeout()}{setTimeout()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a96775b3d7a0b328e6b19e5fb0df611f7} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Timeout (\begin{DoxyParamCaption}\item[{}]{\$timeout}{}\end{DoxyParamCaption})}
+
+Set Timeout
+
+\$ssh-\/\texorpdfstring{$>$}{>}exec(\textquotesingle{}ping 127.\+0.\+0.\+1\textquotesingle{}); on a Linux host will never return and will run indefinitely. set\+Timeout() makes it so it\textquotesingle{}ll timeout. Setting \$timeout to false or 0 will mean there is no timeout.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$timeout} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae6fe3dbba3c97da1303afe1b0826e306}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setWindowColumns@{setWindowColumns}}
+\index{setWindowColumns@{setWindowColumns}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setWindowColumns()}{setWindowColumns()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae6fe3dbba3c97da1303afe1b0826e306} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Window\+Columns (\begin{DoxyParamCaption}\item[{}]{\$value}{}\end{DoxyParamCaption})}
+
+Sets the number of columns for the terminal window size.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a67ebc5e40d563db1d562ee20584bd7e9}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setWindowRows@{setWindowRows}}
+\index{setWindowRows@{setWindowRows}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setWindowRows()}{setWindowRows()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a67ebc5e40d563db1d562ee20584bd7e9} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Window\+Rows (\begin{DoxyParamCaption}\item[{}]{\$value}{}\end{DoxyParamCaption})}
+
+Sets the number of rows for the terminal window size.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a6a99a9bd7e06246068eaa65abfbbcb9c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!setWindowSize@{setWindowSize}}
+\index{setWindowSize@{setWindowSize}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{setWindowSize()}{setWindowSize()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a6a99a9bd7e06246068eaa65abfbbcb9c} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::set\+Window\+Size (\begin{DoxyParamCaption}\item[{}]{\$columns}{ = {\ttfamily 80}, }\item[{}]{\$rows}{ = {\ttfamily 24}}\end{DoxyParamCaption})}
+
+Sets the number of columns and rows for the terminal window size.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$columns} & \\
+\hline
+int & {\em \$rows} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a4bd807d556a61802faab9b4961fc9188}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!startSubsystem@{startSubsystem}}
+\index{startSubsystem@{startSubsystem}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{startSubsystem()}{startSubsystem()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a4bd807d556a61802faab9b4961fc9188} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::start\+Subsystem (\begin{DoxyParamCaption}\item[{}]{\$subsystem}{}\end{DoxyParamCaption})}
+
+Start a subsystem.
+
+Right now only one subsystem at a time is supported. To support multiple subsystem\textquotesingle{}s stop\+Subsystem() could accept a string that contained the name of the subsystem, but at that point, only one subsystem of each type could be opened. To support multiple subsystem\textquotesingle{}s of the same name maybe it\textquotesingle{}d be best if start\+Subsystem() generated a new channel id and returns that and then that that was passed into stop\+Subsystem() but that\textquotesingle{}ll be saved for a future date and implemented if there\textquotesingle{}s sufficient demand for such a feature.
+
+\begin{DoxySeeAlso}{See also}
+self\+::stop\+Subsystem() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$subsystem} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ad021ca6142dd5bbe929a0783311f155b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!stopSubsystem@{stopSubsystem}}
+\index{stopSubsystem@{stopSubsystem}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{stopSubsystem()}{stopSubsystem()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ad021ca6142dd5bbe929a0783311f155b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::stop\+Subsystem (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Stops a subsystem.
+
+\begin{DoxySeeAlso}{See also}
+self\+::start\+Subsystem() 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_abaa656a8ac2597b76636d4c2aca9a63b}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!sublogin@{sublogin}}
+\index{sublogin@{sublogin}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{sublogin()}{sublogin()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_abaa656a8ac2597b76636d4c2aca9a63b} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::sublogin (\begin{DoxyParamCaption}\item[{}]{\$username}{, }\item[{}]{...}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Login Helper
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$username} & \\
+\hline
+ & {\em string\texorpdfstring{$\vert$}{|}\+Private\+Key\texorpdfstring{$\vert$}{|}array\mbox{[}$\,$\mbox{]}\texorpdfstring{$\vert$}{|}\+Agent\texorpdfstring{$\vert$}{|}null} & ...\$args \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+self\+::\+\_\+login\+\_\+helper() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aa2d55740c9f3a206f995b5585bc5acfc}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!write@{write}}
+\index{write@{write}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aa2d55740c9f3a206f995b5585bc5acfc} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::write (\begin{DoxyParamCaption}\item[{}]{\$cmd}{, }\item[{}]{\$channel}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Inputs a command into an interactive shell.
+
+If not specifying a channel, an open interactive channel will be selected, or, if there are no open channels, an interactive shell will be created. If there are multiple open interactive channels, a legacy behavior will apply in which channel selection prioritizes an active subsystem, the exec pty, and, lastly, the shell. If using multiple interactive channels, callers are discouraged from relying on this legacy behavior and should specify the intended channel.
+
+\begin{DoxySeeAlso}{See also}
+SSH2\+::read() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cmd} & \\
+\hline
+int | null & {\em \$channel} & Channel id returned by self\+::get\+Interactive\+Channel\+Id() \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Runtime\+Exception on connection error 
+\begin{DoxyExceptions}{Exceptions}
+{\em Insufficient\+Setup\+Exception} & on unexpected channel status, possibly due to closure \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ada8764a827d5f478c96499d92a8d8a53}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$auth@{\$auth}}
+\index{\$auth@{\$auth}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$auth}{\$auth}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ada8764a827d5f478c96499d92a8d8a53} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$auth = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a5c7fa5c707697a79642904ba9a4eb2ee}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$bitmap@{\$bitmap}}
+\index{\$bitmap@{\$bitmap}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$bitmap}{\$bitmap}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a5c7fa5c707697a79642904ba9a4eb2ee} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$bitmap = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a90b01d5d7fde7725c22c48a7c47cb9fe}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$channel\_status@{\$channel\_status}}
+\index{\$channel\_status@{\$channel\_status}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$channel\_status}{\$channel\_status}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a90b01d5d7fde7725c22c48a7c47cb9fe} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$channel\+\_\+status = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae32f8790a30a54b2dcfae2bad1f33491}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$curTimeout@{\$curTimeout}}
+\index{\$curTimeout@{\$curTimeout}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$curTimeout}{\$curTimeout}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae32f8790a30a54b2dcfae2bad1f33491} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$cur\+Timeout\hspace{0.3cm}{\ttfamily [protected]}}
+
+Current Timeout
+
+\begin{DoxySeeAlso}{See also}
+self\+::get\+\_\+channel\+\_\+packet() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a091aa3a4bddc7c365a940fac34289ee2}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$fsock@{\$fsock}}
+\index{\$fsock@{\$fsock}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$fsock}{\$fsock}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a091aa3a4bddc7c365a940fac34289ee2} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$fsock}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a9244a24681b91aeb59d1f5b9bc821efd}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$preferred\_signature\_format@{\$preferred\_signature\_format}}
+\index{\$preferred\_signature\_format@{\$preferred\_signature\_format}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$preferred\_signature\_format}{\$preferred\_signature\_format}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a9244a24681b91aeb59d1f5b9bc821efd} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$preferred\+\_\+signature\+\_\+format = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aeae1e1ce06e4f2194379931b443dcb5c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$server\_channels@{\$server\_channels}}
+\index{\$server\_channels@{\$server\_channels}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$server\_channels}{\$server\_channels}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aeae1e1ce06e4f2194379931b443dcb5c} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$server\+\_\+channels = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_acb8df7a7d4e13e30a8a066306906576a}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$server\_identifier@{\$server\_identifier}}
+\index{\$server\_identifier@{\$server\_identifier}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$server\_identifier}{\$server\_identifier}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_acb8df7a7d4e13e30a8a066306906576a} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$server\+\_\+identifier = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ab6324bcc1a8a9b8b71e6824611d52f4a}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$timeout@{\$timeout}}
+\index{\$timeout@{\$timeout}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$timeout}{\$timeout}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ab6324bcc1a8a9b8b71e6824611d52f4a} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$timeout\hspace{0.3cm}{\ttfamily [protected]}}
+
+Timeout
+
+\begin{DoxySeeAlso}{See also}
+self\+::set\+Timeout() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_af599ec6bc419dcc91df6d9af3faaa41d}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$window\_size@{\$window\_size}}
+\index{\$window\_size@{\$window\_size}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$window\_size}{\$window\_size}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_af599ec6bc419dcc91df6d9af3faaa41d} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$window\+\_\+size = 0x7\+FFFFFFF\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ad5013b677955a12c527a30a6c609ddb1}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!\$window\_size\_server\_to\_client@{\$window\_size\_server\_to\_client}}
+\index{\$window\_size\_server\_to\_client@{\$window\_size\_server\_to\_client}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{\$window\_size\_server\_to\_client}{\$window\_size\_server\_to\_client}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ad5013b677955a12c527a30a6c609ddb1} 
+phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\$window\+\_\+size\+\_\+server\+\_\+to\+\_\+client = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a9c2585f0af3fff9919da26fdc5a10df4}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!CHANNEL\_AGENT\_FORWARD@{CHANNEL\_AGENT\_FORWARD}}
+\index{CHANNEL\_AGENT\_FORWARD@{CHANNEL\_AGENT\_FORWARD}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{CHANNEL\_AGENT\_FORWARD}{CHANNEL\_AGENT\_FORWARD}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a9c2585f0af3fff9919da26fdc5a10df4} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+CHANNEL\+\_\+\+AGENT\+\_\+\+FORWARD = 4}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a91a2778ab8a6b48d04583697731951ae}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!CHANNEL\_EXEC@{CHANNEL\_EXEC}}
+\index{CHANNEL\_EXEC@{CHANNEL\_EXEC}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{CHANNEL\_EXEC}{CHANNEL\_EXEC}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a91a2778ab8a6b48d04583697731951ae} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+CHANNEL\+\_\+\+EXEC = 1}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_af89e7e9535489d4ef1196b224770cf79}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!CHANNEL\_KEEP\_ALIVE@{CHANNEL\_KEEP\_ALIVE}}
+\index{CHANNEL\_KEEP\_ALIVE@{CHANNEL\_KEEP\_ALIVE}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{CHANNEL\_KEEP\_ALIVE}{CHANNEL\_KEEP\_ALIVE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_af89e7e9535489d4ef1196b224770cf79} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+CHANNEL\+\_\+\+KEEP\+\_\+\+ALIVE = 5}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_af6e59f909f3769dcf8613d8a74abe66c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!CHANNEL\_SHELL@{CHANNEL\_SHELL}}
+\index{CHANNEL\_SHELL@{CHANNEL\_SHELL}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{CHANNEL\_SHELL}{CHANNEL\_SHELL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_af6e59f909f3769dcf8613d8a74abe66c} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+CHANNEL\+\_\+\+SHELL = 2}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ac74685c3fe105ea5fdbedea38d195d03}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!CHANNEL\_SUBSYSTEM@{CHANNEL\_SUBSYSTEM}}
+\index{CHANNEL\_SUBSYSTEM@{CHANNEL\_SUBSYSTEM}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{CHANNEL\_SUBSYSTEM}{CHANNEL\_SUBSYSTEM}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ac74685c3fe105ea5fdbedea38d195d03} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+CHANNEL\+\_\+\+SUBSYSTEM = 3}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a639e20cff1597831bd9201bb138a9f33}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!LOG\_COMPLEX@{LOG\_COMPLEX}}
+\index{LOG\_COMPLEX@{LOG\_COMPLEX}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{LOG\_COMPLEX}{LOG\_COMPLEX}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a639e20cff1597831bd9201bb138a9f33} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+LOG\+\_\+\+COMPLEX = 2}
+
+Returns the message content
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Log() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ab84fb135e1637c7564e28cf857e0f982}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!LOG\_MAX\_SIZE@{LOG\_MAX\_SIZE}}
+\index{LOG\_MAX\_SIZE@{LOG\_MAX\_SIZE}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{LOG\_MAX\_SIZE}{LOG\_MAX\_SIZE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ab84fb135e1637c7564e28cf857e0f982} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+LOG\+\_\+\+MAX\+\_\+\+SIZE = 1048576}
+
+Make sure that the log never gets larger than this
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Log() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a4687b20fbcdc55049a2a8cbc51493a2e}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!LOG\_REALTIME@{LOG\_REALTIME}}
+\index{LOG\_REALTIME@{LOG\_REALTIME}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{LOG\_REALTIME}{LOG\_REALTIME}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a4687b20fbcdc55049a2a8cbc51493a2e} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+LOG\+\_\+\+REALTIME = 3}
+
+Outputs the content real-\/time \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a9df7d680d73014738596efc8a0efde56}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!LOG\_REALTIME\_FILE@{LOG\_REALTIME\_FILE}}
+\index{LOG\_REALTIME\_FILE@{LOG\_REALTIME\_FILE}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{LOG\_REALTIME\_FILE}{LOG\_REALTIME\_FILE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a9df7d680d73014738596efc8a0efde56} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+LOG\+\_\+\+REALTIME\+\_\+\+FILE = 4}
+
+Dumps the content real-\/time to a file \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a3af744100751c520c05368fad49bc608}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!LOG\_SIMPLE@{LOG\_SIMPLE}}
+\index{LOG\_SIMPLE@{LOG\_SIMPLE}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{LOG\_SIMPLE}{LOG\_SIMPLE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a3af744100751c520c05368fad49bc608} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+LOG\+\_\+\+SIMPLE = 1}
+
+Returns the message numbers
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::get\+Log() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aa51f8e6829eae8a43cf966276dcc8022}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!LOG\_SIMPLE\_REALTIME@{LOG\_SIMPLE\_REALTIME}}
+\index{LOG\_SIMPLE\_REALTIME@{LOG\_SIMPLE\_REALTIME}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{LOG\_SIMPLE\_REALTIME}{LOG\_SIMPLE\_REALTIME}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aa51f8e6829eae8a43cf966276dcc8022} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+LOG\+\_\+\+SIMPLE\+\_\+\+REALTIME = 5}
+
+Outputs the message numbers real-\/time \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a206c1e2d7fa4196456b627f17021590e}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!MASK\_CONNECTED@{MASK\_CONNECTED}}
+\index{MASK\_CONNECTED@{MASK\_CONNECTED}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{MASK\_CONNECTED}{MASK\_CONNECTED}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a206c1e2d7fa4196456b627f17021590e} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+MASK\+\_\+\+CONNECTED = 0x00000002}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a114ba9c4d719c4a2ad6dd3add4e92929}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!MASK\_CONSTRUCTOR@{MASK\_CONSTRUCTOR}}
+\index{MASK\_CONSTRUCTOR@{MASK\_CONSTRUCTOR}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{MASK\_CONSTRUCTOR}{MASK\_CONSTRUCTOR}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a114ba9c4d719c4a2ad6dd3add4e92929} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+MASK\+\_\+\+CONSTRUCTOR = 0x00000001}
+
+\#-\/ \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ad96be98fc90db0ccd1745a4df9767846}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!MASK\_LOGIN@{MASK\_LOGIN}}
+\index{MASK\_LOGIN@{MASK\_LOGIN}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{MASK\_LOGIN}{MASK\_LOGIN}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ad96be98fc90db0ccd1745a4df9767846} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+MASK\+\_\+\+LOGIN = 0x00000008}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a7df7d3061c2468b06fd84dfa03331eaa}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!MASK\_LOGIN\_REQ@{MASK\_LOGIN\_REQ}}
+\index{MASK\_LOGIN\_REQ@{MASK\_LOGIN\_REQ}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{MASK\_LOGIN\_REQ}{MASK\_LOGIN\_REQ}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a7df7d3061c2468b06fd84dfa03331eaa} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+MASK\+\_\+\+LOGIN\+\_\+\+REQ = 0x00000004}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a5df8e305f4719ecabb9190e336ce0cbd}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!MASK\_SHELL@{MASK\_SHELL}}
+\index{MASK\_SHELL@{MASK\_SHELL}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{MASK\_SHELL}{MASK\_SHELL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a5df8e305f4719ecabb9190e336ce0cbd} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+MASK\+\_\+\+SHELL = 0x00000010}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a749bf2ef82b3fe14f83b636b513d9d4c}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!MASK\_WINDOW\_ADJUST@{MASK\_WINDOW\_ADJUST}}
+\index{MASK\_WINDOW\_ADJUST@{MASK\_WINDOW\_ADJUST}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{MASK\_WINDOW\_ADJUST}{MASK\_WINDOW\_ADJUST}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a749bf2ef82b3fe14f83b636b513d9d4c} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+MASK\+\_\+\+WINDOW\+\_\+\+ADJUST = 0x00000020}
+
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_aaa3684e82ebacd8cf9caa7c4275ea784}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!NET\_SSH2\_COMPRESSION\_NONE@{NET\_SSH2\_COMPRESSION\_NONE}}
+\index{NET\_SSH2\_COMPRESSION\_NONE@{NET\_SSH2\_COMPRESSION\_NONE}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{NET\_SSH2\_COMPRESSION\_NONE}{NET\_SSH2\_COMPRESSION\_NONE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_aaa3684e82ebacd8cf9caa7c4275ea784} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+NONE = 1}
+
+\#+ Compression Types No compression \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a2153ac85d33c8a4b73e24a45e8949385}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!NET\_SSH2\_COMPRESSION\_ZLIB@{NET\_SSH2\_COMPRESSION\_ZLIB}}
+\index{NET\_SSH2\_COMPRESSION\_ZLIB@{NET\_SSH2\_COMPRESSION\_ZLIB}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{NET\_SSH2\_COMPRESSION\_ZLIB}{NET\_SSH2\_COMPRESSION\_ZLIB}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a2153ac85d33c8a4b73e24a45e8949385} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+ZLIB = 2}
+
+zlib compression \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a04263800781767e7a4d5a7f43a19b750}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!NET\_SSH2\_COMPRESSION\_ZLIB\_AT\_OPENSSH@{NET\_SSH2\_COMPRESSION\_ZLIB\_AT\_OPENSSH}}
+\index{NET\_SSH2\_COMPRESSION\_ZLIB\_AT\_OPENSSH@{NET\_SSH2\_COMPRESSION\_ZLIB\_AT\_OPENSSH}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{NET\_SSH2\_COMPRESSION\_ZLIB\_AT\_OPENSSH}{NET\_SSH2\_COMPRESSION\_ZLIB\_AT\_OPENSSH}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a04263800781767e7a4d5a7f43a19b750} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+NET\+\_\+\+SSH2\+\_\+\+COMPRESSION\+\_\+\+ZLIB\+\_\+\+AT\+\_\+\+OPENSSH = 3}
+
+\href{mailto:zlib@openssh.com}{\texttt{ zlib@openssh.\+com}} \Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_a5d37845e0b78d1da971e8cb750b28919}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!READ\_NEXT@{READ\_NEXT}}
+\index{READ\_NEXT@{READ\_NEXT}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{READ\_NEXT}{READ\_NEXT}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_a5d37845e0b78d1da971e8cb750b28919} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+READ\+\_\+\+NEXT = 3}
+
+Returns whenever a data packet is received.
+
+Some data packets may only contain a single character so it may be necessary to call read() multiple times when using this option
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::read() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_ae25721ac309c480dfc8f2825ca914200}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!READ\_REGEX@{READ\_REGEX}}
+\index{READ\_REGEX@{READ\_REGEX}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{READ\_REGEX}{READ\_REGEX}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_ae25721ac309c480dfc8f2825ca914200} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+READ\+\_\+\+REGEX = 2}
+
+Returns when a string matching the regular expression \$expect is found
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::read() 
+\end{DoxySeeAlso}
+\Hypertarget{classphpseclib3_1_1_net_1_1_s_s_h2_acc48385e871932de07e0997f63153b4f}\index{phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}!READ\_SIMPLE@{READ\_SIMPLE}}
+\index{READ\_SIMPLE@{READ\_SIMPLE}!phpseclib3\textbackslash{}Net\textbackslash{}SSH2@{phpseclib3\textbackslash{}Net\textbackslash{}SSH2}}
+\doxysubsubsection{\texorpdfstring{READ\_SIMPLE}{READ\_SIMPLE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_net_1_1_s_s_h2_acc48385e871932de07e0997f63153b4f} 
+const phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::\+READ\+\_\+\+SIMPLE = 1}
+
+Returns when a string matching \$expect exactly is found
+
+\begin{DoxySeeAlso}{See also}
+\textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SSH2\+::read() 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Net/\mbox{\hyperlink{_net_2_s_s_h2_8php}{SSH2.\+php}}\end{DoxyCompactItemize}

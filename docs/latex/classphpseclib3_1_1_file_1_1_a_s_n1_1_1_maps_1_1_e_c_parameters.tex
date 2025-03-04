@@ -1,0 +1,43 @@
+\doxysection{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters Class Reference}
+\hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_e_c_parameters}{}\label{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_e_c_parameters}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters}}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_e_c_parameters_a86bf1748e4ee6f9b44cc35bc996c7dbd}{MAP}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+ECParameters
+
+ECParameters \+::= CHOICE \{ named\+Curve OBJECT IDENTIFIER -- implicit\+Curve NULL -- specified\+Curve Specified\+ECDomain \} -- implicit\+Curve and specified\+Curve MUST NOT be used in PKIX. -- Details for Specified\+ECDomain can be found in \mbox{[}X9.\+62\mbox{]}. -- Any future additions to this CHOICE should be coordinated -- with ANSI X9.
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_e_c_parameters_a86bf1748e4ee6f9b44cc35bc996c7dbd}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters}!MAP@{MAP}}
+\index{MAP@{MAP}!phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters@{phpseclib3\textbackslash{}File\textbackslash{}ASN1\textbackslash{}Maps\textbackslash{}ECParameters}}
+\doxysubsubsection{\texorpdfstring{MAP}{MAP}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_e_c_parameters_a86bf1748e4ee6f9b44cc35bc996c7dbd} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\textbackslash{}\+Maps\textbackslash{}\+ECParameters\+::\+MAP}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_CHOICE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'children'}\ =>\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'namedCurve'}\ =>\ [\textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_OBJECT\_IDENTIFIER],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'implicitCurve'}\ =>\ [\textcolor{stringliteral}{'type'}\ =>\ ASN1::TYPE\_NULL],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{'specifiedCurve'}\ =>\ \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_1_1_maps_1_1_specified_e_c_domain_a1882b4fb13431c6eeaa6d507d657c73f}{SpecifiedECDomain::MAP}}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ ]}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+File/\+ASN1/\+Maps/\mbox{\hyperlink{_e_c_parameters_8php}{ECParameters.\+php}}\end{DoxyCompactItemize}

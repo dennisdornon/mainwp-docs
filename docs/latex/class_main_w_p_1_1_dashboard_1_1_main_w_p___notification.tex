@@ -1,0 +1,212 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Notification Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a9a822119b873aa1a19abe5ee421a546b}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_ac18ab086476c6f7467de02828705ddfb}{send\+\_\+notify\+\_\+user}} ( \$user\+Id, \$subject, \$content)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a236b694595956b35298509b496c919c0}{send\+\_\+http\+\_\+check\+\_\+notification}} ( \$email\+\_\+settings, \$sites\+\_\+status, \$plain\+\_\+text)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a3dc8057c9b97fec50b934892b886f32d}{send\+\_\+license\+\_\+deactivated\+\_\+alert}} ( \$email\+\_\+settings, \$deactivated\+\_\+license, \$plain\+\_\+text)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a5c8f10e7b9c39c81570ce69d9ed0e330}{send\+\_\+daily\+\_\+digest\+\_\+notification}} ( \$email\+\_\+settings, \$available\+\_\+updates, \$wp\+\_\+updates, \$plugin\+\_\+updates, \$theme\+\_\+updates, \$sites\+\_\+disconnected, \$params=array())
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a2c4cab9b49dc9b4a5c6e35eb9c87f4e2}{send\+\_\+websites\+\_\+uptime\+\_\+monitoring}} ( \$emails, \$subject, \$mail\+\_\+content, \$plain\+\_\+text)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a8362aa1f0f62eb4c543484768561e564}{send\+\_\+websites\+\_\+health\+\_\+status\+\_\+notification}} ( \$email, \$subject, \$mail\+\_\+content, \$plain\+\_\+text)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a2ce593f97e5b6de57b135c18149d8f3b}{send\+\_\+wp\+\_\+mail}} ( \$email, \$subject, \$mail\+\_\+content, \$content\+\_\+type=\textquotesingle{}\textquotesingle{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a9a822119b873aa1a19abe5ee421a546b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a9a822119b873aa1a19abe5ee421a546b} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+Get Class Name.
+
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a5c8f10e7b9c39c81570ce69d9ed0e330}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_daily\_digest\_notification@{send\_daily\_digest\_notification}}
+\index{send\_daily\_digest\_notification@{send\_daily\_digest\_notification}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_daily\_digest\_notification()}{send\_daily\_digest\_notification()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a5c8f10e7b9c39c81570ce69d9ed0e330} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+daily\+\_\+digest\+\_\+notification (\begin{DoxyParamCaption}\item[{}]{\$email\+\_\+settings}{, }\item[{}]{\$available\+\_\+updates}{, }\item[{}]{\$wp\+\_\+updates}{, }\item[{}]{\$plugin\+\_\+updates}{, }\item[{}]{\$theme\+\_\+updates}{, }\item[{}]{\$sites\+\_\+disconnected}{, }\item[{}]{\$params}{ = {\ttfamily array()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+daily\+\_\+digest\+\_\+notification().
+
+Sent available updates notification email.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$email\+\_\+settings} & Email settings. \\
+\hline
+bool & {\em \$available\+\_\+updates} & Update avaiable. \\
+\hline
+mixed & {\em \$wp\+\_\+updates} & WP updates. \\
+\hline
+mixed & {\em \$plugin\+\_\+updates} & Plugin updates. \\
+\hline
+mixed & {\em \$theme\+\_\+updates} & Theme updates. \\
+\hline
+mixed & {\em \$sites\+\_\+disconnected} & Sites disconnected. \\
+\hline
+array & {\em \$params} & Other params.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Template\+::get\+\_\+template\+\_\+html() Filter\+: mainwp\+\_\+daily\+\_\+digest\+\_\+content
+
+Filters the Daily Digest email content and adds support for enabling text/plain emails.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$sites\+\_\+ids} & Array of sites IDs. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Wether plain text mode is enabled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a236b694595956b35298509b496c919c0}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_http\_check\_notification@{send\_http\_check\_notification}}
+\index{send\_http\_check\_notification@{send\_http\_check\_notification}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_http\_check\_notification()}{send\_http\_check\_notification()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a236b694595956b35298509b496c919c0} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+http\+\_\+check\+\_\+notification (\begin{DoxyParamCaption}\item[{}]{\$email\+\_\+settings}{, }\item[{}]{\$sites\+\_\+status}{, }\item[{}]{\$plain\+\_\+text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+http\+\_\+check\+\_\+notification().
+
+Send HTTP response email notification.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$email\+\_\+settings} & Email settings. \\
+\hline
+array & {\em \$sites\+\_\+status} & Websites http status. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Text format.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool False if failed.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+\_\+\+Template\+::get\+\_\+template\+\_\+html() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a3dc8057c9b97fec50b934892b886f32d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_license\_deactivated\_alert@{send\_license\_deactivated\_alert}}
+\index{send\_license\_deactivated\_alert@{send\_license\_deactivated\_alert}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_license\_deactivated\_alert()}{send\_license\_deactivated\_alert()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a3dc8057c9b97fec50b934892b886f32d} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+license\+\_\+deactivated\+\_\+alert (\begin{DoxyParamCaption}\item[{}]{\$email\+\_\+settings}{, }\item[{}]{\$deactivated\+\_\+license}{, }\item[{}]{\$plain\+\_\+text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+license\+\_\+deactivated\+\_\+alert().
+
+Send extensions license deactivated email notification.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$email\+\_\+settings} & Email settings. \\
+\hline
+array & {\em \$deactivated\+\_\+license} & Websites http status. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Text format.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool False if failed. 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_ac18ab086476c6f7467de02828705ddfb}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_notify\_user@{send\_notify\_user}}
+\index{send\_notify\_user@{send\_notify\_user}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_notify\_user()}{send\_notify\_user()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_ac18ab086476c6f7467de02828705ddfb} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+notify\+\_\+user (\begin{DoxyParamCaption}\item[{}]{\$user\+Id}{, }\item[{}]{\$subject}{, }\item[{}]{\$content}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+notify\+\_\+user()
+
+To send user a notification.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$user\+Id} & User ID. \\
+\hline
+string & {\em \$subject} & Email Subject. \\
+\hline
+string & {\em \$content} & Email Content.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Common\+::get\+\_\+user\+\_\+notification\+\_\+email() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a8362aa1f0f62eb4c543484768561e564}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_websites\_health\_status\_notification@{send\_websites\_health\_status\_notification}}
+\index{send\_websites\_health\_status\_notification@{send\_websites\_health\_status\_notification}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_websites\_health\_status\_notification()}{send\_websites\_health\_status\_notification()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a8362aa1f0f62eb4c543484768561e564} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+websites\+\_\+health\+\_\+status\+\_\+notification (\begin{DoxyParamCaption}\item[{}]{\$email}{, }\item[{}]{\$subject}{, }\item[{}]{\$mail\+\_\+content}{, }\item[{}]{\$plain\+\_\+text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+websites\+\_\+health\+\_\+status\+\_\+notification().
+
+Send websites status email notification.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$email} & notification email. \\
+\hline
+string & {\em \$subject} & subject. \\
+\hline
+string & {\em \$mail\+\_\+content} & email content. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Text format.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a2c4cab9b49dc9b4a5c6e35eb9c87f4e2}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_websites\_uptime\_monitoring@{send\_websites\_uptime\_monitoring}}
+\index{send\_websites\_uptime\_monitoring@{send\_websites\_uptime\_monitoring}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_websites\_uptime\_monitoring()}{send\_websites\_uptime\_monitoring()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a2c4cab9b49dc9b4a5c6e35eb9c87f4e2} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+websites\+\_\+uptime\+\_\+monitoring (\begin{DoxyParamCaption}\item[{}]{\$emails}{, }\item[{}]{\$subject}{, }\item[{}]{\$mail\+\_\+content}{, }\item[{}]{\$plain\+\_\+text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+websites\+\_\+uptime\+\_\+monitoring().
+
+Send websites status email notification.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$emails} & notification emails. \\
+\hline
+string & {\em \$subject} & email subject. \\
+\hline
+string & {\em \$mail\+\_\+content} & email content. \\
+\hline
+bool & {\em \$plain\+\_\+text} & Text format.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Logger\+::debug() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a2ce593f97e5b6de57b135c18149d8f3b}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}!send\_wp\_mail@{send\_wp\_mail}}
+\index{send\_wp\_mail@{send\_wp\_mail}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Notification}}
+\doxysubsubsection{\texorpdfstring{send\_wp\_mail()}{send\_wp\_mail()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___notification_a2ce593f97e5b6de57b135c18149d8f3b} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Notification\+::send\+\_\+wp\+\_\+mail (\begin{DoxyParamCaption}\item[{}]{\$email}{, }\item[{}]{\$subject}{, }\item[{}]{\$mail\+\_\+content}{, }\item[{}]{\$content\+\_\+type}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method send\+\_\+wp\+\_\+mail().
+
+Send email via wp\+\_\+mail().
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$email} & send to email. \\
+\hline
+string & {\em \$subject} & email content. \\
+\hline
+string & {\em \$mail\+\_\+content} & Text format. \\
+\hline
+string & {\em \$content\+\_\+type} & email content. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-notification_8php}{class-\/mainwp-\/notification.\+php}}\end{DoxyCompactItemize}

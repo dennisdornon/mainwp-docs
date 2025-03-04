@@ -1,0 +1,315 @@
+\doxysection{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings Class Reference}
+\hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings}{}\label{classphpseclib3_1_1_common_1_1_functions_1_1_strings}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_aa83cc8974a309c53f4fb973ca96c84a5}{shift}} (\&\$string, \$index=1)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_acf625987e4d820cf93e3be6e5facce7c}{pop}} (\&\$string, \$index=1)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_adcd0cdc9d5c713e1521e36227ad35566}{unpack\+SSH2}} (\$format, \&\$data)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a3b539c43852df153692c866a905232e9}{pack\+SSH2}} (\$format,... \$elements)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a493446a87988444a45e4b18c8e11b84a}{bits2bin}} (\$x)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a57426713eeba282913b63eafdc6dc745}{bin2bits}} (\$x, \$trim=true)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_afadd31d2a16acc5bb261a01ec250eafa}{switch\+Endianness}} (\$x)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_aec60507a37520cc8ee158ba11e909226}{increment\+\_\+str}} (\&\$var)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a3a0d4b188b209ff94efd6e33d97432e5}{is\+\_\+stringable}} (\$var)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a00be44f3dd36b5a445b2ef1ad9e5fad0}{base64\+\_\+decode}} (\$data)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a1b2eb7abf43b4d534ebf12847aafb300}{base64url\+\_\+decode}} (\$data)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a7c82eba6c83a80c8c7ee602a2f4d5a21}{base64\+\_\+encode}} (\$data)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_afe0a161b71049bad4930c8b93e0fe1bf}{base64url\+\_\+encode}} (\$data)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a85d97a29f66199d466e1ff97c8cb0168}{hex2bin}} (\$data)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a30a7f2d7f5d782addd2999502615b3f3}{bin2hex}} (\$data)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Common String Functions
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a00be44f3dd36b5a445b2ef1ad9e5fad0}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!base64\_decode@{base64\_decode}}
+\index{base64\_decode@{base64\_decode}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{base64\_decode()}{base64\_decode()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a00be44f3dd36b5a445b2ef1ad9e5fad0} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::base64\+\_\+decode (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constant Time Base64-\/decoding
+
+Paragone\+IE\textbackslash{}\+Constant\+Time doesn\textquotesingle{}t use libsodium if it\textquotesingle{}s available so we\textquotesingle{}ll do so ourselves. see \href{https://github.com/paragonie/constant_time_encoding/issues/39}{\texttt{ https\+://github.\+com/paragonie/constant\+\_\+time\+\_\+encoding/issues/39}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a7c82eba6c83a80c8c7ee602a2f4d5a21}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!base64\_encode@{base64\_encode}}
+\index{base64\_encode@{base64\_encode}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{base64\_encode()}{base64\_encode()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a7c82eba6c83a80c8c7ee602a2f4d5a21} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::base64\+\_\+encode (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constant Time Base64-\/encoding
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a1b2eb7abf43b4d534ebf12847aafb300}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!base64url\_decode@{base64url\_decode}}
+\index{base64url\_decode@{base64url\_decode}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{base64url\_decode()}{base64url\_decode()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a1b2eb7abf43b4d534ebf12847aafb300} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::base64url\+\_\+decode (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constant Time Base64-\/decoding (URL safe)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_afe0a161b71049bad4930c8b93e0fe1bf}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!base64url\_encode@{base64url\_encode}}
+\index{base64url\_encode@{base64url\_encode}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{base64url\_encode()}{base64url\_encode()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_afe0a161b71049bad4930c8b93e0fe1bf} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::base64url\+\_\+encode (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constant Time Base64-\/encoding (URL safe)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a57426713eeba282913b63eafdc6dc745}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!bin2bits@{bin2bits}}
+\index{bin2bits@{bin2bits}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{bin2bits()}{bin2bits()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a57426713eeba282913b63eafdc6dc745} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::bin2bits (\begin{DoxyParamCaption}\item[{}]{\$x}{, }\item[{}]{\$trim}{ = {\ttfamily true}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert bits to binary data
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a30a7f2d7f5d782addd2999502615b3f3}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!bin2hex@{bin2hex}}
+\index{bin2hex@{bin2hex}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{bin2hex()}{bin2hex()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a30a7f2d7f5d782addd2999502615b3f3} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::bin2hex (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constant Time Hex Encoder
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a493446a87988444a45e4b18c8e11b84a}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!bits2bin@{bits2bin}}
+\index{bits2bin@{bits2bin}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{bits2bin()}{bits2bin()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a493446a87988444a45e4b18c8e11b84a} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::bits2bin (\begin{DoxyParamCaption}\item[{}]{\$x}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert binary data into bits
+
+bin2hex / hex2bin refer to base-\/256 encoded data as binary, whilst decbin / bindec refer to base-\/2 encoded data as binary. For the purposes of this function, bin refers to base-\/256 encoded data whilst bits refers to base-\/2 encoded data
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a85d97a29f66199d466e1ff97c8cb0168}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!hex2bin@{hex2bin}}
+\index{hex2bin@{hex2bin}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{hex2bin()}{hex2bin()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a85d97a29f66199d466e1ff97c8cb0168} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::hex2bin (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constant Time Hex Decoder
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_aec60507a37520cc8ee158ba11e909226}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!increment\_str@{increment\_str}}
+\index{increment\_str@{increment\_str}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{increment\_str()}{increment\_str()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_aec60507a37520cc8ee158ba11e909226} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::increment\+\_\+str (\begin{DoxyParamCaption}\item[{\&}]{\$var}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Increment the current string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$var} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a3a0d4b188b209ff94efd6e33d97432e5}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!is\_stringable@{is\_stringable}}
+\index{is\_stringable@{is\_stringable}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{is\_stringable()}{is\_stringable()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a3a0d4b188b209ff94efd6e33d97432e5} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::is\+\_\+stringable (\begin{DoxyParamCaption}\item[{}]{\$var}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Find whether the type of a variable is string (or could be converted to one)
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$var} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool @psalm-\/assert-\/if-\/true string\texorpdfstring{$\vert$}{|}\textbackslash{}\+Stringable \$var 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a3b539c43852df153692c866a905232e9}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!packSSH2@{packSSH2}}
+\index{packSSH2@{packSSH2}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{packSSH2()}{packSSH2()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_a3b539c43852df153692c866a905232e9} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::pack\+SSH2 (\begin{DoxyParamCaption}\item[{}]{\$format}{, }\item[{}]{...}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create SSH2-\/style string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & \\
+\hline
+ & {\em string\texorpdfstring{$\vert$}{|}int\texorpdfstring{$\vert$}{|}float\texorpdfstring{$\vert$}{|}array\texorpdfstring{$\vert$}{|}bool} & ...\$elements \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_acf625987e4d820cf93e3be6e5facce7c}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!pop@{pop}}
+\index{pop@{pop}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_acf625987e4d820cf93e3be6e5facce7c} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::pop (\begin{DoxyParamCaption}\item[{\&}]{\$string}{, }\item[{}]{\$index}{ = {\ttfamily 1}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+String Pop
+
+Inspired by array\+\_\+pop
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$string} & \\
+\hline
+int & {\em \$index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_aa83cc8974a309c53f4fb973ca96c84a5}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!shift@{shift}}
+\index{shift@{shift}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{shift()}{shift()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_aa83cc8974a309c53f4fb973ca96c84a5} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::shift (\begin{DoxyParamCaption}\item[{\&}]{\$string}{, }\item[{}]{\$index}{ = {\ttfamily 1}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+String Shift
+
+Inspired by array\+\_\+shift
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$string} & \\
+\hline
+int & {\em \$index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_afadd31d2a16acc5bb261a01ec250eafa}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!switchEndianness@{switchEndianness}}
+\index{switchEndianness@{switchEndianness}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{switchEndianness()}{switchEndianness()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_afadd31d2a16acc5bb261a01ec250eafa} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::switch\+Endianness (\begin{DoxyParamCaption}\item[{}]{\$x}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Switch Endianness Bit Order
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_common_1_1_functions_1_1_strings_adcd0cdc9d5c713e1521e36227ad35566}\index{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}!unpackSSH2@{unpackSSH2}}
+\index{unpackSSH2@{unpackSSH2}!phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings@{phpseclib3\textbackslash{}Common\textbackslash{}Functions\textbackslash{}Strings}}
+\doxysubsubsection{\texorpdfstring{unpackSSH2()}{unpackSSH2()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_common_1_1_functions_1_1_strings_adcd0cdc9d5c713e1521e36227ad35566} 
+static phpseclib3\textbackslash{}\+Common\textbackslash{}\+Functions\textbackslash{}\+Strings\+::unpack\+SSH2 (\begin{DoxyParamCaption}\item[{}]{\$format}{, }\item[{\&}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Parse SSH2-\/style string
+
+Returns either an array or a boolean if \$data is malformed.
+
+Valid characters for \$format are as follows\+:
+
+C = byte b = boolean (true/false) N = uint32 Q = uint64 s = string i = mpint L = name-\/list
+
+uint64 is not supported.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & \\
+\hline
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Common/\+Functions/\mbox{\hyperlink{_strings_8php}{Strings.\+php}}\end{DoxyCompactItemize}

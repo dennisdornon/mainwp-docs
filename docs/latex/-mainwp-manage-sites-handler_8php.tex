@@ -1,0 +1,41 @@
+\chapter{-\/mainwp-\/manage-\/sites-\/handler.php}
+\hypertarget{-mainwp-manage-sites-handler_8php}{}\label{-mainwp-manage-sites-handler_8php}\index{-\/mainwp-\/manage-\/sites-\/handler.php@{-\/mainwp-\/manage-\/sites-\/handler.php}}
+Method hook\+\_\+delete\+\_\+site()
+
+Hook to delete Child Site.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$site\+\_\+id} & Child site ID.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool\texorpdfstring{$\vert$}{|}array Return false if empty and return array error -\/ Site not found \texorpdfstring{$\vert$}{|} result -\/ SUCCESS.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+wp\+\_\+file\+\_\+system() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+icons\+\_\+dir()Word\+Press files system object.
+
+@global object
+
+This action is documented in pages  
+
+Delete Clones Site.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$plugin\+File} & Extension plugin file to verify. \\
+\hline
+mixed & {\em \$key} & The child-\/key. \\
+\hline
+mixed & {\em \$clone\+\_\+url} & URL to Clone to. \\
+\hline
+bool & {\em \$clone\+\_\+site\+\_\+id} & Cloned Site ID.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed false\texorpdfstring{$\vert$}{|}array Array =\texorpdfstring{$>$}{>} "{}\+Success"{}.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+wp\+\_\+file\+\_\+system() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+icons\+\_\+dir()Word\+Press files system object.
+
+@global object
+
+This action is documented in pages   

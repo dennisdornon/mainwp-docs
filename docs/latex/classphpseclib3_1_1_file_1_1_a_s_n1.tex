@@ -1,0 +1,585 @@
+\doxysection{phpseclib3\textbackslash{}File\textbackslash{}ASN1 Class Reference}
+\hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1}{}\label{classphpseclib3_1_1_file_1_1_a_s_n1}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ad66b192717770e7ca0de530088fc3045}{decode\+BER}} (\$encoded)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a873e74c837e04a352c4c62277edcf1e2}{asn1map}} (array \$decoded, \$mapping, \$special=\mbox{[}$\,$\mbox{]})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a90c514243a696122dc0bbb0e0c7de4fd}{decode\+Length}} (\&\$string)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a351e76c25b9bd1d114879b4018f4f406}{encode\+DER}} (\$source, \$mapping, \$special=\mbox{[}$\,$\mbox{]})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a2ce8a65355dc9afd451b14d813432c31}{decode\+OID}} (\$content)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a56c1b99a88bfe8589512c9ad015125d7}{encode\+OID}} (\$source)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ab2e10075a16f405ec7e1882136b55fef}{set\+Time\+Format}} (\$format)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a4582d3f567d61afeb52424de151d3f59}{load\+OIDs}} (array \$oids)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a6b1b9f2685082db4802b6f86f384b9e5}{set\+Filters}} (array \$filters)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ab0c04e78c3f2bb09e45333e8f8d44ed4}{convert}} (\$in, \$from=self\+::\+TYPE\+\_\+\+UTF8\+\_\+\+STRING, \$to=self\+::\+TYPE\+\_\+\+UTF8\+\_\+\+STRING)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a900f413c0850038e6c86d7f895cc2e82}{extract\+BER}} (\$str)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a838d20259eaa0d5d9c53946e7b5b749c}{encode\+Length}} (\$length)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a1a5e74fd8ba2a3cc87e9edab53d21227}{get\+OID}} (\$name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ada581da96d9d5188c71813988b93eece}{CLASS\+\_\+\+UNIVERSAL}} = 0
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a3ace9bb29549a8206eea1b4091d839ca}{CLASS\+\_\+\+APPLICATION}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_acdd442730c6e395d8c6c8f160c2f465e}{CLASS\+\_\+\+CONTEXT\+\_\+\+SPECIFIC}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a2e79ce854370f6804af15d0eef0620ca}{CLASS\+\_\+\+PRIVATE}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a73f18ef0cc1672eae0ea1a05e04c2a9f}{TYPE\+\_\+\+BOOLEAN}} = 1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a50af29bec58445d187c17fb7c9466ff8}{TYPE\+\_\+\+INTEGER}} = 2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ad66f51dc0eaa1b04427349f3399d7c91}{TYPE\+\_\+\+BIT\+\_\+\+STRING}} = 3
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ad3d8bb7be27d17c1a0e9b94ad1fd5094}{TYPE\+\_\+\+OCTET\+\_\+\+STRING}} = 4
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a72500695cf4f3bafe5bef5bc3f663c0a}{TYPE\+\_\+\+NULL}} = 5
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a45d2feb48df057b0ba8220345768a64d}{TYPE\+\_\+\+OBJECT\+\_\+\+IDENTIFIER}} = 6
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a9cf6769663c9d551e147d2c7ff7d9214}{TYPE\+\_\+\+REAL}} = 9
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ac76d919fb6cde7841a0a82d1d506d4d6}{TYPE\+\_\+\+ENUMERATED}} = 10
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_af86dfadaf9e8a4811614b6423d6f3a7e}{TYPE\+\_\+\+UTF8\+\_\+\+STRING}} = 12
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a78d39bc818c7b8ddbdf4533b79914f61}{TYPE\+\_\+\+SEQUENCE}} = 16
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a79197c7f851ec49e087a984d867095a2}{TYPE\+\_\+\+SET}} = 17
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a2bd5f4b467c1fc9e32022b4060d46d5f}{TYPE\+\_\+\+NUMERIC\+\_\+\+STRING}} = 18
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a4a46f54376d471a84d8335e7e26878e8}{TYPE\+\_\+\+PRINTABLE\+\_\+\+STRING}} = 19
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a4d3d157dcf81cc721d4fd5d4caf6da3b}{TYPE\+\_\+\+TELETEX\+\_\+\+STRING}} = 20
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a090b4547b24d142e4f642cb97300a327}{TYPE\+\_\+\+VIDEOTEX\+\_\+\+STRING}} = 21
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a030d7ba7c9d6852dac4e05fcc629f693}{TYPE\+\_\+\+IA5\+\_\+\+STRING}} = 22
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ad04ea92254f8ebec5eba4420a06753a0}{TYPE\+\_\+\+UTC\+\_\+\+TIME}} = 23
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_af2c0ceec8bc10f976275603319acb12a}{TYPE\+\_\+\+GENERALIZED\+\_\+\+TIME}} = 24
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ab31ac56452c2873e49616e2702300f79}{TYPE\+\_\+\+GRAPHIC\+\_\+\+STRING}} = 25
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a7454fd7bbc18974409b83b32781da57f}{TYPE\+\_\+\+VISIBLE\+\_\+\+STRING}} = 26
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a2d44403846f2b5c8a118a6cf60cd9547}{TYPE\+\_\+\+GENERAL\+\_\+\+STRING}} = 27
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_af908af321f7742dad54a049094860f67}{TYPE\+\_\+\+UNIVERSAL\+\_\+\+STRING}} = 28
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_a4757627bf0ca1b03786d16f8d6c51dad}{TYPE\+\_\+\+BMP\+\_\+\+STRING}} = 30
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_aa2b2aac2474bfeb495130c36646161b5}{TYPE\+\_\+\+CHOICE}} = -\/1
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_afc671f42b767e9c71b0535d0714ffbbd}{TYPE\+\_\+\+ANY}} = -\/2
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ad5365c9cf721c4002826d42eca6d91c4}{ANY\+\_\+\+MAP}}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_file_1_1_a_s_n1_ae5d2a696c53335b8e3df16f3f62bb32f}{STRING\+\_\+\+TYPE\+\_\+\+SIZE}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP ASN.\+1 Parser
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a873e74c837e04a352c4c62277edcf1e2}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!asn1map@{asn1map}}
+\index{asn1map@{asn1map}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{asn1map()}{asn1map()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a873e74c837e04a352c4c62277edcf1e2} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::asn1map (\begin{DoxyParamCaption}\item[{array}]{\$decoded}{, }\item[{}]{\$mapping}{, }\item[{}]{\$special}{ = {\ttfamily \mbox{[}\mbox{]}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+ASN.\+1 Map
+
+Provides an ASN.\+1 semantic mapping (\$mapping) from a parsed BER-\/encoding to a human readable format.
+
+"{}\+Special"{} mappings may be applied on a per tag-\/name basis via \$special.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$decoded} & \\
+\hline
+array & {\em \$mapping} & \\
+\hline
+array & {\em \$special} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\texorpdfstring{$\vert$}{|}bool\texorpdfstring{$\vert$}{|}\+Element\texorpdfstring{$\vert$}{|}string\texorpdfstring{$\vert$}{|}null 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ab0c04e78c3f2bb09e45333e8f8d44ed4}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!convert@{convert}}
+\index{convert@{convert}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{convert()}{convert()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ab0c04e78c3f2bb09e45333e8f8d44ed4} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::convert (\begin{DoxyParamCaption}\item[{}]{\$in}{, }\item[{}]{\$from}{ = {\ttfamily self\+:\+:TYPE\+\_\+UTF8\+\_\+STRING}, }\item[{}]{\$to}{ = {\ttfamily self\+:\+:TYPE\+\_\+UTF8\+\_\+STRING}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+String type conversion
+
+This is a lazy conversion, dealing only with character size. No real conversion table is used.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$in} & \\
+\hline
+int & {\em \$from} & \\
+\hline
+int & {\em \$to} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ad66b192717770e7ca0de530088fc3045}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!decodeBER@{decodeBER}}
+\index{decodeBER@{decodeBER}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{decodeBER()}{decodeBER()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ad66b192717770e7ca0de530088fc3045} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::decode\+BER (\begin{DoxyParamCaption}\item[{}]{\$encoded}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Parse BER-\/encoding
+
+Serves a similar purpose to openssl\textquotesingle{}s asn1parse
+
+
+\begin{DoxyParams}[1]{Parameters}
+Element | string & {\em \$encoded} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+?array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a90c514243a696122dc0bbb0e0c7de4fd}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!decodeLength@{decodeLength}}
+\index{decodeLength@{decodeLength}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{decodeLength()}{decodeLength()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a90c514243a696122dc0bbb0e0c7de4fd} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::decode\+Length (\begin{DoxyParamCaption}\item[{\&}]{\$string}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+DER-\/decode the length
+
+DER supports lengths up to (2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}8)\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}127, however, we\textquotesingle{}ll only support lengths up to (2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}8)\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}4. See {\ttfamily \doxylink{}{X.\+690 paragraph 8.\+1.\+3}} for more information.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a2ce8a65355dc9afd451b14d813432c31}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!decodeOID@{decodeOID}}
+\index{decodeOID@{decodeOID}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{decodeOID()}{decodeOID()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a2ce8a65355dc9afd451b14d813432c31} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::decode\+OID (\begin{DoxyParamCaption}\item[{}]{\$content}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+BER-\/decode the OID
+
+Called by \+\_\+decode\+\_\+ber()
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a351e76c25b9bd1d114879b4018f4f406}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!encodeDER@{encodeDER}}
+\index{encodeDER@{encodeDER}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{encodeDER()}{encodeDER()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a351e76c25b9bd1d114879b4018f4f406} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::encode\+DER (\begin{DoxyParamCaption}\item[{}]{\$source}{, }\item[{}]{\$mapping}{, }\item[{}]{\$special}{ = {\ttfamily \mbox{[}\mbox{]}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+ASN.\+1 Encode
+
+DER-\/encodes an ASN.\+1 semantic mapping (\$mapping). Some libraries would probably call this function an ASN.\+1 compiler.
+
+"{}\+Special"{} mappings can be applied via \$special.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Element | string | array & {\em \$source} & \\
+\hline
+array & {\em \$mapping} & \\
+\hline
+array & {\em \$special} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a838d20259eaa0d5d9c53946e7b5b749c}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!encodeLength@{encodeLength}}
+\index{encodeLength@{encodeLength}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{encodeLength()}{encodeLength()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a838d20259eaa0d5d9c53946e7b5b749c} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::encode\+Length (\begin{DoxyParamCaption}\item[{}]{\$length}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+DER-\/encode the length
+
+DER supports lengths up to (2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}8)\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}127, however, we\textquotesingle{}ll only support lengths up to (2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}8)\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}4. See {\ttfamily \doxylink{}{X.\+690 paragraph 8.\+1.\+3}} for more information.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$length} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a56c1b99a88bfe8589512c9ad015125d7}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!encodeOID@{encodeOID}}
+\index{encodeOID@{encodeOID}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{encodeOID()}{encodeOID()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a56c1b99a88bfe8589512c9ad015125d7} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::encode\+OID (\begin{DoxyParamCaption}\item[{}]{\$source}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+DER-\/encode the OID
+
+Called by \+\_\+encode\+\_\+der()
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$source} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a900f413c0850038e6c86d7f895cc2e82}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!extractBER@{extractBER}}
+\index{extractBER@{extractBER}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{extractBER()}{extractBER()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a900f413c0850038e6c86d7f895cc2e82} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::extract\+BER (\begin{DoxyParamCaption}\item[{}]{\$str}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Extract raw BER from Base64 encoding
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a1a5e74fd8ba2a3cc87e9edab53d21227}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!getOID@{getOID}}
+\index{getOID@{getOID}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{getOID()}{getOID()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a1a5e74fd8ba2a3cc87e9edab53d21227} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::get\+OID (\begin{DoxyParamCaption}\item[{}]{\$name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the OID corresponding to a name
+
+What\textquotesingle{}s returned in the associative array returned by load\+X509() (or load\texorpdfstring{$\ast$}{*}()) is either a name or an OID if no OID to name mapping is available. The problem with this is that what may be an unmapped OID in one version of phpseclib may not be unmapped in the next version, so apps that are looking at this OID may not be able to work from version to version.
+
+This method will return the OID if a name is passed to it and if no mapping is avialable it\textquotesingle{}ll assume that what\textquotesingle{}s being passed to it already is an OID and return that instead. A few examples.
+
+get\+OID(\textquotesingle{}2.\+16.\+840.\+1.\+101.\+3.\+4.\+2.\+1\textquotesingle{}) == \textquotesingle{}2.\+16.\+840.\+1.\+101.\+3.\+4.\+2.\+1\textquotesingle{} get\+OID(\textquotesingle{}id-\/sha256\textquotesingle{}) == \textquotesingle{}2.\+16.\+840.\+1.\+101.\+3.\+4.\+2.\+1\textquotesingle{} get\+OID(\textquotesingle{}zzz\textquotesingle{}) == \textquotesingle{}zzz\textquotesingle{}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a4582d3f567d61afeb52424de151d3f59}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!loadOIDs@{loadOIDs}}
+\index{loadOIDs@{loadOIDs}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{loadOIDs()}{loadOIDs()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a4582d3f567d61afeb52424de151d3f59} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::load\+OIDs (\begin{DoxyParamCaption}\item[{array}]{\$oids}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Load OIDs
+
+Load the relevant OIDs for a particular ASN.\+1 semantic mapping. Previously loaded OIDs are retained.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$oids} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a6b1b9f2685082db4802b6f86f384b9e5}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!setFilters@{setFilters}}
+\index{setFilters@{setFilters}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{setFilters()}{setFilters()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a6b1b9f2685082db4802b6f86f384b9e5} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::set\+Filters (\begin{DoxyParamCaption}\item[{array}]{\$filters}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set filters
+
+See \textbackslash{}phpseclib3\textbackslash{}\+File\textbackslash{}\+X509, etc, for an example. Previously loaded filters are not retained.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$filters} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ab2e10075a16f405ec7e1882136b55fef}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!setTimeFormat@{setTimeFormat}}
+\index{setTimeFormat@{setTimeFormat}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{setTimeFormat()}{setTimeFormat()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ab2e10075a16f405ec7e1882136b55fef} 
+static phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::set\+Time\+Format (\begin{DoxyParamCaption}\item[{}]{\$format}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the time format
+
+Sets the time / date format for asn1map().
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ad5365c9cf721c4002826d42eca6d91c4}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!ANY\_MAP@{ANY\_MAP}}
+\index{ANY\_MAP@{ANY\_MAP}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{ANY\_MAP}{ANY\_MAP}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ad5365c9cf721c4002826d42eca6d91c4} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+ANY\+\_\+\+MAP}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_BOOLEAN\ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_INTEGER\ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_BIT\_STRING\ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'bitString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_OCTET\_STRING\ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'octetString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_NULL\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'null'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_OBJECT\_IDENTIFIER\ \ \ \ =>\ \textcolor{stringliteral}{'objectIdentifier'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_REAL\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{keyword}{true},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_ENUMERATED\ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'enumerated'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_UTF8\_STRING\ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'utf8String'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_NUMERIC\_STRING\ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'numericString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_PRINTABLE\_STRING\ \ \ \ \ =>\ \textcolor{stringliteral}{'printableString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_TELETEX\_STRING\ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'teletexString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_VIDEOTEX\_STRING\ \ \ \ \ \ =>\ \textcolor{stringliteral}{'videotexString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_IA5\_STRING\ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'ia5String'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_UTC\_TIME\ \ \ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'utcTime'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_GENERALIZED\_TIME\ \ \ \ \ =>\ \textcolor{stringliteral}{'generalTime'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_GRAPHIC\_STRING\ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'graphicString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_VISIBLE\_STRING\ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'visibleString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_GENERAL\_STRING\ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'generalString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_UNIVERSAL\_STRING\ \ \ \ \ =>\ \textcolor{stringliteral}{'universalString'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_BMP\_STRING\ \ \ \ \ \ \ \ \ \ \ =>\ \textcolor{stringliteral}{'bmpString'}}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a3ace9bb29549a8206eea1b4091d839ca}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!CLASS\_APPLICATION@{CLASS\_APPLICATION}}
+\index{CLASS\_APPLICATION@{CLASS\_APPLICATION}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{CLASS\_APPLICATION}{CLASS\_APPLICATION}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a3ace9bb29549a8206eea1b4091d839ca} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+CLASS\+\_\+\+APPLICATION = 1}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_acdd442730c6e395d8c6c8f160c2f465e}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!CLASS\_CONTEXT\_SPECIFIC@{CLASS\_CONTEXT\_SPECIFIC}}
+\index{CLASS\_CONTEXT\_SPECIFIC@{CLASS\_CONTEXT\_SPECIFIC}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{CLASS\_CONTEXT\_SPECIFIC}{CLASS\_CONTEXT\_SPECIFIC}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_acdd442730c6e395d8c6c8f160c2f465e} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+CLASS\+\_\+\+CONTEXT\+\_\+\+SPECIFIC = 2}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a2e79ce854370f6804af15d0eef0620ca}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!CLASS\_PRIVATE@{CLASS\_PRIVATE}}
+\index{CLASS\_PRIVATE@{CLASS\_PRIVATE}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{CLASS\_PRIVATE}{CLASS\_PRIVATE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a2e79ce854370f6804af15d0eef0620ca} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+CLASS\+\_\+\+PRIVATE = 3}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ada581da96d9d5188c71813988b93eece}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!CLASS\_UNIVERSAL@{CLASS\_UNIVERSAL}}
+\index{CLASS\_UNIVERSAL@{CLASS\_UNIVERSAL}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{CLASS\_UNIVERSAL}{CLASS\_UNIVERSAL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ada581da96d9d5188c71813988b93eece} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+CLASS\+\_\+\+UNIVERSAL = 0}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ae5d2a696c53335b8e3df16f3f62bb32f}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!STRING\_TYPE\_SIZE@{STRING\_TYPE\_SIZE}}
+\index{STRING\_TYPE\_SIZE@{STRING\_TYPE\_SIZE}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{STRING\_TYPE\_SIZE}{STRING\_TYPE\_SIZE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ae5d2a696c53335b8e3df16f3f62bb32f} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+STRING\+\_\+\+TYPE\+\_\+\+SIZE}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_UTF8\_STRING\ \ \ \ \ \ =>\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_BMP\_STRING\ \ \ \ \ \ \ =>\ 2,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_UNIVERSAL\_STRING\ =>\ 4,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_PRINTABLE\_STRING\ =>\ 1,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_TELETEX\_STRING\ \ \ =>\ 1,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_IA5\_STRING\ \ \ \ \ \ \ =>\ 1,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ self::TYPE\_VISIBLE\_STRING\ \ \ =>\ 1,}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_afc671f42b767e9c71b0535d0714ffbbd}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_ANY@{TYPE\_ANY}}
+\index{TYPE\_ANY@{TYPE\_ANY}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_ANY}{TYPE\_ANY}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_afc671f42b767e9c71b0535d0714ffbbd} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+ANY = -\/2}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ad66f51dc0eaa1b04427349f3399d7c91}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_BIT\_STRING@{TYPE\_BIT\_STRING}}
+\index{TYPE\_BIT\_STRING@{TYPE\_BIT\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_BIT\_STRING}{TYPE\_BIT\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ad66f51dc0eaa1b04427349f3399d7c91} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+BIT\+\_\+\+STRING = 3}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a4757627bf0ca1b03786d16f8d6c51dad}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_BMP\_STRING@{TYPE\_BMP\_STRING}}
+\index{TYPE\_BMP\_STRING@{TYPE\_BMP\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_BMP\_STRING}{TYPE\_BMP\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a4757627bf0ca1b03786d16f8d6c51dad} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+BMP\+\_\+\+STRING = 30}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a73f18ef0cc1672eae0ea1a05e04c2a9f}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_BOOLEAN@{TYPE\_BOOLEAN}}
+\index{TYPE\_BOOLEAN@{TYPE\_BOOLEAN}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_BOOLEAN}{TYPE\_BOOLEAN}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a73f18ef0cc1672eae0ea1a05e04c2a9f} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+BOOLEAN = 1}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_aa2b2aac2474bfeb495130c36646161b5}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_CHOICE@{TYPE\_CHOICE}}
+\index{TYPE\_CHOICE@{TYPE\_CHOICE}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_CHOICE}{TYPE\_CHOICE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_aa2b2aac2474bfeb495130c36646161b5} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+CHOICE = -\/1}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ac76d919fb6cde7841a0a82d1d506d4d6}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_ENUMERATED@{TYPE\_ENUMERATED}}
+\index{TYPE\_ENUMERATED@{TYPE\_ENUMERATED}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_ENUMERATED}{TYPE\_ENUMERATED}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ac76d919fb6cde7841a0a82d1d506d4d6} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+ENUMERATED = 10}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a2d44403846f2b5c8a118a6cf60cd9547}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_GENERAL\_STRING@{TYPE\_GENERAL\_STRING}}
+\index{TYPE\_GENERAL\_STRING@{TYPE\_GENERAL\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_GENERAL\_STRING}{TYPE\_GENERAL\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a2d44403846f2b5c8a118a6cf60cd9547} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+GENERAL\+\_\+\+STRING = 27}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_af2c0ceec8bc10f976275603319acb12a}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_GENERALIZED\_TIME@{TYPE\_GENERALIZED\_TIME}}
+\index{TYPE\_GENERALIZED\_TIME@{TYPE\_GENERALIZED\_TIME}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_GENERALIZED\_TIME}{TYPE\_GENERALIZED\_TIME}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_af2c0ceec8bc10f976275603319acb12a} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+GENERALIZED\+\_\+\+TIME = 24}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ab31ac56452c2873e49616e2702300f79}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_GRAPHIC\_STRING@{TYPE\_GRAPHIC\_STRING}}
+\index{TYPE\_GRAPHIC\_STRING@{TYPE\_GRAPHIC\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_GRAPHIC\_STRING}{TYPE\_GRAPHIC\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ab31ac56452c2873e49616e2702300f79} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+GRAPHIC\+\_\+\+STRING = 25}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a030d7ba7c9d6852dac4e05fcc629f693}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_IA5\_STRING@{TYPE\_IA5\_STRING}}
+\index{TYPE\_IA5\_STRING@{TYPE\_IA5\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_IA5\_STRING}{TYPE\_IA5\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a030d7ba7c9d6852dac4e05fcc629f693} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+IA5\+\_\+\+STRING = 22}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a50af29bec58445d187c17fb7c9466ff8}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_INTEGER@{TYPE\_INTEGER}}
+\index{TYPE\_INTEGER@{TYPE\_INTEGER}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_INTEGER}{TYPE\_INTEGER}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a50af29bec58445d187c17fb7c9466ff8} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+INTEGER = 2}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a72500695cf4f3bafe5bef5bc3f663c0a}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_NULL@{TYPE\_NULL}}
+\index{TYPE\_NULL@{TYPE\_NULL}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_NULL}{TYPE\_NULL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a72500695cf4f3bafe5bef5bc3f663c0a} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+NULL = 5}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a2bd5f4b467c1fc9e32022b4060d46d5f}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_NUMERIC\_STRING@{TYPE\_NUMERIC\_STRING}}
+\index{TYPE\_NUMERIC\_STRING@{TYPE\_NUMERIC\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_NUMERIC\_STRING}{TYPE\_NUMERIC\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a2bd5f4b467c1fc9e32022b4060d46d5f} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+NUMERIC\+\_\+\+STRING = 18}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a45d2feb48df057b0ba8220345768a64d}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_OBJECT\_IDENTIFIER@{TYPE\_OBJECT\_IDENTIFIER}}
+\index{TYPE\_OBJECT\_IDENTIFIER@{TYPE\_OBJECT\_IDENTIFIER}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_OBJECT\_IDENTIFIER}{TYPE\_OBJECT\_IDENTIFIER}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a45d2feb48df057b0ba8220345768a64d} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+OBJECT\+\_\+\+IDENTIFIER = 6}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ad3d8bb7be27d17c1a0e9b94ad1fd5094}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_OCTET\_STRING@{TYPE\_OCTET\_STRING}}
+\index{TYPE\_OCTET\_STRING@{TYPE\_OCTET\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_OCTET\_STRING}{TYPE\_OCTET\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ad3d8bb7be27d17c1a0e9b94ad1fd5094} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+OCTET\+\_\+\+STRING = 4}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a4a46f54376d471a84d8335e7e26878e8}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_PRINTABLE\_STRING@{TYPE\_PRINTABLE\_STRING}}
+\index{TYPE\_PRINTABLE\_STRING@{TYPE\_PRINTABLE\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_PRINTABLE\_STRING}{TYPE\_PRINTABLE\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a4a46f54376d471a84d8335e7e26878e8} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+PRINTABLE\+\_\+\+STRING = 19}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a9cf6769663c9d551e147d2c7ff7d9214}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_REAL@{TYPE\_REAL}}
+\index{TYPE\_REAL@{TYPE\_REAL}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_REAL}{TYPE\_REAL}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a9cf6769663c9d551e147d2c7ff7d9214} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+REAL = 9}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a78d39bc818c7b8ddbdf4533b79914f61}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_SEQUENCE@{TYPE\_SEQUENCE}}
+\index{TYPE\_SEQUENCE@{TYPE\_SEQUENCE}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_SEQUENCE}{TYPE\_SEQUENCE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a78d39bc818c7b8ddbdf4533b79914f61} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+SEQUENCE = 16}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a79197c7f851ec49e087a984d867095a2}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_SET@{TYPE\_SET}}
+\index{TYPE\_SET@{TYPE\_SET}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_SET}{TYPE\_SET}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a79197c7f851ec49e087a984d867095a2} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+SET = 17}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a4d3d157dcf81cc721d4fd5d4caf6da3b}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_TELETEX\_STRING@{TYPE\_TELETEX\_STRING}}
+\index{TYPE\_TELETEX\_STRING@{TYPE\_TELETEX\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_TELETEX\_STRING}{TYPE\_TELETEX\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a4d3d157dcf81cc721d4fd5d4caf6da3b} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+TELETEX\+\_\+\+STRING = 20}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_af908af321f7742dad54a049094860f67}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_UNIVERSAL\_STRING@{TYPE\_UNIVERSAL\_STRING}}
+\index{TYPE\_UNIVERSAL\_STRING@{TYPE\_UNIVERSAL\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_UNIVERSAL\_STRING}{TYPE\_UNIVERSAL\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_af908af321f7742dad54a049094860f67} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+UNIVERSAL\+\_\+\+STRING = 28}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_ad04ea92254f8ebec5eba4420a06753a0}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_UTC\_TIME@{TYPE\_UTC\_TIME}}
+\index{TYPE\_UTC\_TIME@{TYPE\_UTC\_TIME}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_UTC\_TIME}{TYPE\_UTC\_TIME}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_ad04ea92254f8ebec5eba4420a06753a0} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+UTC\+\_\+\+TIME = 23}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_af86dfadaf9e8a4811614b6423d6f3a7e}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_UTF8\_STRING@{TYPE\_UTF8\_STRING}}
+\index{TYPE\_UTF8\_STRING@{TYPE\_UTF8\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_UTF8\_STRING}{TYPE\_UTF8\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_af86dfadaf9e8a4811614b6423d6f3a7e} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+UTF8\+\_\+\+STRING = 12}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a090b4547b24d142e4f642cb97300a327}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_VIDEOTEX\_STRING@{TYPE\_VIDEOTEX\_STRING}}
+\index{TYPE\_VIDEOTEX\_STRING@{TYPE\_VIDEOTEX\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_VIDEOTEX\_STRING}{TYPE\_VIDEOTEX\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a090b4547b24d142e4f642cb97300a327} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+VIDEOTEX\+\_\+\+STRING = 21}
+
+\Hypertarget{classphpseclib3_1_1_file_1_1_a_s_n1_a7454fd7bbc18974409b83b32781da57f}\index{phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}!TYPE\_VISIBLE\_STRING@{TYPE\_VISIBLE\_STRING}}
+\index{TYPE\_VISIBLE\_STRING@{TYPE\_VISIBLE\_STRING}!phpseclib3\textbackslash{}File\textbackslash{}ASN1@{phpseclib3\textbackslash{}File\textbackslash{}ASN1}}
+\doxysubsubsection{\texorpdfstring{TYPE\_VISIBLE\_STRING}{TYPE\_VISIBLE\_STRING}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_file_1_1_a_s_n1_a7454fd7bbc18974409b83b32781da57f} 
+const phpseclib3\textbackslash{}\+File\textbackslash{}\+ASN1\+::\+TYPE\+\_\+\+VISIBLE\+\_\+\+STRING = 26}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+File/\mbox{\hyperlink{_file_2_a_s_n1_8php}{ASN1.\+php}}\end{DoxyCompactItemize}

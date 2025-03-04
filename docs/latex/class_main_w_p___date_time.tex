@@ -1,0 +1,167 @@
+\doxysection{Main\+WP\+\_\+\+Date\+Time Class Reference}
+\hypertarget{class_main_w_p___date_time}{}\label{class_main_w_p___date_time}\index{MainWP\_DateTime@{MainWP\_DateTime}}
+Inheritance diagram for Main\+WP\+\_\+\+Date\+Time\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_main_w_p___date_time}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_a46c029bc8c10b5fcac72269d9cbc8c9e}{\+\_\+\+\_\+to\+String}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_acb50b05f40cc40e2711017918f7d85d8}{set\+\_\+utc\+\_\+offset}} ( \$offset)
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_ae1cc437407b7d92d5f703dbfdad34619}{get\+Offset}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_af8774ea11a3f0f14748551ba4382f9e2}{set\+Timezone}} ( \$timezone)
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_a5ff78874120b6c1574c6a582ce710c31}{get\+Timestamp}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_a7f559fbc7e1cdfdf73724371c0668c91}{get\+Offset\+Timestamp}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_a9a299d6811809a8e718be01ee70a8228}{date}} ( \$format)
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_a899918e59ec32a879d55b44052c8f30d}{date\+\_\+i18n}} ( \$format=\textquotesingle{}Y-\/m-\/d\textquotesingle{})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p___date_time_a83713bdfdb49486d3b3b79bad3592e78}{\$utc\+\_\+offset}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Datetime class. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p___date_time_a46c029bc8c10b5fcac72269d9cbc8c9e}\index{MainWP\_DateTime@{MainWP\_DateTime}!\_\_toString@{\_\_toString}}
+\index{\_\_toString@{\_\_toString}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{\_\_toString()}{\_\_toString()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_a46c029bc8c10b5fcac72269d9cbc8c9e} 
+Main\+WP\+\_\+\+Date\+Time\+::\+\_\+\+\_\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Output an ISO 8601 date string in local (Word\+Press) timezone.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___date_time_a9a299d6811809a8e718be01ee70a8228}\index{MainWP\_DateTime@{MainWP\_DateTime}!date@{date}}
+\index{date@{date}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{date()}{date()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_a9a299d6811809a8e718be01ee70a8228} 
+Main\+WP\+\_\+\+Date\+Time\+::date (\begin{DoxyParamCaption}\item[{}]{\$format}{}\end{DoxyParamCaption})}
+
+Format a date based on the offset timestamp.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0 
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & Date format. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___date_time_a899918e59ec32a879d55b44052c8f30d}\index{MainWP\_DateTime@{MainWP\_DateTime}!date\_i18n@{date\_i18n}}
+\index{date\_i18n@{date\_i18n}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{date\_i18n()}{date\_i18n()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_a899918e59ec32a879d55b44052c8f30d} 
+Main\+WP\+\_\+\+Date\+Time\+::date\+\_\+i18n (\begin{DoxyParamCaption}\item[{}]{\$format}{ = {\ttfamily \textquotesingle{}Y-\/m-\/d\textquotesingle{}}}\end{DoxyParamCaption})}
+
+Return a localised date based on offset timestamp. Wrapper for date\+\_\+i18n function.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0 
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & Date format. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___date_time_ae1cc437407b7d92d5f703dbfdad34619}\index{MainWP\_DateTime@{MainWP\_DateTime}!getOffset@{getOffset}}
+\index{getOffset@{getOffset}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{getOffset()}{getOffset()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_ae1cc437407b7d92d5f703dbfdad34619} 
+Main\+WP\+\_\+\+Date\+Time\+::get\+Offset (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get UTC offset if set, or default to the Date\+Time object\textquotesingle{}s offset. \Hypertarget{class_main_w_p___date_time_a7f559fbc7e1cdfdf73724371c0668c91}\index{MainWP\_DateTime@{MainWP\_DateTime}!getOffsetTimestamp@{getOffsetTimestamp}}
+\index{getOffsetTimestamp@{getOffsetTimestamp}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{getOffsetTimestamp()}{getOffsetTimestamp()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_a7f559fbc7e1cdfdf73724371c0668c91} 
+Main\+WP\+\_\+\+Date\+Time\+::get\+Offset\+Timestamp (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Get the timestamp with the Word\+Press timezone offset added or subtracted.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___date_time_a5ff78874120b6c1574c6a582ce710c31}\index{MainWP\_DateTime@{MainWP\_DateTime}!getTimestamp@{getTimestamp}}
+\index{getTimestamp@{getTimestamp}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{getTimestamp()}{getTimestamp()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_a5ff78874120b6c1574c6a582ce710c31} 
+Main\+WP\+\_\+\+Date\+Time\+::get\+Timestamp (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Missing in PHP 5.\+2 so just here so it can be supported consistently.
+
+\begin{DoxySince}{Since}
+3.\+0.\+0 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p___date_time_acb50b05f40cc40e2711017918f7d85d8}\index{MainWP\_DateTime@{MainWP\_DateTime}!set\_utc\_offset@{set\_utc\_offset}}
+\index{set\_utc\_offset@{set\_utc\_offset}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{set\_utc\_offset()}{set\_utc\_offset()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_acb50b05f40cc40e2711017918f7d85d8} 
+Main\+WP\+\_\+\+Date\+Time\+::set\+\_\+utc\+\_\+offset (\begin{DoxyParamCaption}\item[{}]{\$offset}{}\end{DoxyParamCaption})}
+
+Set UTC offset -\/ this is a fixed offset instead of a timezone.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$offset} & Offset. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_w_p___date_time_af8774ea11a3f0f14748551ba4382f9e2}\index{MainWP\_DateTime@{MainWP\_DateTime}!setTimezone@{setTimezone}}
+\index{setTimezone@{setTimezone}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{setTimezone()}{setTimezone()}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_af8774ea11a3f0f14748551ba4382f9e2} 
+Main\+WP\+\_\+\+Date\+Time\+::set\+Timezone (\begin{DoxyParamCaption}\item[{}]{\$timezone}{}\end{DoxyParamCaption})}
+
+Set timezone.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Date\+Time\+Zone & {\em \$timezone} & Date\+Time\+Zone instance. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Date\+Time 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p___date_time_a83713bdfdb49486d3b3b79bad3592e78}\index{MainWP\_DateTime@{MainWP\_DateTime}!\$utc\_offset@{\$utc\_offset}}
+\index{\$utc\_offset@{\$utc\_offset}!MainWP\_DateTime@{MainWP\_DateTime}}
+\doxysubsubsection{\texorpdfstring{\$utc\_offset}{\$utc\_offset}}
+{\footnotesize\ttfamily \label{class_main_w_p___date_time_a83713bdfdb49486d3b3b79bad3592e78} 
+Main\+WP\+\_\+\+Date\+Time\+::\$utc\+\_\+offset = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{class-mainwp-datetime_8php}{class-\/mainwp-\/datetime.\+php}}\end{DoxyCompactItemize}

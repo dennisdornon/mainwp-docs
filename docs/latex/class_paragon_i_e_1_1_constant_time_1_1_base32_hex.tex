@@ -1,0 +1,134 @@
+\doxysection{Paragon\+IE\textbackslash{}Constant\+Time\textbackslash{}Base32\+Hex Class Reference}
+\hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base32_hex}{}\label{class_paragon_i_e_1_1_constant_time_1_1_base32_hex}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}}
+Inheritance diagram for Paragon\+IE\textbackslash{}Constant\+Time\textbackslash{}Base32\+Hex\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paragon_i_e_1_1_constant_time_1_1_base32_hex}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a93438299813656c7801078a9623bbbc3}{decode5\+Bits}} (int \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a19c649bfe1c47151e2946100208d85b1}{decode5\+Bits\+Upper}} (int \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a9b8e75156f677fa5f071f67d788de0a7}{encode5\+Bits}} (int \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a2672daaf226ae7324e38d0faa7058f3c}{encode5\+Bits\+Upper}} (int \$src)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a0aa660ce4a33dce4167114c7827e3a45}{decode}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$encoded\+String, bool \$strict\+Padding=false)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a75693a8172b1ede6f06e7e78b1de1060}{decode\+Upper}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$src, bool \$strict\+Padding=false)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a647ebe5deacc2edf59eb6f1b83aaa7a0}{encode}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$bin\+String)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a1798fb64868cdee263470b456a2de12b}{encode\+Unpadded}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_addd58a9296185dd03ef22ee73a6f69f3}{encode\+Upper}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_ae7b9713dfc6d4fb3439030220b8c4ef9}{encode\+Upper\+Unpadded}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$src)
+\item 
+static \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_af84637f05bb15e1729d136314fed9f4c}{decode\+No\+Padding}} (\#\mbox{[}\textbackslash{}Sensitive\+Parameter\mbox{]} string \$encoded\+String, bool \$upper=false)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Encoder\+Interface}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a6b9b7e0f5446b6b08b074a9fc7ae3c61}{encode}} (string \$bin\+String)
+\item 
+static \mbox{\hyperlink{interface_paragon_i_e_1_1_constant_time_1_1_encoder_interface_a614b43269cc9bc0291bd79e79ccfc278}{decode}} (string \$encoded\+String, bool \$strict\+Padding=false)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a93438299813656c7801078a9623bbbc3}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}!decode5Bits@{decode5Bits}}
+\index{decode5Bits@{decode5Bits}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}}
+\doxysubsubsection{\texorpdfstring{decode5Bits()}{decode5Bits()}}
+{\footnotesize\ttfamily \label{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a93438299813656c7801078a9623bbbc3} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32\+Hex\+::decode5\+Bits (\begin{DoxyParamCaption}\item[{int}]{\$src}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Uses bitwise operators instead of table-\/lookups to turn 5-\/bit integers into 8-\/bit integers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a28eda6ea4db8f9e62ed89afcb6658a59}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32}}.
+
+\Hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a19c649bfe1c47151e2946100208d85b1}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}!decode5BitsUpper@{decode5BitsUpper}}
+\index{decode5BitsUpper@{decode5BitsUpper}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}}
+\doxysubsubsection{\texorpdfstring{decode5BitsUpper()}{decode5BitsUpper()}}
+{\footnotesize\ttfamily \label{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a19c649bfe1c47151e2946100208d85b1} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32\+Hex\+::decode5\+Bits\+Upper (\begin{DoxyParamCaption}\item[{int}]{\$src}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Uses bitwise operators instead of table-\/lookups to turn 5-\/bit integers into 8-\/bit integers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a136d63488f57c44b94d573dc7f047fd9}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32}}.
+
+\Hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a9b8e75156f677fa5f071f67d788de0a7}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}!encode5Bits@{encode5Bits}}
+\index{encode5Bits@{encode5Bits}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}}
+\doxysubsubsection{\texorpdfstring{encode5Bits()}{encode5Bits()}}
+{\footnotesize\ttfamily \label{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a9b8e75156f677fa5f071f67d788de0a7} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32\+Hex\+::encode5\+Bits (\begin{DoxyParamCaption}\item[{int}]{\$src}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Uses bitwise operators instead of table-\/lookups to turn 8-\/bit integers into 5-\/bit integers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_a663f1dc13e3fb19c03b7335894931978}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32}}.
+
+\Hypertarget{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a2672daaf226ae7324e38d0faa7058f3c}\index{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}!encode5BitsUpper@{encode5BitsUpper}}
+\index{encode5BitsUpper@{encode5BitsUpper}!ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex@{ParagonIE\textbackslash{}ConstantTime\textbackslash{}Base32Hex}}
+\doxysubsubsection{\texorpdfstring{encode5BitsUpper()}{encode5BitsUpper()}}
+{\footnotesize\ttfamily \label{class_paragon_i_e_1_1_constant_time_1_1_base32_hex_a2672daaf226ae7324e38d0faa7058f3c} 
+static Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32\+Hex\+::encode5\+Bits\+Upper (\begin{DoxyParamCaption}\item[{int}]{\$src}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Uses bitwise operators instead of table-\/lookups to turn 8-\/bit integers into 5-\/bit integers.
+
+Uppercase variant.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$src} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32_aa456c4efdc8c51e5f55b58baca3f2f6d}{Paragon\+IE\textbackslash{}\+Constant\+Time\textbackslash{}\+Base32}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/paragonie/constant\+\_\+time\+\_\+encoding/src/\mbox{\hyperlink{_base32_hex_8php}{Base32\+Hex.\+php}}\end{DoxyCompactItemize}

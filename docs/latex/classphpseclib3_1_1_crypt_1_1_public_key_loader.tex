@@ -1,0 +1,97 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}Public\+Key\+Loader Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_public_key_loader}{}\label{classphpseclib3_1_1_crypt_1_1_public_key_loader}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_public_key_loader_a56058027864573d10f3abf21b30fb9ef}{load}} (\$key, \$password=false)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_public_key_loader_a8a9c8ca45840c9110ce8cc85aced332e}{load\+Private\+Key}} (\$key, \$password=false)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_public_key_loader_a89673f66a5c81fc7b8536c3e79265295}{load\+Public\+Key}} (\$key)
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_public_key_loader_ae9809c2adf3a33a1d91c8c2445f76cab}{load\+Parameters}} (\$key)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Public\+Key\+Loader
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_public_key_loader_a56058027864573d10f3abf21b30fb9ef}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_public_key_loader_a56058027864573d10f3abf21b30fb9ef} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Public\+Key\+Loader\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads a public or private key
+
+\begin{DoxyReturn}{Returns}
+Asymmetric\+Key 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_public_key_loader_ae9809c2adf3a33a1d91c8c2445f76cab}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}!loadParameters@{loadParameters}}
+\index{loadParameters@{loadParameters}!phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}}
+\doxysubsubsection{\texorpdfstring{loadParameters()}{loadParameters()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_public_key_loader_ae9809c2adf3a33a1d91c8c2445f76cab} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Public\+Key\+Loader\+::load\+Parameters (\begin{DoxyParamCaption}\item[{}]{\$key}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads parameters
+
+\begin{DoxyReturn}{Returns}
+Asymmetric\+Key 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_public_key_loader_a8a9c8ca45840c9110ce8cc85aced332e}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}!loadPrivateKey@{loadPrivateKey}}
+\index{loadPrivateKey@{loadPrivateKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}}
+\doxysubsubsection{\texorpdfstring{loadPrivateKey()}{loadPrivateKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_public_key_loader_a8a9c8ca45840c9110ce8cc85aced332e} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Public\+Key\+Loader\+::load\+Private\+Key (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads a private key
+
+\begin{DoxyReturn}{Returns}
+Private\+Key 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_public_key_loader_a89673f66a5c81fc7b8536c3e79265295}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}!loadPublicKey@{loadPublicKey}}
+\index{loadPublicKey@{loadPublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader@{phpseclib3\textbackslash{}Crypt\textbackslash{}PublicKeyLoader}}
+\doxysubsubsection{\texorpdfstring{loadPublicKey()}{loadPublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_public_key_loader_a89673f66a5c81fc7b8536c3e79265295} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+Public\+Key\+Loader\+::load\+Public\+Key (\begin{DoxyParamCaption}\item[{}]{\$key}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads a public key
+
+\begin{DoxyReturn}{Returns}
+Public\+Key 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\mbox{\hyperlink{_public_key_loader_8php}{Public\+Key\+Loader.\+php}}\end{DoxyCompactItemize}

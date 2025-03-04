@@ -1,0 +1,161 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+Connector Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector}{}\label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+Inheritance diagram for Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+Connector\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.395062cm]{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_af2cf7cf85680253a33f6ddae000214bc}{is\+\_\+registered}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a154ad1d200e1ab98f0fad01ddad2e643}{register}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ade2930ae9d24bc6fa838004fd950c072}{callback}} ()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ae59fc9aa6f85aa00330b2c8ec6f76bb9}{log}} ( \$message, \$args, \$site\+\_\+id, \$context, \$action, \$state=null, \$user\+\_\+id=null)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ae6706df92ef52404d8de2689a4b4b6a3}{log\+\_\+record}} ( \$recordarr)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a7f0eef79218f7a35f278c72c30a93605}{get\+\_\+changed\+\_\+keys}} ( \$old\+\_\+value, \$new\+\_\+value, \$deep=false)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ad753e72d74d9c1beef3adfc52b581cf3}{\$name}} = null
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_acce7a1bd5da615ede0d067e1779597c1}{\$actions}} = array()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a7acc2f5090d1c6722c15f5ce84389fc5}{sanitize\+\_\+data}} ( \$data)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ade2930ae9d24bc6fa838004fd950c072}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!callback@{callback}}
+\index{callback@{callback}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{callback()}{callback()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ade2930ae9d24bc6fa838004fd950c072} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::callback (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Callback for all registered hooks throughout Log Looks for a class method with the convention\+: "{}callback\+\_\+\{action name\}"{} \Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a7f0eef79218f7a35f278c72c30a93605}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!get\_changed\_keys@{get\_changed\_keys}}
+\index{get\_changed\_keys@{get\_changed\_keys}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{get\_changed\_keys()}{get\_changed\_keys()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a7f0eef79218f7a35f278c72c30a93605} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::get\+\_\+changed\+\_\+keys (\begin{DoxyParamCaption}\item[{}]{\$old\+\_\+value}{, }\item[{}]{\$new\+\_\+value}{, }\item[{}]{\$deep}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Compare two values and return changed keys if they are arrays
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$old\+\_\+value} & Value before change. \\
+\hline
+mixed & {\em \$new\+\_\+value} & Value after change. \\
+\hline
+bool | int & {\em \$deep} & Get array children changes keys as well, not just parents.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_af2cf7cf85680253a33f6ddae000214bc}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!is\_registered@{is\_registered}}
+\index{is\_registered@{is\_registered}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{is\_registered()}{is\_registered()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_af2cf7cf85680253a33f6ddae000214bc} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::is\+\_\+registered (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Is the connector currently registered?
+
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ae59fc9aa6f85aa00330b2c8ec6f76bb9}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!log@{log}}
+\index{log@{log}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ae59fc9aa6f85aa00330b2c8ec6f76bb9} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::log (\begin{DoxyParamCaption}\item[{}]{\$message}{, }\item[{}]{\$args}{, }\item[{}]{\$site\+\_\+id}{, }\item[{}]{\$context}{, }\item[{}]{\$action}{, }\item[{}]{\$state}{ = {\ttfamily null}, }\item[{}]{\$user\+\_\+id}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+Log handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$message} & sprintf-\/ready error message string. \\
+\hline
+array & {\em \$args} & sprintf (and extra) arguments to use. \\
+\hline
+int & {\em \$site\+\_\+id} & Target site id. \\
+\hline
+string & {\em \$context} & Context of the event. \\
+\hline
+string & {\em \$action} & Action of the event. \\
+\hline
+int | null & {\em \$state} & action status\+: null -\/ N/A, 0 -\/ failed, 1 -\/ success. \\
+\hline
+int & {\em \$user\+\_\+id} & User responsible for the event.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ae6706df92ef52404d8de2689a4b4b6a3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!log\_record@{log\_record}}
+\index{log\_record@{log\_record}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{log\_record()}{log\_record()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ae6706df92ef52404d8de2689a4b4b6a3} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::log\+\_\+record (\begin{DoxyParamCaption}\item[{}]{\$recordarr}{}\end{DoxyParamCaption})}
+
+Log record.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$recordarr} & sprintf (and extra) arguments to use.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error True if updated, otherwise false\texorpdfstring{$\vert$}{|}\+WP\+\_\+\+Error 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a154ad1d200e1ab98f0fad01ddad2e643}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!register@{register}}
+\index{register@{register}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{register()}{register()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a154ad1d200e1ab98f0fad01ddad2e643} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::register (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Register all context hooks \Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a7acc2f5090d1c6722c15f5ce84389fc5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!sanitize\_data@{sanitize\_data}}
+\index{sanitize\_data@{sanitize\_data}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{sanitize\_data()}{sanitize\_data()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_a7acc2f5090d1c6722c15f5ce84389fc5} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::sanitize\+\_\+data (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Handle sanitize POST data.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & input data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_acce7a1bd5da615ede0d067e1779597c1}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!\$actions@{\$actions}}
+\index{\$actions@{\$actions}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{\$actions}{\$actions}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_acce7a1bd5da615ede0d067e1779597c1} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::\$actions = array()}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ad753e72d74d9c1beef3adfc52b581cf3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}!\$name@{\$name}}
+\index{\$name@{\$name}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connector}}
+\doxysubsubsection{\texorpdfstring{\$name}{\$name}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connector_ad753e72d74d9c1beef3adfc52b581cf3} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector\+::\$name = null}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/logs/classes/\mbox{\hyperlink{class-log-connector_8php}{class-\/log-\/connector.\+php}}\end{DoxyCompactItemize}

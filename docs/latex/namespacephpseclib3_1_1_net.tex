@@ -1,0 +1,37 @@
+\doxysection{phpseclib3\textbackslash{}Net Namespace Reference}
+\hypertarget{namespacephpseclib3_1_1_net}{}\label{namespacephpseclib3_1_1_net}\index{phpseclib3\textbackslash{}Net@{phpseclib3\textbackslash{}Net}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacephpseclib3_1_1_net_1_1_s_f_t_p}{SFTP}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_f_t_p}{SFTP}}
+\item 
+class \mbox{\hyperlink{classphpseclib3_1_1_net_1_1_s_s_h2}{SSH2}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pure-\/\+PHP implementation of SFTP.
+
+PHP version 5
+
+Supports SFTPv2/3/4/5/6. Defaults to v3.
+
+The API for this library is modeled after the API from PHP\textquotesingle{}s {\ttfamily \doxylink{}{FTP extension}}.
+
+Here\textquotesingle{}s a short example of how to use this library\+: {\ttfamily  \texorpdfstring{$<$}{<}?php include \textquotesingle{}\doxylink{autoload_8php}{vendor/autoload.\+php}\textquotesingle{};}
+
+{\ttfamily  \$sftp = new \textbackslash{}phpseclib3\textbackslash{}\+Net\textbackslash{}\+SFTP(\textquotesingle{}www.\+domain.\+tld\textquotesingle{}); if (!\$sftp-\/\texorpdfstring{$>$}{>}login(\textquotesingle{}username\textquotesingle{}, \textquotesingle{}password\textquotesingle{})) \{ exit(\textquotesingle{}Login Failed\textquotesingle{}); \}}
+
+{\ttfamily  echo \$sftp-\/\texorpdfstring{$>$}{>}pwd() . "{}\textbackslash{}r\textbackslash{}n"{}; \$sftp-\/\texorpdfstring{$>$}{>}put(\textquotesingle{}filename.\+ext\textquotesingle{}, \textquotesingle{}hello, world!\textquotesingle{}); print\+\_\+r(\$sftp-\/\texorpdfstring{$>$}{>}nlist()); ?\texorpdfstring{$>$}{>} }
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+2009 Jim Wigginton @license \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License \doxylink{}{Pure-\/\+PHP implementation of SSHv2. PHP version 5 Here are some examples of how to use this library\+: {\ttfamily  \texorpdfstring{$<$}{<}?php include \textquotesingle{}vendor/autoload.\+php\textquotesingle{};  \$ssh = new (\textquotesingle{}www.\+domain.\+tld\textquotesingle{}); if (!\$ssh-\/\texorpdfstring{$>$}{>}login(\textquotesingle{}username\textquotesingle{}, \textquotesingle{}password\textquotesingle{})) \{ exit(\textquotesingle{}Login Failed\textquotesingle{}); \}  echo \$ssh-\/\texorpdfstring{$>$}{>}exec(\textquotesingle{}pwd\textquotesingle{}); echo \$ssh-\/\texorpdfstring{$>$}{>}exec(\textquotesingle{}ls -\/la\textquotesingle{}); ?\texorpdfstring{$>$}{>} } {\ttfamily  \texorpdfstring{$<$}{<}?php include \textquotesingle{}vendor/autoload.\+php\textquotesingle{};  \$key = \+::load(\textquotesingle{}...\textquotesingle{}, \textquotesingle{}(optional) password\textquotesingle{});  \$ssh = new (\textquotesingle{}www.\+domain.\+tld\textquotesingle{}); if (!\$ssh-\/\texorpdfstring{$>$}{>}login(\textquotesingle{}username\textquotesingle{}, \$key)) \{ exit(\textquotesingle{}Login Failed\textquotesingle{}); \}  echo \$ssh-\/\texorpdfstring{$>$}{>}read(\textquotesingle{}username\+:\texorpdfstring{$\sim$}{\string~}\$\textquotesingle{}); \$ssh-\/\texorpdfstring{$>$}{>}write("{}ls -\/la\textbackslash{}n"{}); echo \$ssh-\/\texorpdfstring{$>$}{>}read(\textquotesingle{}username\+:\texorpdfstring{$\sim$}{\string~}\$\textquotesingle{}); ?\texorpdfstring{$>$}{>} }  Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}}  2007 Jim Wigginton  \href{http://www.opensource.org/licenses/mit-license.html}{\texttt{ http\+://www.\+opensource.\+org/licenses/mit-\/license.\+html}} MIT License  \href{http://phpseclib.sourceforge.net}{\texttt{ http\+://phpseclib.\+sourceforge.\+net}} }
+\end{DoxyCopyright}

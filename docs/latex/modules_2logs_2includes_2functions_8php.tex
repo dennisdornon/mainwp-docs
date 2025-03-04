@@ -1,0 +1,57 @@
+\doxysection{modules/logs/includes/functions.php File Reference}
+\hypertarget{modules_2logs_2includes_2functions_8php}{}\label{modules_2logs_2includes_2functions_8php}\index{modules/logs/includes/functions.php@{modules/logs/includes/functions.php}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_main_w_p}{Main\+WP}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{modules_2logs_2includes_2functions_8php_a7b690872eea3bff2f3772502be793f79}{mainwp\+\_\+module\+\_\+log\+\_\+filter\+\_\+var}} ( \$var\+\_\+value, \$filter=null, \$options=array())
+\item 
+\mbox{\hyperlink{modules_2logs_2includes_2functions_8php_aad57910b8d74a38522b151b8eb4cda0e}{mainwp\+\_\+module\+\_\+log\+\_\+get\+\_\+iso\+\_\+8601\+\_\+extended\+\_\+date}} ( \$time=false, \$offset=0)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{modules_2logs_2includes_2functions_8php_a7b690872eea3bff2f3772502be793f79}\index{functions.php@{functions.php}!mainwp\_module\_log\_filter\_var@{mainwp\_module\_log\_filter\_var}}
+\index{mainwp\_module\_log\_filter\_var@{mainwp\_module\_log\_filter\_var}!functions.php@{functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_module\_log\_filter\_var()}{mainwp\_module\_log\_filter\_var()}}
+{\footnotesize\ttfamily \label{modules_2logs_2includes_2functions_8php_a7b690872eea3bff2f3772502be793f79} 
+mainwp\+\_\+module\+\_\+log\+\_\+filter\+\_\+var (\begin{DoxyParamCaption}\item[{}]{\$var\+\_\+value}{, }\item[{}]{\$filter}{ = {\ttfamily null}, }\item[{}]{\$options}{ = {\ttfamily array()}}\end{DoxyParamCaption})}
+
+Filters a variable with a specified filter.
+
+This is a polyfill function intended to be used in place of PHP\textquotesingle{}s filter\+\_\+var() function, which can occasionally be unreliable.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$var\+\_\+value} & Value to filter. \\
+\hline
+int & {\em \$filter} & The ID of the filter to apply. \\
+\hline
+mixed & {\em \$options} & Associative array of options or bitwise disjunction of flags. If filter accepts options, flags can be provided in "{}flags"{} field of array. For the "{}callback"{} filter, callable type should be passed. The callback must accept one argument, the value to be filtered, and return the value after filtering/sanitizing it.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the filtered data, or FALSE if the filter fails. 
+\end{DoxyReturn}
+\Hypertarget{modules_2logs_2includes_2functions_8php_aad57910b8d74a38522b151b8eb4cda0e}\index{functions.php@{functions.php}!mainwp\_module\_log\_get\_iso\_8601\_extended\_date@{mainwp\_module\_log\_get\_iso\_8601\_extended\_date}}
+\index{mainwp\_module\_log\_get\_iso\_8601\_extended\_date@{mainwp\_module\_log\_get\_iso\_8601\_extended\_date}!functions.php@{functions.php}}
+\doxysubsubsection{\texorpdfstring{mainwp\_module\_log\_get\_iso\_8601\_extended\_date()}{mainwp\_module\_log\_get\_iso\_8601\_extended\_date()}}
+{\footnotesize\ttfamily \label{modules_2logs_2includes_2functions_8php_aad57910b8d74a38522b151b8eb4cda0e} 
+mainwp\+\_\+module\+\_\+log\+\_\+get\+\_\+iso\+\_\+8601\+\_\+extended\+\_\+date (\begin{DoxyParamCaption}\item[{}]{\$time}{ = {\ttfamily false}, }\item[{}]{\$offset}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+Converts a time into an ISO 8601 extended formatted string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int | bool & {\em \$time} & Seconds since unix epoch. \\
+\hline
+int & {\em \$offset} & Timezone offset.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string an ISO 8601 extended formatted time 
+\end{DoxyReturn}

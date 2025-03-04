@@ -1,0 +1,86 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+\_\+\+Backup\+\_\+\+View Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_ac7765d9167584d39bb864193813203b4}{show\+\_\+backups}} (\&\$website, \$full\+Backups, \$db\+Backups)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a94c95380beb542bcc5eb8d38a29d6bc5}{render\+\_\+backup\+\_\+site}} (\&\$website)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a80aaa7cd1b6b2e3c3a0ea5435d05ad6f}{render\+\_\+backup\+\_\+details}} ( \$websiteid)
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a7765ba02b2119dbd0aa42e37447308e3}{render\+\_\+backup\+\_\+options}} ( \$websiteid)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a80aaa7cd1b6b2e3c3a0ea5435d05ad6f}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}!render\_backup\_details@{render\_backup\_details}}
+\index{render\_backup\_details@{render\_backup\_details}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}}
+\doxysubsubsection{\texorpdfstring{render\_backup\_details()}{render\_backup\_details()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a80aaa7cd1b6b2e3c3a0ea5435d05ad6f} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+\_\+\+Backup\+\_\+\+View\+::render\+\_\+backup\+\_\+details (\begin{DoxyParamCaption}\item[{}]{\$websiteid}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render Backup Details.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$websiteid} & Child Site ID.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Backup Details.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+::show\+\_\+backups() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a7765ba02b2119dbd0aa42e37447308e3}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}!render\_backup\_options@{render\_backup\_options}}
+\index{render\_backup\_options@{render\_backup\_options}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}}
+\doxysubsubsection{\texorpdfstring{render\_backup\_options()}{render\_backup\_options()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a7765ba02b2119dbd0aa42e37447308e3} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+\_\+\+Backup\+\_\+\+View\+::render\+\_\+backup\+\_\+options (\begin{DoxyParamCaption}\item[{}]{\$websiteid}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render Backup Options.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$websiteid} & Child Site ID.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Backup Options.
+\end{DoxyReturn}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+\_\+\+Backup\+::get\+\_\+website\+\_\+backup\+\_\+settings() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+website\+\_\+by\+\_\+id() \Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a94c95380beb542bcc5eb8d38a29d6bc5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}!render\_backup\_site@{render\_backup\_site}}
+\index{render\_backup\_site@{render\_backup\_site}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}}
+\doxysubsubsection{\texorpdfstring{render\_backup\_site()}{render\_backup\_site()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_a94c95380beb542bcc5eb8d38a29d6bc5} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+\_\+\+Backup\+\_\+\+View\+::render\+\_\+backup\+\_\+site (\begin{DoxyParamCaption}\item[{\&}]{\$website}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renders the Backup Site Dialog.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$website} & Child Site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Backup Site html. 
+\end{DoxyReturn}
+This filter is documented in ../pages/page-\/mainwp-\/server-\/information-\/handler.php\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_ac7765d9167584d39bb864193813203b4}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}!show\_backups@{show\_backups}}
+\index{show\_backups@{show\_backups}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Manage\_Sites\_Backup\_View}}
+\doxysubsubsection{\texorpdfstring{show\_backups()}{show\_backups()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___manage___sites___backup___view_ac7765d9167584d39bb864193813203b4} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Manage\+\_\+\+Sites\+\_\+\+Backup\+\_\+\+View\+::show\+\_\+backups (\begin{DoxyParamCaption}\item[{\&}]{\$website}{, }\item[{}]{\$full\+Backups}{, }\item[{}]{\$db\+Backups}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Shows the available backups taken.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Child Site info. \\
+\hline
+array & {\em \$full\+Backups} & Full Backups Array. \\
+\hline
+array & {\em \$db\+Backups} & DB Backups Array.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+mainwp\+\_\+dir() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::format\+\_\+timestamp() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::get\+\_\+timestamp() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class/\mbox{\hyperlink{class-mainwp-manage-sites-backup-view_8php}{class-\/mainwp-\/manage-\/sites-\/backup-\/view.\+php}}\end{DoxyCompactItemize}

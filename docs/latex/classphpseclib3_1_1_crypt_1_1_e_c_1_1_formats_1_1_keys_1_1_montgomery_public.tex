@@ -1,0 +1,75 @@
+\doxysection{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}Montgomery\+Public Class Reference}
+\hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public}{}\label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a66fcefd0b7ae28788fa7e03e502bc258}{load}} (\$key, \$password=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a383f0f72454a8ed69b723b0a5152b35f}{save\+Public\+Key}} (Montgomery\+Curve \$curve, array \$public\+Key)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a9f0c3ea2c0e4914e2451c19b320b97a9}{IS\+\_\+\+INVISIBLE}} = true
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Montgomery Public Key Handler
+
+\begin{DoxyAuthor}{Author}
+Jim Wigginton \href{mailto:terrafrost@php.net}{\texttt{ terrafrost@php.\+net}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a66fcefd0b7ae28788fa7e03e502bc258}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}!load@{load}}
+\index{load@{load}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a66fcefd0b7ae28788fa7e03e502bc258} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Montgomery\+Public\+::load (\begin{DoxyParamCaption}\item[{}]{\$key}{, }\item[{}]{\$password}{ = {\ttfamily \textquotesingle{}\textquotesingle{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Break a public or private key down into its constituent components
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$password} & optional \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a383f0f72454a8ed69b723b0a5152b35f}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}!savePublicKey@{savePublicKey}}
+\index{savePublicKey@{savePublicKey}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}}
+\doxysubsubsection{\texorpdfstring{savePublicKey()}{savePublicKey()}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a383f0f72454a8ed69b723b0a5152b35f} 
+static phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Montgomery\+Public\+::save\+Public\+Key (\begin{DoxyParamCaption}\item[{Montgomery\+Curve}]{\$curve}{, }\item[{array}]{\$public\+Key}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Convert an EC public key to the appropriate format
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Base\+Curves\textbackslash{}\+Montgomery & {\em \$curve} & \\
+\hline
+\textbackslash{}phpseclib3\textbackslash{}\+Math\textbackslash{}\+Common\textbackslash{}\+Finite\+Field\textbackslash{}\+Integer\mbox{[}$\,$\mbox{]} & {\em \$public\+Key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a9f0c3ea2c0e4914e2451c19b320b97a9}\index{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}!IS\_INVISIBLE@{IS\_INVISIBLE}}
+\index{IS\_INVISIBLE@{IS\_INVISIBLE}!phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic@{phpseclib3\textbackslash{}Crypt\textbackslash{}EC\textbackslash{}Formats\textbackslash{}Keys\textbackslash{}MontgomeryPublic}}
+\doxysubsubsection{\texorpdfstring{IS\_INVISIBLE}{IS\_INVISIBLE}}
+{\footnotesize\ttfamily \label{classphpseclib3_1_1_crypt_1_1_e_c_1_1_formats_1_1_keys_1_1_montgomery_public_a9f0c3ea2c0e4914e2451c19b320b97a9} 
+const phpseclib3\textbackslash{}\+Crypt\textbackslash{}\+EC\textbackslash{}\+Formats\textbackslash{}\+Keys\textbackslash{}\+Montgomery\+Public\+::\+IS\+\_\+\+INVISIBLE = true}
+
+Is invisible flag 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/\+Crypt/\+EC/\+Formats/\+Keys/\mbox{\hyperlink{_montgomery_public_8php}{Montgomery\+Public.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,88 @@
+\doxysection{libs/phpseclib/vendor/paragonie/constant\+\_\+time\+\_\+encoding Directory Reference}
+\hypertarget{dir_d121bc507c78a1531df07f99a752dc73}{}\label{dir_d121bc507c78a1531df07f99a752dc73}\index{libs/phpseclib/vendor/paragonie/constant\_time\_encoding Directory Reference@{libs/phpseclib/vendor/paragonie/constant\_time\_encoding Directory Reference}}
+\doxysubsubsection*{Directories}
+\begin{DoxyCompactItemize}
+\item 
+directory \mbox{\hyperlink{dir_1ea786a2e085fe86ed3bba22017ea2d7}{src}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\href{https://github.com/paragonie/constant_time_encoding/actions}{\texttt{ }} \href{https://packagist.org/packages/paragonie/constant_time_encoding}{\texttt{ }} \href{https://packagist.org/packages/paragonie/constant_time_encoding}{\texttt{ }} \href{https://packagist.org/packages/paragonie/constant_time_encoding}{\texttt{ }} \href{https://packagist.org/packages/paragonie/constant_time_encoding}{\texttt{ }}
+
+Based on the \href{https://github.com/Sc00bz/ConstTimeEncoding}{\texttt{ constant-\/time base64 implementation made by Steve "{}\+Sc00bz"{} Thomas}}, this library aims to offer character encoding functions that do not leak information about what you are encoding/decoding via processor cache misses. Further reading on \href{http://blog.ircmaxell.com/2014/11/its-all-about-time.html}{\texttt{ cache-\/timing attacks}}.
+
+Our fork offers the following enhancements\+:
+
+
+\begin{DoxyItemize}
+\item {\ttfamily mbstring.\+func\+\_\+overload} resistance
+\item Unit tests
+\item Composer-\/ and Packagist-\/ready
+\item Base16 encoding
+\item Base32 encoding
+\item Uses {\ttfamily pack()} and {\ttfamily unpack()} instead of {\ttfamily chr()} and {\ttfamily ord()}
+\end{DoxyItemize}\hypertarget{README.md_autotoc_md22}{}\doxysubsection{\texorpdfstring{PHP Version Requirements}{PHP Version Requirements}}\label{README.md_autotoc_md22}
+Version 2 of this library should work on {\bfseries{PHP 7}} or newer. For PHP 5 support, see \href{https://github.com/paragonie/constant_time_encoding/tree/v1.x}{\texttt{ the v1.\+x branch}}.
+
+If you are adding this as a dependency to a project intended to work on both PHP 5 and PHP 7, please set the required version to {\ttfamily \texorpdfstring{$^\wedge$}{\string^}1\texorpdfstring{$\vert$}{|}\texorpdfstring{$^\wedge$}{\string^}2} instead of just {\ttfamily \texorpdfstring{$^\wedge$}{\string^}1} or {\ttfamily \texorpdfstring{$^\wedge$}{\string^}2}.\hypertarget{README.md_autotoc_md23}{}\doxysubsection{\texorpdfstring{How to Install}{How to Install}}\label{README.md_autotoc_md23}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{composer\ require\ paragonie/constant\_time\_encoding}
+
+\end{DoxyCode}
+\hypertarget{README.md_autotoc_md24}{}\doxysubsection{\texorpdfstring{How to Use}{How to Use}}\label{README.md_autotoc_md24}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{use\ \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_encoding}{ParagonIE\(\backslash\)ConstantTime\(\backslash\)Encoding}};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{comment}{//\ possibly\ (if\ applicable):\ }}
+\DoxyCodeLine{\textcolor{comment}{//\ require\ 'vendor/autoload.php';}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\$data\ =\ random\_bytes(32);}
+\DoxyCodeLine{echo\ Encoding::base64Encode(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{echo\ Encoding::base32EncodeUpper(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{echo\ Encoding::base32Encode(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{echo\ Encoding::hexEncode(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{echo\ Encoding::hexEncodeUpper(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+
+\end{DoxyCode}
+
+
+Example output\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1VilPkeVqirlPifk5scbzcTTbMT2clp+Zkyv9VFFasE=}
+\DoxyCodeLine{2VMKKPSHSWVCVZJ6E7SONRY3ZXCNG3GE6ZZFU7TGJSX7KUKFNLAQ====}
+\DoxyCodeLine{2vmkkpshswvcvzj6e7sonry3zxcng3ge6zzfu7tgjsx7kukfnlaq====}
+\DoxyCodeLine{d558a53e4795aa2ae53e27e4e6c71bcdc4d36cc4f6725a7e664caff551456ac1}
+\DoxyCodeLine{D558A53E4795AA2AE53E27E4E6C71BDCC4D36CC4F6725A7E664CAFF551456AC1}
+
+\end{DoxyCode}
+
+
+If you only need a particular variant, you can just reference the required class like so\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{use\ \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base64}{ParagonIE\(\backslash\)ConstantTime\(\backslash\)Base64}};}
+\DoxyCodeLine{use\ \mbox{\hyperlink{class_paragon_i_e_1_1_constant_time_1_1_base32}{ParagonIE\(\backslash\)ConstantTime\(\backslash\)Base32}};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\$data\ =\ random\_bytes(32);}
+\DoxyCodeLine{echo\ Base64::encode(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{echo\ Base32::encode(\$data),\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+
+\end{DoxyCode}
+
+
+Example output\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1VilPkeVqirlPifk5scbzcTTbMT2clp+Zkyv9VFFasE=}
+\DoxyCodeLine{2vmkkpshswvcvzj6e7sonry3zxcng3ge6zzfu7tgjsx7kukfnlaq====}
+
+\end{DoxyCode}
+\hypertarget{README.md_autotoc_md25}{}\doxysubsection{\texorpdfstring{Support Contracts}{Support Contracts}}\label{README.md_autotoc_md25}
+If your company uses this library in their products or services, you may be interested in \href{https://paragonie.com/enterprise}{\texttt{ purchasing a support contract from Paragon Initiative Enterprises}}. 

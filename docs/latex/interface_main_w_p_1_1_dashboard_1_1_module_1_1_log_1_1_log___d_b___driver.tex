@@ -1,0 +1,124 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+DB\+\_\+\+Driver Interface Reference}
+\hypertarget{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver}{}\label{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}}
+Inheritance diagram for Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+DB\+\_\+\+Driver\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_ad9bcbedef5e52a0e597aaceb6610c949}{insert\+\_\+record}} ( \$data)
+\item 
+\mbox{\hyperlink{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a4e285d1c2e047663cab17bdb4e7cc0d6}{get\+\_\+records}} ( \$args)
+\item 
+\mbox{\hyperlink{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a96cbdd46b1a00f0c96a26bf3cc3bcb56}{get\+\_\+column\+\_\+values}} ( \$column)
+\item 
+\mbox{\hyperlink{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_acaec1c706dc8477be74dfbbd361460e5}{get\+\_\+table\+\_\+names}} ()
+\item 
+\mbox{\hyperlink{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a899a12a781b0010432b51ae344edc756}{purge\+\_\+storage}} ( \$manager)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface -\/ Log\+\_\+\+DB\+\_\+\+Driver 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a96cbdd46b1a00f0c96a26bf3cc3bcb56}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}!get\_column\_values@{get\_column\_values}}
+\index{get\_column\_values@{get\_column\_values}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}}
+\doxysubsubsection{\texorpdfstring{get\_column\_values()}{get\_column\_values()}}
+{\footnotesize\ttfamily \label{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a96cbdd46b1a00f0c96a26bf3cc3bcb56} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+::get\+\_\+column\+\_\+values (\begin{DoxyParamCaption}\item[{}]{\$column}{}\end{DoxyParamCaption})}
+
+Returns array of existing values for requested column. Used to fill search filters with only used items, instead of all items.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & Column to pull data from.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver___w_p_d_b_a28ff3c5ffd1a6074b8c1d0b3f3889527}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+\_\+\+WPDB}}.
+
+\Hypertarget{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a4e285d1c2e047663cab17bdb4e7cc0d6}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}!get\_records@{get\_records}}
+\index{get\_records@{get\_records}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}}
+\doxysubsubsection{\texorpdfstring{get\_records()}{get\_records()}}
+{\footnotesize\ttfamily \label{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a4e285d1c2e047663cab17bdb4e7cc0d6} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+::get\+\_\+records (\begin{DoxyParamCaption}\item[{}]{\$args}{}\end{DoxyParamCaption})}
+
+Retrieve records
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$args} & Argument to filter the result by.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver___w_p_d_b_af5b5fd50fa9b8c4715aaf4c0b3deeff1}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+\_\+\+WPDB}}.
+
+\Hypertarget{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_acaec1c706dc8477be74dfbbd361460e5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}!get\_table\_names@{get\_table\_names}}
+\index{get\_table\_names@{get\_table\_names}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}}
+\doxysubsubsection{\texorpdfstring{get\_table\_names()}{get\_table\_names()}}
+{\footnotesize\ttfamily \label{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_acaec1c706dc8477be74dfbbd361460e5} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+::get\+\_\+table\+\_\+names (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Public getter to return the names of the tables this driver manages.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver___w_p_d_b_a4e73143379845fc116595af8f8f884b1}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+\_\+\+WPDB}}.
+
+\Hypertarget{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_ad9bcbedef5e52a0e597aaceb6610c949}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}!insert\_record@{insert\_record}}
+\index{insert\_record@{insert\_record}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}}
+\doxysubsubsection{\texorpdfstring{insert\_record()}{insert\_record()}}
+{\footnotesize\ttfamily \label{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_ad9bcbedef5e52a0e597aaceb6610c949} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+::insert\+\_\+record (\begin{DoxyParamCaption}\item[{}]{\$data}{}\end{DoxyParamCaption})}
+
+Insert a record
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & Data to be insert into the database.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver___w_p_d_b_a0c707bc6e079a4c9f519c7627b82bf56}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+\_\+\+WPDB}}.
+
+\Hypertarget{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a899a12a781b0010432b51ae344edc756}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}!purge\_storage@{purge\_storage}}
+\index{purge\_storage@{purge\_storage}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_DB\_Driver}}
+\doxysubsubsection{\texorpdfstring{purge\_storage()}{purge\_storage()}}
+{\footnotesize\ttfamily \label{interface_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver_a899a12a781b0010432b51ae344edc756} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+::purge\+\_\+storage (\begin{DoxyParamCaption}\item[{}]{\$manager}{}\end{DoxyParamCaption})}
+
+Purge storage.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Manager & {\em \$manager} & Instance of the manager. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___d_b___driver___w_p_d_b_ad82d01e62208d676f2dd626260810121}{Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+DB\+\_\+\+Driver\+\_\+\+WPDB}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/logs/classes/\mbox{\hyperlink{class-log-db-driver_8php}{class-\/log-\/db-\/driver.\+php}}\end{DoxyCompactItemize}

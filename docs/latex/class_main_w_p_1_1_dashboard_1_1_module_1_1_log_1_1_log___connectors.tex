@@ -1,0 +1,120 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\+\_\+\+Connectors Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors}{}\label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a48c180b1b79c9d05fd427298287b678c}{\+\_\+\+\_\+construct}} ( \$manager)
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a8fa36a695eeae10bb635e9f7ad86a36e}{load\+\_\+connectors}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a9c21c599a9db4499a1d6b6a862e7b529}{\$manager}}
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_aa3842e6efc3a281bbc5dee2a8bc0afb5}{\$connectors}} = array()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a0f2bc32c8d2a1f5e30902927fd638b7d}{\$contexts}} = array()
+\item 
+\mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a2d278a4e71f7656ecb5eaa85bf42a781}{\$term\+\_\+labels}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Log\+\_\+\+Connectors 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a48c180b1b79c9d05fd427298287b678c}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a48c180b1b79c9d05fd427298287b678c} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connectors\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$manager}{}\end{DoxyParamCaption})}
+
+Constructor.
+
+Run each time the class is called.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Log\+\_\+\+Manager & {\em \$manager} & The main manager class. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a8fa36a695eeae10bb635e9f7ad86a36e}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}!load\_connectors@{load\_connectors}}
+\index{load\_connectors@{load\_connectors}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection{\texorpdfstring{load\_connectors()}{load\_connectors()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a8fa36a695eeae10bb635e9f7ad86a36e} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connectors\+::load\+\_\+connectors (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Load built-\/in connectors
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connector Allows for adding additional connectors via classes that extend Connector.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$classes} & An array of Connector objects.\\
+\hline
+\end{DoxyParams}
+Allows excluded connectors to be overridden and registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$is\+\_\+excluded} & True if excluded, otherwise false. \\
+\hline
+string & {\em \$connector} & The current connector\textquotesingle{}s slug. \\
+\hline
+array & {\em \$excluded\+\_\+connectors} & An array of all excluded connector slugs.\\
+\hline
+\end{DoxyParams}
+Fires after all connectors have been registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$labels} & All register connectors labels array \\
+\hline
+Connectors & {\em \$connectors} & The Connectors object\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_aa3842e6efc3a281bbc5dee2a8bc0afb5}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}!\$connectors@{\$connectors}}
+\index{\$connectors@{\$connectors}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection{\texorpdfstring{\$connectors}{\$connectors}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_aa3842e6efc3a281bbc5dee2a8bc0afb5} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connectors\+::\$connectors = array()}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a0f2bc32c8d2a1f5e30902927fd638b7d}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}!\$contexts@{\$contexts}}
+\index{\$contexts@{\$contexts}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection{\texorpdfstring{\$contexts}{\$contexts}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a0f2bc32c8d2a1f5e30902927fd638b7d} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connectors\+::\$contexts = array()}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a9c21c599a9db4499a1d6b6a862e7b529}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}!\$manager@{\$manager}}
+\index{\$manager@{\$manager}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection{\texorpdfstring{\$manager}{\$manager}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a9c21c599a9db4499a1d6b6a862e7b529} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connectors\+::\$manager}
+
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a2d278a4e71f7656ecb5eaa85bf42a781}\index{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}!\$term\_labels@{\$term\_labels}}
+\index{\$term\_labels@{\$term\_labels}!MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors@{MainWP\textbackslash{}Dashboard\textbackslash{}Module\textbackslash{}Log\textbackslash{}Log\_Connectors}}
+\doxysubsubsection{\texorpdfstring{\$term\_labels}{\$term\_labels}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_module_1_1_log_1_1_log___connectors_a2d278a4e71f7656ecb5eaa85bf42a781} 
+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Module\textbackslash{}\+Log\textbackslash{}\+Log\+\_\+\+Connectors\+::\$term\+\_\+labels}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ array(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'logs\_connector'}\ =>\ array(),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'logs\_context'}\ \ \ =>\ array(),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'logs\_action'}\ \ \ \ =>\ array(),}
+\DoxyCodeLine{\ \ \ \ )}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/logs/classes/\mbox{\hyperlink{class-log-connectors_8php}{class-\/log-\/connectors.\+php}}\end{DoxyCompactItemize}

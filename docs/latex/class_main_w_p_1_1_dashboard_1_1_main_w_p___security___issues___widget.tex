@@ -1,0 +1,115 @@
+\doxysection{Main\+WP\textbackslash{}Dashboard\textbackslash{}Main\+WP\+\_\+\+Security\+\_\+\+Issues\+\_\+\+Widget Class Reference}
+\hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget}{}\label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_af1dbaa0a39ab795b4989953e73fe9453}{get\+\_\+class\+\_\+name}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_a604c5a3606a837ed82358b3c70ce1265}{render\+\_\+widget}} ()
+\item 
+static \mbox{\hyperlink{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_a8d8e7a6c3c677b39ee67d8ab45735bf8}{render\+\_\+issues}} ( \$websites, \$total\+\_\+security\+Issues, \$current\+\_\+wpid)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Main\+WP\+\_\+\+Security\+\_\+\+Issues\+\_\+\+Widget
+
+Detect security issues on CHild Sites \& Build Widget. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_af1dbaa0a39ab795b4989953e73fe9453}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}!get\_class\_name@{get\_class\_name}}
+\index{get\_class\_name@{get\_class\_name}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}}
+\doxysubsubsection{\texorpdfstring{get\_class\_name()}{get\_class\_name()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_af1dbaa0a39ab795b4989953e73fe9453} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+\_\+\+Widget\+::get\+\_\+class\+\_\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method get\+\_\+class\+\_\+name()
+
+\begin{DoxyReturn}{Returns}
+string {\bfseries{CLASS}} Class Name 
+\end{DoxyReturn}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_a8d8e7a6c3c677b39ee67d8ab45735bf8}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}!render\_issues@{render\_issues}}
+\index{render\_issues@{render\_issues}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}}
+\doxysubsubsection{\texorpdfstring{render\_issues()}{render\_issues()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_a8d8e7a6c3c677b39ee67d8ab45735bf8} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+\_\+\+Widget\+::render\+\_\+issues (\begin{DoxyParamCaption}\item[{}]{\$websites}{, }\item[{}]{\$total\+\_\+security\+Issues}{, }\item[{}]{\$current\+\_\+wpid}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+html\+\_\+widget().
+
+Render html themes widget for current site
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$websites} & Array of websites. \\
+\hline
+mixed & {\em \$total\+\_\+security\+Issues} & Total security Issues. \\
+\hline
+int & {\em \$current\+\_\+wpid} & current wpid.\\
+\hline
+\end{DoxyParams}
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() Filter\+: mainwp\+\_\+security\+\_\+issues\+\_\+widget\+\_\+title
+
+Filters the Security Issues widget title text.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+security\+\_\+issues\+\_\+widget\+\_\+top
+
+Fires at the bottom of the Security Issues widget.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+security\+\_\+issues\+\_\+widget\+\_\+top
+
+Fires at the bottom of the Security Issues widget.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Filter\+: mainwp\+\_\+security\+\_\+issues\+\_\+list\+\_\+item\+\_\+title
+
+Filters the Security Issues widget list item title text.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+security\+\_\+issues\+\_\+list\+\_\+item\+\_\+column
+
+Fires before the last (actions) colum in the security issues list.
+
+Preferred HTML structure\+:
+
+ Your content here! 
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$website} & Object containing the child site info.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+Action\+: mainwp\+\_\+security\+\_\+issues\+\_\+widget\+\_\+bottom
+
+Fires at the bottom of the Security Issues widget.
+
+\begin{DoxySince}{Since}
+4.\+1
+\end{DoxySince}
+\Hypertarget{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_a604c5a3606a837ed82358b3c70ce1265}\index{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}!render\_widget@{render\_widget}}
+\index{render\_widget@{render\_widget}!MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget@{MainWP\textbackslash{}Dashboard\textbackslash{}MainWP\_Security\_Issues\_Widget}}
+\doxysubsubsection{\texorpdfstring{render\_widget()}{render\_widget()}}
+{\footnotesize\ttfamily \label{class_main_w_p_1_1_dashboard_1_1_main_w_p___security___issues___widget_a604c5a3606a837ed82358b3c70ce1265} 
+static Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Security\+\_\+\+Issues\+\_\+\+Widget\+::render\+\_\+widget (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method render\+\_\+widget()
+
+Fetch Child Site issues from db \& build widget.
+
+@uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::query() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+sql\+\_\+website\+\_\+by\+\_\+id() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::get\+\_\+sql\+\_\+search\+\_\+websites\+\_\+for\+\_\+current\+\_\+user() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::fetch\+\_\+object() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+DB\+::data\+\_\+seek() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+System\+\_\+\+Utility\+::get\+\_\+current\+\_\+wpid() @uses \textbackslash{}\+Main\+WP\textbackslash{}\+Dashboard\textbackslash{}\+Main\+WP\+\_\+\+Utility\+::ctype\+\_\+digit() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+widgets/\mbox{\hyperlink{widget-mainwp-security-issues-widget_8php}{widget-\/mainwp-\/security-\/issues-\/widget.\+php}}\end{DoxyCompactItemize}
